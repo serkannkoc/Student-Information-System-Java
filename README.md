@@ -1,4 +1,4 @@
-Group 22
+Group 21
 1- Serkan Koç 150118073
 2- İbrahim Hakkı Candan 150118061
 3- Atila İlhan Yatağan 150118033
