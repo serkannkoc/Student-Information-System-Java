@@ -9,3 +9,7 @@ Group 21
 8- Erdi Türkay 150119853
 9- Ulaş Deniz Işık 150118887
 10-Fatih Öztürk 150119519
+
+Project sdk 1.8
+We have done everything together. For this iteration we misunderstood how to work with github. We have managed file transformation via zip. 
+We have used trello and discord for communication.
