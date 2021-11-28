@@ -1,0 +1,475 @@
+{
+    "createNewStudents": true,
+    "semester": "SPRING",
+    "advisors": [
+        {
+            "advisorName":"Fatma Corut Ergin",
+            "department":"CSE",
+            "rank":"Dr.Öğr.Üyesi"
+        },
+        {
+            "advisorName":"Çiğdem Eroğlu Erdem",
+            "department":"CSE",
+            "rank":"Prof.Dr."
+        },
+        {
+            "advisorName":"Ali Fuat Alkaya",
+            "department":"CSE",
+            "rank":"Doç.Dr"
+        },
+        {
+            "advisorName":"Murat Can Ganiz",
+            "department":"CSE",
+            "rank":"Doç.Dr"
+        },
+        {
+            "advisorName":"Müjdat Soytürk",
+            "department":"CSE",
+            "rank":"Doç.Dr"
+        },
+        {
+            "advisorName":"Borahan Tümer",
+            "department":"CSE",
+            "rank":"Doç.Dr"
+        },
+        {
+            "advisorName":"Mustafa Ağaoğlu",
+            "department":"CSE",
+            "rank":"Doç.Dr"
+        },
+        {
+            "advisorName":"Betül Demiröz Boz",
+            "department":"CSE",
+            "rank":"Dr.Öğr.Üyesi"
+        },
+        {
+            "advisorName":"Ali Haydar Özer",
+            "department":"CSE",
+            "rank":"Dr.Öğr.Üyesi"
+        },
+        {
+            "advisorName":"Sanem Arslan",
+            "department":"CSE",
+            "rank":"Dr.Öğr.Üyesi"
+        }
+    ],
+    "courses": [
+        {
+            "1": [
+                {
+                    "courseName": "Atatürk İlkeleri ve İnkılap Tarihi I",
+                    "courseCredit": 2
+                },
+                {
+                    "courseName": "Introduction to Modern Biology",
+                    "courseCredit": 5
+                },
+                {
+                    "courseName": "Introduction to Computer Engineering",
+                    "courseCredit": 4
+                },
+                {
+                    "courseName": "Computer Programming I",
+                    "courseCredit": 6
+                },
+                {
+                    "courseName": "Calculus I",
+                    "courseCredit": 6
+                },
+                {
+                    "courseName": "Physics I",
+                    "courseCredit": 4
+                },
+                {
+                    "courseName": "Physics Lab I",
+                    "courseCredit": 2
+                },
+                {
+                    "courseName": "Türk Dili I",
+                    "courseCredit": 2
+                }
+            ],
+
+            "2": [
+                {
+                    "courseName": "Atatürk İlkeleri ve İnkılap Tarihi II",
+                    "courseCredit": 2
+                },
+                {
+                    "courseName": "Computer Programming II",
+                    "courseCredit": 6
+                },
+                {
+                    "courseName": "Calculus II",
+                    "courseCredit": 6
+                },
+                {
+                    "courseName": "Linear Algebra for Computer Engineering",
+                    "courseCredit": 5
+                },
+                {
+                    "courseName": "Physics II",
+                    "courseCredit": 4
+                },
+                {
+                    "courseName": "Physics Lab II",
+                    "courseCredit": 2
+                },
+                {
+                    "courseName": "Türk Dili II",
+                    "courseCredit": 2
+                }
+            ],
+
+            "3": [
+                {
+                    "courseName": "Discrete Computational Structures",
+                    "courseCredit": 6
+                },
+                {
+                    "courseName": "Data Structures",
+                    "courseCredit": 7,
+                    "prequisite": "Computer Programming II"
+                },
+                {
+                    "courseName": "Engineering Economy",
+                    "courseCredit": 4
+                },
+                {
+                    "courseName": "Electric Circuits",
+                    "courseCredit": 5
+                },
+                {
+                    "courseName": "Differential Equations",
+                    "courseCredit": 4
+                },
+                {
+                    "courseName": "Numerical Methods",
+                    "courseCredit": 4
+                }
+            ],
+
+            "4": [
+                {
+                    "courseName": "Analysis of Algorithms",
+                    "courseCredit": 6,
+                    "prequisite": "Data Structures"
+                },
+                {
+                    "courseName": "Systems Programming",
+                    "courseCredit": 7
+                },
+                {
+                    "courseName": "Principles of Programming Languages",
+                    "courseCredit": 4
+                },
+                {
+                    "courseName": "Electronics",
+                    "courseCredit": 5
+                },
+                {
+                    "courseName": "Introduction to Probability and Statistics",
+                    "courseCredit": 5
+                }
+            ],
+
+            "5": [
+                {
+                    "courseName": "Summer Practice I",
+                    "courseCredit": 10
+                },
+                {
+                    "courseName": "Digital Logic Design",
+                    "courseCredit": 6
+                },
+                {
+                    "courseName": "Operating Systems",
+                    "courseCredit": 7
+                },
+                {
+                    "courseName": "Database Systems",
+                    "courseCredit": 7
+                },
+                {
+                    "courseName": "Object-Oriented Software Design",
+                    "courseCredit": 5
+                },
+                {
+                    "courseName": "Modeling and Discrete Simulation",
+                    "courseCredit": 4
+                }
+            ],
+
+            "6": [
+                {
+                    "courseName": "Computer Organization",
+                    "courseCredit": 7
+                },
+                {
+                    "courseName": "Software Engineering",
+                    "courseCredit": 7
+                },
+                {
+                    "courseName": "Introduction to Signals and Systems",
+                    "courseCredit": 5
+                },
+                {
+                    "courseName": "Formal Languages and Automata Theory",
+                    "courseCredit": 5
+                },
+                {
+                    "courseName": "Operations Research",
+                    "courseCredit": 4
+                },
+                {
+                    "courseName": "Technical Comm. and Entrepreneurship",
+                    "courseCredit": 2
+                }
+            ],
+
+            "7": [
+                {
+                    "courseName": "Summer Practice II",
+                    "courseCredit": 10
+                },
+                {
+                    "courseName": "Computer Networks",
+                    "courseCredit": 5
+                },
+                {
+                    "courseName": "Principles of Embedded System Design",
+                    "courseCredit": 6
+                },
+                {
+                    "courseName": "Engineering Project I",
+                    "courseCredit": 5
+                },
+                {
+                    "courseName": "İş Sağlığı ve Güvenliği I",
+                    "courseCredit": 2
+                },
+                {
+                    "courseName": "Introduction to Machine Learning",
+                    "courseCredit": 5
+                }
+            ],
+
+            "8": [
+                {
+                    "courseName": "Engineering Project II",
+                    "courseCredit": 5,
+                    "prequisite": "Engineering Project I"
+                },
+                {
+                    "courseName": "İş Sağlığı ve Güvenliği II",
+                    "courseCredit": 2
+                }
+            ],
+
+            "NTE": [
+                {
+                    "courseName": "Entrepreneurship and Innovation",
+                    "courseCredit": 3,
+                    "quota": 10
+                },
+                {
+                    "courseName": "Strategic Entrepreneurship",
+                    "courseCredit": 3,
+                    "quota": 10
+                },
+                {
+                    "courseName": "International Business",
+                    "courseCredit": 3,
+                    "quota": 10
+                },
+                {
+                    "courseName": "Self Management",
+                    "courseCredit": 3,
+                    "quota": 10
+                },
+                {
+                    "courseName": "Our Biosphere",
+                    "courseCredit": 3,
+                    "quota": 10
+                },
+                {
+                    "courseName": "Energy for Physical Activity",
+                    "courseCredit": 3,
+                    "quota": 10
+                },
+                {
+                    "courseName": "Human Performance and Nutrition",
+                    "courseCredit": 3,
+                    "quota": 10
+                },
+                {
+                    "courseName": "Cardiopulmonary Resuscitation and First Aid Basics",
+                    "courseCredit": 3,
+                    "quota": 10
+                },
+                {
+                    "courseName": "Interpersonal Relations and Communication",
+                    "courseCredit": 3,
+                    "quota": 10
+                }
+            ],
+
+            "ENG-UE": [
+                {
+                    "courseName": "Entrepreneurship and Innovation",
+                    "courseCredit": 3,
+                    "quota": 10
+                },
+                {
+                    "courseName": "Strategic Entrepreneurship",
+                    "courseCredit": 3,
+                    "quota": 10
+                },
+                {
+                    "courseName": "International Business",
+                    "courseCredit": 3,
+                    "quota": 10
+                },
+                {
+                    "courseName": "Self Management",
+                    "courseCredit": 3,
+                    "quota": 10
+                },
+                {
+                    "courseName": "Our Biosphere",
+                    "courseCredit": 3,
+                    "quota": 10
+                },
+                {
+                    "courseName": "Energy for Physical Activity",
+                    "courseCredit": 3,
+                    "quota": 10
+                },
+                {
+                    "courseName": "Human Performance and Nutrition",
+                    "courseCredit": 3,
+                    "quota": 10
+                },
+                {
+                    "courseName": "Cardiopulmonary Resuscitation and First Aid Basics",
+                    "courseCredit": 3,
+                    "quota": 10
+                },
+                {
+                    "courseName": "Interpersonal Relations and Communication",
+                    "courseCredit": 3,
+                    "quota": 10
+                }
+            ],
+
+            "TE": [
+                {
+                    "courseName": "Introduction to Robotics and Control Theory",
+                    "courseCredit": 5,
+                    "quota": 10
+                },
+                {
+                    "courseName": "Introduction to Distributed Systems",
+                    "courseCredit": 5,
+                    "quota": 10
+                },
+                {
+                    "courseName": "Advanced Unix Programming",
+                    "courseCredit": 5,
+                    "prequisite": "Operating Systems",
+                    "quota": 10
+                },
+                {
+                    "courseName": "Introduction to Parallel Processing",
+                    "courseCredit": 5,
+                    "quota": 10
+                },
+                {
+                    "courseName": "Cloud Computing",
+                    "courseCredit": 5,
+                    "quota": 10
+                },
+                {
+                    "courseName": "Software Project Management",
+                    "courseCredit": 5,
+                    "quota": 10
+                },
+                {
+                    "courseName": "Information Systems: Analysis and Design",
+                    "courseCredit": 5,
+                    "quota": 10
+                },
+                {
+                    "courseName": "Distributed Databases",
+                    "courseCredit": 5,
+                    "quota": 10
+                },
+                {
+                    "courseName": "Management of Information Systems",
+                    "courseCredit": 5,
+                    "quota": 10
+                },
+                {
+                    "courseName": "Compiler Design",
+                    "courseCredit": 5,
+                    "prequisite": "Formal Languages and Automata Theory",
+                    "quota": 10
+                },
+                {
+                    "courseName": "Wireless & Mobile Network",
+                    "courseCredit": 5,
+                    "prequisite": "Computer Networks",
+                    "quota": 10
+                }
+            ],
+
+            "ENG-FTE": [
+                {
+                    "courseName": "Planning and Management of Research",
+                    "courseCredit": 5,
+                    "quota": 10
+                },
+                {
+                    "courseName": "Cost Management in Chemical Industries",
+                    "courseCredit": 5,
+                    "quota": 10
+                },
+                {
+                    "courseName": "Financial Engineering",
+                    "courseCredit": 5,
+                    "quota": 10
+                },
+                {
+                    "courseName": "Chemical Engineering for Sustainable Biosphere",
+                    "courseCredit": 5,
+                    "quota": 10
+                },
+                {
+                    "courseName": "Software Project Management",
+                    "courseCredit": 5,
+                    "quota": 10
+                },
+                {
+                    "courseName": "Management of Information Systems",
+                    "courseCredit": 5,
+                    "quota": 10
+                },
+                {
+                    "courseName": "Introduction to Data Science and Analytics",
+                    "courseCredit": 5,
+                    "quota": 10
+                },
+                {
+                    "courseName": "Introduction to Information Systems Management",
+                    "courseCredit": 5,
+                    "quota": 10
+                },
+                {
+                    "courseName": "Introduction to Systems Security",
+                    "courseCredit": 5,
+                    "quota": 10
+                }
+            ]
+        }
+    ]
+}
