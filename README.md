@@ -10,6 +10,6 @@ Group 21
 9- Ulaş Deniz Işık 150118887
 10-Fatih Öztürk 150119519
 
-Project sdk 1.8
+Project sdk 1.8 version is used.
 We have done everything together. For this iteration we misunderstood how to work with github. We have managed file transformation via zip. 
 We have used trello and discord for communication.
