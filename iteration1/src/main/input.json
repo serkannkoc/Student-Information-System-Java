@@ -58,94 +58,409 @@
             "1": [
                 {
                     "courseName": "Atatürk İlkeleri ve İnkılap Tarihi I",
-                    "courseCredit": 2
+                    "courseCredit": 2,
+                    "contactHours": 2,
+
+                    "courseDate": [
+                        {
+                            "day1": "Tuesday",
+                            "startOfHour": "22:00"
+                        },
+                        {
+                            "day": "Tuesday",
+                            "startOfHour": "23:00"
+                        }
+                    ]
                 },
+
                 {
                     "courseName": "Introduction to Modern Biology",
-                    "courseCredit": 5
+                    "courseCredit": 5,
+                    "contactHours": 3,
+
+                    "courseDate": [
+                        {
+                            "day": "Wednesday",
+                            "startOfHour": "10:30"
+                        },
+                        {
+                            "day": "Wednesday",
+                            "startOfHour": "11:30"
+                        },
+                        {
+                            "day": "Friday",
+                            "startOfHour": "11:30"
+                        }
+                    ]
                 },
                 {
                     "courseName": "Introduction to Computer Engineering",
-                    "courseCredit": 4
+                    "courseCredit": 4,
+                    "contactHours": 3,
+
+                    "courseDate": [
+                        {
+                            "day": "Wednesday",
+                            "startOfHour": "13:00"
+                        },
+                        {
+                            "day": "Wednesday",
+                            "startOfHour": "11:30"
+                        },
+                        {
+                            "day": "Friday",
+                            "startOfHour": "09:30"
+                        }
+                    ]
                 },
                 {
                     "courseName": "Computer Programming I",
-                    "courseCredit": 6
+                    "courseCredit": 6,
+                    "contactHours": 3,
+
+                    "courseDate": [
+                        {
+                            "day": "Monday",
+                            "startOfHour": "10:30"
+                        },
+                        {
+                            "day": "Monday",
+                            "startOfHour": "11:20"
+                        },
+                        {
+                            "day": "Wednesday",
+                            "startOfHour": "14:00"
+                        }
+                    ]
                 },
                 {
                     "courseName": "Calculus I",
-                    "courseCredit": 6
+                    "courseCredit": 6,
+                    "contactHours": 3,
+
+                    "courseDate": [
+                        {
+                            "day": "Tuesday",
+                            "startOfHour": "08:30"
+                        },
+                        {
+                            "day": "Tuesday",
+                            "startOfHour": "9:30"
+                        },
+                        {
+                            "day": "Thursday",
+                            "startOfHour": "08:30"
+                        }
+                    ]
                 },
                 {
                     "courseName": "Physics I",
-                    "courseCredit": 4
+                    "courseCredit": 4,
+                    "contactHours": 3,
+
+                    "courseDate": [
+                        {
+                            "day": "Tuesday",
+                            "startOfHour": "15:00"
+                        },
+                        {
+                            "day": "Thursday",
+                            "startOfHour": "14:00"
+                        },
+                        {
+                            "day": "Thursday",
+                            "startOfHour": "15:00"
+                        }
+                    ]
                 },
                 {
                     "courseName": "Physics Lab I",
-                    "courseCredit": 2
+                    "courseCredit": 2,
+                    "contactHours": 2,
+
+                    "courseDate": [
+                        {
+                            "day": "Tuesday",
+                            "startOfHour": "17:00"
+                        },
+                        {
+                            "day": "Tuesday",
+                            "startOfHour": "18:00"
+                        }
+
+                    ]
                 },
                 {
                     "courseName": "Türk Dili I",
-                    "courseCredit": 2
+                    "courseCredit": 2,
+                    "contactHours": 2,
+
+                    "courseDate": [
+                        {
+                            "day": "Sunday",
+                            "startOfHour": "15:00"
+                        },
+                        {
+                            "day": "Sunday",
+                            "startOfHour": "16:00"
+                        }
+
+                    ]
                 }
             ],
 
             "2": [
                 {
                     "courseName": "Atatürk İlkeleri ve İnkılap Tarihi II",
-                    "courseCredit": 2
+                    "courseCredit": 2,
+                    "contactHours": 2,
+
+                    "courseDate": [
+                        {
+                            "day": "Sunday",
+                            "startOfHour": "13:00"
+                        },
+                        {
+                            "day": "Wednesday",
+                            "startOfHour": "14:00"
+                        }
+                    ]
                 },
                 {
                     "courseName": "Computer Programming II",
-                    "courseCredit": 6
+                    "courseCredit": 6,
+                    "contactHours": 3,
+
+                    "courseDate": [
+                        {
+                            "day": "Wednesday",
+                            "startOfHour": "17:00"
+                        },
+                        {
+                            "day": "Thursday",
+                            "startOfHour": "12:00"
+                        },
+                        {
+                            "day": "Thursday",
+                            "startOfHour": "13:00"
+                        }
+                    ]
                 },
                 {
                     "courseName": "Calculus II",
-                    "courseCredit": 6
+                    "courseCredit": 6,
+                    "contactHours": 3,
+
+                    "courseDate": [
+                        {
+                            "day": "Tuesday",
+                            "startOfHour": "09:00"
+                        },
+                        {
+                            "day": "Tuesday",
+                            "startOfHour": "10:00"
+                        },
+                        {
+                            "day": "Wednesday",
+                            "startOfHour": "10:00"
+                        }
+                    ]
                 },
                 {
                     "courseName": "Linear Algebra for Computer Engineering",
-                    "courseCredit": 5
+                    "courseCredit": 5,
+                    "contactHours": 3,
+
+                    "courseDate": [
+                        {
+                            "day": "Monday",
+                            "startOfHour": "10:00"
+                        },
+                        {
+                            "day": "Thursday",
+                            "startOfHour": "10:00"
+                        },
+                        {
+                            "day": "Thursday",
+                            "startOfHour": "11:00"
+                        }
+                    ]
                 },
                 {
                     "courseName": "Physics II",
-                    "courseCredit": 4
+                    "courseCredit": 4,
+                    "contactHours": 3,
+
+                    "courseDate": [
+                        {
+                            "day": "Thursday",
+                            "startOfHour": "14:00"
+                        },
+                        {
+                            "day": "Thursday",
+                            "startOfHour": "15:00"
+                        },
+                        {
+                            "day": "Thursday",
+                            "startOfHour": "16:00"
+                        }
+                    ]
+
                 },
                 {
                     "courseName": "Physics Lab II",
-                    "courseCredit": 2
+                    "courseCredit": 2,
+                    "contactHours": 2,
+
+                    "courseDate": [
+                        {
+                            "day": "Monday",
+                            "startOfHour": "14:00"
+                        },
+                        {
+                            "day": "Monday",
+                            "startOfHour": "15:00"
+                        }
+
+                    ]
                 },
                 {
                     "courseName": "Türk Dili II",
-                    "courseCredit": 2
+                    "courseCredit": 2,
+                    "contactHours": 2,
+
+                    "courseDate": [
+                        {
+                            "day": "Saturday",
+                            "startOfHour": "09:00"
+                        },
+                        {
+                            "day": "Saturday",
+                            "startOfHour": "10:00"
+                        },
+
+                    ]
                 }
             ],
 
             "3": [
                 {
                     "courseName": "Discrete Computational Structures",
-                    "courseCredit": 6
+                    "courseCredit": 6,
+                    "contactHours": 3,
+
+                    "courseDate": [
+                        {
+                            "day": "Monday",
+                            "startOfHour": "13:00"
+                        },
+                        {
+                            "day": "Monday",
+                            "startOfHour": "14:00Wednesday"
+                        },
+                        {
+                            "day": "Wednesday",
+                            "startOfHour": "16:00"
+                        }
+                    ]
                 },
                 {
                     "courseName": "Data Structures",
                     "courseCredit": 7,
-                    "prequisite": "Computer Programming II"
+                    "prequisite": "Computer Programming II",
+                    "contactHours": 3,
+
+                    "courseDate": [
+                        {
+                            "day": "Monday",
+                            "startOfHour": "15:00"
+                        },
+                        {
+                            "day": "Wednesday",
+                            "startOfHour": "14:00"
+                        },
+                        {
+                            "day": "Wednesday",
+                            "startOfHour": "15:00"
+                        }
+                    ]
                 },
                 {
                     "courseName": "Engineering Economy",
-                    "courseCredit": 4
+                    "courseCredit": 4,
+                    "contactHours": 2,
+
+                    "courseDate": [
+                        {
+                            "day": "Tuesday",
+                            "startOfHour": "18:00"
+                        },
+                        {
+                            "day": "Tuesday",
+                            "startOfHour": "19:00"
+                        }
+
+                    ]
                 },
                 {
                     "courseName": "Electric Circuits",
-                    "courseCredit": 5
+                    "courseCredit": 5,
+                    "contactHours": 3,
+
+                    "courseDate": [
+                        {
+                            "day": "Tuesday",
+                            "startOfHour": "13:00"
+                        },
+                        {
+                            "day": "Tuesday",
+                            "startOfHour": "14:00"
+                        },
+                        {
+                            "day": "Thursday",
+                            "startOfHour": "14:00"
+                        }
+                    ]
                 },
                 {
                     "courseName": "Differential Equations",
-                    "courseCredit": 4
+                    "courseCredit": 4,
+                    "contactHours": 3,
+
+                    "courseDate": [
+                        {
+                            "day": "Monday",
+                            "startOfHour": "09:30"
+                        },
+                        {
+                            "day": "Wednesday",
+                            "startOfHour": "08:30"
+                        },
+                        {
+                            "day": "Wednesday",
+                            "startOfHour": "09:30"
+                        }
+                    ]
                 },
                 {
                     "courseName": "Numerical Methods",
-                    "courseCredit": 4
+                    "courseCredit": 4,
+                    "contactHours": 3,
+
+                    "courseDate": [
+                        {
+                            "day": "Tuesday",
+                            "startOfHour": "14:00"
+                        },
+                        {
+                            "day": "Tuesday",
+                            "startOfHour": "15:00"
+                        },
+                        {
+                            "day": "Thursday",
+                            "startOfHour": "15:00"
+                        }
+                    ]
                 }
             ],
 
@@ -153,23 +468,100 @@
                 {
                     "courseName": "Analysis of Algorithms",
                     "courseCredit": 6,
-                    "prequisite": "Data Structures"
+                    "prequisite": "Data Structures",
+                    "contactHours": 3,
+
+                    "courseDate": [
+                        {
+                            "day": "Thursday",
+                            "startOfHour": "13:00"
+                        },
+                        {
+                            "day": "Friday",
+                            "startOfHour": "14:00"
+                        },
+                        {
+                            "day": "Friday",
+                            "startOfHour": "15:00"
+                        }
+                    ]
                 },
                 {
                     "courseName": "Systems Programming",
-                    "courseCredit": 7
+                    "courseCredit": 7,
+                    "contactHours": 3,
+
+                    "courseDate": [
+                        {
+                            "day": "Monday",
+                            "startOfHour": "14:00"
+                        },
+                        {
+                            "day": "Monday",
+                            "startOfHour": "15:00"
+                        },
+                        {
+                            "day": "Tuesday",
+                            "startOfHour": "13:00"
+                        }
+                    ]
                 },
                 {
                     "courseName": "Principles of Programming Languages",
-                    "courseCredit": 4
+                    "courseCredit": 4,
+                    "contactHours": 3,
+
+                    "courseDate": [
+                        {
+                            "day": "Monday",
+                            "startOfHour": "15:00"
+                        },
+                        {
+                            "day": "Wednesday",
+                            "startOfHour": "14:00"
+                        },
+                        {
+                            "day": "Wednesday",
+                            "startOfHour": "15:00"
+                        }
+                    ]
                 },
                 {
                     "courseName": "Electronics",
-                    "courseCredit": 5
+                    "courseCredit": 5,
+                    "contactHours": 2,
+
+                    "courseDate": [
+                        {
+                            "day": "Wednesday",
+                            "startOfHour": "14:00"
+                        },
+                        {
+                            "day": "Wednesday",
+                            "startOfHour": "15:00"
+                        }
+
+                    ]
                 },
                 {
                     "courseName": "Introduction to Probability and Statistics",
-                    "courseCredit": 5
+                    "courseCredit": 5,
+                    "contactHours": 3,
+
+                    "courseDate": [
+                        {
+                            "day": "Monday",
+                            "startOfHour": "16:00"
+                        },
+                        {
+                            "day": "Tuesday",
+                            "startOfHour": "14:00"
+                        },
+                        {
+                            "day": "Tuesday",
+                            "startOfHour": "15:00"
+                        }
+                    ]
                 }
             ],
 
@@ -177,53 +569,226 @@
                 {
                     "courseName": "Summer Practice I",
                     "courseCredit": 10
+
                 },
                 {
                     "courseName": "Digital Logic Design",
-                    "courseCredit": 6
+                    "courseCredit": 6,
+                    "contactHours": 3,
+
+                    "courseDate": [
+                        {
+                            "day": "Tuesday",
+                            "startOfHour": "10:30"
+                        },
+                        {
+                            "day": "Tuesday",
+                            "startOfHour": "11:30"
+                        },
+                        {
+                            "day": "Thursday",
+                            "startOfHour": "09:30"
+                        }
+                    ]
                 },
                 {
                     "courseName": "Operating Systems",
-                    "courseCredit": 7
+                    "courseCredit": 7,
+                    "contactHours": 3,
+
+                    "courseDate": [
+                        {
+                            "day": "Monday",
+                            "startOfHour": "11:30"
+                        },
+                        {
+                            "day": "Friday",
+                            "startOfHour": "10:30"
+                        },
+                        {
+                            "day": "Friday",
+                            "startOfHour": "11:30"
+                        }
+                    ]
                 },
                 {
                     "courseName": "Database Systems",
-                    "courseCredit": 7
+                    "courseCredit": 7,
+                    "contactHours": 3,
+
+                    "courseDate": [
+                        {
+                            "day": "Wednesday",
+                            "startOfHour": "10:30"
+                        },
+                        {
+                            "day": "Wednesday",
+                            "startOfHour": "11:30"
+                        },
+                        {
+                            "day": "Friday",
+                            "startOfHour": "15:00"
+                        }
+                    ]
                 },
                 {
                     "courseName": "Object-Oriented Software Design",
-                    "courseCredit": 5
+                    "courseCredit": 5,
+                    "contactHours": 3,
+
+                    "courseDate": [
+                        {
+                            "day": "Monday",
+                            "startOfHour": "09:30"
+                        },
+                        {
+                            "day": "Monday",
+                            "startOfHour": "10:30"
+                        },
+                        {
+                            "day": "Tuesday",
+                            "startOfHour": "09:30"
+                        }
+                    ]
                 },
                 {
                     "courseName": "Modeling and Discrete Simulation",
-                    "courseCredit": 4
+                    "courseCredit": 4,
+                    "contactHours": 3,
+
+                    "courseDate": [
+                        {
+                            "day": "Thursday",
+                            "startOfHour": "10:30"
+                        },
+                        {
+                            "day": "Thursday",
+                            "startOfHour": "11:30"
+                        },
+                        {
+                            "day": "Friday",
+                            "startOfHour": "09:30"
+                        }
+                    ]
                 }
             ],
 
             "6": [
                 {
                     "courseName": "Computer Organization",
-                    "courseCredit": 7
+                    "courseCredit": 7,
+                    "contactHours": 3,
+
+                    "courseDate": [
+                        {
+                            "day": "Wednesday",
+                            "startOfHour": "10:00"
+                        },
+                        {
+                            "day": "Wednesday",
+                            "startOfHour": "11:00"
+                        },
+                        {
+                            "day": "Thursday",
+                            "startOfHour": "11:00"
+                        }
+                    ]
                 },
                 {
                     "courseName": "Software Engineering",
-                    "courseCredit": 7
+                    "courseCredit": 7,
+                    "contactHours": 3,
+
+                    "courseDate": [
+                        {
+                            "day": "Wednesday",
+                            "startOfHour": "09:00"
+                        },
+                        {
+                            "day": "Thursday",
+                            "startOfHour": "09:00"
+                        },
+                        {
+                            "day": "Thursday",
+                            "startOfHour": "10:00"
+                        }
+                    ]
                 },
                 {
                     "courseName": "Introduction to Signals and Systems",
-                    "courseCredit": 5
+                    "courseCredit": 5,
+                    "contactHours": 3,
+
+                    "courseDate": [
+                        {
+                            "day": "Tuesday",
+                            "startOfHour": "11:00"
+                        },
+                        {
+                            "day": "Tuesday",
+                            "startOfHour": "12:00"
+                        },
+                        {
+                            "day": "Thursday",
+                            "startOfHour": "12:00"
+                        }
+                    ]
                 },
                 {
                     "courseName": "Formal Languages and Automata Theory",
-                    "courseCredit": 5
+                    "courseCredit": 5,
+                    "contactHours": 3,
+
+                    "courseDate": [
+                        {
+                            "day": "Monday",
+                            "startOfHour": "11:00"
+                        },
+                        {
+                            "day": "Monday",
+                            "startOfHour": "12:00"
+                        },
+                        {
+                            "day": "Friday",
+                            "startOfHour": "09:00"
+                        }
+                    ]
                 },
                 {
                     "courseName": "Operations Research",
-                    "courseCredit": 4
+                    "courseCredit": 4,
+                    "contactHours": 3,
+
+                    "courseDate": [
+                        {
+                            "day": "Monday",
+                            "startOfHour": "09:00"
+                        },
+                        {
+                            "day": "Monday",
+                            "startOfHour": "10:00"
+                        },
+                        {
+                            "day": "Tuesday",
+                            "startOfHour": "10:00"
+                        }
+                    ]
                 },
                 {
                     "courseName": "Technical Comm. and Entrepreneurship",
-                    "courseCredit": 2
+                    "courseCredit": 2,
+                    "contactHours": 2,
+
+                    "courseDate": [
+                        {
+                            "day": "Tuesday",
+                            "startOfHour": "08:30"
+                        },
+                        {
+                            "day": "Tuesday",
+                            "startOfHour": "09:30"
+                        }
+                    ]
                 }
             ],
 
@@ -234,23 +799,84 @@
                 },
                 {
                     "courseName": "Computer Networks",
-                    "courseCredit": 5
+                    "courseCredit": 5,
+                    "contactHours": 3,
+
+                    "courseDate": [
+                        {
+                            "day": "Monday",
+                            "startOfHour": "15:00"
+                        },
+                        {
+                            "day": "Thursday",
+                            "startOfHour": "14:00"
+                        },
+                        {
+                            "day": "Thursday",
+                            "startOfHour": "15:00"
+                        }
+                    ]
                 },
                 {
                     "courseName": "Principles of Embedded System Design",
-                    "courseCredit": 6
+                    "courseCredit": 6,
+                    "contactHours": 3,
+
+                    "courseDate": [
+                        {
+                            "day": "Monday",
+                            "startOfHour": "16:00"
+                        },
+                        {
+                            "day": "Monday",
+                            "startOfHour": "17:00"
+                        },
+                        {
+                            "day": "Thursday",
+                            "startOfHour": "13:00"
+                        }
+                    ]
                 },
                 {
                     "courseName": "Engineering Project I",
-                    "courseCredit": 5
+                    "courseCredit": 5,
+
                 },
                 {
                     "courseName": "İş Sağlığı ve Güvenliği I",
-                    "courseCredit": 2
+                    "courseCredit": 2,
+                    "contactHours": 2,
+
+                    "courseDate": [
+                        {
+                            "day": "Saturday",
+                            "startOfHour": "13:00"
+                        },
+                        {
+                            "day": "Saturday",
+                            "startOfHour": "14:00"
+                        }
+                    ]
                 },
                 {
                     "courseName": "Introduction to Machine Learning",
-                    "courseCredit": 5
+                    "courseCredit": 5,
+                    "contactHours": 3,
+
+                    "courseDate": [
+                        {
+                            "day": "Tuesday",
+                            "startOfHour": "10:30"
+                        },
+                        {
+                            "day": "Tuesday",
+                            "startOfHour": "11:30"
+                        },
+                        {
+                            "day": "Friday",
+                            "startOfHour": "16:00"
+                        }
+                    ]
                 }
             ],
 
@@ -262,7 +888,19 @@
                 },
                 {
                     "courseName": "İş Sağlığı ve Güvenliği II",
-                    "courseCredit": 2
+                    "courseCredit": 2,
+                    "contactHours": 2,
+
+                    "courseDate": [
+                        {
+                            "day": "Saturday",
+                            "startOfHour": "16:00"
+                        },
+                        {
+                            "day": "Saturday",
+                            "startOfHour": "17:00"
+                        }
+                    ]
                 }
             ],
 
@@ -270,47 +908,187 @@
                 {
                     "courseName": "Entrepreneurship and Innovation",
                     "courseCredit": 3,
-                    "quota": 10
+                    "quota": 10,
+                    "contactHours": 2,
+
+                    "courseDate": [
+                        {
+                            "day": "Tuesday",
+                            "startOfHour": "08:30"
+                        },
+                        {
+                            "day": "Tuesday",
+                            "startOfHour": "09:30"
+                        }
+                    ]
                 },
                 {
                     "courseName": "Strategic Entrepreneurship",
                     "courseCredit": 3,
-                    "quota": 10
+                    "quota": 10,
+                    "contactHours": 3,
+
+                    "courseDate": [
+                        {
+                            "day": "Wednesday",
+                            "startOfHour": "13:00"
+                        },
+                        {
+                            "day": "Wednesday",
+                            "startOfHour": "11:30"
+                        },
+                        {
+                            "day": "Friday",
+                            "startOfHour": "09:30"
+                        }
+                    ]
                 },
                 {
                     "courseName": "International Business",
                     "courseCredit": 3,
-                    "quota": 10
+                    "quota": 10,
+                    "contactHours": 3,
+
+                    "courseDate": [
+                        {
+                            "day": "Wednesday",
+                            "startOfHour": "13:00"
+                        },
+                        {
+                            "day": "Wednesday",
+                            "startOfHour": "11:30"
+                        },
+                        {
+                            "day": "Friday",
+                            "startOfHour": "09:30"
+                        }
+                    ]
                 },
                 {
                     "courseName": "Self Management",
                     "courseCredit": 3,
-                    "quota": 10
+                    "quota": 10,
+                    "contactHours": 3,
+
+                    "courseDate": [
+                        {
+                            "day": "Wednesday",
+                            "startOfHour": "13:00"
+                        },
+                        {
+                            "day": "Wednesday",
+                            "startOfHour": "11:30"
+                        },
+                        {
+                            "day": "Friday",
+                            "startOfHour": "09:30"
+                        }
+                    ]
                 },
                 {
                     "courseName": "Our Biosphere",
                     "courseCredit": 3,
-                    "quota": 10
+                    "quota": 10,
+                    "contactHours": 3,
+
+                    "courseDate": [
+                        {
+                            "day": "Wednesday",
+                            "startOfHour": "13:00"
+                        },
+                        {
+                            "day": "Wednesday",
+                            "startOfHour": "11:30"
+                        },
+                        {
+                            "day": "Friday",
+                            "startOfHour": "09:30"
+                        }
+                    ]
                 },
                 {
                     "courseName": "Energy for Physical Activity",
                     "courseCredit": 3,
-                    "quota": 10
+                    "quota": 10,
+                    "contactHours": 3,
+
+                    "courseDate": [
+                        {
+                            "day": "Wednesday",
+                            "startOfHour": "13:00"
+                        },
+                        {
+                            "day": "Wednesday",
+                            "startOfHour": "11:30"
+                        },
+                        {
+                            "day": "Friday",
+                            "startOfHour": "09:30"
+                        }
+                    ]
                 },
                 {
                     "courseName": "Human Performance and Nutrition",
                     "courseCredit": 3,
-                    "quota": 10
+                    "quota": 10,
+                    "contactHours": 3,
+
+                    "courseDate": [
+                        {
+                            "day": "Wednesday",
+                            "startOfHour": "13:00"
+                        },
+                        {
+                            "day": "Wednesday",
+                            "startOfHour": "11:30"
+                        },
+                        {
+                            "day": "Friday",
+                            "startOfHour": "09:30"
+                        }
+                    ]
                 },
                 {
                     "courseName": "Cardiopulmonary Resuscitation and First Aid Basics",
                     "courseCredit": 3,
-                    "quota": 10
+                    "quota": 10,
+                    "contactHours": 3,
+
+                    "courseDate": [
+                        {
+                            "day": "Wednesday",
+                            "startOfHour": "13:00"
+                        },
+                        {
+                            "day": "Wednesday",
+                            "startOfHour": "11:30"
+                        },
+                        {
+                            "day": "Friday",
+                            "startOfHour": "09:30"
+                        }
+                    ]
                 },
                 {
                     "courseName": "Interpersonal Relations and Communication",
                     "courseCredit": 3,
-                    "quota": 10
+                    "quota": 10,
+                    "contactHours": 3,
+
+                    "courseDate": [
+                        {
+                            "day": "Wednesday",
+                            "startOfHour": "13:00"
+                        },
+                        {
+                            "day": "Wednesday",
+                            "startOfHour": "11:30"
+                        },
+                        {
+                            "day": "Friday",
+                            "startOfHour": "09:30"
+                        }
+                    ]
                 }
             ],
 
@@ -318,47 +1096,160 @@
                 {
                     "courseName": "Entrepreneurship and Innovation",
                     "courseCredit": 3,
-                    "quota": 10
+                    "quota": 10,
+                    "contactHours": 3,
+
+                    "courseDate": [
+                        {
+                            "day": "Wednesday",
+                            "startOfHour": "13:00"
+                        },
+                        {
+                            "day": "Wednesday",
+                            "startOfHour": "11:30"
+                        },
+                        {
+                            "day": "Friday",
+                            "startOfHour": "09:30"
+                        }
+                    ]
                 },
                 {
                     "courseName": "Strategic Entrepreneurship",
                     "courseCredit": 3,
-                    "quota": 10
+                    "quota": 10,
+                    "contactHours": 2,
+
+                    "courseDate": [
+                        {
+                            "day": "Wednesday",
+                            "startOfHour": "09:00"
+                        },
+                        {
+                            "day": "Wednesday",
+                            "startOfHour": "10:00"
+                        }
+                    ]
                 },
                 {
                     "courseName": "International Business",
                     "courseCredit": 3,
-                    "quota": 10
+                    "quota": 10,
+                    "contactHours": 2,
+
+                    "courseDate": [
+                        {
+                            "day": "Friday",
+                            "startOfHour": "15:00"
+                        },
+                        {
+                            "day": "Friday",
+                            "startOfHour": "16:00"
+                        }
+
+                    ]
                 },
                 {
                     "courseName": "Self Management",
                     "courseCredit": 3,
-                    "quota": 10
+                    "quota": 10,
+                    "contactHours": 2,
+
+                    "courseDate": [
+                        {
+                            "day": "Monday",
+                            "startOfHour": "13:00"
+                        },
+                        {
+                            "day": "Monday",
+                            "startOfHour": "14:00"
+                        }
+                    ]
                 },
                 {
                     "courseName": "Our Biosphere",
                     "courseCredit": 3,
-                    "quota": 10
+                    "quota": 10,
+                    "contactHours": 2,
+
+                    "courseDate": [
+                        {
+                            "day": "Monday",
+                            "startOfHour": "13:00"
+                        },
+                        {
+                            "day": "Monday",
+                            "startOfHour": "14:00"
+                        }
+                    ]
                 },
                 {
                     "courseName": "Energy for Physical Activity",
                     "courseCredit": 3,
-                    "quota": 10
+                    "quota": 10,
+                    "contactHours": 2,
+
+                    "courseDate": [
+                        {
+                            "day": "Monday",
+                            "startOfHour": "13:00"
+                        },
+                        {
+                            "day": "Monday",
+                            "startOfHour": "14:00"
+                        }
+                    ]
                 },
                 {
                     "courseName": "Human Performance and Nutrition",
                     "courseCredit": 3,
-                    "quota": 10
+                    "quota": 10,
+                    "contactHours": 2,
+
+                    "courseDate": [
+                        {
+                            "day": "Tuesday",
+                            "startOfHour": "10:30"
+                        },
+                        {
+                            "day": "Tuesday",
+                            "startOfHour": "11:30"
+
+                    ]
                 },
                 {
                     "courseName": "Cardiopulmonary Resuscitation and First Aid Basics",
                     "courseCredit": 3,
-                    "quota": 10
+                    "quota": 10,
+                    "contactHours": 2,
+
+                    "courseDate": [
+                        {
+                            "day": "Tuesday",
+                            "startOfHour": "10:00"
+                        },
+                        {
+                            "day": "Tuesday",
+                            "startOfHour": "11:00"
+                        }
+                    ]
                 },
                 {
                     "courseName": "Interpersonal Relations and Communication",
                     "courseCredit": 3,
-                    "quota": 10
+                    "quota": 10,
+                    "contactHours": 2,
+
+                    "courseDate": [
+                        {
+                            "day": "Friday",
+                            "startOfHour": "17:00"
+                        },
+                        {
+                            "day": "Friday",
+                            "startOfHour": "18:00"
+                        }
+                    ]
                 }
             ],
 
@@ -366,60 +1257,236 @@
                 {
                     "courseName": "Introduction to Robotics and Control Theory",
                     "courseCredit": 5,
-                    "quota": 10
+                    "quota": 10,
+                    "contactHours": 3,
+
+                    "courseDate": [
+                        {
+                            "day": "Monday",
+                            "startOfHour": "17:00"
+                        },
+                        {
+                            "day": "Thursday",
+                            "startOfHour": "16:00"
+                        },
+                        {
+                            "day": "Thursday",
+                            "startOfHour": "17:00"
+                        }
+                    ]
                 },
                 {
                     "courseName": "Introduction to Distributed Systems",
                     "courseCredit": 5,
-                    "quota": 10
+                    "quota": 10,
+                    "contactHours": 3,
+
+                    "courseDate": [
+                        {
+                            "day": "Monday",
+                            "startOfHour": "17:00"
+                        },
+                        {
+                            "day": "Thursday",
+                            "startOfHour": "17:00"
+                        },
+                        {
+                            "day": "Thursday",
+                            "startOfHour": "18:00"
+                        }
+                    ]
                 },
                 {
                     "courseName": "Advanced Unix Programming",
                     "courseCredit": 5,
                     "prequisite": "Operating Systems",
-                    "quota": 10
+                    "quota": 10,
+                    "contactHours": 3,
+
+                    "courseDate": [
+                        {
+                            "day": "Tuesday",
+                            "startOfHour": "09:00"
+                        },
+                        {
+                            "day": "Wednesday",
+                            "startOfHour": "13:00"
+                        },
+                        {
+                            "day": "Wednesday",
+                            "startOfHour": "14:00"
+                        }
+                    ]
                 },
                 {
                     "courseName": "Introduction to Parallel Processing",
                     "courseCredit": 5,
-                    "quota": 10
+                    "quota": 10,
+                    "contactHours": 3,
+
+                    "courseDate": [
+                        {
+                            "day": "Monday",
+                            "startOfHour": "16:00"
+                        },
+                        {
+                            "day": "Wednesday",
+                            "startOfHour": "17:00"
+                        },
+                        {
+                            "day": "Wednesday",
+                            "startOfHour": "18:00"
+                        }
+                    ]
                 },
                 {
                     "courseName": "Cloud Computing",
                     "courseCredit": 5,
-                    "quota": 10
+                    "quota": 10,
+                    "contactHours": 3,
+
+                    "courseDate": [
+                        {
+                            "day": "Tuesday",
+                            "startOfHour": "13:00"
+                        },
+                        {
+                            "day": "Wednesday",
+                            "startOfHour": "13:00"
+                        },
+                        {
+                            "day": "Wednesday",
+                            "startOfHour": "14:00"
+                        }
+                    ]
                 },
                 {
                     "courseName": "Software Project Management",
                     "courseCredit": 5,
-                    "quota": 10
+                    "quota": 10,
+                    "contactHours": 3,
+
+                    "courseDate": [
+                        {
+                            "day": "Wednesday",
+                            "startOfHour": "09:30"
+                        },
+                        {
+                            "day": "Wednesday",
+                            "startOfHour": "10:30"
+                        },
+                        {
+                            "day": "Wednesday",
+                            "startOfHour": "11:30"
+                        }
+                    ]
                 },
                 {
                     "courseName": "Information Systems: Analysis and Design",
                     "courseCredit": 5,
-                    "quota": 10
+                    "quota": 10,
+                    "contactHours": 3,
+
+                    "courseDate": [
+                        {
+                            "day": "Wednesday",
+                            "startOfHour": "15:00"
+                        },
+                        {
+                            "day": "Wednesday",
+                            "startOfHour": "16:30"
+                        },
+                        {
+                            "day": "Thursday",
+                            "startOfHour": "11:00"
+                        }
+                    ]
                 },
                 {
                     "courseName": "Distributed Databases",
                     "courseCredit": 5,
-                    "quota": 10
+                    "quota": 10,
+                    "contactHours": 3,
+
+                    "courseDate": [
+                        {
+                            "day": "Wednesday",
+                            "startOfHour": "13:00"
+                        },
+                        {
+                            "day": "Wednesday",
+                            "startOfHour": "14:00"
+                        },
+                        {
+                            "day": "Friday",
+                            "startOfHour": "09:30"
+                        }
+                    ]
                 },
                 {
                     "courseName": "Management of Information Systems",
                     "courseCredit": 5,
-                    "quota": 10
+                    "quota": 10,
+                    "contactHours": 3,
+
+                    "courseDate": [
+                        {
+                            "day": "Monday",
+                            "startOfHour": "13:00"
+                        },
+                        {
+                            "day": "Monday",
+                            "startOfHour": "14:00"
+                        },
+                        {
+                            "day": "Monday",
+                            "startOfHour": "15:00"
+                        }
+                    ]
                 },
                 {
                     "courseName": "Compiler Design",
                     "courseCredit": 5,
                     "prequisite": "Formal Languages and Automata Theory",
-                    "quota": 10
+                    "quota": 10,
+                    "contactHours": 3,
+
+                    "courseDate": [
+                        {
+                            "day": "Monday",
+                            "startOfHour": "13:00"
+                        },
+                        {
+                            "day": "Monday",
+                            "startOfHour": "14:00"
+                        },
+                        {
+                            "day": "Monday",
+                            "startOfHour": "15:00"
+                        }
+                    ]
                 },
                 {
                     "courseName": "Wireless & Mobile Network",
                     "courseCredit": 5,
                     "prequisite": "Computer Networks",
-                    "quota": 10
+                    "quota": 10,
+                    "contactHours": 3,
+
+                    "courseDate": [
+                        {
+                            "day": "Tuesday",
+                            "startOfHour": "17:00"
+                        },
+                        {
+                            "day": "Friday",
+                            "startOfHour": "14:00"
+                        },
+                        {
+                            "day": "Friday",
+                            "startOfHour": "15:00"
+                        }
+                    ]
                 }
             ],
 
@@ -427,47 +1494,191 @@
                 {
                     "courseName": "Planning and Management of Research",
                     "courseCredit": 5,
-                    "quota": 10
+                    "quota": 10,
+                    "contactHours": 3,
+
+                    "courseDate": [
+                        {
+                            "day": "Monday",
+                            "startOfHour": "13:00"
+                        },
+                        {
+                            "day": "Monday",
+                            "startOfHour": "14:00"
+                        },
+                        {
+                            "day": "Monday",
+                            "startOfHour": "15:00"
+                        }
+                    ]
                 },
                 {
                     "courseName": "Cost Management in Chemical Industries",
                     "courseCredit": 5,
-                    "quota": 10
+                    "quota": 10,
+                    "contactHours": 3,
+
+                    "courseDate": [
+                        {
+                            "day": "Monday",
+                            "startOfHour": "18:00"
+                        },
+                        {
+                            "day": "Tuesday",
+                            "startOfHour": "17:00"
+                        },
+                        {
+                            "day": "Tuesday",
+                            "startOfHour": "18:00"
+                        }
+                    ]
                 },
                 {
                     "courseName": "Financial Engineering",
                     "courseCredit": 5,
-                    "quota": 10
+                    "quota": 10,
+                    "contactHours": 3,
+
+                    "courseDate": [
+                        {
+                            "day": "Wednesday",
+                            "startOfHour": "17:00"
+                        },
+                        {
+                            "day": "Wednesday",
+                            "startOfHour": "18:00"
+                        },
+                        {
+                            "day": "Friday",
+                            "startOfHour": "09:30"
+                        }
+                    ]
                 },
                 {
                     "courseName": "Chemical Engineering for Sustainable Biosphere",
                     "courseCredit": 5,
-                    "quota": 10
+                    "quota": 10,
+                    "contactHours": 3,
+
+                    "courseDate": [
+                        {
+                            "day": "Wednesday",
+                            "startOfHour": "13:00"
+                        },
+                        {
+                            "day": "Wednesday",
+                            "startOfHour": "14:00"
+                        },
+                        {
+                            "day": "Wednesday",
+                            "startOfHour": "15:00"
+                        }
+                    ]
                 },
                 {
                     "courseName": "Software Project Management",
                     "courseCredit": 5,
-                    "quota": 10
+                    "quota": 10,
+                    "contactHours": 3,
+
+                    "courseDate": [
+                        {
+                            "day": "Monday",
+                            "startOfHour": "13:00"
+                        },
+                        {
+                            "day": "Wednesday",
+                            "startOfHour": "16:00"
+                        },
+                        {
+                            "day": "Wednesday",
+                            "startOfHour": "17:00"
+                        }
+                    ]
                 },
                 {
                     "courseName": "Management of Information Systems",
                     "courseCredit": 5,
-                    "quota": 10
+                    "quota": 10,
+                    "contactHours": 3,
+
+                    "courseDate": [
+                        {
+                            "day": "Friday",
+                            "startOfHour": "09:00"
+                        },
+                        {
+                            "day": "Friday",
+                            "startOfHour": "10:00"
+                        },
+                        {
+                            "day": "Friday",
+                            "startOfHour": "11:00"
+                        }
+                    ]
                 },
                 {
                     "courseName": "Introduction to Data Science and Analytics",
                     "courseCredit": 5,
-                    "quota": 10
+                    "quota": 10,
+                    "contactHours": 3,
+
+                    "courseDate": [
+                        {
+                            "day": "Tuesday",
+                            "startOfHour": "11:00"
+                        },
+                        {
+                            "day": "Wednesday",
+                            "startOfHour": "10:00"
+                        },
+                        {
+                            "day": "Wednesday",
+                            "startOfHour": "11:00"
+                        }
+                    ]
                 },
                 {
                     "courseName": "Introduction to Information Systems Management",
                     "courseCredit": 5,
-                    "quota": 10
+                    "quota": 10,
+                    "contactHours": 3,
+
+                    "courseDate": [
+                        {
+                            "day": "Thursday",
+                            "startOfHour": "14:00"
+                        },
+                        {
+                            "day": "Thursday",
+                            "startOfHour": "15:00"
+                        },
+                        {
+                            "day": "Friday",
+                            "startOfHour": "16:00"
+                        }
+                    ]
                 },
                 {
                     "courseName": "Introduction to Systems Security",
                     "courseCredit": 5,
-                    "quota": 10
+                    "quota": 10,
+                    "contactHours": 3,
+
+                    "courseDate": [
+                        {
+                            "day": "Thursday",
+                            "startOfHour": "14:00"
+                        },
+                        {
+                            "day": "Thursday",
+                            "startOfHour": "15:00"
+                        },
+                        {
+                            "day": "Friday",
+                            "startOfHour": "16:00"
+                        }
+                    ]
                 }
             ]
         }
