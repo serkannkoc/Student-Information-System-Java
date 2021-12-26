@@ -1,0 +1,351 @@
+{
+  "studentNumber": 150121041,
+  "studentName": "Kerem Duraner",
+  "year": 1,
+  "advisor": {
+    "lecturerName": "Müjdat Soytürk",
+    "department": "CSE",
+    "rank": "Doç.Dr"
+  },
+  "transcriptBefore": {
+    "transcriptRow": [
+      {
+        "course": {
+          "courseName": "Atatürk İlkeleri ve İnkılap Tarihi I",
+          "courseCredit": 2,
+          "semester": 1,
+          "quota": 0
+        },
+        "letterGrade": "AA"
+      },
+      {
+        "course": {
+          "courseName": "Introduction to Modern Biology",
+          "courseCredit": 5,
+          "semester": 1,
+          "quota": 0
+        },
+        "letterGrade": "BA"
+      },
+      {
+        "course": {
+          "courseName": "Introduction to Computer Engineering",
+          "courseCredit": 4,
+          "semester": 1,
+          "quota": 0
+        },
+        "letterGrade": "CB"
+      },
+      {
+        "course": {
+          "courseName": "Computer Programming I",
+          "courseCredit": 6,
+          "semester": 1,
+          "quota": 0
+        },
+        "letterGrade": "CC"
+      },
+      {
+        "course": {
+          "courseName": "Calculus I",
+          "courseCredit": 6,
+          "semester": 1,
+          "quota": 0
+        },
+        "letterGrade": "DD"
+      },
+      {
+        "course": {
+          "courseName": "Physics I",
+          "courseCredit": 4,
+          "semester": 1,
+          "quota": 0
+        },
+        "letterGrade": "CB"
+      },
+      {
+        "course": {
+          "courseName": "Physics Lab I",
+          "courseCredit": 2,
+          "semester": 1,
+          "quota": 0
+        },
+        "letterGrade": "BB"
+      },
+      {
+        "course": {
+          "courseName": "Türk Dili I",
+          "courseCredit": 2,
+          "semester": 1,
+          "quota": 0
+        },
+        "letterGrade": "CB"
+      },
+      {
+        "course": {
+          "courseName": "Atatürk İlkeleri ve İnkılap Tarihi II",
+          "courseCredit": 2,
+          "semester": 2,
+          "quota": 0
+        }
+      },
+      {
+        "course": {
+          "courseName": "Computer Programming II",
+          "courseCredit": 6,
+          "semester": 2,
+          "quota": 0
+        }
+      },
+      {
+        "course": {
+          "courseName": "Calculus II",
+          "courseCredit": 6,
+          "semester": 2,
+          "quota": 0
+        }
+      },
+      {
+        "course": {
+          "courseName": "Linear Algebra for Computer Engineering",
+          "courseCredit": 5,
+          "semester": 2,
+          "quota": 0
+        }
+      },
+      {
+        "course": {
+          "courseName": "Physics II",
+          "courseCredit": 4,
+          "semester": 2,
+          "quota": 0
+        }
+      },
+      {
+        "course": {
+          "courseName": "Physics Lab II",
+          "courseCredit": 2,
+          "semester": 2,
+          "quota": 0
+        }
+      },
+      {
+        "course": {
+          "courseName": "Türk Dili II",
+          "courseCredit": 2,
+          "semester": 2,
+          "quota": 0
+        }
+      },
+      {
+        "course": {
+          "courseName": "Cardiopulmonary Resuscitation and First Aid Basics",
+          "courseCredit": 3,
+          "semester": 0,
+          "quota": 10,
+          "electiveType": "NTE"
+        }
+      }
+    ],
+    "givenCredit": 31.0,
+    "completedCredit": 31.0,
+    "point": 74.5,
+    "gano": 2.4
+  },
+  "transcriptAfter": {
+    "transcriptRow": [
+      {
+        "course": {
+          "courseName": "Atatürk İlkeleri ve İnkılap Tarihi I",
+          "courseCredit": 2,
+          "semester": 1,
+          "quota": 0
+        },
+        "letterGrade": "AA"
+      },
+      {
+        "course": {
+          "courseName": "Introduction to Modern Biology",
+          "courseCredit": 5,
+          "semester": 1,
+          "quota": 0
+        },
+        "letterGrade": "BA"
+      },
+      {
+        "course": {
+          "courseName": "Introduction to Computer Engineering",
+          "courseCredit": 4,
+          "semester": 1,
+          "quota": 0
+        },
+        "letterGrade": "CB"
+      },
+      {
+        "course": {
+          "courseName": "Computer Programming I",
+          "courseCredit": 6,
+          "semester": 1,
+          "quota": 0
+        },
+        "letterGrade": "CC"
+      },
+      {
+        "course": {
+          "courseName": "Calculus I",
+          "courseCredit": 6,
+          "semester": 1,
+          "quota": 0
+        },
+        "letterGrade": "DD"
+      },
+      {
+        "course": {
+          "courseName": "Physics I",
+          "courseCredit": 4,
+          "semester": 1,
+          "quota": 0
+        },
+        "letterGrade": "CB"
+      },
+      {
+        "course": {
+          "courseName": "Physics Lab I",
+          "courseCredit": 2,
+          "semester": 1,
+          "quota": 0
+        },
+        "letterGrade": "BB"
+      },
+      {
+        "course": {
+          "courseName": "Türk Dili I",
+          "courseCredit": 2,
+          "semester": 1,
+          "quota": 0
+        },
+        "letterGrade": "CB"
+      },
+      {
+        "course": {
+          "courseName": "Atatürk İlkeleri ve İnkılap Tarihi II",
+          "courseCredit": 2,
+          "semester": 2,
+          "quota": 0
+        }
+      },
+      {
+        "course": {
+          "courseName": "Computer Programming II",
+          "courseCredit": 6,
+          "semester": 2,
+          "quota": 0
+        }
+      },
+      {
+        "course": {
+          "courseName": "Calculus II",
+          "courseCredit": 6,
+          "semester": 2,
+          "quota": 0
+        }
+      },
+      {
+        "course": {
+          "courseName": "Linear Algebra for Computer Engineering",
+          "courseCredit": 5,
+          "semester": 2,
+          "quota": 0
+        }
+      },
+      {
+        "course": {
+          "courseName": "Physics II",
+          "courseCredit": 4,
+          "semester": 2,
+          "quota": 0
+        }
+      },
+      {
+        "course": {
+          "courseName": "Physics Lab II",
+          "courseCredit": 2,
+          "semester": 2,
+          "quota": 0
+        }
+      },
+      {
+        "course": {
+          "courseName": "Türk Dili II",
+          "courseCredit": 2,
+          "semester": 2,
+          "quota": 0
+        }
+      },
+      {
+        "course": {
+          "courseName": "Cardiopulmonary Resuscitation and First Aid Basics",
+          "courseCredit": 3,
+          "semester": 0,
+          "quota": 10,
+          "electiveType": "NTE"
+        }
+      }
+    ],
+    "givenCredit": 31.0,
+    "completedCredit": 31.0,
+    "point": 74.5,
+    "gano": 2.4
+  },
+  "courseOffered": [
+    {
+      "courseName": "Atatürk İlkeleri ve İnkılap Tarihi II",
+      "courseCredit": 2,
+      "semester": 2,
+      "quota": 0
+    },
+    {
+      "courseName": "Computer Programming II",
+      "courseCredit": 6,
+      "semester": 2,
+      "quota": 0
+    },
+    {
+      "courseName": "Calculus II",
+      "courseCredit": 6,
+      "semester": 2,
+      "quota": 0
+    },
+    {
+      "courseName": "Linear Algebra for Computer Engineering",
+      "courseCredit": 5,
+      "semester": 2,
+      "quota": 0
+    },
+    {
+      "courseName": "Physics II",
+      "courseCredit": 4,
+      "semester": 2,
+      "quota": 0
+    },
+    {
+      "courseName": "Physics Lab II",
+      "courseCredit": 2,
+      "semester": 2,
+      "quota": 0
+    },
+    {
+      "courseName": "Türk Dili II",
+      "courseCredit": 2,
+      "semester": 2,
+      "quota": 0
+    },
+    {
+      "courseName": "Cardiopulmonary Resuscitation and First Aid Basics",
+      "courseCredit": 3,
+      "semester": 0,
+      "quota": 10,
+      "electiveType": "NTE"
+    }
+  ]
+}
