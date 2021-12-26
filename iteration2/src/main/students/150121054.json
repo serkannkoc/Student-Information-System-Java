@@ -1,6 +1,6 @@
 {
   "studentNumber": 150121054,
-  "studentName": "Ahsen Kuruçay",
+  "studentName": "Defne Yalçınkaya",
   "year": 1,
   "advisor": {
     "lecturerName": "Borahan Tümer",
@@ -16,7 +16,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "BA"
+        "letterGrade": "FD"
       },
       {
         "course": {
@@ -25,7 +25,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "CB"
+        "letterGrade": "CC"
       },
       {
         "course": {
@@ -43,7 +43,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "DC"
+        "letterGrade": "BA"
       },
       {
         "course": {
@@ -52,7 +52,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "FD"
+        "letterGrade": "CB"
       },
       {
         "course": {
@@ -61,7 +61,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "FF"
+        "letterGrade": "FD"
       },
       {
         "course": {
@@ -70,7 +70,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "FD"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -79,7 +79,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "DC"
+        "letterGrade": "CC"
       },
       {
         "course": {
@@ -136,12 +136,21 @@
           "semester": 2,
           "quota": 0
         }
+      },
+      {
+        "course": {
+          "courseName": "Our Biosphere",
+          "courseCredit": 3,
+          "semester": 0,
+          "quota": 10,
+          "electiveType": "NTE"
+        }
       }
     ],
     "givenCredit": 31.0,
-    "completedCredit": 19.0,
-    "point": 47.5,
-    "gano": 1.53
+    "completedCredit": 25.0,
+    "point": 73.0,
+    "gano": 2.35
   },
   "courseOffered": [
     {
@@ -185,6 +194,13 @@
       "courseCredit": 2,
       "semester": 2,
       "quota": 0
+    },
+    {
+      "courseName": "Our Biosphere",
+      "courseCredit": 3,
+      "semester": 0,
+      "quota": 10,
+      "electiveType": "NTE"
     }
   ],
   "transcriptAfter": {
@@ -196,7 +212,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "BA"
+        "letterGrade": "FD"
       },
       {
         "course": {
@@ -205,7 +221,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "CB"
+        "letterGrade": "CC"
       },
       {
         "course": {
@@ -223,7 +239,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "DC"
+        "letterGrade": "BA"
       },
       {
         "course": {
@@ -232,7 +248,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "FD"
+        "letterGrade": "CB"
       },
       {
         "course": {
@@ -241,7 +257,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "FF"
+        "letterGrade": "FD"
       },
       {
         "course": {
@@ -250,7 +266,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "FD"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -259,7 +275,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "DC"
+        "letterGrade": "CC"
       },
       {
         "course": {
@@ -316,14 +332,20 @@
           "semester": 2,
           "quota": 0
         }
+      },
+      {
+        "course": {
+          "courseName": "Our Biosphere",
+          "courseCredit": 3,
+          "semester": 0,
+          "quota": 10,
+          "electiveType": "NTE"
+        }
       }
     ],
     "givenCredit": 31.0,
-    "completedCredit": 19.0,
-    "point": 47.5,
-    "gano": 1.53
-  },
-  "error": [
-    "The system did not allow Self Management because quota is full!"
-  ]
+    "completedCredit": 25.0,
+    "point": 73.0,
+    "gano": 2.35
+  }
 }

@@ -181,7 +181,6 @@ public class Student {
                     courseArrayList.add(resCourse);
                 } else {
                     String error = "The system did not allow " + resCourse.getCourseName() + " because quota is full!";
-                    System.out.println(error + this.studentNumber);
                     errorArrayList.add(error);
                 }
             }
@@ -246,7 +245,6 @@ public class Student {
                         courseArrayList.add(resCourse);
                     } else {
                         String error = "The system did not allow " + resCourse.getCourseName() + " because quota is full!";
-                        System.out.println(error + this.studentNumber);
                         errorArrayList.add(error);
                     }
                 }
