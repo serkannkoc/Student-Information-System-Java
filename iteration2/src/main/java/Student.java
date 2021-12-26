@@ -89,6 +89,7 @@ public class Student {
         this.transcriptAfter = transcript;
     }
 
+    // This method creates the transcript before the student chooses a course.
     public Transcript getTranscriptBefore() {
         return transcriptBefore;
     }
@@ -150,6 +151,7 @@ public class Student {
         return courseOffered;
     }
 
+    // This method selects the courses that the student can take according to the current semester.
     public void setCourseOffered(ArrayList<Course> courses) throws FileNotFoundException {
         ArrayList<Course> courseArrayList = new ArrayList<Course>();
         int semester_int = Methods.getSemester(year);

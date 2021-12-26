@@ -18,7 +18,6 @@ public class Course {
         this.lecturer = lecturer;
         this.quota = quota;
         this.prequisite = prequisite;
-
     }
 
     public Course(){
@@ -28,10 +27,10 @@ public class Course {
     public String getPrequisiteName() {
         return prequisiteName;
     }
+
     public void setPrequisiteName(String prequisiteName) {
         this.prequisiteName = prequisiteName;
     }
-
 
     public void setElectiveType(String electiveType) {
         this.electiveType = electiveType;
