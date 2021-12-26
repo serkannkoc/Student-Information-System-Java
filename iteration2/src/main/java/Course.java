@@ -12,6 +12,7 @@ public class Course {
     private String prequisiteName;
     private String electiveType;
 
+
     public Course(String courseName, int credit, int semester, Lecturer lecturer, int quota, Course prequisite) {
         this.courseName = courseName;
         this.courseCredit = credit;

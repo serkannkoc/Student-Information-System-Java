@@ -108,6 +108,9 @@ public class Methods {
         return advisorArrayList;
     }
 
+
+
+
     // This method returns the numeric grade equivalent of the letter grade parameter it receives.
     public static double getNumericGradeFromLetterGrade(String letterGrade){
         if(letterGrade.equals("AA"))
@@ -151,6 +154,8 @@ public class Methods {
 
         return courseArrayList;
     }
+
+
 
     // This method creates the lessons in the input.json file with our course classes.
     public static ArrayList<Course> createCourses() throws FileNotFoundException {
@@ -271,7 +276,12 @@ public class Methods {
 
     }
 
-    public static boolean checkForQuota(Course course){
+
+
+
+
+
+        public static boolean checkForQuota(Course course){
         if( course.getEnrolledStudents()!=null && (course.getQuota() > course.getEnrolledStudents().size()))
             return true;
         if(course.getEnrolledStudents()==null)

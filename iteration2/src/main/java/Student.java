@@ -1,9 +1,8 @@
-import java.io.FileNotFoundException;
-import java.io.FileWriter;
-import java.io.IOException;
+import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
+
 import com.google.gson.*;
 
 public class Student {
@@ -20,12 +19,14 @@ public class Student {
 
     static ArrayList<Student> studentArrayList = new ArrayList<Student>();
 
-    public Student(){
+    public Student() {
         this.studentName = Methods.generateRandomName();
-    };
+    }
+
+    ;
 
     public Student(int studentNumber, int year, ArrayList<Course> courseTaken,
-                   Advisor advisor, Schedule schedule, ArrayList<String> error,ArrayList<Course> courses)
+                   Advisor advisor, Schedule schedule, ArrayList<String> error, ArrayList<Course> courses)
             throws FileNotFoundException {
         this.studentNumber = studentNumber;
         this.studentName = Methods.generateRandomName();
@@ -41,10 +42,10 @@ public class Student {
     }
 
     // This method takes a student parameter and creates a JSON file with the student's attributes.
-    public void createStudentJSON(){
+    public void createStudentJSON() {
         Gson gson = new GsonBuilder().setPrettyPrinting().create();
 
-        try (FileWriter writer = new FileWriter(System.getProperty("user.dir")+"\\iteration2\\src\\main\\students\\"+this.getStudentNumber()+".json")) {
+        try (FileWriter writer = new FileWriter(System.getProperty("user.dir") + "\\iteration2\\src\\main\\students\\" + this.getStudentNumber() + ".json")) {
             gson.toJson(this, writer);
         } catch (IOException e) {
             e.printStackTrace();
@@ -52,38 +53,37 @@ public class Student {
     }
 
     public void setTranscriptBefore(ArrayList<Course> courses) throws FileNotFoundException {
-        int totalGivenCredit=0;
-        int totalCompletedCredit=0;
-        float point=0;
+        int totalGivenCredit = 0;
+        int totalCompletedCredit = 0;
+        float point = 0;
         int semester = Methods.getSemester(year);
 
         Transcript transcript = new Transcript();
-            ArrayList<TranscriptRow> transcriptRowArrayList = new ArrayList<TranscriptRow>();
+        ArrayList<TranscriptRow> transcriptRowArrayList = new ArrayList<TranscriptRow>();
 
-            for (int i = 1; i < semester; i++) {
-                for (Course semesterCourse : Methods.getSemesterCourses(courses,i)) {
-                    TranscriptRow transcriptRow = new TranscriptRow(semesterCourse, Methods.generateRandomLetterGrade());
+        for (int i = 1; i < semester; i++) {
+            for (Course semesterCourse : Methods.getSemesterCourses(courses, i)) {
+                TranscriptRow transcriptRow = new TranscriptRow(semesterCourse, Methods.generateRandomLetterGrade());
 
-                    if(transcriptRow.getLetterGrade().equals("FF") || transcriptRow.getLetterGrade().equals("FD")) {
-                        totalGivenCredit += semesterCourse.getCourseCredit();
-                    }
-                    else{
-                        totalGivenCredit += semesterCourse.getCourseCredit();
-                        totalCompletedCredit += semesterCourse.getCourseCredit();
-                    }
-
-                    point += semesterCourse.getCourseCredit()*Methods.getNumericGradeFromLetterGrade(transcriptRow.getLetterGrade());
-
-                    transcriptRowArrayList.add(transcriptRow);
+                if (transcriptRow.getLetterGrade().equals("FF") || transcriptRow.getLetterGrade().equals("FD")) {
+                    totalGivenCredit += semesterCourse.getCourseCredit();
+                } else {
+                    totalGivenCredit += semesterCourse.getCourseCredit();
+                    totalCompletedCredit += semesterCourse.getCourseCredit();
                 }
 
+                point += semesterCourse.getCourseCredit() * Methods.getNumericGradeFromLetterGrade(transcriptRow.getLetterGrade());
+
+                transcriptRowArrayList.add(transcriptRow);
             }
 
+        }
+
         transcript.setTranscriptRow(transcriptRowArrayList);
-            transcript.setGivenCredit(totalGivenCredit);
-            transcript.setCompletedCredit(totalCompletedCredit);
-            transcript.setPoint(point);
-            transcript.setGano(Math.round((point/totalGivenCredit) * 100.0) / 100.0);
+        transcript.setGivenCredit(totalGivenCredit);
+        transcript.setCompletedCredit(totalCompletedCredit);
+        transcript.setPoint(point);
+        transcript.setGano(Math.round((point / totalGivenCredit) * 100.0) / 100.0);
 
         this.transcriptBefore = transcript;
         this.transcriptAfter = transcript;
@@ -98,7 +98,7 @@ public class Student {
         return transcriptAfter;
     }
 
-    public List<Course> takeCourse(Course course){
+    public List<Course> takeCourse(Course course) {
         courseTaken.add(course);
         return courseTaken;
     }
@@ -160,7 +160,7 @@ public class Student {
 
         ArrayList<Course> semesterCourses = Methods.getSemesterCourses(courses, semester_int);
 
-        for (Course courseElement : semesterCourses){
+        for (Course courseElement : semesterCourses) {
             courseArrayList.add(courseElement);
         }
 
@@ -181,13 +181,12 @@ public class Student {
                     courseArrayList.add(resCourse);
                 } else {
                     String error = "The system did not allow " + resCourse.getCourseName() + " because quota is full!";
-                    System.out.println(error + this.studentNumber );
+                    System.out.println(error + this.studentNumber);
                     errorArrayList.add(error);
                 }
             }
 
-        }
-        else if (semester_int == 7) {
+        } else if (semester_int == 7) {
             if (true) {
                 int result = r.nextInt(teCourses.size() - 0) + 0;
                 Course resCourse = teCourses.get(result);
@@ -218,8 +217,7 @@ public class Student {
                     }
                 }
             }
-        }
-        else if (semester_int == 8) {
+        } else if (semester_int == 8) {
             for (int i = 0; i < 3; i++) {
                 int result = r.nextInt(teCourses.size() - 0) + 0;
                 Course resCourse = teCourses.get(result);
@@ -272,32 +270,33 @@ public class Student {
         }
 
 
-        if(this.getTranscriptBefore() != null)
-        {
-            if(getTranscriptBefore().getTranscriptRow() != null) {
+        if (this.getTranscriptBefore() != null) {
+            if (getTranscriptBefore().getTranscriptRow() != null) {
                 for (int i = 0; i < this.getTranscriptBefore().getTranscriptRow().size(); i++) {
                     String courseName = this.getTranscriptBefore().getTranscriptRow().get(i).getCourse().getCourseName();
                     String letterGrade = this.getTranscriptBefore().getTranscriptRow().get(i).getLetterGrade();
                     Student a = this;
                     for (int j = 0; j < courseArrayList.size(); j++) {
-                      if( courseArrayList.get(j).getPrequisiteName()!=null && !courseArrayList.get(j).getPrequisiteName().equals("") ){
-                          String prequisiteCourseName = courseArrayList.get(j).getPrequisiteName();
+                        if (courseArrayList.get(j).getPrequisiteName() != null && !courseArrayList.get(j).getPrequisiteName().equals("")) {
+                            String prequisiteCourseName = courseArrayList.get(j).getPrequisiteName();
 
-                          if (courseName.equals(prequisiteCourseName) && (letterGrade.equals("FD") || letterGrade.equals("FF"))) {
-                              String error = "The system did not allow " + courseArrayList.get(j).getCourseName() + " because student failed prerequisite " + courseName;
-                              errorArrayList.add(error);
-                              courseArrayList.remove(j);
-                          }
-                      }
+                            if (courseName.equals(prequisiteCourseName) && (letterGrade.equals("FD") || letterGrade.equals("FF"))) {
+                                String error = "The system did not allow " + courseArrayList.get(j).getCourseName() + " because student failed prerequisite " + courseName;
+                                errorArrayList.add(error);
+                                courseArrayList.remove(j);
+                            }
+                        }
                     }
                 }
             }
 
-            if(errorArrayList.size()>0)
+            if (errorArrayList.size() > 0)
                 this.error = errorArrayList;
 
         }
         this.courseOffered = courseArrayList;
+
+
 
     }
 

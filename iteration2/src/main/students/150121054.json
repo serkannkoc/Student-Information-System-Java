@@ -1,6 +1,6 @@
 {
   "studentNumber": 150121054,
-  "studentName": "Deniz Güçlü",
+  "studentName": "Ahsen Kuruçay",
   "year": 1,
   "advisor": {
     "lecturerName": "Borahan Tümer",
@@ -16,7 +16,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "DD"
+        "letterGrade": "BA"
       },
       {
         "course": {
@@ -25,7 +25,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "BA"
+        "letterGrade": "CB"
       },
       {
         "course": {
@@ -34,7 +34,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "BA"
+        "letterGrade": "BB"
       },
       {
         "course": {
@@ -43,7 +43,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "BB"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -52,7 +52,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "AA"
+        "letterGrade": "FD"
       },
       {
         "course": {
@@ -79,7 +79,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "FF"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -136,21 +136,12 @@
           "semester": 2,
           "quota": 0
         }
-      },
-      {
-        "course": {
-          "courseName": "Interpersonal Relations and Communication",
-          "courseCredit": 3,
-          "semester": 0,
-          "quota": 10,
-          "electiveType": "NTE"
-        }
       }
     ],
     "givenCredit": 31.0,
-    "completedCredit": 23.0,
-    "point": 76.5,
-    "gano": 2.47
+    "completedCredit": 19.0,
+    "point": 47.5,
+    "gano": 1.53
   },
   "courseOffered": [
     {
@@ -194,13 +185,6 @@
       "courseCredit": 2,
       "semester": 2,
       "quota": 0
-    },
-    {
-      "courseName": "Interpersonal Relations and Communication",
-      "courseCredit": 3,
-      "semester": 0,
-      "quota": 10,
-      "electiveType": "NTE"
     }
   ],
   "transcriptAfter": {
@@ -212,7 +196,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "DD"
+        "letterGrade": "BA"
       },
       {
         "course": {
@@ -221,7 +205,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "BA"
+        "letterGrade": "CB"
       },
       {
         "course": {
@@ -230,7 +214,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "BA"
+        "letterGrade": "BB"
       },
       {
         "course": {
@@ -239,7 +223,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "BB"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -248,7 +232,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "AA"
+        "letterGrade": "FD"
       },
       {
         "course": {
@@ -275,7 +259,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "FF"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -332,20 +316,14 @@
           "semester": 2,
           "quota": 0
         }
-      },
-      {
-        "course": {
-          "courseName": "Interpersonal Relations and Communication",
-          "courseCredit": 3,
-          "semester": 0,
-          "quota": 10,
-          "electiveType": "NTE"
-        }
       }
     ],
     "givenCredit": 31.0,
-    "completedCredit": 23.0,
-    "point": 76.5,
-    "gano": 2.47
-  }
+    "completedCredit": 19.0,
+    "point": 47.5,
+    "gano": 1.53
+  },
+  "error": [
+    "The system did not allow Self Management because quota is full!"
+  ]
 }
