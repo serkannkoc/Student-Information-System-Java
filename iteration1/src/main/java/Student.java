@@ -52,6 +52,7 @@ public class Student {
         }
     }
 
+    // This method creates the transcript before the student chooses a course.
     public void setTranscriptBefore(ArrayList<Course> courses) throws FileNotFoundException {
         int totalGivenCredit=0;
         int totalCompletedCredit=0;
@@ -59,32 +60,32 @@ public class Student {
         int semester = Methods.getSemester(year);
 
         Transcript transcript = new Transcript();
-            ArrayList<TranscriptRow> transcriptRowArrayList = new ArrayList<TranscriptRow>();
+        ArrayList<TranscriptRow> transcriptRowArrayList = new ArrayList<TranscriptRow>();
 
-            for (int i = 1; i < semester; i++) {
-                for (Course semesterCourse : Methods.getSemesterCourses(courses,i)) {
-                    TranscriptRow transcriptRow = new TranscriptRow(semesterCourse, Methods.generateRandomLetterGrade());
+        for (int i = 1; i < semester; i++) {
+            for (Course semesterCourse : Methods.getSemesterCourses(courses,i)) {
+                TranscriptRow transcriptRow = new TranscriptRow(semesterCourse, Methods.generateRandomLetterGrade());
 
-                    if(transcriptRow.getLetterGrade().equals("FF") || transcriptRow.getLetterGrade().equals("FD")) {
-                        totalGivenCredit += semesterCourse.getCourseCredit();
-                    }
-                    else{
-                        totalGivenCredit += semesterCourse.getCourseCredit();
-                        totalCompletedCredit += semesterCourse.getCourseCredit();
-                    }
-
-                    point += semesterCourse.getCourseCredit()*Methods.getNumericGradeFromLetterGrade(transcriptRow.getLetterGrade());
-
-                    transcriptRowArrayList.add(transcriptRow);
+                if(transcriptRow.getLetterGrade().equals("FF") || transcriptRow.getLetterGrade().equals("FD")) {
+                    totalGivenCredit += semesterCourse.getCourseCredit();
+                }
+                else{
+                    totalGivenCredit += semesterCourse.getCourseCredit();
+                    totalCompletedCredit += semesterCourse.getCourseCredit();
                 }
 
+                point += semesterCourse.getCourseCredit()*Methods.getNumericGradeFromLetterGrade(transcriptRow.getLetterGrade());
+
+                transcriptRowArrayList.add(transcriptRow);
             }
+        }
 
         transcript.setTranscriptRow(transcriptRowArrayList);
-            transcript.setGivenCredit(totalGivenCredit);
-            transcript.setCompletedCredit(totalCompletedCredit);
-            transcript.setPoint(point);
-            transcript.setGano(Math.round((point/totalGivenCredit) * 100.0) / 100.0);
+
+        transcript.setGivenCredit(totalGivenCredit);
+        transcript.setCompletedCredit(totalCompletedCredit);
+        transcript.setPoint(point);
+        transcript.setGano(Math.round((point/totalGivenCredit) * 100.0) / 100.0);
 
         this.transcriptBefore = transcript;
         this.transcriptAfter = transcript;
@@ -151,6 +152,7 @@ public class Student {
         return courseOffered;
     }
 
+    // This method selects the courses that the student can take according to the current semester.
     public void setCourseOffered(ArrayList<Course> courses) throws FileNotFoundException {
         ArrayList<Course> courseArrayList = new ArrayList<Course>();
         int semester_int = Methods.getSemester(year);
@@ -167,32 +169,32 @@ public class Student {
 
         Random r = new Random();
 
-            if(semester_int == 2) {
-                Course course = new Course();
-                int result = r.nextInt(nteCourses.size()-0) + 0;
-              if(!courseArrayList.contains(nteCourses.get(result)))  courseArrayList.add(nteCourses.get(result));
-            }
-            else if(semester_int == 7){
-                Course course = new Course();
+        if(semester_int == 2) {
+            Course course = new Course();
+            int result = r.nextInt(nteCourses.size()-0) + 0;
+            if(!courseArrayList.contains(nteCourses.get(result)))  courseArrayList.add(nteCourses.get(result));
+        }
+        else if(semester_int == 7){
+            Course course = new Course();
+            int result = r.nextInt(teCourses.size() - 0) + 0;
+            if(!courseArrayList.contains(teCourses.get(result))) courseArrayList.add(teCourses.get(result));
+
+            result = r.nextInt(ueCourses.size() - 0) + 0;
+            if(!courseArrayList.contains(ueCourses.get(result)))  courseArrayList.add(ueCourses.get(result));
+        }
+        else if(semester_int == 8){
+            for(int i=0; i<3; i++) {
                 int result = r.nextInt(teCourses.size() - 0) + 0;
-                if(!courseArrayList.contains(teCourses.get(result))) courseArrayList.add(teCourses.get(result));
-
-                result = r.nextInt(ueCourses.size() - 0) + 0;
-                if(!courseArrayList.contains(ueCourses.get(result)))  courseArrayList.add(ueCourses.get(result));
+                if(!courseArrayList.contains(teCourses.get(result)))  courseArrayList.add(teCourses.get(result));
             }
-            else if(semester_int == 8){
-                for(int i=0; i<3; i++) {
-                    int result = r.nextInt(teCourses.size() - 0) + 0;
-                    if(!courseArrayList.contains(teCourses.get(result)))  courseArrayList.add(teCourses.get(result));
-                }
 
-                int result = r.nextInt(fteCourses.size() - 0) + 0;
-                if(!courseArrayList.contains(fteCourses.get(result)))  courseArrayList.add(fteCourses.get(result));
+            int result = r.nextInt(fteCourses.size() - 0) + 0;
+            if(!courseArrayList.contains(fteCourses.get(result)))  courseArrayList.add(fteCourses.get(result));
 
-                result = r.nextInt(nteCourses.size() - 0) + 0;
-                if(!courseArrayList.contains(nteCourses.get(result)))    courseArrayList.add(nteCourses.get(result));
+            result = r.nextInt(nteCourses.size() - 0) + 0;
+            if(!courseArrayList.contains(nteCourses.get(result)))    courseArrayList.add(nteCourses.get(result));
 
-            }
+        }
 
         ArrayList<String> errorArrayList = new ArrayList<String>();
         if(this.getTranscriptBefore() != null)
@@ -216,12 +218,10 @@ public class Student {
                 }
             }
 
-            if(errorArrayList.size()>0)
-                this.error = errorArrayList;
+            this.error = errorArrayList;
 
         }
         this.courseOffered = courseArrayList;
-
     }
 
     public ArrayList<String> getError() {
