@@ -1,8 +1,9 @@
 import java.util.ArrayList;
+import java.util.List;
 
 public class Course {
     private String courseName;
-    private ArrayList<Student> studentList;
+    private transient   ArrayList<Student> studentList;
     private int courseCredit;
     private int semester;
     private Lecturer lecturer;
@@ -18,19 +19,21 @@ public class Course {
         this.lecturer = lecturer;
         this.quota = quota;
         this.prequisite = prequisite;
+
     }
 
     public Course(){
+        this.studentList= new ArrayList<Student>();
     }
 
 
     public String getPrequisiteName() {
         return prequisiteName;
     }
-
     public void setPrequisiteName(String prequisiteName) {
         this.prequisiteName = prequisiteName;
     }
+
 
     public void setElectiveType(String electiveType) {
         this.electiveType = electiveType;
@@ -45,11 +48,11 @@ public class Course {
     }
 
     public void enrollStudent(Student student){
-        this.studentList.add(student);
+      this.studentList.add(student);
     }
 
     public  ArrayList<Student> getEnrolledStudents(){
-        return studentList;
+        return this.studentList;
     }
 
     public void setCourseName(String courseName) {
