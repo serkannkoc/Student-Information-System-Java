@@ -10,7 +10,6 @@ public class Advisor extends Lecturer {
         int NoOfStuWithoutEngProject = 0;
 
         for (int i = 0; i < Student.studentArrayList.size(); ++i) {
-
             for (int j = 0; j < Student.studentArrayList.get(i).getCourseOffered().size(); j++) {
                 ArrayList<TranscriptRow> transcriptRowArrayList = new ArrayList<TranscriptRow>();
                 TranscriptRow transcriptRow = new TranscriptRow(Student.studentArrayList.get(i).getCourseOffered().get(j));
@@ -27,15 +26,11 @@ public class Advisor extends Lecturer {
 
                     } else NoOfStuWithoutEngProject++;
 
-
                 } else {
                     transcriptRowArrayList.add(transcriptRow);
                     Student.studentArrayList.get(i).getTranscriptAfter().setTranscriptRow(transcriptRowArrayList);
                 }
-
-
             }
-
         }
     }
 }

@@ -13,9 +13,9 @@ public class Student {
     private ArrayList<Course> courseTaken;
     private Advisor advisor;
     private Transcript transcriptBefore;
+    private ArrayList<Course> courseOffered;
     private Transcript transcriptAfter;
     private Schedule schedule;
-    private ArrayList<Course> courseOffered;
     private ArrayList<String> error;
 
     static ArrayList<Student> studentArrayList = new ArrayList<Student>();

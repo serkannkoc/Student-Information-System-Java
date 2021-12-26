@@ -84,7 +84,7 @@ public class Methods {
         return semester_int;
     }
 
-
+    // This method pulls the advisors from the advisor list in the input.json file.
     public static ArrayList<Advisor> getAdvisors() throws FileNotFoundException {
         ArrayList<Advisor> advisorArrayList = new ArrayList<Advisor>();
 
@@ -102,7 +102,6 @@ public class Methods {
             String rank = advisorJsonObject.get("rank").getAsString();
 
             Advisor advisor = new Advisor(name,department,rank);
-
             advisorArrayList.add(advisor);
         }
 
@@ -131,7 +130,7 @@ public class Methods {
             return 0;
     }
 
-
+    // This method pulls related courses according to the entered semester parameter.
     public static ArrayList<Course> getSemesterCourses( ArrayList<Course> courses, int semester) {
         ArrayList<Course> courseArrayList = new ArrayList<Course>();
 
@@ -139,10 +138,10 @@ public class Methods {
             if(courseElement.getSemester()==semester) courseArrayList.add(courseElement);
         }
 
-            return courseArrayList;
+        return courseArrayList;
     }
 
-
+    // This method pulls related courses according to the entered elective course type parameter.
     public static ArrayList<Course> getElectiveCourses( ArrayList<Course> courses, String typeOfElective) {
         ArrayList<Course> courseArrayList = new ArrayList<Course>();
 
@@ -153,7 +152,7 @@ public class Methods {
         return courseArrayList;
     }
 
-
+    // This method creates the lessons in the input.json file with our course classes.
     public static ArrayList<Course> createCourses() throws FileNotFoundException {
 
         ArrayList<Course> courseArrayList = new ArrayList<Course>();
