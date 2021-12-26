@@ -1,9 +1,9 @@
 {
   "studentNumber": 150121015,
-  "studentName": "Atilla Kartal",
+  "studentName": "Ahmet Öztürk",
   "year": 1,
   "advisor": {
-    "lecturerName": "Mustafa Ağaoğlu",
+    "lecturerName": "Borahan Tümer",
     "department": "CSE",
     "rank": "Doç.Dr"
   },
@@ -16,7 +16,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "DD"
+        "letterGrade": "BA"
       },
       {
         "course": {
@@ -25,7 +25,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "FF"
+        "letterGrade": "FD"
       },
       {
         "course": {
@@ -43,7 +43,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "FF"
+        "letterGrade": "FD"
       },
       {
         "course": {
@@ -52,7 +52,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "CC"
+        "letterGrade": "FF"
       },
       {
         "course": {
@@ -61,7 +61,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "BA"
+        "letterGrade": "FD"
       },
       {
         "course": {
@@ -79,7 +79,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "DD"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -139,7 +139,7 @@
       },
       {
         "course": {
-          "courseName": "Energy for Physical Activity",
+          "courseName": "Our Biosphere",
           "courseCredit": 3,
           "semester": 0,
           "quota": 10,
@@ -148,9 +148,9 @@
       }
     ],
     "givenCredit": 31.0,
-    "completedCredit": 16.0,
-    "point": 40.0,
-    "gano": 1.29
+    "completedCredit": 6.0,
+    "point": 32.5,
+    "gano": 1.05
   },
   "courseOffered": [
     {
@@ -196,7 +196,7 @@
       "quota": 0
     },
     {
-      "courseName": "Energy for Physical Activity",
+      "courseName": "Our Biosphere",
       "courseCredit": 3,
       "semester": 0,
       "quota": 10,
@@ -212,7 +212,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "DD"
+        "letterGrade": "BA"
       },
       {
         "course": {
@@ -221,7 +221,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "FF"
+        "letterGrade": "FD"
       },
       {
         "course": {
@@ -239,7 +239,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "FF"
+        "letterGrade": "FD"
       },
       {
         "course": {
@@ -248,7 +248,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "CC"
+        "letterGrade": "FF"
       },
       {
         "course": {
@@ -257,7 +257,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "BA"
+        "letterGrade": "FD"
       },
       {
         "course": {
@@ -275,7 +275,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "DD"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -335,7 +335,7 @@
       },
       {
         "course": {
-          "courseName": "Energy for Physical Activity",
+          "courseName": "Our Biosphere",
           "courseCredit": 3,
           "semester": 0,
           "quota": 10,
@@ -344,8 +344,8 @@
       }
     ],
     "givenCredit": 31.0,
-    "completedCredit": 16.0,
-    "point": 40.0,
-    "gano": 1.29
+    "completedCredit": 6.0,
+    "point": 32.5,
+    "gano": 1.05
   }
 }

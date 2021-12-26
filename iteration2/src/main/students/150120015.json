@@ -1,11 +1,11 @@
 {
   "studentNumber": 150120015,
-  "studentName": "Ömer Asaf Boz",
+  "studentName": "Kübra Şahin",
   "year": 2,
   "advisor": {
-    "lecturerName": "Sanem Arslan",
+    "lecturerName": "Mustafa Ağaoğlu",
     "department": "CSE",
-    "rank": "Dr.Öğr.Üyesi"
+    "rank": "Doç.Dr"
   },
   "transcriptBefore": {
     "transcriptRow": [
@@ -25,7 +25,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "FD"
+        "letterGrade": "CB"
       },
       {
         "course": {
@@ -34,7 +34,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "CC"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -43,7 +43,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "DD"
+        "letterGrade": "FF"
       },
       {
         "course": {
@@ -52,7 +52,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "CB"
+        "letterGrade": "FD"
       },
       {
         "course": {
@@ -61,7 +61,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "DC"
+        "letterGrade": "CB"
       },
       {
         "course": {
@@ -79,7 +79,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "FF"
+        "letterGrade": "CB"
       },
       {
         "course": {
@@ -88,7 +88,7 @@
           "semester": 2,
           "quota": 0
         },
-        "letterGrade": "FF"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -97,7 +97,7 @@
           "semester": 2,
           "quota": 0
         },
-        "letterGrade": "FD"
+        "letterGrade": "DD"
       },
       {
         "course": {
@@ -106,7 +106,7 @@
           "semester": 2,
           "quota": 0
         },
-        "letterGrade": "DD"
+        "letterGrade": "FF"
       },
       {
         "course": {
@@ -115,7 +115,7 @@
           "semester": 2,
           "quota": 0
         },
-        "letterGrade": "AA"
+        "letterGrade": "BB"
       },
       {
         "course": {
@@ -124,7 +124,7 @@
           "semester": 2,
           "quota": 0
         },
-        "letterGrade": "CC"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -133,7 +133,7 @@
           "semester": 2,
           "quota": 0
         },
-        "letterGrade": "AA"
+        "letterGrade": "CC"
       },
       {
         "course": {
@@ -142,7 +142,7 @@
           "semester": 2,
           "quota": 0
         },
-        "letterGrade": "BB"
+        "letterGrade": "FF"
       },
       {
         "course": {
@@ -151,7 +151,7 @@
           "semester": 3,
           "quota": 0
         },
-        "letterGrade": "CB"
+        "letterGrade": "DD"
       },
       {
         "course": {
@@ -176,7 +176,7 @@
           "semester": 3,
           "quota": 0
         },
-        "letterGrade": "CB"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -185,7 +185,7 @@
           "semester": 3,
           "quota": 0
         },
-        "letterGrade": "DC"
+        "letterGrade": "FF"
       },
       {
         "course": {
@@ -194,7 +194,7 @@
           "semester": 3,
           "quota": 0
         },
-        "letterGrade": "DD"
+        "letterGrade": "CB"
       },
       {
         "course": {
@@ -203,7 +203,7 @@
           "semester": 3,
           "quota": 0
         },
-        "letterGrade": "DC"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -239,9 +239,9 @@
       }
     ],
     "givenCredit": 88.0,
-    "completedCredit": 66.0,
-    "point": 141.5,
-    "gano": 1.61
+    "completedCredit": 56.0,
+    "point": 149.0,
+    "gano": 1.69
   },
   "courseOffered": [
     {
@@ -287,7 +287,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "FD"
+        "letterGrade": "CB"
       },
       {
         "course": {
@@ -296,7 +296,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "CC"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -305,7 +305,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "DD"
+        "letterGrade": "FF"
       },
       {
         "course": {
@@ -314,7 +314,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "CB"
+        "letterGrade": "FD"
       },
       {
         "course": {
@@ -323,7 +323,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "DC"
+        "letterGrade": "CB"
       },
       {
         "course": {
@@ -341,7 +341,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "FF"
+        "letterGrade": "CB"
       },
       {
         "course": {
@@ -350,7 +350,7 @@
           "semester": 2,
           "quota": 0
         },
-        "letterGrade": "FF"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -359,7 +359,7 @@
           "semester": 2,
           "quota": 0
         },
-        "letterGrade": "FD"
+        "letterGrade": "DD"
       },
       {
         "course": {
@@ -368,7 +368,7 @@
           "semester": 2,
           "quota": 0
         },
-        "letterGrade": "DD"
+        "letterGrade": "FF"
       },
       {
         "course": {
@@ -377,7 +377,7 @@
           "semester": 2,
           "quota": 0
         },
-        "letterGrade": "AA"
+        "letterGrade": "BB"
       },
       {
         "course": {
@@ -386,7 +386,7 @@
           "semester": 2,
           "quota": 0
         },
-        "letterGrade": "CC"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -395,7 +395,7 @@
           "semester": 2,
           "quota": 0
         },
-        "letterGrade": "AA"
+        "letterGrade": "CC"
       },
       {
         "course": {
@@ -404,7 +404,7 @@
           "semester": 2,
           "quota": 0
         },
-        "letterGrade": "BB"
+        "letterGrade": "FF"
       },
       {
         "course": {
@@ -413,7 +413,7 @@
           "semester": 3,
           "quota": 0
         },
-        "letterGrade": "CB"
+        "letterGrade": "DD"
       },
       {
         "course": {
@@ -438,7 +438,7 @@
           "semester": 3,
           "quota": 0
         },
-        "letterGrade": "CB"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -447,7 +447,7 @@
           "semester": 3,
           "quota": 0
         },
-        "letterGrade": "DC"
+        "letterGrade": "FF"
       },
       {
         "course": {
@@ -456,7 +456,7 @@
           "semester": 3,
           "quota": 0
         },
-        "letterGrade": "DD"
+        "letterGrade": "CB"
       },
       {
         "course": {
@@ -465,7 +465,7 @@
           "semester": 3,
           "quota": 0
         },
-        "letterGrade": "DC"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -501,9 +501,9 @@
       }
     ],
     "givenCredit": 88.0,
-    "completedCredit": 66.0,
-    "point": 141.5,
-    "gano": 1.61
+    "completedCredit": 56.0,
+    "point": 149.0,
+    "gano": 1.69
   },
   "error": [
     "The system did not allow Analysis of Algorithms because student failed prerequisite Data Structures"

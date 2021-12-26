@@ -1,9 +1,9 @@
 {
   "studentNumber": 150121006,
-  "studentName": "Ulaş Erdoğmuş",
+  "studentName": "Ömer Asaf Kaya",
   "year": 1,
   "advisor": {
-    "lecturerName": "Mustafa Ağaoğlu",
+    "lecturerName": "Borahan Tümer",
     "department": "CSE",
     "rank": "Doç.Dr"
   },
@@ -16,7 +16,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "FD"
+        "letterGrade": "FF"
       },
       {
         "course": {
@@ -25,7 +25,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "DD"
+        "letterGrade": "BB"
       },
       {
         "course": {
@@ -34,7 +34,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "DD"
+        "letterGrade": "CB"
       },
       {
         "course": {
@@ -43,7 +43,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "BB"
+        "letterGrade": "CC"
       },
       {
         "course": {
@@ -52,7 +52,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "CB"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -61,7 +61,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "FD"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -70,7 +70,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "CC"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -139,7 +139,7 @@
       },
       {
         "course": {
-          "courseName": "Interpersonal Relations and Communication",
+          "courseName": "Our Biosphere",
           "courseCredit": 3,
           "semester": 0,
           "quota": 10,
@@ -148,9 +148,9 @@
       }
     ],
     "givenCredit": 31.0,
-    "completedCredit": 25.0,
-    "point": 52.0,
-    "gano": 1.68
+    "completedCredit": 29.0,
+    "point": 78.0,
+    "gano": 2.52
   },
   "courseOffered": [
     {
@@ -196,7 +196,7 @@
       "quota": 0
     },
     {
-      "courseName": "Interpersonal Relations and Communication",
+      "courseName": "Our Biosphere",
       "courseCredit": 3,
       "semester": 0,
       "quota": 10,
@@ -212,7 +212,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "FD"
+        "letterGrade": "FF"
       },
       {
         "course": {
@@ -221,7 +221,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "DD"
+        "letterGrade": "BB"
       },
       {
         "course": {
@@ -230,7 +230,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "DD"
+        "letterGrade": "CB"
       },
       {
         "course": {
@@ -239,7 +239,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "BB"
+        "letterGrade": "CC"
       },
       {
         "course": {
@@ -248,7 +248,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "CB"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -257,7 +257,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "FD"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -266,7 +266,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "CC"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -335,7 +335,7 @@
       },
       {
         "course": {
-          "courseName": "Interpersonal Relations and Communication",
+          "courseName": "Our Biosphere",
           "courseCredit": 3,
           "semester": 0,
           "quota": 10,
@@ -344,8 +344,8 @@
       }
     ],
     "givenCredit": 31.0,
-    "completedCredit": 25.0,
-    "point": 52.0,
-    "gano": 1.68
+    "completedCredit": 29.0,
+    "point": 78.0,
+    "gano": 2.52
   }
 }

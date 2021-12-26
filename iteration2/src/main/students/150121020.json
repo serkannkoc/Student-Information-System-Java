@@ -1,9 +1,9 @@
 {
   "studentNumber": 150121020,
-  "studentName": "Ferit Çetin",
+  "studentName": "İlhan Duraner",
   "year": 1,
   "advisor": {
-    "lecturerName": "Mustafa Ağaoğlu",
+    "lecturerName": "Borahan Tümer",
     "department": "CSE",
     "rank": "Doç.Dr"
   },
@@ -16,7 +16,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "FF"
+        "letterGrade": "BB"
       },
       {
         "course": {
@@ -25,7 +25,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "CB"
+        "letterGrade": "FF"
       },
       {
         "course": {
@@ -43,7 +43,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "FD"
+        "letterGrade": "BB"
       },
       {
         "course": {
@@ -52,7 +52,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "FF"
+        "letterGrade": "FD"
       },
       {
         "course": {
@@ -61,7 +61,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "DC"
+        "letterGrade": "FD"
       },
       {
         "course": {
@@ -70,7 +70,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "DD"
+        "letterGrade": "BB"
       },
       {
         "course": {
@@ -79,7 +79,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "FF"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -139,7 +139,7 @@
       },
       {
         "course": {
-          "courseName": "Self Management",
+          "courseName": "Energy for Physical Activity",
           "courseCredit": 3,
           "semester": 0,
           "quota": 10,
@@ -148,9 +148,9 @@
       }
     ],
     "givenCredit": 31.0,
-    "completedCredit": 15.0,
-    "point": 27.5,
-    "gano": 0.89
+    "completedCredit": 16.0,
+    "point": 42.0,
+    "gano": 1.35
   },
   "courseOffered": [
     {
@@ -196,7 +196,7 @@
       "quota": 0
     },
     {
-      "courseName": "Self Management",
+      "courseName": "Energy for Physical Activity",
       "courseCredit": 3,
       "semester": 0,
       "quota": 10,
@@ -212,7 +212,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "FF"
+        "letterGrade": "BB"
       },
       {
         "course": {
@@ -221,7 +221,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "CB"
+        "letterGrade": "FF"
       },
       {
         "course": {
@@ -239,7 +239,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "FD"
+        "letterGrade": "BB"
       },
       {
         "course": {
@@ -248,7 +248,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "FF"
+        "letterGrade": "FD"
       },
       {
         "course": {
@@ -257,7 +257,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "DC"
+        "letterGrade": "FD"
       },
       {
         "course": {
@@ -266,7 +266,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "DD"
+        "letterGrade": "BB"
       },
       {
         "course": {
@@ -275,7 +275,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "FF"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -335,7 +335,7 @@
       },
       {
         "course": {
-          "courseName": "Self Management",
+          "courseName": "Energy for Physical Activity",
           "courseCredit": 3,
           "semester": 0,
           "quota": 10,
@@ -344,8 +344,8 @@
       }
     ],
     "givenCredit": 31.0,
-    "completedCredit": 15.0,
-    "point": 27.5,
-    "gano": 0.89
+    "completedCredit": 16.0,
+    "point": 42.0,
+    "gano": 1.35
   }
 }

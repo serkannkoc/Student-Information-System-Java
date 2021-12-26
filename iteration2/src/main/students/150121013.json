@@ -1,9 +1,9 @@
 {
   "studentNumber": 150121013,
-  "studentName": "Eylül Erdoğmuş",
+  "studentName": "Rabia Temur",
   "year": 1,
   "advisor": {
-    "lecturerName": "Mustafa Ağaoğlu",
+    "lecturerName": "Borahan Tümer",
     "department": "CSE",
     "rank": "Doç.Dr"
   },
@@ -16,7 +16,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "CC"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -34,7 +34,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "FD"
+        "letterGrade": "CB"
       },
       {
         "course": {
@@ -43,7 +43,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "CB"
+        "letterGrade": "CC"
       },
       {
         "course": {
@@ -52,7 +52,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "BA"
+        "letterGrade": "DD"
       },
       {
         "course": {
@@ -70,7 +70,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "CC"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -79,7 +79,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "DD"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -148,9 +148,9 @@
       }
     ],
     "givenCredit": 31.0,
-    "completedCredit": 27.0,
-    "point": 84.0,
-    "gano": 2.71
+    "completedCredit": 31.0,
+    "point": 78.0,
+    "gano": 2.52
   },
   "courseOffered": [
     {
@@ -212,7 +212,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "CC"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -230,7 +230,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "FD"
+        "letterGrade": "CB"
       },
       {
         "course": {
@@ -239,7 +239,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "CB"
+        "letterGrade": "CC"
       },
       {
         "course": {
@@ -248,7 +248,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "BA"
+        "letterGrade": "DD"
       },
       {
         "course": {
@@ -266,7 +266,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "CC"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -275,7 +275,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "DD"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -344,8 +344,8 @@
       }
     ],
     "givenCredit": 31.0,
-    "completedCredit": 27.0,
-    "point": 84.0,
-    "gano": 2.71
+    "completedCredit": 31.0,
+    "point": 78.0,
+    "gano": 2.52
   }
 }

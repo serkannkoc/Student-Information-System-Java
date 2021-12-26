@@ -1,9 +1,9 @@
 {
   "studentNumber": 150121067,
-  "studentName": "Esra Kuruçay",
+  "studentName": "Esra Deniz",
   "year": 1,
   "advisor": {
-    "lecturerName": "Mustafa Ağaoğlu",
+    "lecturerName": "Borahan Tümer",
     "department": "CSE",
     "rank": "Doç.Dr"
   },
@@ -16,7 +16,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "FD"
+        "letterGrade": "CB"
       },
       {
         "course": {
@@ -25,7 +25,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "AA"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -34,7 +34,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "FF"
+        "letterGrade": "DD"
       },
       {
         "course": {
@@ -43,7 +43,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "DD"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -52,7 +52,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "FD"
+        "letterGrade": "CC"
       },
       {
         "course": {
@@ -61,7 +61,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "FF"
+        "letterGrade": "FD"
       },
       {
         "course": {
@@ -70,7 +70,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "AA"
+        "letterGrade": "DD"
       },
       {
         "course": {
@@ -136,21 +136,12 @@
           "semester": 2,
           "quota": 0
         }
-      },
-      {
-        "course": {
-          "courseName": "Energy for Physical Activity",
-          "courseCredit": 3,
-          "semester": 0,
-          "quota": 10,
-          "electiveType": "NTE"
-        }
       }
     ],
     "givenCredit": 31.0,
-    "completedCredit": 15.0,
-    "point": 44.0,
-    "gano": 1.42
+    "completedCredit": 27.0,
+    "point": 47.5,
+    "gano": 1.53
   },
   "courseOffered": [
     {
@@ -194,13 +185,6 @@
       "courseCredit": 2,
       "semester": 2,
       "quota": 0
-    },
-    {
-      "courseName": "Energy for Physical Activity",
-      "courseCredit": 3,
-      "semester": 0,
-      "quota": 10,
-      "electiveType": "NTE"
     }
   ],
   "transcriptAfter": {
@@ -212,7 +196,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "FD"
+        "letterGrade": "CB"
       },
       {
         "course": {
@@ -221,7 +205,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "AA"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -230,7 +214,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "FF"
+        "letterGrade": "DD"
       },
       {
         "course": {
@@ -239,7 +223,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "DD"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -248,7 +232,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "FD"
+        "letterGrade": "CC"
       },
       {
         "course": {
@@ -257,7 +241,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "FF"
+        "letterGrade": "FD"
       },
       {
         "course": {
@@ -266,7 +250,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "AA"
+        "letterGrade": "DD"
       },
       {
         "course": {
@@ -332,20 +316,14 @@
           "semester": 2,
           "quota": 0
         }
-      },
-      {
-        "course": {
-          "courseName": "Energy for Physical Activity",
-          "courseCredit": 3,
-          "semester": 0,
-          "quota": 10,
-          "electiveType": "NTE"
-        }
       }
     ],
     "givenCredit": 31.0,
-    "completedCredit": 15.0,
-    "point": 44.0,
-    "gano": 1.42
-  }
+    "completedCredit": 27.0,
+    "point": 47.5,
+    "gano": 1.53
+  },
+  "error": [
+    "The system did not allow Entrepreneurship and Innovation because quota is full!"
+  ]
 }

@@ -153,8 +153,11 @@ public class Student {
 
     // This method selects the courses that the student can take according to the current semester.
     public void setCourseOffered(ArrayList<Course> courses) throws FileNotFoundException {
+
         ArrayList<Course> courseArrayList = new ArrayList<Course>();
         int semester_int = Methods.getSemester(year);
+        ArrayList<String> errorArrayList = new ArrayList<String>();
+
         ArrayList<Course> semesterCourses = Methods.getSemesterCourses(courses, semester_int);
 
         for (Course courseElement : semesterCourses){
@@ -168,34 +171,107 @@ public class Student {
 
         Random r = new Random();
 
-            if(semester_int == 2) {
-                Course course = new Course();
-                int result = r.nextInt(nteCourses.size()-0) + 0;
-              if(!courseArrayList.contains(nteCourses.get(result)))  courseArrayList.add(nteCourses.get(result));
-            }
-            else if(semester_int == 7){
-                Course course = new Course();
-                int result = r.nextInt(teCourses.size() - 0) + 0;
-                if(!courseArrayList.contains(teCourses.get(result))) courseArrayList.add(teCourses.get(result));
+        if (semester_int == 2) {
+            int result = r.nextInt(nteCourses.size() - 0) + 0;
+            Course resCourse = nteCourses.get(result);
+            if (!courseArrayList.contains(resCourse)) {
 
-                result = r.nextInt(ueCourses.size() - 0) + 0;
-                if(!courseArrayList.contains(ueCourses.get(result)))  courseArrayList.add(ueCourses.get(result));
+                if (Methods.checkForQuota(resCourse)) {
+                    resCourse.enrollStudent(this);
+                    courseArrayList.add(resCourse);
+                } else {
+                    String error = "The system did not allow " + resCourse.getCourseName() + " because quota is full!";
+                    System.out.println(error + this.studentNumber );
+                    errorArrayList.add(error);
+                }
             }
-            else if(semester_int == 8){
-                for(int i=0; i<3; i++) {
-                    int result = r.nextInt(teCourses.size() - 0) + 0;
-                    if(!courseArrayList.contains(teCourses.get(result)))  courseArrayList.add(teCourses.get(result));
+
+        }
+        else if (semester_int == 7) {
+            if (true) {
+                int result = r.nextInt(teCourses.size() - 0) + 0;
+                Course resCourse = teCourses.get(result);
+                if (!courseArrayList.contains(resCourse)) {
+
+                    if (Methods.checkForQuota(resCourse)) {
+                        resCourse.enrollStudent(this);
+                        courseArrayList.add(resCourse);
+                    } else {
+                        String error = "The system did not allow " + resCourse.getCourseName() + " because quota is full!";
+                        errorArrayList.add(error);
+                    }
+                }
+            }
+
+            if (true) {
+                int result = r.nextInt(ueCourses.size() - 0) + 0;
+                Course resCourse = ueCourses.get(result);
+
+                if (!courseArrayList.contains(resCourse)) {
+
+                    if (Methods.checkForQuota(resCourse)) {
+                        resCourse.enrollStudent(this);
+                        courseArrayList.add(resCourse);
+                    } else {
+                        String error = "The system did not allow " + resCourse.getCourseName() + " because quota is full!";
+                        errorArrayList.add(error);
+                    }
+                }
+            }
+        }
+        else if (semester_int == 8) {
+            for (int i = 0; i < 3; i++) {
+                int result = r.nextInt(teCourses.size() - 0) + 0;
+                Course resCourse = teCourses.get(result);
+
+                if (!courseArrayList.contains(resCourse)) {
+
+                    if (Methods.checkForQuota(resCourse)) {
+                        resCourse.enrollStudent(this);
+                        courseArrayList.add(resCourse);
+                    } else {
+                        String error = "The system did not allow " + resCourse.getCourseName() + " because quota is full!";
+                        errorArrayList.add(error);
+                    }
                 }
 
-                int result = r.nextInt(fteCourses.size() - 0) + 0;
-                if(!courseArrayList.contains(fteCourses.get(result)))  courseArrayList.add(fteCourses.get(result));
-
-                result = r.nextInt(nteCourses.size() - 0) + 0;
-                if(!courseArrayList.contains(nteCourses.get(result)))    courseArrayList.add(nteCourses.get(result));
-
             }
 
-        ArrayList<String> errorArrayList = new ArrayList<String>();
+            if (true) {
+                int result = r.nextInt(fteCourses.size() - 0) + 0;
+                Course resCourse = fteCourses.get(result);
+
+                if (!courseArrayList.contains(resCourse)) {
+
+                    if (Methods.checkForQuota(resCourse)) {
+                        resCourse.enrollStudent(this);
+                        courseArrayList.add(resCourse);
+                    } else {
+                        String error = "The system did not allow " + resCourse.getCourseName() + " because quota is full!";
+                        System.out.println(error + this.studentNumber);
+                        errorArrayList.add(error);
+                    }
+                }
+            }
+            if (true) {
+                int result = r.nextInt(nteCourses.size() - 0) + 0;
+                Course resCourse = nteCourses.get(result);
+
+                if (!courseArrayList.contains(resCourse)) {
+
+                    if (Methods.checkForQuota(resCourse)) {
+                        resCourse.enrollStudent(this);
+                        courseArrayList.add(resCourse);
+                    } else {
+                        String error = "The system did not allow " + resCourse.getCourseName() + " because quota is full!";
+                        errorArrayList.add(error);
+                    }
+                }
+            }
+
+        }
+
+
         if(this.getTranscriptBefore() != null)
         {
             if(getTranscriptBefore().getTranscriptRow() != null) {

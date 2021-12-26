@@ -1,11 +1,11 @@
 {
   "studentNumber": 150118039,
-  "studentName": "Elif Öztürk",
+  "studentName": "Ulaş Genç",
   "year": 4,
   "advisor": {
-    "lecturerName": "Sanem Arslan",
+    "lecturerName": "Ali Fuat Alkaya",
     "department": "CSE",
-    "rank": "Dr.Öğr.Üyesi"
+    "rank": "Doç.Dr"
   },
   "transcriptBefore": {
     "transcriptRow": [
@@ -16,7 +16,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "DC"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -25,7 +25,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "FD"
+        "letterGrade": "DD"
       },
       {
         "course": {
@@ -34,7 +34,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "FD"
+        "letterGrade": "DD"
       },
       {
         "course": {
@@ -52,7 +52,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "DD"
+        "letterGrade": "CC"
       },
       {
         "course": {
@@ -61,7 +61,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "FD"
+        "letterGrade": "FF"
       },
       {
         "course": {
@@ -70,7 +70,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "AA"
+        "letterGrade": "BB"
       },
       {
         "course": {
@@ -79,7 +79,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "FF"
+        "letterGrade": "BB"
       },
       {
         "course": {
@@ -88,7 +88,7 @@
           "semester": 2,
           "quota": 0
         },
-        "letterGrade": "DC"
+        "letterGrade": "FD"
       },
       {
         "course": {
@@ -97,7 +97,7 @@
           "semester": 2,
           "quota": 0
         },
-        "letterGrade": "CB"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -115,7 +115,7 @@
           "semester": 2,
           "quota": 0
         },
-        "letterGrade": "DD"
+        "letterGrade": "FD"
       },
       {
         "course": {
@@ -124,7 +124,7 @@
           "semester": 2,
           "quota": 0
         },
-        "letterGrade": "CC"
+        "letterGrade": "BB"
       },
       {
         "course": {
@@ -133,7 +133,7 @@
           "semester": 2,
           "quota": 0
         },
-        "letterGrade": "CB"
+        "letterGrade": "BB"
       },
       {
         "course": {
@@ -142,7 +142,7 @@
           "semester": 2,
           "quota": 0
         },
-        "letterGrade": "BB"
+        "letterGrade": "CB"
       },
       {
         "course": {
@@ -151,7 +151,7 @@
           "semester": 3,
           "quota": 0
         },
-        "letterGrade": "FD"
+        "letterGrade": "BB"
       },
       {
         "course": {
@@ -167,7 +167,7 @@
           },
           "prequisiteName": "Computer Programming II"
         },
-        "letterGrade": "FF"
+        "letterGrade": "CB"
       },
       {
         "course": {
@@ -176,7 +176,7 @@
           "semester": 3,
           "quota": 0
         },
-        "letterGrade": "BA"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -185,7 +185,7 @@
           "semester": 3,
           "quota": 0
         },
-        "letterGrade": "DC"
+        "letterGrade": "DD"
       },
       {
         "course": {
@@ -194,7 +194,7 @@
           "semester": 3,
           "quota": 0
         },
-        "letterGrade": "BA"
+        "letterGrade": "CC"
       },
       {
         "course": {
@@ -203,7 +203,7 @@
           "semester": 3,
           "quota": 0
         },
-        "letterGrade": "DD"
+        "letterGrade": "FD"
       },
       {
         "course": {
@@ -235,7 +235,7 @@
           "semester": 4,
           "quota": 0
         },
-        "letterGrade": "CC"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -244,7 +244,7 @@
           "semester": 4,
           "quota": 0
         },
-        "letterGrade": "FF"
+        "letterGrade": "CB"
       },
       {
         "course": {
@@ -253,7 +253,7 @@
           "semester": 4,
           "quota": 0
         },
-        "letterGrade": "BA"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -262,7 +262,7 @@
           "semester": 4,
           "quota": 0
         },
-        "letterGrade": "CC"
+        "letterGrade": "DD"
       },
       {
         "course": {
@@ -271,7 +271,7 @@
           "semester": 5,
           "quota": 0
         },
-        "letterGrade": "DD"
+        "letterGrade": "BA"
       },
       {
         "course": {
@@ -280,7 +280,7 @@
           "semester": 5,
           "quota": 0
         },
-        "letterGrade": "FF"
+        "letterGrade": "CC"
       },
       {
         "course": {
@@ -289,7 +289,7 @@
           "semester": 5,
           "quota": 0
         },
-        "letterGrade": "AA"
+        "letterGrade": "CB"
       },
       {
         "course": {
@@ -325,7 +325,7 @@
           "semester": 6,
           "quota": 0
         },
-        "letterGrade": "CC"
+        "letterGrade": "DD"
       },
       {
         "course": {
@@ -334,7 +334,7 @@
           "semester": 6,
           "quota": 0
         },
-        "letterGrade": "FD"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -361,7 +361,7 @@
           "semester": 6,
           "quota": 0
         },
-        "letterGrade": "AA"
+        "letterGrade": "BB"
       },
       {
         "course": {
@@ -370,7 +370,7 @@
           "semester": 6,
           "quota": 0
         },
-        "letterGrade": "BA"
+        "letterGrade": "FD"
       },
       {
         "course": {
@@ -379,7 +379,7 @@
           "semester": 7,
           "quota": 0
         },
-        "letterGrade": "FF"
+        "letterGrade": "FD"
       },
       {
         "course": {
@@ -388,7 +388,7 @@
           "semester": 7,
           "quota": 0
         },
-        "letterGrade": "AA"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -397,7 +397,7 @@
           "semester": 7,
           "quota": 0
         },
-        "letterGrade": "DD"
+        "letterGrade": "BB"
       },
       {
         "course": {
@@ -406,7 +406,7 @@
           "semester": 7,
           "quota": 0
         },
-        "letterGrade": "DC"
+        "letterGrade": "CB"
       },
       {
         "course": {
@@ -415,7 +415,7 @@
           "semester": 7,
           "quota": 0
         },
-        "letterGrade": "DD"
+        "letterGrade": "FF"
       },
       {
         "course": {
@@ -424,7 +424,22 @@
           "semester": 7,
           "quota": 0
         },
-        "letterGrade": "BA"
+        "letterGrade": "DC"
+      },
+      {
+        "course": {
+          "courseName": "Engineering Project II",
+          "courseCredit": 5,
+          "semester": 8,
+          "quota": 0,
+          "prequisite": {
+            "courseName": "Engineering Project I",
+            "courseCredit": 5,
+            "semester": 7,
+            "quota": 0
+          },
+          "prequisiteName": "Engineering Project I"
+        }
       },
       {
         "course": {
@@ -432,24 +447,6 @@
           "courseCredit": 2,
           "semester": 8,
           "quota": 0
-        }
-      },
-      {
-        "course": {
-          "courseName": "Distributed Databases",
-          "courseCredit": 5,
-          "semester": 0,
-          "quota": 10,
-          "electiveType": "TE"
-        }
-      },
-      {
-        "course": {
-          "courseName": "Management of Information Systems",
-          "courseCredit": 5,
-          "semester": 0,
-          "quota": 10,
-          "electiveType": "TE"
         }
       },
       {
@@ -469,21 +466,12 @@
           "quota": 10,
           "electiveType": "ENG-FTE"
         }
-      },
-      {
-        "course": {
-          "courseName": "Our Biosphere",
-          "courseCredit": 3,
-          "semester": 0,
-          "quota": 10,
-          "electiveType": "NTE"
-        }
       }
     ],
     "givenCredit": 217.0,
-    "completedCredit": 152.0,
-    "point": 360.0,
-    "gano": 1.66
+    "completedCredit": 178.0,
+    "point": 440.5,
+    "gano": 2.03
   },
   "courseOffered": [
     {
@@ -506,20 +494,6 @@
       "quota": 0
     },
     {
-      "courseName": "Distributed Databases",
-      "courseCredit": 5,
-      "semester": 0,
-      "quota": 10,
-      "electiveType": "TE"
-    },
-    {
-      "courseName": "Management of Information Systems",
-      "courseCredit": 5,
-      "semester": 0,
-      "quota": 10,
-      "electiveType": "TE"
-    },
-    {
       "courseName": "Introduction to Robotics and Control Theory",
       "courseCredit": 5,
       "semester": 0,
@@ -532,13 +506,6 @@
       "semester": 0,
       "quota": 10,
       "electiveType": "ENG-FTE"
-    },
-    {
-      "courseName": "Our Biosphere",
-      "courseCredit": 3,
-      "semester": 0,
-      "quota": 10,
-      "electiveType": "NTE"
     }
   ],
   "transcriptAfter": {
@@ -550,7 +517,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "DC"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -559,7 +526,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "FD"
+        "letterGrade": "DD"
       },
       {
         "course": {
@@ -568,7 +535,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "FD"
+        "letterGrade": "DD"
       },
       {
         "course": {
@@ -586,7 +553,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "DD"
+        "letterGrade": "CC"
       },
       {
         "course": {
@@ -595,7 +562,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "FD"
+        "letterGrade": "FF"
       },
       {
         "course": {
@@ -604,7 +571,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "AA"
+        "letterGrade": "BB"
       },
       {
         "course": {
@@ -613,7 +580,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "FF"
+        "letterGrade": "BB"
       },
       {
         "course": {
@@ -622,7 +589,7 @@
           "semester": 2,
           "quota": 0
         },
-        "letterGrade": "DC"
+        "letterGrade": "FD"
       },
       {
         "course": {
@@ -631,7 +598,7 @@
           "semester": 2,
           "quota": 0
         },
-        "letterGrade": "CB"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -649,7 +616,7 @@
           "semester": 2,
           "quota": 0
         },
-        "letterGrade": "DD"
+        "letterGrade": "FD"
       },
       {
         "course": {
@@ -658,7 +625,7 @@
           "semester": 2,
           "quota": 0
         },
-        "letterGrade": "CC"
+        "letterGrade": "BB"
       },
       {
         "course": {
@@ -667,7 +634,7 @@
           "semester": 2,
           "quota": 0
         },
-        "letterGrade": "CB"
+        "letterGrade": "BB"
       },
       {
         "course": {
@@ -676,7 +643,7 @@
           "semester": 2,
           "quota": 0
         },
-        "letterGrade": "BB"
+        "letterGrade": "CB"
       },
       {
         "course": {
@@ -685,7 +652,7 @@
           "semester": 3,
           "quota": 0
         },
-        "letterGrade": "FD"
+        "letterGrade": "BB"
       },
       {
         "course": {
@@ -701,7 +668,7 @@
           },
           "prequisiteName": "Computer Programming II"
         },
-        "letterGrade": "FF"
+        "letterGrade": "CB"
       },
       {
         "course": {
@@ -710,7 +677,7 @@
           "semester": 3,
           "quota": 0
         },
-        "letterGrade": "BA"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -719,7 +686,7 @@
           "semester": 3,
           "quota": 0
         },
-        "letterGrade": "DC"
+        "letterGrade": "DD"
       },
       {
         "course": {
@@ -728,7 +695,7 @@
           "semester": 3,
           "quota": 0
         },
-        "letterGrade": "BA"
+        "letterGrade": "CC"
       },
       {
         "course": {
@@ -737,7 +704,7 @@
           "semester": 3,
           "quota": 0
         },
-        "letterGrade": "DD"
+        "letterGrade": "FD"
       },
       {
         "course": {
@@ -769,7 +736,7 @@
           "semester": 4,
           "quota": 0
         },
-        "letterGrade": "CC"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -778,7 +745,7 @@
           "semester": 4,
           "quota": 0
         },
-        "letterGrade": "FF"
+        "letterGrade": "CB"
       },
       {
         "course": {
@@ -787,7 +754,7 @@
           "semester": 4,
           "quota": 0
         },
-        "letterGrade": "BA"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -796,7 +763,7 @@
           "semester": 4,
           "quota": 0
         },
-        "letterGrade": "CC"
+        "letterGrade": "DD"
       },
       {
         "course": {
@@ -805,7 +772,7 @@
           "semester": 5,
           "quota": 0
         },
-        "letterGrade": "DD"
+        "letterGrade": "BA"
       },
       {
         "course": {
@@ -814,7 +781,7 @@
           "semester": 5,
           "quota": 0
         },
-        "letterGrade": "FF"
+        "letterGrade": "CC"
       },
       {
         "course": {
@@ -823,7 +790,7 @@
           "semester": 5,
           "quota": 0
         },
-        "letterGrade": "AA"
+        "letterGrade": "CB"
       },
       {
         "course": {
@@ -859,7 +826,7 @@
           "semester": 6,
           "quota": 0
         },
-        "letterGrade": "CC"
+        "letterGrade": "DD"
       },
       {
         "course": {
@@ -868,7 +835,7 @@
           "semester": 6,
           "quota": 0
         },
-        "letterGrade": "FD"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -895,7 +862,7 @@
           "semester": 6,
           "quota": 0
         },
-        "letterGrade": "AA"
+        "letterGrade": "BB"
       },
       {
         "course": {
@@ -904,7 +871,7 @@
           "semester": 6,
           "quota": 0
         },
-        "letterGrade": "BA"
+        "letterGrade": "FD"
       },
       {
         "course": {
@@ -913,7 +880,7 @@
           "semester": 7,
           "quota": 0
         },
-        "letterGrade": "FF"
+        "letterGrade": "FD"
       },
       {
         "course": {
@@ -922,7 +889,7 @@
           "semester": 7,
           "quota": 0
         },
-        "letterGrade": "AA"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -931,7 +898,7 @@
           "semester": 7,
           "quota": 0
         },
-        "letterGrade": "DD"
+        "letterGrade": "BB"
       },
       {
         "course": {
@@ -940,7 +907,7 @@
           "semester": 7,
           "quota": 0
         },
-        "letterGrade": "DC"
+        "letterGrade": "CB"
       },
       {
         "course": {
@@ -949,7 +916,7 @@
           "semester": 7,
           "quota": 0
         },
-        "letterGrade": "DD"
+        "letterGrade": "FF"
       },
       {
         "course": {
@@ -958,7 +925,22 @@
           "semester": 7,
           "quota": 0
         },
-        "letterGrade": "BA"
+        "letterGrade": "DC"
+      },
+      {
+        "course": {
+          "courseName": "Engineering Project II",
+          "courseCredit": 5,
+          "semester": 8,
+          "quota": 0,
+          "prequisite": {
+            "courseName": "Engineering Project I",
+            "courseCredit": 5,
+            "semester": 7,
+            "quota": 0
+          },
+          "prequisiteName": "Engineering Project I"
+        }
       },
       {
         "course": {
@@ -966,24 +948,6 @@
           "courseCredit": 2,
           "semester": 8,
           "quota": 0
-        }
-      },
-      {
-        "course": {
-          "courseName": "Distributed Databases",
-          "courseCredit": 5,
-          "semester": 0,
-          "quota": 10,
-          "electiveType": "TE"
-        }
-      },
-      {
-        "course": {
-          "courseName": "Management of Information Systems",
-          "courseCredit": 5,
-          "semester": 0,
-          "quota": 10,
-          "electiveType": "TE"
         }
       },
       {
@@ -1003,20 +967,16 @@
           "quota": 10,
           "electiveType": "ENG-FTE"
         }
-      },
-      {
-        "course": {
-          "courseName": "Our Biosphere",
-          "courseCredit": 3,
-          "semester": 0,
-          "quota": 10,
-          "electiveType": "NTE"
-        }
       }
     ],
     "givenCredit": 217.0,
-    "completedCredit": 152.0,
-    "point": 360.0,
-    "gano": 1.66
-  }
+    "completedCredit": 178.0,
+    "point": 440.5,
+    "gano": 2.03
+  },
+  "error": [
+    "The system did not allow Compiler Design because quota is full!",
+    "The system did not allow Advanced Unix Programming because quota is full!",
+    "The system did not allow Our Biosphere because quota is full!"
+  ]
 }

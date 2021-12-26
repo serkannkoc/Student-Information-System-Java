@@ -1,11 +1,11 @@
 {
   "studentNumber": 150120044,
-  "studentName": "Başak Beler",
+  "studentName": "Recep Şahin",
   "year": 2,
   "advisor": {
-    "lecturerName": "Sanem Arslan",
+    "lecturerName": "Mustafa Ağaoğlu",
     "department": "CSE",
-    "rank": "Dr.Öğr.Üyesi"
+    "rank": "Doç.Dr"
   },
   "transcriptBefore": {
     "transcriptRow": [
@@ -16,7 +16,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "DC"
+        "letterGrade": "CB"
       },
       {
         "course": {
@@ -25,7 +25,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "FD"
+        "letterGrade": "BB"
       },
       {
         "course": {
@@ -34,7 +34,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "FD"
+        "letterGrade": "BB"
       },
       {
         "course": {
@@ -43,7 +43,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "AA"
+        "letterGrade": "BA"
       },
       {
         "course": {
@@ -52,7 +52,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "AA"
+        "letterGrade": "CB"
       },
       {
         "course": {
@@ -70,7 +70,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "BB"
+        "letterGrade": "CC"
       },
       {
         "course": {
@@ -79,7 +79,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "AA"
+        "letterGrade": "FD"
       },
       {
         "course": {
@@ -97,7 +97,7 @@
           "semester": 2,
           "quota": 0
         },
-        "letterGrade": "FD"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -106,7 +106,7 @@
           "semester": 2,
           "quota": 0
         },
-        "letterGrade": "FD"
+        "letterGrade": "FF"
       },
       {
         "course": {
@@ -115,7 +115,7 @@
           "semester": 2,
           "quota": 0
         },
-        "letterGrade": "CB"
+        "letterGrade": "BA"
       },
       {
         "course": {
@@ -124,7 +124,7 @@
           "semester": 2,
           "quota": 0
         },
-        "letterGrade": "BB"
+        "letterGrade": "CB"
       },
       {
         "course": {
@@ -133,7 +133,7 @@
           "semester": 2,
           "quota": 0
         },
-        "letterGrade": "FD"
+        "letterGrade": "CC"
       },
       {
         "course": {
@@ -142,7 +142,7 @@
           "semester": 2,
           "quota": 0
         },
-        "letterGrade": "DC"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -151,7 +151,7 @@
           "semester": 3,
           "quota": 0
         },
-        "letterGrade": "AA"
+        "letterGrade": "CC"
       },
       {
         "course": {
@@ -167,7 +167,7 @@
           },
           "prequisiteName": "Computer Programming II"
         },
-        "letterGrade": "BB"
+        "letterGrade": "FF"
       },
       {
         "course": {
@@ -176,7 +176,7 @@
           "semester": 3,
           "quota": 0
         },
-        "letterGrade": "FD"
+        "letterGrade": "CB"
       },
       {
         "course": {
@@ -185,7 +185,7 @@
           "semester": 3,
           "quota": 0
         },
-        "letterGrade": "CB"
+        "letterGrade": "FD"
       },
       {
         "course": {
@@ -194,7 +194,7 @@
           "semester": 3,
           "quota": 0
         },
-        "letterGrade": "AA"
+        "letterGrade": "BB"
       },
       {
         "course": {
@@ -203,29 +203,7 @@
           "semester": 3,
           "quota": 0
         },
-        "letterGrade": "DC"
-      },
-      {
-        "course": {
-          "courseName": "Analysis of Algorithms",
-          "courseCredit": 6,
-          "semester": 4,
-          "quota": 0,
-          "prequisite": {
-            "courseName": "Data Structures",
-            "courseCredit": 7,
-            "semester": 3,
-            "quota": 0,
-            "prequisite": {
-              "courseName": "Computer Programming II",
-              "courseCredit": 6,
-              "semester": 2,
-              "quota": 0
-            },
-            "prequisiteName": "Computer Programming II"
-          },
-          "prequisiteName": "Data Structures"
-        }
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -261,31 +239,11 @@
       }
     ],
     "givenCredit": 88.0,
-    "completedCredit": 57.0,
-    "point": 187.5,
-    "gano": 2.13
+    "completedCredit": 64.0,
+    "point": 176.0,
+    "gano": 2.0
   },
   "courseOffered": [
-    {
-      "courseName": "Analysis of Algorithms",
-      "courseCredit": 6,
-      "semester": 4,
-      "quota": 0,
-      "prequisite": {
-        "courseName": "Data Structures",
-        "courseCredit": 7,
-        "semester": 3,
-        "quota": 0,
-        "prequisite": {
-          "courseName": "Computer Programming II",
-          "courseCredit": 6,
-          "semester": 2,
-          "quota": 0
-        },
-        "prequisiteName": "Computer Programming II"
-      },
-      "prequisiteName": "Data Structures"
-    },
     {
       "courseName": "Systems Programming",
       "courseCredit": 7,
@@ -320,7 +278,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "DC"
+        "letterGrade": "CB"
       },
       {
         "course": {
@@ -329,7 +287,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "FD"
+        "letterGrade": "BB"
       },
       {
         "course": {
@@ -338,7 +296,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "FD"
+        "letterGrade": "BB"
       },
       {
         "course": {
@@ -347,7 +305,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "AA"
+        "letterGrade": "BA"
       },
       {
         "course": {
@@ -356,7 +314,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "AA"
+        "letterGrade": "CB"
       },
       {
         "course": {
@@ -374,7 +332,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "BB"
+        "letterGrade": "CC"
       },
       {
         "course": {
@@ -383,7 +341,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "AA"
+        "letterGrade": "FD"
       },
       {
         "course": {
@@ -401,7 +359,7 @@
           "semester": 2,
           "quota": 0
         },
-        "letterGrade": "FD"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -410,7 +368,7 @@
           "semester": 2,
           "quota": 0
         },
-        "letterGrade": "FD"
+        "letterGrade": "FF"
       },
       {
         "course": {
@@ -419,7 +377,7 @@
           "semester": 2,
           "quota": 0
         },
-        "letterGrade": "CB"
+        "letterGrade": "BA"
       },
       {
         "course": {
@@ -428,7 +386,7 @@
           "semester": 2,
           "quota": 0
         },
-        "letterGrade": "BB"
+        "letterGrade": "CB"
       },
       {
         "course": {
@@ -437,7 +395,7 @@
           "semester": 2,
           "quota": 0
         },
-        "letterGrade": "FD"
+        "letterGrade": "CC"
       },
       {
         "course": {
@@ -446,7 +404,7 @@
           "semester": 2,
           "quota": 0
         },
-        "letterGrade": "DC"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -455,7 +413,7 @@
           "semester": 3,
           "quota": 0
         },
-        "letterGrade": "AA"
+        "letterGrade": "CC"
       },
       {
         "course": {
@@ -471,7 +429,7 @@
           },
           "prequisiteName": "Computer Programming II"
         },
-        "letterGrade": "BB"
+        "letterGrade": "FF"
       },
       {
         "course": {
@@ -480,7 +438,7 @@
           "semester": 3,
           "quota": 0
         },
-        "letterGrade": "FD"
+        "letterGrade": "CB"
       },
       {
         "course": {
@@ -489,7 +447,7 @@
           "semester": 3,
           "quota": 0
         },
-        "letterGrade": "CB"
+        "letterGrade": "FD"
       },
       {
         "course": {
@@ -498,7 +456,7 @@
           "semester": 3,
           "quota": 0
         },
-        "letterGrade": "AA"
+        "letterGrade": "BB"
       },
       {
         "course": {
@@ -507,29 +465,7 @@
           "semester": 3,
           "quota": 0
         },
-        "letterGrade": "DC"
-      },
-      {
-        "course": {
-          "courseName": "Analysis of Algorithms",
-          "courseCredit": 6,
-          "semester": 4,
-          "quota": 0,
-          "prequisite": {
-            "courseName": "Data Structures",
-            "courseCredit": 7,
-            "semester": 3,
-            "quota": 0,
-            "prequisite": {
-              "courseName": "Computer Programming II",
-              "courseCredit": 6,
-              "semester": 2,
-              "quota": 0
-            },
-            "prequisiteName": "Computer Programming II"
-          },
-          "prequisiteName": "Data Structures"
-        }
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -565,8 +501,11 @@
       }
     ],
     "givenCredit": 88.0,
-    "completedCredit": 57.0,
-    "point": 187.5,
-    "gano": 2.13
-  }
+    "completedCredit": 64.0,
+    "point": 176.0,
+    "gano": 2.0
+  },
+  "error": [
+    "The system did not allow Analysis of Algorithms because student failed prerequisite Data Structures"
+  ]
 }

@@ -1,9 +1,9 @@
 {
   "studentNumber": 150121058,
-  "studentName": "Kübra Turgut",
+  "studentName": "Ulaş Açıkgöz",
   "year": 1,
   "advisor": {
-    "lecturerName": "Mustafa Ağaoğlu",
+    "lecturerName": "Borahan Tümer",
     "department": "CSE",
     "rank": "Doç.Dr"
   },
@@ -16,7 +16,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "BA"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -25,7 +25,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "BB"
+        "letterGrade": "FD"
       },
       {
         "course": {
@@ -34,7 +34,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "FF"
+        "letterGrade": "CC"
       },
       {
         "course": {
@@ -43,7 +43,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "BA"
+        "letterGrade": "FD"
       },
       {
         "course": {
@@ -52,7 +52,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "BB"
+        "letterGrade": "DD"
       },
       {
         "course": {
@@ -61,7 +61,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "FD"
+        "letterGrade": "BA"
       },
       {
         "course": {
@@ -79,7 +79,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "CC"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -139,7 +139,7 @@
       },
       {
         "course": {
-          "courseName": "Strategic Entrepreneurship",
+          "courseName": "Our Biosphere",
           "courseCredit": 3,
           "semester": 0,
           "quota": 10,
@@ -148,9 +148,9 @@
       }
     ],
     "givenCredit": 31.0,
-    "completedCredit": 23.0,
-    "point": 74.0,
-    "gano": 2.39
+    "completedCredit": 20.0,
+    "point": 46.5,
+    "gano": 1.5
   },
   "courseOffered": [
     {
@@ -196,7 +196,7 @@
       "quota": 0
     },
     {
-      "courseName": "Strategic Entrepreneurship",
+      "courseName": "Our Biosphere",
       "courseCredit": 3,
       "semester": 0,
       "quota": 10,
@@ -212,7 +212,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "BA"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -221,7 +221,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "BB"
+        "letterGrade": "FD"
       },
       {
         "course": {
@@ -230,7 +230,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "FF"
+        "letterGrade": "CC"
       },
       {
         "course": {
@@ -239,7 +239,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "BA"
+        "letterGrade": "FD"
       },
       {
         "course": {
@@ -248,7 +248,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "BB"
+        "letterGrade": "DD"
       },
       {
         "course": {
@@ -257,7 +257,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "FD"
+        "letterGrade": "BA"
       },
       {
         "course": {
@@ -275,7 +275,7 @@
           "semester": 1,
           "quota": 0
         },
-        "letterGrade": "CC"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -335,7 +335,7 @@
       },
       {
         "course": {
-          "courseName": "Strategic Entrepreneurship",
+          "courseName": "Our Biosphere",
           "courseCredit": 3,
           "semester": 0,
           "quota": 10,
@@ -344,8 +344,8 @@
       }
     ],
     "givenCredit": 31.0,
-    "completedCredit": 23.0,
-    "point": 74.0,
-    "gano": 2.39
+    "completedCredit": 20.0,
+    "point": 46.5,
+    "gano": 1.5
   }
 }
