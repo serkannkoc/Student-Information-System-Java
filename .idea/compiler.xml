@@ -8,11 +8,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="iteration1" />
         <module name="iteration2" />
+        <module name="iteration2_improved" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="iteration1" target="8" />
       <module name="iteration2" target="7" />
+      <module name="iteration2_improved" target="7" />
     </bytecodeTargetLevel>
   </component>
 </project>

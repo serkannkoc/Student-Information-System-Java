@@ -55,7 +55,7 @@ public class Methods {
 
     // This method returns the createNewStudents parameter in the input.json file.
     public static boolean getCreateNewStudent() throws FileNotFoundException {
-        File input = new File(System.getProperty("user.dir")+"/iteration1/src/main/input.json");
+        File input = new File(System.getProperty("user.dir")+"/iteration2/src/main/input.json");
         JsonElement fileElement = JsonParser.parseReader(new FileReader(input));
         JsonObject fileObject = fileElement.getAsJsonObject();
 
@@ -67,7 +67,7 @@ public class Methods {
     // This method returns a numerical semester value by comparing the year parameter
     // it receives with the semester parameter in input.json.
     public static int getSemester(int year) throws FileNotFoundException {
-        File input = new File(System.getProperty("user.dir")+"/iteration1/src/main/input.json");
+        File input = new File(System.getProperty("user.dir")+"/iteration2/src/main/input.json");
         JsonElement fileElement = JsonParser.parseReader(new FileReader(input));
         JsonObject fileObject = fileElement.getAsJsonObject();
 
@@ -88,7 +88,7 @@ public class Methods {
     public static ArrayList<Advisor> getAdvisors() throws FileNotFoundException {
         ArrayList<Advisor> advisorArrayList = new ArrayList<Advisor>();
 
-        File input = new File(System.getProperty("user.dir") + "/iteration1/src/main/input.json");
+        File input = new File(System.getProperty("user.dir") + "/iteration2/src/main/input.json");
         JsonElement fileElement = JsonParser.parseReader(new FileReader(input));
         JsonObject fileObject = fileElement.getAsJsonObject();
 
@@ -162,7 +162,7 @@ public class Methods {
 
         ArrayList<Course> courseArrayList = new ArrayList<Course>();
 
-        File input = new File(System.getProperty("user.dir")+"/iteration1/src/main/input.json");
+        File input = new File(System.getProperty("user.dir")+"/iteration2/src/main/input.json");
         JsonElement fileElement = JsonParser.parseReader(new FileReader(input));
         JsonObject fileObject = fileElement.getAsJsonObject();
 
@@ -325,7 +325,7 @@ public class Methods {
 
         else{
             Gson gson = new Gson();
-            File folder = new File(System.getProperty("user.dir")+"\\iteration1\\src\\main\\students");
+            File folder = new File(System.getProperty("user.dir")+"\\iteration2\\src\\main\\students");
             File[] listOfFiles = folder.listFiles();
 
             for (int i = 0; i < listOfFiles.length; i++) {
