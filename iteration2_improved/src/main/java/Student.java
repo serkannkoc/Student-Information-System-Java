@@ -24,8 +24,6 @@ public class Student {
         this.studentName = generateRandomName();
     }
 
-    ;
-
     public Student(int studentNumber, int year, ArrayList<Course> courseTaken,
                    Advisor advisor, Schedule schedule, ArrayList<String> error, ArrayList<Course> courses)
             throws FileNotFoundException {
@@ -73,7 +71,7 @@ public class Student {
                     totalCompletedCredit += semesterCourse.getCourseCredit();
                 }
 
-                point += semesterCourse.getCourseCredit() * Methods.getNumericGradeFromLetterGrade(transcriptRow.getLetterGrade());
+                point += semesterCourse.getCourseCredit() * getNumericGradeFromLetterGrade(transcriptRow.getLetterGrade());
 
                 transcriptRowArrayList.add(transcriptRow);
             }
@@ -97,11 +95,6 @@ public class Student {
 
     public Transcript getTranscriptAfter() {
         return transcriptAfter;
-    }
-
-    public List<Course> takeCourse(Course course) {
-        courseTaken.add(course);
-        return courseTaken;
     }
 
     public int getStudentNumber() {
@@ -353,5 +346,27 @@ public class Student {
         }
 
         return Integer.parseInt(studentNumber);
+    }
+
+    // This method returns the numeric grade equivalent of the letter grade parameter it receives.
+    public double getNumericGradeFromLetterGrade(String letterGrade){
+        if(letterGrade.equals("AA"))
+            return 4.0;
+        else if(letterGrade.equals("BA"))
+            return 3.5;
+        else if(letterGrade.equals("BB"))
+            return 3;
+        else if(letterGrade.equals("CB"))
+            return 2.5;
+        else if(letterGrade.equals("CC"))
+            return 2;
+        else if(letterGrade.equals("DC"))
+            return 1.5;
+        else if(letterGrade.equals("DD"))
+            return 1;
+        else if(letterGrade.equals("FD"))
+            return 0.5;
+        else
+            return 0;
     }
 }

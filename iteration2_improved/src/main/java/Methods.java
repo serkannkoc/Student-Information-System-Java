@@ -61,30 +61,6 @@ public class Methods {
     }
 
 
-
-
-    // This method returns the numeric grade equivalent of the letter grade parameter it receives.
-    public static double getNumericGradeFromLetterGrade(String letterGrade){
-        if(letterGrade.equals("AA"))
-            return 4.0;
-        else if(letterGrade.equals("BA"))
-            return 3.5;
-        else if(letterGrade.equals("BB"))
-            return 3;
-        else if(letterGrade.equals("CB"))
-            return 2.5;
-        else if(letterGrade.equals("CC"))
-            return 2;
-        else if(letterGrade.equals("DC"))
-            return 1.5;
-        else if(letterGrade.equals("DD"))
-            return 1;
-        else if(letterGrade.equals("FD"))
-            return 0.5;
-        else
-            return 0;
-    }
-
     // This method pulls related courses according to the entered semester parameter.
     public static ArrayList<Course> getSemesterCourses( ArrayList<Course> courses, int semester) {
         ArrayList<Course> courseArrayList = new ArrayList<Course>();
