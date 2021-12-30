@@ -1,3 +1,5 @@
+import com.google.gson.JsonArray;
+
 import java.util.ArrayList;
 
 public class Course {
@@ -10,16 +12,18 @@ public class Course {
     private Course prequisite;
     private String prequisiteName;
     private String electiveType;
+    private JsonArray courseHour;
 
 
-    public Course(String courseName, int credit, int semester, Lecturer lecturer, int quota, Course prequisite) {
+
+    public Course(String courseName, int credit, int semester, Lecturer lecturer, int quota, Course prequisite, JsonArray courseHour) {
         this.courseName = courseName;
         this.courseCredit = credit;
         this.semester = semester;
         this.lecturer = lecturer;
         this.quota = quota;
         this.prequisite = prequisite;
-
+        this.courseHour = courseHour;
     }
 
     public Course(){
@@ -97,5 +101,13 @@ public class Course {
 
     public void setPrequisite(Course prequisite) {
         this.prequisite = prequisite;
+    }
+
+    public JsonArray getCourseHour() {
+        return courseHour;
+    }
+
+    public void setCourseHour(JsonArray courseHour) {
+        this.courseHour = courseHour;
     }
 }

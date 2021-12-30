@@ -184,7 +184,7 @@
                 {
                     "courseName": "Systems Programming",
                     "courseCredit": 7,
-                    "courseHourCode": [7,8,22]
+                    "courseHourCode": [54,8,22]
 
                 },
                 {
@@ -254,7 +254,7 @@
                 {
                     "courseName": "Introduction to Signals and Systems",
                     "courseCredit": 5,
-                    "courseHourCode": [20,21,53]
+                    "courseHourCode": [20,21,35]
                 },
                 {
                     "courseName": "Formal Languages and Automata Theory",
@@ -330,7 +330,7 @@
                 {
                     "courseName": "Entrepreneurship and Innovation",
                     "courseCredit": 3,
-                    "courseHourCode": [140,141],
+                    "courseHourCode": [51,141],
                     "quota": 10
                 },
                 {
@@ -342,19 +342,19 @@
                 {
                     "courseName": "International Business",
                     "courseCredit": 3,
-                    "courseHourCode": [144,145],
+                    "courseHourCode": [55,145],
                     "quota": 10
                 },
                 {
                     "courseName": "Self Management",
                     "courseCredit": 3,
-                    "courseHourCode": [146,147],
+                    "courseHourCode": [7,147],
                     "quota": 10
                 },
                 {
                     "courseName": "Our Biosphere",
                     "courseCredit": 3,
-                    "courseHourCode": [148,149],
+                    "courseHourCode": [5,149],
                     "quota": 10
                 },
                 {
@@ -387,13 +387,13 @@
                 {
                     "courseName": "Entrepreneurship and Innovation",
                     "courseCredit": 3,
-                    "courseHourCode": [158,159],
+                    "courseHourCode": [152,159],
                     "quota": 10
                 },
                 {
                     "courseName": "Strategic Entrepreneurship",
                     "courseCredit": 3,
-                    "courseHourCode": [160,161],
+                    "courseHourCode": [136,161],
                     "quota": 10
                 },
                 {
@@ -450,7 +450,7 @@
                 {
                     "courseName": "Introduction to Distributed Systems",
                     "courseCredit": 5,
-                    "courseHourCode": [178,179],
+                    "courseHourCode": [136,179],
                     "quota": 10
                 },
                 {
@@ -469,13 +469,13 @@
                 {
                     "courseName": "Cloud Computing",
                     "courseCredit": 5,
-                    "courseHourCode": [184,185],
+                    "courseHourCode": [176,185],
                     "quota": 10
                 },
                 {
                     "courseName": "Software Project Management",
                     "courseCredit": 5,
-                    "courseHourCode": [186,187],
+                    "courseHourCode": [186,179],
                     "quota": 10
                 },
                 {
@@ -487,7 +487,7 @@
                 {
                     "courseName": "Distributed Databases",
                     "courseCredit": 5,
-                    "courseHourCode": [190,191],
+                    "courseHourCode": [190,182],
                     "quota": 10
                 },
                 {
@@ -499,7 +499,7 @@
                 {
                     "courseName": "Compiler Design",
                     "courseCredit": 5,
-                    "courseHourCode": [194,195],
+                    "courseHourCode": [162,195],
                     "prequisite": "Formal Languages and Automata Theory",
                     "quota": 10
                 },
@@ -528,7 +528,7 @@
                 {
                     "courseName": "Financial Engineering",
                     "courseCredit": 5,
-                    "courseHourCode": [202,203],
+                    "courseHourCode": [113,203],
                     "quota": 10
                 },
                 {

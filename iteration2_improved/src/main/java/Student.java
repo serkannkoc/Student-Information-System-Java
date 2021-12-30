@@ -15,7 +15,6 @@ public class Student {
     private Transcript transcriptBefore;
     private ArrayList<Course> courseOffered;
     private Transcript transcriptAfter;
-    private Schedule schedule;
     private ArrayList<String> error;
 
     static ArrayList<Student> studentArrayList = new ArrayList<Student>();
@@ -25,14 +24,13 @@ public class Student {
     }
 
     public Student(int studentNumber, int year, ArrayList<Course> courseTaken,
-                   Advisor advisor, Schedule schedule, ArrayList<String> error, ArrayList<Course> courses)
+                   Advisor advisor,  ArrayList<String> error, ArrayList<Course> courses)
             throws FileNotFoundException {
         this.studentNumber = studentNumber;
         this.studentName = generateRandomName();
         this.year = year;
         this.courseTaken = courseTaken;
         this.advisor = advisor;
-        this.schedule = schedule;
         this.error = error;
 
         setTranscriptBefore(courses);
@@ -133,13 +131,6 @@ public class Student {
         this.advisor = advisor;
     }
 
-    public Schedule getSchedule() {
-        return schedule;
-    }
-
-    public void setSchedule(Schedule schedule) {
-        this.schedule = schedule;
-    }
 
     public ArrayList<Course> getCourseOffered() {
         return courseOffered;
@@ -282,11 +273,29 @@ public class Student {
                 }
             }
 
-            if (errorArrayList.size() > 0)
+            if (errorArrayList.size() >= 0)
                 this.error = errorArrayList;
 
         }
         this.courseOffered = courseArrayList;
+        for (int i = 0; i < courseArrayList.size() - 1; i++) {
+            for (int j = i + 1; j < courseArrayList.size(); j++) {
+                for (int k = 0; k < courseArrayList.get(i).getCourseHour().size(); k++) {
+                    for (int n = 0; n < courseArrayList.get(j).getCourseHour().size(); n++) {
+                        boolean equal = courseArrayList.get(i).getCourseHour().get(k).equals(courseArrayList.get(j).getCourseHour().get(n));
+                        if (equal) {
+                            String error ="There is a collision "+ courseArrayList.get(i).getCourseName() +" "+(k+1) + ".hour between " + courseArrayList.get(j).getCourseName()+" "+(n+1)+ ".hour";
+                            errorArrayList.add(error);
+                            //break;
+                        }
+                    }
+
+                }
+
+
+            }
+
+        }
 
 
 

@@ -106,6 +106,7 @@ public class Methods {
                         Course course = new Course();
                         course.setCourseName(semesterCourseJsonObject.get("courseName").getAsString());
                         course.setCourseCredit(semesterCourseJsonObject.get("courseCredit").getAsInt());
+                        course.setCourseHour(semesterCourseJsonObject.get("courseHourCode").getAsJsonArray());
                         course.setSemester(i);
                         if(semesterCourseJsonObject.has("prequisite"))
                             course.setPrequisiteName(semesterCourseJsonObject.get("prequisite").getAsString());
@@ -120,6 +121,7 @@ public class Methods {
                     Course course = new Course();
                     course.setCourseName(semesterCourseJsonObject.get("courseName").getAsString());
                     course.setCourseCredit(semesterCourseJsonObject.get("courseCredit").getAsInt());
+                    course.setCourseHour(semesterCourseJsonObject.get("courseHourCode").getAsJsonArray());
 
                     if(semesterCourseJsonObject.has("prequisite"))
                         course.setPrequisiteName(semesterCourseJsonObject.get("prequisite").getAsString());
@@ -136,6 +138,7 @@ public class Methods {
                     Course course = new Course();
                     course.setCourseName(semesterCourseJsonObject.get("courseName").getAsString());
                     course.setCourseCredit(semesterCourseJsonObject.get("courseCredit").getAsInt());
+                    course.setCourseHour(semesterCourseJsonObject.get("courseHourCode").getAsJsonArray());
 
                     if(semesterCourseJsonObject.has("prequisite"))
                         course.setPrequisiteName(semesterCourseJsonObject.get("prequisite").getAsString());
@@ -153,6 +156,7 @@ public class Methods {
                     Course course = new Course();
                     course.setCourseName(semesterCourseJsonObject.get("courseName").getAsString());
                     course.setCourseCredit(semesterCourseJsonObject.get("courseCredit").getAsInt());
+                    course.setCourseHour(semesterCourseJsonObject.get("courseHourCode").getAsJsonArray());
 
                     if(semesterCourseJsonObject.has("prequisite"))
                         course.setPrequisiteName(semesterCourseJsonObject.get("prequisite").getAsString());
@@ -170,6 +174,7 @@ public class Methods {
                     Course course = new Course();
                     course.setCourseName(semesterCourseJsonObject.get("courseName").getAsString());
                     course.setCourseCredit(semesterCourseJsonObject.get("courseCredit").getAsInt());
+                    course.setCourseHour(semesterCourseJsonObject.get("courseHourCode").getAsJsonArray());
 
                     if(semesterCourseJsonObject.has("prequisite"))
                         course.setPrequisiteName(semesterCourseJsonObject.get("prequisite").getAsString());
