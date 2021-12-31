@@ -5,19 +5,31 @@ import com.google.gson.*;
 
 public class Process {
 
+    private static Process process;
+
+    static {
+        try {
+            process = new Process();
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
+    }
+
     private boolean createNewStudent;
     private String semester;
     private ArrayList<Advisor> advisorArrayList = new ArrayList<>();
     private ArrayList<Student> studentArrayList = new ArrayList<>();
     private ArrayList<Course> courseArrayList = new ArrayList<>();
 
-    public Process() throws FileNotFoundException {
+    private Process() throws FileNotFoundException {
         createNewStudent = getCreateNewStudentFromJSON();
         semester = getSemesterFromJSON();
         advisorArrayList = getAdvisorsFromJSON();
         courseArrayList = createCourses();
     }
-
+    public static Process getProcess(){
+        return process;
+    }
     public ArrayList<Student> getStudentArrayList() {
         return studentArrayList;
     }
