@@ -63,7 +63,6 @@ public class Student {
 
     public void setTranscriptBefore(Transcript transcriptBefore) {
         this.transcriptBefore = transcriptBefore;
-        this.transcriptAfter = transcriptBefore;
     }
 
     public ArrayList<Course> getCourseOffered() {

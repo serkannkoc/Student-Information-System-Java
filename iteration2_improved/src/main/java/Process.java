@@ -238,6 +238,7 @@ public class Process {
                     student.setYear(year);
                     student.setStudentNumber(generateStudentNumber(year, studentCount));
                     student.setTranscriptBefore(createTranscriptBefore(courseArrayList,year));
+                    student.setTranscriptAfter(createTranscriptBefore(courseArrayList,year));
 
                     student.setAdvisor(advisorArrayList.get(random));
 

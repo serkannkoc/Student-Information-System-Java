@@ -1,9 +1,9 @@
 {
   "studentNumber": 150121067,
-  "studentName": "Miran Yılmazer",
+  "studentName": "Bihter Şahin",
   "year": 1,
   "advisor": {
-    "lecturerName": "Murat Can Ganiz",
+    "lecturerName": "Müjdat Soytürk",
     "department": "CSE",
     "rank": "Doç.Dr"
   },
@@ -20,7 +20,7 @@
             32
           ]
         },
-        "letterGrade": "DD"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -48,7 +48,7 @@
             67
           ]
         },
-        "letterGrade": "BA"
+        "letterGrade": "BB"
       },
       {
         "course": {
@@ -62,7 +62,7 @@
             39
           ]
         },
-        "letterGrade": "AA"
+        "letterGrade": "CB"
       },
       {
         "course": {
@@ -76,7 +76,7 @@
             49
           ]
         },
-        "letterGrade": "FF"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -90,7 +90,7 @@
             56
           ]
         },
-        "letterGrade": "BB"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -103,7 +103,7 @@
             2
           ]
         },
-        "letterGrade": "FD"
+        "letterGrade": "BB"
       },
       {
         "course": {
@@ -120,9 +120,9 @@
       }
     ],
     "givenCredit": 31.0,
-    "completedCredit": 23.0,
-    "point": 70.0,
-    "gano": 2.26
+    "completedCredit": 31.0,
+    "point": 83.0,
+    "gano": 2.68
   },
   "courseOffered": [
     {
@@ -198,17 +198,6 @@
         82,
         83
       ]
-    },
-    {
-      "courseName": "Energy for Physical Activity",
-      "courseCredit": 3,
-      "semester": 0,
-      "quota": 10,
-      "electiveType": "NTE",
-      "courseHour": [
-        150,
-        151
-      ]
     }
   ],
   "transcriptAfter": {
@@ -224,7 +213,7 @@
             32
           ]
         },
-        "letterGrade": "DD"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -252,7 +241,7 @@
             67
           ]
         },
-        "letterGrade": "BA"
+        "letterGrade": "BB"
       },
       {
         "course": {
@@ -266,7 +255,7 @@
             39
           ]
         },
-        "letterGrade": "AA"
+        "letterGrade": "CB"
       },
       {
         "course": {
@@ -280,7 +269,7 @@
             49
           ]
         },
-        "letterGrade": "FF"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -294,7 +283,7 @@
             56
           ]
         },
-        "letterGrade": "BB"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -307,7 +296,7 @@
             2
           ]
         },
-        "letterGrade": "FD"
+        "letterGrade": "BB"
       },
       {
         "course": {
@@ -409,25 +398,14 @@
             83
           ]
         }
-      },
-      {
-        "course": {
-          "courseName": "Energy for Physical Activity",
-          "courseCredit": 3,
-          "semester": 0,
-          "quota": 10,
-          "electiveType": "NTE",
-          "courseHour": [
-            150,
-            151
-          ]
-        }
       }
     ],
-    "givenCredit": 0.0,
-    "completedCredit": 0.0,
-    "point": 0.0,
-    "gano": 0.0
+    "givenCredit": 58.0,
+    "completedCredit": 31.0,
+    "point": 83.0,
+    "gano": 2.68
   },
-  "error": []
+  "error": [
+    "The system did not allow Self Management because quota is full!"
+  ]
 }
