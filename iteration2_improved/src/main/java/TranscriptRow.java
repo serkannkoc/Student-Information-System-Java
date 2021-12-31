@@ -1,5 +1,3 @@
-import java.util.ArrayList;
-
 public class TranscriptRow {
     private Course course;
     private String letterGrade;
@@ -8,13 +6,9 @@ public class TranscriptRow {
         this.course = course;
         this.letterGrade = letterGrade;
     }
+
     public TranscriptRow(Course course){
         this.course = course;
-
-    }
-
-    public TranscriptRow(ArrayList<Course> courseOffered, String letterGrade){
-
     }
 
     public Course getCourse() {

@@ -1,9 +1,6 @@
-import java.io.FileNotFoundException;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.List;
-import java.util.Random;
 import com.google.gson.*;
 
 public class Student {
@@ -17,82 +14,7 @@ public class Student {
     private Transcript transcriptAfter;
     private ArrayList<String> error;
 
-    static ArrayList<Student> studentArrayList = new ArrayList<Student>();
-
     public Student() {
-        this.studentName = generateRandomName();
-    }
-
-    public Student(int studentNumber, int year, ArrayList<Course> courseTaken,
-                   Advisor advisor,  ArrayList<String> error, ArrayList<Course> courses)
-            throws FileNotFoundException {
-        this.studentNumber = studentNumber;
-        this.studentName = generateRandomName();
-        this.year = year;
-        this.courseTaken = courseTaken;
-        this.advisor = advisor;
-        this.error = error;
-
-        setTranscriptBefore(courses);
-
-        setCourseOffered(courses);
-    }
-
-    // This method takes a student parameter and creates a JSON file with the student's attributes.
-    public void createStudentJSON() {
-        Gson gson = new GsonBuilder().setPrettyPrinting().create();
-
-        try (FileWriter writer = new FileWriter(System.getProperty("user.dir") + "\\iteration2_improved\\src\\main\\students\\" + this.getStudentNumber() + ".json")) {
-            gson.toJson(this, writer);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
-
-    public void setTranscriptBefore(ArrayList<Course> courses) throws FileNotFoundException {
-        int totalGivenCredit = 0;
-        int totalCompletedCredit = 0;
-        float point = 0;
-        int semester = Methods.getSemester(year);
-
-        Transcript transcript = new Transcript();
-        ArrayList<TranscriptRow> transcriptRowArrayList = new ArrayList<TranscriptRow>();
-
-        for (int i = 1; i < semester; i++) {
-            for (Course semesterCourse : Methods.getSemesterCourses(courses, i)) {
-                TranscriptRow transcriptRow = new TranscriptRow(semesterCourse, generateRandomLetterGrade());
-
-                if (transcriptRow.getLetterGrade().equals("FF") || transcriptRow.getLetterGrade().equals("FD")) {
-                    totalGivenCredit += semesterCourse.getCourseCredit();
-                } else {
-                    totalGivenCredit += semesterCourse.getCourseCredit();
-                    totalCompletedCredit += semesterCourse.getCourseCredit();
-                }
-
-                point += semesterCourse.getCourseCredit() * getNumericGradeFromLetterGrade(transcriptRow.getLetterGrade());
-
-                transcriptRowArrayList.add(transcriptRow);
-            }
-
-        }
-
-        transcript.setTranscriptRow(transcriptRowArrayList);
-        transcript.setGivenCredit(totalGivenCredit);
-        transcript.setCompletedCredit(totalCompletedCredit);
-        transcript.setPoint(point);
-        transcript.setGano(Math.round((point / totalGivenCredit) * 100.0) / 100.0);
-
-        this.transcriptBefore = transcript;
-        this.transcriptAfter = transcript;
-    }
-
-    // This method creates the transcript before the student chooses a course.
-    public Transcript getTranscriptBefore() {
-        return transcriptBefore;
-    }
-
-    public Transcript getTranscriptAfter() {
-        return transcriptAfter;
     }
 
     public int getStudentNumber() {
@@ -107,6 +29,10 @@ public class Student {
         return studentName;
     }
 
+    public void setStudentName(String studentName) {
+        this.studentName = studentName;
+    }
+
     public int getYear() {
         return year;
     }
@@ -115,7 +41,7 @@ public class Student {
         this.year = year;
     }
 
-    public List<Course> getCourseTaken() {
+    public ArrayList<Course> getCourseTaken() {
         return courseTaken;
     }
 
@@ -131,174 +57,29 @@ public class Student {
         this.advisor = advisor;
     }
 
+    public Transcript getTranscriptBefore() {
+        return transcriptBefore;
+    }
+
+    public void setTranscriptBefore(Transcript transcriptBefore) {
+        this.transcriptBefore = transcriptBefore;
+        this.transcriptAfter = transcriptBefore;
+    }
 
     public ArrayList<Course> getCourseOffered() {
         return courseOffered;
     }
 
-    // This method selects the courses that the student can take according to the current semester.
-    public void setCourseOffered(ArrayList<Course> courses) throws FileNotFoundException {
+    public void setCourseOffered(ArrayList<Course> courseOffered) {
+        this.courseOffered = courseOffered;
+    }
 
-        ArrayList<Course> courseArrayList = new ArrayList<Course>();
-        int semester_int = Methods.getSemester(year);
-        ArrayList<String> errorArrayList = new ArrayList<String>();
+    public Transcript getTranscriptAfter() {
+        return transcriptAfter;
+    }
 
-        ArrayList<Course> semesterCourses = Methods.getSemesterCourses(courses, semester_int);
-
-        for (Course courseElement : semesterCourses) {
-            courseArrayList.add(courseElement);
-        }
-
-        ArrayList<Course> nteCourses = Methods.getElectiveCourses(courses, "NTE");
-        ArrayList<Course> teCourses = Methods.getElectiveCourses(courses, "TE");
-        ArrayList<Course> ueCourses = Methods.getElectiveCourses(courses, "ENG-UE");
-        ArrayList<Course> fteCourses = Methods.getElectiveCourses(courses, "ENG-FTE");
-
-        Random r = new Random();
-
-        if (semester_int == 2) {
-            int result = r.nextInt(nteCourses.size() - 0) + 0;
-            Course resCourse = nteCourses.get(result);
-            if (!courseArrayList.contains(resCourse)) {
-
-                if (Methods.checkForQuota(resCourse)) {
-                    resCourse.enrollStudent(this);
-                    courseArrayList.add(resCourse);
-                } else {
-                    String error = "The system did not allow " + resCourse.getCourseName() + " because quota is full!";
-                    errorArrayList.add(error);
-                }
-            }
-
-        } else if (semester_int == 7) {
-            if (true) {
-                int result = r.nextInt(teCourses.size() - 0) + 0;
-                Course resCourse = teCourses.get(result);
-                if (!courseArrayList.contains(resCourse)) {
-
-                    if (Methods.checkForQuota(resCourse)) {
-                        resCourse.enrollStudent(this);
-                        courseArrayList.add(resCourse);
-                    } else {
-                        String error = "The system did not allow " + resCourse.getCourseName() + " because quota is full!";
-                        errorArrayList.add(error);
-                    }
-                }
-            }
-
-            if (true) {
-                int result = r.nextInt(ueCourses.size() - 0) + 0;
-                Course resCourse = ueCourses.get(result);
-
-                if (!courseArrayList.contains(resCourse)) {
-
-                    if (Methods.checkForQuota(resCourse)) {
-                        resCourse.enrollStudent(this);
-                        courseArrayList.add(resCourse);
-                    } else {
-                        String error = "The system did not allow " + resCourse.getCourseName() + " because quota is full!";
-                        errorArrayList.add(error);
-                    }
-                }
-            }
-        } else if (semester_int == 8) {
-            for (int i = 0; i < 3; i++) {
-                int result = r.nextInt(teCourses.size() - 0) + 0;
-                Course resCourse = teCourses.get(result);
-
-                if (!courseArrayList.contains(resCourse)) {
-
-                    if (Methods.checkForQuota(resCourse)) {
-                        resCourse.enrollStudent(this);
-                        courseArrayList.add(resCourse);
-                    } else {
-                        String error = "The system did not allow " + resCourse.getCourseName() + " because quota is full!";
-                        errorArrayList.add(error);
-                    }
-                }
-
-            }
-
-            if (true) {
-                int result = r.nextInt(fteCourses.size() - 0) + 0;
-                Course resCourse = fteCourses.get(result);
-
-                if (!courseArrayList.contains(resCourse)) {
-
-                    if (Methods.checkForQuota(resCourse)) {
-                        resCourse.enrollStudent(this);
-                        courseArrayList.add(resCourse);
-                    } else {
-                        String error = "The system did not allow " + resCourse.getCourseName() + " because quota is full!";
-                        errorArrayList.add(error);
-                    }
-                }
-            }
-            if (true) {
-                int result = r.nextInt(nteCourses.size() - 0) + 0;
-                Course resCourse = nteCourses.get(result);
-
-                if (!courseArrayList.contains(resCourse)) {
-
-                    if (Methods.checkForQuota(resCourse)) {
-                        resCourse.enrollStudent(this);
-                        courseArrayList.add(resCourse);
-                    } else {
-                        String error = "The system did not allow " + resCourse.getCourseName() + " because quota is full!";
-                        errorArrayList.add(error);
-                    }
-                }
-            }
-
-        }
-
-
-        if (this.getTranscriptBefore() != null) {
-            if (getTranscriptBefore().getTranscriptRow() != null) {
-                for (int i = 0; i < this.getTranscriptBefore().getTranscriptRow().size(); i++) {
-                    String courseName = this.getTranscriptBefore().getTranscriptRow().get(i).getCourse().getCourseName();
-                    String letterGrade = this.getTranscriptBefore().getTranscriptRow().get(i).getLetterGrade();
-                    Student a = this;
-                    for (int j = 0; j < courseArrayList.size(); j++) {
-                        if (courseArrayList.get(j).getPrequisiteName() != null && !courseArrayList.get(j).getPrequisiteName().equals("")) {
-                            String prequisiteCourseName = courseArrayList.get(j).getPrequisiteName();
-
-                            if (courseName.equals(prequisiteCourseName) && (letterGrade.equals("FD") || letterGrade.equals("FF"))) {
-                                String error = "The system did not allow " + courseArrayList.get(j).getCourseName() + " because student failed prerequisite " + courseName;
-                                errorArrayList.add(error);
-                                courseArrayList.remove(j);
-                            }
-                        }
-                    }
-                }
-            }
-
-            if (errorArrayList.size() >= 0)
-                this.error = errorArrayList;
-
-        }
-        this.courseOffered = courseArrayList;
-        for (int i = 0; i < courseArrayList.size() - 1; i++) {
-            for (int j = i + 1; j < courseArrayList.size(); j++) {
-                for (int k = 0; k < courseArrayList.get(i).getCourseHour().size(); k++) {
-                    for (int n = 0; n < courseArrayList.get(j).getCourseHour().size(); n++) {
-                        boolean equal = courseArrayList.get(i).getCourseHour().get(k).equals(courseArrayList.get(j).getCourseHour().get(n));
-                        if (equal) {
-                            String error ="There is a collision "+ courseArrayList.get(i).getCourseName() +" "+(k+1) + ".hour between " + courseArrayList.get(j).getCourseName()+" "+(n+1)+ ".hour";
-                            errorArrayList.add(error);
-                            //break;
-                        }
-                    }
-
-                }
-
-
-            }
-
-        }
-
-
-
+    public void setTranscriptAfter(Transcript transcriptAfter) {
+        this.transcriptAfter = transcriptAfter;
     }
 
     public ArrayList<String> getError() {
@@ -309,73 +90,15 @@ public class Student {
         this.error = error;
     }
 
-    // This method returns a random name by combining the first and last name pool.
-    public static String generateRandomName(){
-        Random random = new Random();
+    // This method takes a student parameter and creates a JSON file with the student's attributes.
+    public void createStudentJSON() {
+        Gson gson = new GsonBuilder().setPrettyPrinting().create();
 
-        String[] firstNames = {"Ahmet", "Mehmet", "Mustafa", "Zeynep", "Elif", "Defne", "Kerem", "Azra", "Miran",
-                "Asya", "Hamza", "Öykü", "Ömer Asaf", "Ebrar", "Ömer", "Eylül", "Eymen", "Murat", "Hesna", "Ali", "Nuri",
-                "Muhammed", "Gökay", "Koray", "Esra", "Bihter", "Ceyda", "Özge", "Özlem", "Önder", "Ramazan", "Recep",
-                "Rabia", "Hilal", "Buse", "Başak", "Serkan", "Ulaş", "Deniz", "Kardelen", "Mervan", "Kübra", "Atilla",
-                "İlhan", "Fatih", "Asena", "Ahsen", "Ferit", "Kemal"};
-        String[] lastNames = {"Yılmaz", "Deniz", "Karakurt", "Şahin", "Türkay", "Akyıldız", "Yıldız", "Güçlü",
-                "Temur", "Duraner", "Yılmazer", "Ekşi", "Ballıca", "Erdoğmuş", "Erdoğan", "Korkmaz", "Çubukluöz",
-                "Hüyüktepe", "Zengin", "Büyük", "Küçük", "Türk", "Turgut", "Boz", "Açıkgöz", "Öztürk", "Beler",
-                "Çetin", "Bilgin", "Yalçınkaya", "Adıgüzel", "Kartal", "Dinç", "Genç", "Kuruçay", "Parlak", "Karakaya",
-                "Kaya"};
-
-        String fullName = firstNames[random.nextInt(firstNames.length)] + " " + lastNames[random.nextInt(lastNames.length)];
-
-        return fullName;
-    }
-
-    // This method returns a random letter grade to generate the transcript.
-    public static String generateRandomLetterGrade(){
-        Random random = new Random();
-
-        String[] grades = {"AA", "BA", "BB", "CB", "CC", "DC", "DD", "FD", "FF"};
-
-        String letterGrade = grades[random.nextInt(grades.length)];
-
-        return letterGrade;
-    }
-
-    // This method generates the school number based on the student's year.
-    public static int generateStudentNumber(int year, int count){
-        String numberStart = Integer.toString(150122-year);
-        numberStart+="0";
-
-        String studentNumber = "";
-
-        if(count>=9) {
-            studentNumber = numberStart + Integer.toString(count + 1);
+        try (FileWriter writer = new FileWriter(System.getProperty("user.dir") + "\\iteration2_improved\\src\\main\\students\\" + this.getStudentNumber() + ".json")) {
+            gson.toJson(this, writer);
+        } catch (IOException e) {
+            e.printStackTrace();
         }
-        else{
-            studentNumber = numberStart + Integer.toString(count / 10) + (count + 1);
-        }
-
-        return Integer.parseInt(studentNumber);
     }
 
-    // This method returns the numeric grade equivalent of the letter grade parameter it receives.
-    public double getNumericGradeFromLetterGrade(String letterGrade){
-        if(letterGrade.equals("AA"))
-            return 4.0;
-        else if(letterGrade.equals("BA"))
-            return 3.5;
-        else if(letterGrade.equals("BB"))
-            return 3;
-        else if(letterGrade.equals("CB"))
-            return 2.5;
-        else if(letterGrade.equals("CC"))
-            return 2;
-        else if(letterGrade.equals("DC"))
-            return 1.5;
-        else if(letterGrade.equals("DD"))
-            return 1;
-        else if(letterGrade.equals("FD"))
-            return 0.5;
-        else
-            return 0;
-    }
 }

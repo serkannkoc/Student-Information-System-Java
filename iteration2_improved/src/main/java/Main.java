@@ -2,11 +2,13 @@ import java.io.IOException;
 
 public class Main {
     public static void main(String[] args) throws IOException {
-        Methods.initializeStudents();
-        Advisor.addApprovalCourses(Student.studentArrayList);
-        for(int i = 0;i < Student.studentArrayList.size();i++){
-            Student.studentArrayList.get(i).createStudentJSON();
-        }
+        Process process = new Process();
+        Advisor advisor = process.getAdvisorArrayList().get(0);
+        process.initializeStudents();
+
+        advisor.addApprovalCourses(process.getStudentArrayList());
+
+        process.createJSONForAllStudents();
     }
 
 }

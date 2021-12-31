@@ -5,32 +5,25 @@ public class Advisor extends Lecturer {
         super(lecturerName, department, rank);
     }
 
-    public static void addApprovalCourses(ArrayList<Student> studentarray) {
+    public void addApprovalCourses(ArrayList<Student> studentArrayList) {
 
-        int NoOfStuWithoutEngProject = 0;
-
-        for (int i = 0; i < Student.studentArrayList.size(); ++i) {
-            for (int j = 0; j < Student.studentArrayList.get(i).getCourseOffered().size(); j++) {
-                ArrayList<TranscriptRow> transcriptRowArrayList = new ArrayList<TranscriptRow>();
-                TranscriptRow transcriptRow = new TranscriptRow(Student.studentArrayList.get(i).getCourseOffered().get(j));
-                if (Student.studentArrayList.get(i).getTranscriptBefore().getTranscriptRow() != null) {
-
-                    if (!(Student.studentArrayList.get(i).getCourseOffered().get(j).getCourseName().equals("Engineering Project I") ||
-                            Student.studentArrayList.get(i).getCourseOffered().get(j).getCourseName().equals("Engineering Project II"))) {
-
-                        Student.studentArrayList.get(i).getTranscriptAfter().getTranscriptRow().add(transcriptRow);
-
-                    } else if (Student.studentArrayList.get(i).getTranscriptBefore().getCompletedCredit() >= 165) {
-
-                        Student.studentArrayList.get(i).getTranscriptAfter().getTranscriptRow().add(transcriptRow);
-
-                    } else NoOfStuWithoutEngProject++;
-
-                } else {
-                    transcriptRowArrayList.add(transcriptRow);
-                    Student.studentArrayList.get(i).getTranscriptAfter().setTranscriptRow(transcriptRowArrayList);
-                }
+        for(int studentCount=0; studentCount<studentArrayList.size(); studentCount++)
+        {
+            Student student = studentArrayList.get(studentCount);
+            Transcript transcript = new Transcript();
+            ArrayList<TranscriptRow> transcriptRowArrayList = new ArrayList<>();
+            for(int transcriptBeforeCount=0; transcriptBeforeCount<student.getTranscriptBefore().getTranscriptRow().size(); transcriptBeforeCount++)
+            {
+                TranscriptRow transcriptRow = student.getTranscriptBefore().getTranscriptRow().get(transcriptBeforeCount);
+                transcriptRowArrayList.add(transcriptRow);
             }
+            for(int courseOfferedCount=0; courseOfferedCount<student.getCourseOffered().size(); courseOfferedCount++){
+                Course course = student.getCourseOffered().get(courseOfferedCount);
+                TranscriptRow transcriptRow = new TranscriptRow(course);
+                transcriptRowArrayList.add(transcriptRow);
+            }
+            transcript.setTranscriptRow(transcriptRowArrayList);
+            student.setTranscriptAfter(transcript);
         }
     }
 }
