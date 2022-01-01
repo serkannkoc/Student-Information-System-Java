@@ -14,7 +14,7 @@
     <bytecodeTargetLevel>
       <module name="iteration1" target="8" />
       <module name="iteration2" target="7" />
-      <module name="iteration2_improved" target="7" />
+      <module name="iteration2_improved" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>

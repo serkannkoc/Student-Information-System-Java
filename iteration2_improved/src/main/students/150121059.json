@@ -1,11 +1,11 @@
 {
   "studentNumber": 150121059,
-  "studentName": "Kemal Yılmaz",
+  "studentName": "Azra Karakaya",
   "year": 1,
   "advisor": {
-    "lecturerName": "Borahan Tümer",
+    "lecturerName": "Fatma Corut Ergin",
     "department": "CSE",
-    "rank": "Doç.Dr"
+    "rank": "Dr.Öğr.Üyesi"
   },
   "transcriptBefore": {
     "transcriptRow": [
@@ -20,7 +20,7 @@
             32
           ]
         },
-        "letterGrade": "CB"
+        "letterGrade": "FF"
       },
       {
         "course": {
@@ -34,7 +34,7 @@
             68
           ]
         },
-        "letterGrade": "CC"
+        "letterGrade": "BB"
       },
       {
         "course": {
@@ -48,7 +48,7 @@
             67
           ]
         },
-        "letterGrade": "CB"
+        "letterGrade": "FF"
       },
       {
         "course": {
@@ -62,7 +62,7 @@
             39
           ]
         },
-        "letterGrade": "DC"
+        "letterGrade": "BA"
       },
       {
         "course": {
@@ -76,7 +76,7 @@
             49
           ]
         },
-        "letterGrade": "AA"
+        "letterGrade": "FF"
       },
       {
         "course": {
@@ -90,7 +90,7 @@
             56
           ]
         },
-        "letterGrade": "BA"
+        "letterGrade": "DD"
       },
       {
         "course": {
@@ -103,7 +103,7 @@
             2
           ]
         },
-        "letterGrade": "DC"
+        "letterGrade": "BA"
       },
       {
         "course": {
@@ -116,13 +116,13 @@
             105
           ]
         },
-        "letterGrade": "CB"
+        "letterGrade": "DD"
       }
     ],
     "givenCredit": 31.0,
-    "completedCredit": 31.0,
-    "point": 80.0,
-    "gano": 2.58
+    "completedCredit": 19.0,
+    "point": 49.0,
+    "gano": 1.58
   },
   "courseOffered": [
     {
@@ -198,17 +198,6 @@
         82,
         83
       ]
-    },
-    {
-      "courseName": "Cardiopulmonary Resuscitation and First Aid Basics",
-      "courseCredit": 3,
-      "semester": 0,
-      "quota": 10,
-      "electiveType": "NTE",
-      "courseHour": [
-        154,
-        155
-      ]
     }
   ],
   "transcriptAfter": {
@@ -224,7 +213,7 @@
             32
           ]
         },
-        "letterGrade": "CB"
+        "letterGrade": "FF"
       },
       {
         "course": {
@@ -238,7 +227,7 @@
             68
           ]
         },
-        "letterGrade": "CC"
+        "letterGrade": "BB"
       },
       {
         "course": {
@@ -252,7 +241,7 @@
             67
           ]
         },
-        "letterGrade": "CB"
+        "letterGrade": "FF"
       },
       {
         "course": {
@@ -266,7 +255,7 @@
             39
           ]
         },
-        "letterGrade": "DC"
+        "letterGrade": "BA"
       },
       {
         "course": {
@@ -280,7 +269,7 @@
             49
           ]
         },
-        "letterGrade": "AA"
+        "letterGrade": "FF"
       },
       {
         "course": {
@@ -294,7 +283,7 @@
             56
           ]
         },
-        "letterGrade": "BA"
+        "letterGrade": "DD"
       },
       {
         "course": {
@@ -307,7 +296,7 @@
             2
           ]
         },
-        "letterGrade": "DC"
+        "letterGrade": "BA"
       },
       {
         "course": {
@@ -320,7 +309,7 @@
             105
           ]
         },
-        "letterGrade": "CB"
+        "letterGrade": "DD"
       },
       {
         "course": {
@@ -409,25 +398,14 @@
             83
           ]
         }
-      },
-      {
-        "course": {
-          "courseName": "Cardiopulmonary Resuscitation and First Aid Basics",
-          "courseCredit": 3,
-          "semester": 0,
-          "quota": 10,
-          "electiveType": "NTE",
-          "courseHour": [
-            154,
-            155
-          ]
-        }
       }
     ],
-    "givenCredit": 61.0,
-    "completedCredit": 31.0,
-    "point": 80.0,
-    "gano": 2.58
+    "givenCredit": 58.0,
+    "completedCredit": 19.0,
+    "point": 49.0,
+    "gano": 1.58
   },
-  "error": []
+  "error": [
+    "The system did not allow Interpersonal Relations and Communication because quota is full!"
+  ]
 }

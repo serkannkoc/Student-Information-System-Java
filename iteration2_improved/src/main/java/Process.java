@@ -1,6 +1,9 @@
 import java.io.*;
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Random;
+import java.util.stream.Collectors;
+
 import com.google.gson.*;
 
 public class Process {
@@ -526,6 +529,7 @@ public class Process {
                                 String error = "The system did not allow " + myCourseArrayList.get(j).getCourseName() + " because student failed prerequisite " + courseName;
                                 errorArrayList.add(error);
                                 myCourseArrayList.remove(j);
+                                student.getAdvisor().getPrerequisiteErrorArrayList().add(Integer.toString(student.getStudentNumber()));
                             }
                         }
                     }
@@ -574,24 +578,34 @@ public class Process {
         for(int advisorCount=0; advisorCount<advisorArrayList.size(); advisorCount++) {
             Advisor advisor = advisorArrayList.get(advisorCount);
             if(advisor.getTeErrorArrayList().size() > 0){
+                List list = advisor.getTeErrorArrayList().stream().distinct().collect(Collectors.toList());
                 System.out.println(advisor.getLecturerName() +"\'s list of students who cannot enroll in TE courses because they have less " +
-                        "than 155 credits - ("+ advisor.getTeErrorArrayList().size()+" student)");
-                System.out.println(advisor.getTeErrorArrayList() + "\n\n");
+                        "than 155 credits - ("+ list.size()+" student)");
+                System.out.println(list + "\n\n");
             }
             if(advisor.getProjectErrorArrayList().size() > 0){
+                List list = advisor.getProjectErrorArrayList().stream().distinct().collect(Collectors.toList());
                 System.out.println(advisor.getLecturerName() +"\'s list of students who cannot enroll in graduation project course because they have less " +
-                        "than 165 credits - ("+ advisor.getProjectErrorArrayList().size()+" student)");
-                System.out.println(advisor.getProjectErrorArrayList() + "\n\n");
+                        "than 165 credits - ("+ list.size()+" student)");
+                System.out.println(list + "\n\n");
             }
             if(advisor.getQuotaErrorArrayList().size() > 0){
+                List list = advisor.getQuotaErrorArrayList().stream().distinct().collect(Collectors.toList());
                 System.out.println(advisor.getLecturerName() +"\'s list of students who cannot register for classes due to " +
                         "lack of quota - ("+ advisor.getQuotaErrorArrayList().size()+" student)");
-                System.out.println(advisor.getQuotaErrorArrayList() + "\n\n");
+                System.out.println(list + "\n\n");
             }
             if(advisor.getCollisionErrorArrayList().size() > 0){
+                List list = advisor.getCollisionErrorArrayList().stream().distinct().collect(Collectors.toList());
                 System.out.println(advisor.getLecturerName() +"\'s list of students with conflicting courses - " +
-                        "("+ advisor.getCollisionErrorArrayList().size()+" student)");
-                System.out.println(advisor.getCollisionErrorArrayList() + "\n\n");
+                        "("+ list.size()+" student)");
+                System.out.println(list + "\n\n");
+            }
+            if(advisor.getPrerequisiteErrorArrayList().size() > 0){
+                List list = advisor.getPrerequisiteErrorArrayList().stream().distinct().collect(Collectors.toList());
+                System.out.println(advisor.getLecturerName() +"\'s list of students who could not register for the course because " +
+                        "they could not complete the prerequisite course - ("+ list.size()+" student)");
+                System.out.println(list + "\n\n");
             }
         }
     }
