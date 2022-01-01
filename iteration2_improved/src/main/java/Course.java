@@ -4,15 +4,15 @@ import java.util.ArrayList;
 
 public class Course {
     private String courseName;
-    private transient   ArrayList<Student> studentList;
+    private transient ArrayList<Student> studentList;
     private int courseCredit;
     private int semester;
     private Lecturer lecturer;
-    private int quota;
+    private transient int quota;
     private Course prequisite;
     private String prequisiteName;
     private String electiveType;
-    private JsonArray courseHour;
+    private transient JsonArray courseHour;
 
 
 
@@ -30,14 +30,13 @@ public class Course {
         this.studentList= new ArrayList<Student>();
     }
 
-
     public String getPrequisiteName() {
         return prequisiteName;
     }
+
     public void setPrequisiteName(String prequisiteName) {
         this.prequisiteName = prequisiteName;
     }
-
 
     public void setElectiveType(String electiveType) {
         this.electiveType = electiveType;

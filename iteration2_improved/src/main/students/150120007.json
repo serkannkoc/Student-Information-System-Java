@@ -1,11 +1,11 @@
 {
   "studentNumber": 150120007,
-  "studentName": "Ahmet Adıgüzel",
+  "studentName": "Kübra Erdoğan",
   "year": 2,
   "advisor": {
-    "lecturerName": "Fatma Corut Ergin",
+    "lecturerName": "Müjdat Soytürk",
     "department": "CSE",
-    "rank": "Dr.Öğr.Üyesi"
+    "rank": "Doç.Dr"
   },
   "transcriptBefore": {
     "transcriptRow": [
@@ -13,273 +13,160 @@
         "course": {
           "courseName": "Atatürk İlkeleri ve İnkılap Tarihi I",
           "courseCredit": 2,
-          "semester": 1,
-          "quota": 0,
-          "courseHour": [
-            31,
-            32
-          ]
-        },
-        "letterGrade": "FF"
-      },
-      {
-        "course": {
-          "courseName": "Introduction to Modern Biology",
-          "courseCredit": 5,
-          "semester": 1,
-          "quota": 0,
-          "courseHour": [
-            35,
-            36,
-            68
-          ]
-        },
-        "letterGrade": "FF"
-      },
-      {
-        "course": {
-          "courseName": "Introduction to Computer Engineering",
-          "courseCredit": 4,
-          "semester": 1,
-          "quota": 0,
-          "courseHour": [
-            65,
-            66,
-            67
-          ]
-        },
-        "letterGrade": "CC"
-      },
-      {
-        "course": {
-          "courseName": "Computer Programming I",
-          "courseCredit": 6,
-          "semester": 1,
-          "quota": 0,
-          "courseHour": [
-            3,
-            4,
-            39
-          ]
-        },
-        "letterGrade": "BA"
-      },
-      {
-        "course": {
-          "courseName": "Calculus I",
-          "courseCredit": 6,
-          "semester": 1,
-          "quota": 0,
-          "courseHour": [
-            17,
-            18,
-            49
-          ]
-        },
-        "letterGrade": "DD"
-      },
-      {
-        "course": {
-          "courseName": "Physics I",
-          "courseCredit": 4,
-          "semester": 1,
-          "quota": 0,
-          "courseHour": [
-            24,
-            55,
-            56
-          ]
-        },
-        "letterGrade": "AA"
-      },
-      {
-        "course": {
-          "courseName": "Physics Lab I",
-          "courseCredit": 2,
-          "semester": 1,
-          "quota": 0,
-          "courseHour": [
-            1,
-            2
-          ]
-        },
-        "letterGrade": "DD"
-      },
-      {
-        "course": {
-          "courseName": "Türk Dili I",
-          "courseCredit": 2,
-          "semester": 1,
-          "quota": 0,
-          "courseHour": [
-            104,
-            105
-          ]
-        },
-        "letterGrade": "CC"
-      },
-      {
-        "course": {
-          "courseName": "Atatürk İlkeleri ve İnkılap Tarihi II",
-          "courseCredit": 2,
-          "semester": 2,
-          "quota": 0,
-          "courseHour": [
-            102,
-            103
-          ]
-        },
-        "letterGrade": "BA"
-      },
-      {
-        "course": {
-          "courseName": "Computer Programming II",
-          "courseCredit": 6,
-          "semester": 2,
-          "quota": 0,
-          "courseHour": [
-            4,
-            5,
-            20
-          ]
+          "semester": 1
         },
         "letterGrade": "CB"
       },
       {
         "course": {
-          "courseName": "Calculus II",
-          "courseCredit": 6,
-          "semester": 2,
-          "quota": 0,
-          "courseHour": [
-            3,
-            51,
-            52
-          ]
-        },
-        "letterGrade": "CC"
-      },
-      {
-        "course": {
-          "courseName": "Linear Algebra for Computer Engineering",
+          "courseName": "Introduction to Modern Biology",
           "courseCredit": 5,
-          "semester": 2,
-          "quota": 0,
-          "courseHour": [
-            18,
-            19,
-            35
-          ]
+          "semester": 1
         },
         "letterGrade": "DC"
       },
       {
         "course": {
-          "courseName": "Physics II",
+          "courseName": "Introduction to Computer Engineering",
           "courseCredit": 4,
-          "semester": 2,
-          "quota": 0,
-          "courseHour": [
-            55,
-            56,
-            57
-          ]
-        },
-        "letterGrade": "CC"
-      },
-      {
-        "course": {
-          "courseName": "Physics Lab II",
-          "courseCredit": 2,
-          "semester": 2,
-          "quota": 0,
-          "courseHour": [
-            7,
-            8
-          ]
+          "semester": 1
         },
         "letterGrade": "BA"
       },
       {
         "course": {
-          "courseName": "Türk Dili II",
+          "courseName": "Computer Programming I",
+          "courseCredit": 6,
+          "semester": 1
+        },
+        "letterGrade": "AA"
+      },
+      {
+        "course": {
+          "courseName": "Calculus I",
+          "courseCredit": 6,
+          "semester": 1
+        },
+        "letterGrade": "BB"
+      },
+      {
+        "course": {
+          "courseName": "Physics I",
+          "courseCredit": 4,
+          "semester": 1
+        },
+        "letterGrade": "BB"
+      },
+      {
+        "course": {
+          "courseName": "Physics Lab I",
           "courseCredit": 2,
-          "semester": 2,
-          "quota": 0,
-          "courseHour": [
-            82,
-            83
-          ]
+          "semester": 1
+        },
+        "letterGrade": "BB"
+      },
+      {
+        "course": {
+          "courseName": "Türk Dili I",
+          "courseCredit": 2,
+          "semester": 1
         },
         "letterGrade": "FF"
       },
       {
         "course": {
-          "courseName": "Discrete Computational Structures",
-          "courseCredit": 6,
-          "semester": 3,
-          "quota": 0,
-          "courseHour": [
-            6,
-            7,
-            73
-          ]
+          "courseName": "Atatürk İlkeleri ve İnkılap Tarihi II",
+          "courseCredit": 2,
+          "semester": 2
         },
         "letterGrade": "FD"
+      },
+      {
+        "course": {
+          "courseName": "Computer Programming II",
+          "courseCredit": 6,
+          "semester": 2
+        },
+        "letterGrade": "DD"
+      },
+      {
+        "course": {
+          "courseName": "Calculus II",
+          "courseCredit": 6,
+          "semester": 2
+        },
+        "letterGrade": "DC"
+      },
+      {
+        "course": {
+          "courseName": "Linear Algebra for Computer Engineering",
+          "courseCredit": 5,
+          "semester": 2
+        },
+        "letterGrade": "CC"
+      },
+      {
+        "course": {
+          "courseName": "Physics II",
+          "courseCredit": 4,
+          "semester": 2
+        },
+        "letterGrade": "DC"
+      },
+      {
+        "course": {
+          "courseName": "Physics Lab II",
+          "courseCredit": 2,
+          "semester": 2
+        },
+        "letterGrade": "CB"
+      },
+      {
+        "course": {
+          "courseName": "Türk Dili II",
+          "courseCredit": 2,
+          "semester": 2
+        },
+        "letterGrade": "BB"
+      },
+      {
+        "course": {
+          "courseName": "Discrete Computational Structures",
+          "courseCredit": 6,
+          "semester": 3
+        },
+        "letterGrade": "FF"
       },
       {
         "course": {
           "courseName": "Data Structures",
           "courseCredit": 7,
           "semester": 3,
-          "quota": 0,
-          "prequisiteName": "Computer Programming II",
-          "courseHour": [
-            8,
-            39,
-            40
-          ]
+          "prequisiteName": "Computer Programming II"
         },
-        "letterGrade": "BA"
+        "letterGrade": "FF"
       },
       {
         "course": {
           "courseName": "Engineering Economy",
           "courseCredit": 4,
-          "semester": 3,
-          "quota": 0,
-          "courseHour": [
-            27,
-            28
-          ]
+          "semester": 3
         },
-        "letterGrade": "FD"
+        "letterGrade": "AA"
       },
       {
         "course": {
           "courseName": "Electric Circuits",
           "courseCredit": 5,
-          "semester": 3,
-          "quota": 0,
-          "courseHour": [
-            22,
-            23,
-            55
-          ]
+          "semester": 3
         },
-        "letterGrade": "CC"
+        "letterGrade": "DC"
       },
       {
         "course": {
           "courseName": "Differential Equations",
           "courseCredit": 4,
-          "semester": 3,
-          "quota": 0,
-          "courseHour": [
-            2,
-            33,
-            34
-          ]
+          "semester": 3
         },
         "letterGrade": "BA"
       },
@@ -287,77 +174,36 @@
         "course": {
           "courseName": "Numerical Methods",
           "courseCredit": 4,
-          "semester": 3,
-          "quota": 0,
-          "courseHour": [
-            24,
-            25,
-            56
-          ]
+          "semester": 3
         },
-        "letterGrade": "BB"
+        "letterGrade": "FF"
       }
     ],
     "givenCredit": 88.0,
-    "completedCredit": 69.0,
-    "point": 179.0,
-    "gano": 2.03
+    "completedCredit": 67.0,
+    "point": 167.0,
+    "gano": 1.9
   },
   "courseOffered": [
     {
-      "courseName": "Analysis of Algorithms",
-      "courseCredit": 6,
-      "semester": 4,
-      "quota": 0,
-      "prequisiteName": "Data Structures",
-      "courseHour": [
-        54,
-        71,
-        72
-      ]
-    },
-    {
       "courseName": "Systems Programming",
       "courseCredit": 7,
-      "semester": 4,
-      "quota": 0,
-      "courseHour": [
-        7,
-        8,
-        22
-      ]
+      "semester": 4
     },
     {
       "courseName": "Principles of Programming Languages",
       "courseCredit": 4,
-      "semester": 4,
-      "quota": 0,
-      "courseHour": [
-        113,
-        114,
-        115
-      ]
+      "semester": 4
     },
     {
       "courseName": "Electronics",
       "courseCredit": 5,
-      "semester": 4,
-      "quota": 0,
-      "courseHour": [
-        58,
-        59
-      ]
+      "semester": 4
     },
     {
       "courseName": "Introduction to Probability and Statistics",
       "courseCredit": 5,
-      "semester": 4,
-      "quota": 0,
-      "courseHour": [
-        9,
-        23,
-        24
-      ]
+      "semester": 4
     }
   ],
   "transcriptAfter": {
@@ -366,177 +212,103 @@
         "course": {
           "courseName": "Atatürk İlkeleri ve İnkılap Tarihi I",
           "courseCredit": 2,
-          "semester": 1,
-          "quota": 0,
-          "courseHour": [
-            31,
-            32
-          ]
-        },
-        "letterGrade": "DC"
-      },
-      {
-        "course": {
-          "courseName": "Introduction to Modern Biology",
-          "courseCredit": 5,
-          "semester": 1,
-          "quota": 0,
-          "courseHour": [
-            35,
-            36,
-            68
-          ]
-        },
-        "letterGrade": "FD"
-      },
-      {
-        "course": {
-          "courseName": "Introduction to Computer Engineering",
-          "courseCredit": 4,
-          "semester": 1,
-          "quota": 0,
-          "courseHour": [
-            65,
-            66,
-            67
-          ]
-        },
-        "letterGrade": "DC"
-      },
-      {
-        "course": {
-          "courseName": "Computer Programming I",
-          "courseCredit": 6,
-          "semester": 1,
-          "quota": 0,
-          "courseHour": [
-            3,
-            4,
-            39
-          ]
-        },
-        "letterGrade": "CB"
-      },
-      {
-        "course": {
-          "courseName": "Calculus I",
-          "courseCredit": 6,
-          "semester": 1,
-          "quota": 0,
-          "courseHour": [
-            17,
-            18,
-            49
-          ]
-        },
-        "letterGrade": "FD"
-      },
-      {
-        "course": {
-          "courseName": "Physics I",
-          "courseCredit": 4,
-          "semester": 1,
-          "quota": 0,
-          "courseHour": [
-            24,
-            55,
-            56
-          ]
-        },
-        "letterGrade": "CB"
-      },
-      {
-        "course": {
-          "courseName": "Physics Lab I",
-          "courseCredit": 2,
-          "semester": 1,
-          "quota": 0,
-          "courseHour": [
-            1,
-            2
-          ]
+          "semester": 1
         },
         "letterGrade": "DD"
       },
       {
         "course": {
+          "courseName": "Introduction to Modern Biology",
+          "courseCredit": 5,
+          "semester": 1
+        },
+        "letterGrade": "BB"
+      },
+      {
+        "course": {
+          "courseName": "Introduction to Computer Engineering",
+          "courseCredit": 4,
+          "semester": 1
+        },
+        "letterGrade": "DD"
+      },
+      {
+        "course": {
+          "courseName": "Computer Programming I",
+          "courseCredit": 6,
+          "semester": 1
+        },
+        "letterGrade": "BA"
+      },
+      {
+        "course": {
+          "courseName": "Calculus I",
+          "courseCredit": 6,
+          "semester": 1
+        },
+        "letterGrade": "BA"
+      },
+      {
+        "course": {
+          "courseName": "Physics I",
+          "courseCredit": 4,
+          "semester": 1
+        },
+        "letterGrade": "FF"
+      },
+      {
+        "course": {
+          "courseName": "Physics Lab I",
+          "courseCredit": 2,
+          "semester": 1
+        },
+        "letterGrade": "FF"
+      },
+      {
+        "course": {
           "courseName": "Türk Dili I",
           "courseCredit": 2,
-          "semester": 1,
-          "quota": 0,
-          "courseHour": [
-            104,
-            105
-          ]
+          "semester": 1
         },
-        "letterGrade": "DC"
+        "letterGrade": "AA"
       },
       {
         "course": {
           "courseName": "Atatürk İlkeleri ve İnkılap Tarihi II",
           "courseCredit": 2,
-          "semester": 2,
-          "quota": 0,
-          "courseHour": [
-            102,
-            103
-          ]
+          "semester": 2
         },
-        "letterGrade": "BA"
+        "letterGrade": "AA"
       },
       {
         "course": {
           "courseName": "Computer Programming II",
           "courseCredit": 6,
-          "semester": 2,
-          "quota": 0,
-          "courseHour": [
-            4,
-            5,
-            20
-          ]
+          "semester": 2
         },
-        "letterGrade": "CC"
+        "letterGrade": "DC"
       },
       {
         "course": {
           "courseName": "Calculus II",
           "courseCredit": 6,
-          "semester": 2,
-          "quota": 0,
-          "courseHour": [
-            3,
-            51,
-            52
-          ]
+          "semester": 2
         },
-        "letterGrade": "BA"
+        "letterGrade": "BB"
       },
       {
         "course": {
           "courseName": "Linear Algebra for Computer Engineering",
           "courseCredit": 5,
-          "semester": 2,
-          "quota": 0,
-          "courseHour": [
-            18,
-            19,
-            35
-          ]
+          "semester": 2
         },
-        "letterGrade": "CC"
+        "letterGrade": "BA"
       },
       {
         "course": {
           "courseName": "Physics II",
           "courseCredit": 4,
-          "semester": 2,
-          "quota": 0,
-          "courseHour": [
-            55,
-            56,
-            57
-          ]
+          "semester": 2
         },
         "letterGrade": "CB"
       },
@@ -544,117 +316,74 @@
         "course": {
           "courseName": "Physics Lab II",
           "courseCredit": 2,
-          "semester": 2,
-          "quota": 0,
-          "courseHour": [
-            7,
-            8
-          ]
+          "semester": 2
         },
-        "letterGrade": "DD"
+        "letterGrade": "AA"
       },
       {
         "course": {
           "courseName": "Türk Dili II",
           "courseCredit": 2,
-          "semester": 2,
-          "quota": 0,
-          "courseHour": [
-            82,
-            83
-          ]
+          "semester": 2
         },
-        "letterGrade": "FF"
+        "letterGrade": "FD"
       },
       {
         "course": {
           "courseName": "Discrete Computational Structures",
           "courseCredit": 6,
-          "semester": 3,
-          "quota": 0,
-          "courseHour": [
-            6,
-            7,
-            73
-          ]
+          "semester": 3
         },
-        "letterGrade": "DD"
+        "letterGrade": "BA"
       },
       {
         "course": {
           "courseName": "Data Structures",
           "courseCredit": 7,
           "semester": 3,
-          "quota": 0,
-          "prequisiteName": "Computer Programming II",
-          "courseHour": [
-            8,
-            39,
-            40
-          ]
+          "prequisiteName": "Computer Programming II"
         },
-        "letterGrade": "FF"
+        "letterGrade": "BB"
       },
       {
         "course": {
           "courseName": "Engineering Economy",
           "courseCredit": 4,
-          "semester": 3,
-          "quota": 0,
-          "courseHour": [
-            27,
-            28
-          ]
-        },
-        "letterGrade": "DD"
-      },
-      {
-        "course": {
-          "courseName": "Electric Circuits",
-          "courseCredit": 5,
-          "semester": 3,
-          "quota": 0,
-          "courseHour": [
-            22,
-            23,
-            55
-          ]
-        },
-        "letterGrade": "FD"
-      },
-      {
-        "course": {
-          "courseName": "Differential Equations",
-          "courseCredit": 4,
-          "semester": 3,
-          "quota": 0,
-          "courseHour": [
-            2,
-            33,
-            34
-          ]
+          "semester": 3
         },
         "letterGrade": "BA"
       },
       {
         "course": {
+          "courseName": "Electric Circuits",
+          "courseCredit": 5,
+          "semester": 3
+        },
+        "letterGrade": "AA"
+      },
+      {
+        "course": {
+          "courseName": "Differential Equations",
+          "courseCredit": 4,
+          "semester": 3
+        },
+        "letterGrade": "DD"
+      },
+      {
+        "course": {
           "courseName": "Numerical Methods",
           "courseCredit": 4,
-          "semester": 3,
-          "quota": 0,
-          "courseHour": [
-            24,
-            25,
-            56
-          ]
+          "semester": 3
         },
-        "letterGrade": "FF"
+        "letterGrade": "CB"
       }
     ],
     "givenCredit": 88.0,
-    "completedCredit": 59.0,
-    "point": 133.0,
-    "gano": 1.51
+    "completedCredit": 80.0,
+    "point": 232.5,
+    "gano": 2.64
   },
-  "error": []
+  "error": [
+    "The system did not allow Analysis of Algorithms because student failed prerequisite Data Structures"
+  ]
 }

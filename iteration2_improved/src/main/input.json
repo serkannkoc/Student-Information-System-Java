@@ -331,55 +331,55 @@
                     "courseName": "Entrepreneurship and Innovation",
                     "courseCredit": 3,
                     "courseHourCode": [68,141],
-                    "quota": 10
+                    "quota": 20
                 },
                 {
                     "courseName": "Strategic Entrepreneurship",
                     "courseCredit": 3,
                     "courseHourCode": [50,17],
-                    "quota": 10
+                    "quota": 20
                 },
                 {
                     "courseName": "International Business",
                     "courseCredit": 3,
                     "courseHourCode": [57,33],
-                    "quota": 10
+                    "quota": 20
                 },
                 {
                     "courseName": "Self Management",
                     "courseCredit": 3,
                     "courseHourCode": [176,172],
-                    "quota": 10
+                    "quota": 20
                 },
                 {
                     "courseName": "Our Biosphere",
                     "courseCredit": 3,
                     "courseHourCode": [5,149],
-                    "quota": 10
+                    "quota": 20
                 },
                 {
                     "courseName": "Energy for Physical Activity",
                     "courseCredit": 3,
                     "courseHourCode": [9,151],
-                    "quota": 10
+                    "quota": 20
                 },
                 {
                     "courseName": "Human Performance and Nutrition",
                     "courseCredit": 3,
                     "courseHourCode": [56,153],
-                    "quota": 10
+                    "quota": 20
                 },
                 {
                     "courseName": "Cardiopulmonary Resuscitation and First Aid Basics",
                     "courseCredit": 3,
                     "courseHourCode": [154,155],
-                    "quota": 10
+                    "quota": 20
                 },
                 {
                     "courseName": "Interpersonal Relations and Communication",
                     "courseCredit": 3,
                     "courseHourCode": [156,157],
-                    "quota": 10
+                    "quota": 20
                 }
             ],
 
@@ -388,55 +388,55 @@
                     "courseName": "Entrepreneurship and Innovation",
                     "courseCredit": 3,
                     "courseHourCode": [8,159],
-                    "quota": 10
+                    "quota": 20
                 },
                 {
                     "courseName": "Strategic Entrepreneurship",
                     "courseCredit": 3,
                     "courseHourCode": [55,161],
-                    "quota": 10
+                    "quota": 20
                 },
                 {
                     "courseName": "International Business",
                     "courseCredit": 3,
                     "courseHourCode": [162,163],
-                    "quota": 10
+                    "quota": 20
                 },
                 {
                     "courseName": "Self Management",
                     "courseCredit": 3,
                     "courseHourCode": [9,165],
-                    "quota": 10
+                    "quota": 20
                 },
                 {
                     "courseName": "Our Biosphere",
                     "courseCredit": 3,
                     "courseHourCode": [166,167],
-                    "quota": 10
+                    "quota": 20
                 },
                 {
                     "courseName": "Energy for Physical Activity",
                     "courseCredit": 3,
                     "courseHourCode": [168,169],
-                    "quota": 10
+                    "quota": 20
                 },
                 {
                     "courseName": "Human Performance and Nutrition",
                     "courseCredit": 3,
                     "courseHourCode": [170,171],
-                    "quota": 10
+                    "quota": 20
                 },
                 {
                     "courseName": "Cardiopulmonary Resuscitation and First Aid Basics",
                     "courseCredit": 3,
                     "courseHourCode": [172,173],
-                    "quota": 10
+                    "quota": 20
                 },
                 {
                     "courseName": "Interpersonal Relations and Communication",
                     "courseCredit": 3,
                     "courseHourCode": [174,175],
-                    "quota": 10
+                    "quota": 20
                 }
             ],
 
@@ -445,70 +445,70 @@
                     "courseName": "Introduction to Robotics and Control Theory",
                     "courseCredit": 5,
                     "courseHourCode": [120,177],
-                    "quota": 10
+                    "quota": 20
                 },
                 {
                     "courseName": "Introduction to Distributed Systems",
                     "courseCredit": 5,
                     "courseHourCode": [8,179],
-                    "quota": 10
+                    "quota": 20
                 },
                 {
                     "courseName": "Advanced Unix Programming",
                     "courseCredit": 5,
                     "courseHourCode": [180,181],
                     "prequisite": "Operating Systems",
-                    "quota": 10
+                    "quota": 20
                 },
                 {
                     "courseName": "Introduction to Parallel Processing",
                     "courseCredit": 5,
                     "courseHourCode": [182,183],
-                    "quota": 10
+                    "quota": 20
                 },
                 {
                     "courseName": "Cloud Computing",
                     "courseCredit": 5,
                     "courseHourCode": [176,9],
-                    "quota": 10
+                    "quota": 20
                 },
                 {
                     "courseName": "Software Project Management",
                     "courseCredit": 5,
                     "courseHourCode": [186,179],
-                    "quota": 10
+                    "quota": 20
                 },
                 {
                     "courseName": "Information Systems: Analysis and Design",
                     "courseCredit": 5,
                     "courseHourCode": [188,189],
-                    "quota": 10
+                    "quota": 20
                 },
                 {
                     "courseName": "Distributed Databases",
                     "courseCredit": 5,
                     "courseHourCode": [190,182],
-                    "quota": 10
+                    "quota": 20
                 },
                 {
                     "courseName": "Management of Information Systems",
                     "courseCredit": 5,
                     "courseHourCode": [192,193],
-                    "quota": 10
+                    "quota": 20
                 },
                 {
                     "courseName": "Compiler Design",
                     "courseCredit": 5,
                     "courseHourCode": [162,195],
                     "prequisite": "Formal Languages and Automata Theory",
-                    "quota": 10
+                    "quota": 20
                 },
                 {
                     "courseName": "Wireless & Mobile Network",
                     "courseCredit": 5,
                     "courseHourCode": [196,197],
                     "prequisite": "Computer Networks",
-                    "quota": 10
+                    "quota": 20
                 }
             ],
 
@@ -517,55 +517,55 @@
                     "courseName": "Planning and Management of Research",
                     "courseCredit": 5,
                     "courseHourCode": [198,199],
-                    "quota": 10
+                    "quota": 20
                 },
                 {
                     "courseName": "Cost Management in Chemical Industries",
                     "courseCredit": 5,
                     "courseHourCode": [200,201],
-                    "quota": 10
+                    "quota": 20
                 },
                 {
                     "courseName": "Financial Engineering",
                     "courseCredit": 5,
                     "courseHourCode": [113,203],
-                    "quota": 10
+                    "quota": 20
                 },
                 {
                     "courseName": "Chemical Engineering for Sustainable Biosphere",
                     "courseCredit": 5,
                     "courseHourCode": [204,205],
-                    "quota": 10
+                    "quota": 20
                 },
                 {
                     "courseName": "Software Project Management",
                     "courseCredit": 5,
                     "courseHourCode": [206,207],
-                    "quota": 10
+                    "quota": 20
                 },
                 {
                     "courseName": "Management of Information Systems",
                     "courseCredit": 5,
                     "courseHourCode": [35,209],
-                    "quota": 10
+                    "quota": 20
                 },
                 {
                     "courseName": "Introduction to Data Science and Analytics",
                     "courseCredit": 5,
                     "courseHourCode": [210,211],
-                    "quota": 10
+                    "quota": 20
                 },
                 {
                     "courseName": "Introduction to Information Systems Management",
                     "courseCredit": 5,
                     "courseHourCode": [212,6],
-                    "quota": 10
+                    "quota": 20
                 },
                 {
                     "courseName": "Introduction to Systems Security",
                     "courseCredit": 5,
                     "courseHourCode": [214,215],
-                    "quota": 10
+                    "quota": 20
                 }
             ]
         }
