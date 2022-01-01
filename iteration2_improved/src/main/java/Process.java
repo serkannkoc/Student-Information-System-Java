@@ -396,7 +396,7 @@ public class Process {
                         resCourse.enrollStudent(student);
                         myCourseArrayList.add(resCourse);
                     } else {
-                        String error = "The system did not allow " + resCourse.getCourseName() + " because quota is full!";
+                        String error = "The system did not allow TE - " + resCourse.getCourseName() + " because quota is full!";
                         errorArrayList.add(error);
                     }
                 }
@@ -412,7 +412,7 @@ public class Process {
                         resCourse.enrollStudent(student);
                         myCourseArrayList.add(resCourse);
                     } else {
-                        String error = "The system did not allow " + resCourse.getCourseName() + " because quota is full!";
+                        String error = "The system did not allow ENG-UE - " + resCourse.getCourseName() + " because quota is full!";
                         errorArrayList.add(error);
                     }
                 }
@@ -428,7 +428,7 @@ public class Process {
                         resCourse.enrollStudent(student);
                         myCourseArrayList.add(resCourse);
                     } else {
-                        String error = "The system did not allow " + resCourse.getCourseName() + " because quota is full!";
+                        String error = "The system did not allow TE - " + resCourse.getCourseName() + " because quota is full!";
                         errorArrayList.add(error);
                     }
                 }
@@ -445,7 +445,7 @@ public class Process {
                         resCourse.enrollStudent(student);
                         myCourseArrayList.add(resCourse);
                     } else {
-                        String error = "The system did not allow " + resCourse.getCourseName() + " because quota is full!";
+                        String error = "The system did not allow FTE - " + resCourse.getCourseName() + " because quota is full!";
                         errorArrayList.add(error);
                     }
                 }
@@ -460,7 +460,7 @@ public class Process {
                         resCourse.enrollStudent(student);
                         myCourseArrayList.add(resCourse);
                     } else {
-                        String error = "The system did not allow " + resCourse.getCourseName() + " because quota is full!";
+                        String error = "The system did not allow NTE - " + resCourse.getCourseName() + " because quota is full!";
                         errorArrayList.add(error);
                     }
                 }
@@ -477,9 +477,9 @@ public class Process {
                     Student a = student;
                     for (int j = 0; j < myCourseArrayList.size(); j++) {
                         if (myCourseArrayList.get(j).getPrequisiteName() != null && !myCourseArrayList.get(j).getPrequisiteName().equals("")) {
-                            String prequisiteCourseName = myCourseArrayList.get(j).getPrequisiteName();
+                            String prerequisiteCourseName = myCourseArrayList.get(j).getPrequisiteName();
 
-                            if (courseName.equals(prequisiteCourseName) && (letterGrade.equals("FD") || letterGrade.equals("FF"))) {
+                            if (courseName.equals(prerequisiteCourseName) && (letterGrade.equals("FD") || letterGrade.equals("FF"))) {
                                 String error = "The system did not allow " + myCourseArrayList.get(j).getCourseName() + " because student failed prerequisite " + courseName;
                                 errorArrayList.add(error);
                                 myCourseArrayList.remove(j);
