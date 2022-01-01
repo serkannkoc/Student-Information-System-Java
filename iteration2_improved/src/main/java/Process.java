@@ -359,25 +359,28 @@ public class Process {
         Random r = new Random();
 
         if (semester_int == 2) {
-            int result = r.nextInt(nteCourses.size() - 0) + 0;
-            Course resCourse = nteCourses.get(result);
-            if (!myCourseArrayList.contains(resCourse)) {
-                if (checkForQuota(resCourse)) {
-                    resCourse.enrollStudent(student);
-                    myCourseArrayList.add(resCourse);
-                } else {
-                    String error = "The system did not allow " + resCourse.getCourseName() + " because quota is full!";
-                    errorArrayList.add(error);
-                    student.getAdvisor().getQuotaErrorArrayList().add(Integer.toString(student.getStudentNumber()));
+            while(true) {
+                int result = r.nextInt(nteCourses.size() - 0) + 0;
+                Course resCourse = nteCourses.get(result);
+                if (!myCourseArrayList.contains(resCourse)) {
+                    if (checkForQuota(resCourse)) {
+                        resCourse.enrollStudent(student);
+                        myCourseArrayList.add(resCourse);
+                    } else {
+                        String error = "The system did not allow " + resCourse.getCourseName() + " because quota is full!";
+                        errorArrayList.add(error);
+                        student.getAdvisor().getQuotaErrorArrayList().add(Integer.toString(student.getStudentNumber()));
+                    }
+
+                    break;
                 }
             }
 
         } else if (semester_int == 7) {
-            if (true) {
+            while (true) {
                 int result = r.nextInt(teCourses.size() - 0) + 0;
                 Course resCourse = teCourses.get(result);
                 if (!myCourseArrayList.contains(resCourse)) {
-
                     if (checkForQuota(resCourse)) {
                         resCourse.enrollStudent(student);
                         myCourseArrayList.add(resCourse);
@@ -386,15 +389,16 @@ public class Process {
                         errorArrayList.add(error);
                         student.getAdvisor().getQuotaErrorArrayList().add(Integer.toString(student.getStudentNumber()));
                     }
+
+                    break;
                 }
             }
 
-            if (true) {
+            while (true) {
                 int result = r.nextInt(ueCourses.size() - 0) + 0;
                 Course resCourse = ueCourses.get(result);
 
                 if (!myCourseArrayList.contains(resCourse)) {
-
                     if (checkForQuota(resCourse)) {
                         resCourse.enrollStudent(student);
                         myCourseArrayList.add(resCourse);
@@ -403,33 +407,38 @@ public class Process {
                         errorArrayList.add(error);
                         student.getAdvisor().getQuotaErrorArrayList().add(Integer.toString(student.getStudentNumber()));
                     }
+
+                    break;
                 }
             }
+
         } else if (semester_int == 8) {
             for (int i = 0; i < 3; i++) {
-                int result = r.nextInt(teCourses.size() - 0) + 0;
-                Course resCourse = teCourses.get(result);
+                while(true) {
+                    int result = r.nextInt(teCourses.size() - 0) + 0;
+                    Course resCourse = teCourses.get(result);
 
-                if (!myCourseArrayList.contains(resCourse)) {
-
-                    if (checkForQuota(resCourse)) {
-                        resCourse.enrollStudent(student);
-                        myCourseArrayList.add(resCourse);
-                    } else {
-                        String error = "The system did not allow TE - " + resCourse.getCourseName() + " because quota is full!";
-                        errorArrayList.add(error);
-                        student.getAdvisor().getQuotaErrorArrayList().add(Integer.toString(student.getStudentNumber()));
+                    if (!myCourseArrayList.contains(resCourse)) {
+                        if (checkForQuota(resCourse)) {
+                            resCourse.enrollStudent(student);
+                            myCourseArrayList.add(resCourse);
+                        } else {
+                            String error = "The system did not allow TE - " + resCourse.getCourseName() + " because quota is full!";
+                            errorArrayList.add(error);
+                            student.getAdvisor().getQuotaErrorArrayList().add(Integer.toString(student.getStudentNumber()));
+                        }
                     }
+
+                    break;
                 }
 
             }
 
-            if (true) {
+            while (true) {
                 int result = r.nextInt(fteCourses.size() - 0) + 0;
                 Course resCourse = fteCourses.get(result);
 
                 if (!myCourseArrayList.contains(resCourse)) {
-
                     if (checkForQuota(resCourse)) {
                         resCourse.enrollStudent(student);
                         myCourseArrayList.add(resCourse);
@@ -438,14 +447,16 @@ public class Process {
                         errorArrayList.add(error);
                         student.getAdvisor().getQuotaErrorArrayList().add(Integer.toString(student.getStudentNumber()));
                     }
+
+                    break;
                 }
             }
-            if (true) {
+
+            while (true) {
                 int result = r.nextInt(nteCourses.size() - 0) + 0;
                 Course resCourse = nteCourses.get(result);
 
                 if (!myCourseArrayList.contains(resCourse)) {
-
                     if (checkForQuota(resCourse)) {
                         resCourse.enrollStudent(student);
                         myCourseArrayList.add(resCourse);
@@ -454,6 +465,8 @@ public class Process {
                         errorArrayList.add(error);
                         student.getAdvisor().getQuotaErrorArrayList().add(Integer.toString(student.getStudentNumber()));
                     }
+
+                    break;
                 }
             }
 
@@ -587,7 +600,7 @@ public class Process {
     private String generateRandomLetterGrade(){
         Random random = new Random();
 
-        String[] grades = {"AA", "BA", "BB", "CB", "CC", "DC", "DD", "FD", "FF"};
+        String[] grades = {"AA", "BA", "BB", "BB", "CB", "CC", "DC", "DD", "FD", "FF"};
 
         String letterGrade = grades[random.nextInt(grades.length)];
 
