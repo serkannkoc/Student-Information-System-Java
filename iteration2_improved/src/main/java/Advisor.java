@@ -1,5 +1,4 @@
 import java.util.ArrayList;
-import java.util.Arrays;
 
 public class Advisor extends Lecturer {
     private transient ArrayList<Student> studentArrayList;
@@ -7,6 +6,7 @@ public class Advisor extends Lecturer {
     private transient ArrayList<String> projectErrorArrayList;
     private transient ArrayList<String> quotaErrorArrayList;
     private transient ArrayList<String> collisionErrorArrayList;
+    private transient ArrayList<String> prerequisiteErrorArrayList;
 
     public Advisor(String lecturerName, String department, String rank) {
         super(lecturerName, department, rank);
@@ -15,6 +15,7 @@ public class Advisor extends Lecturer {
         this.projectErrorArrayList = new ArrayList<String>();
         this.quotaErrorArrayList = new ArrayList<String>();
         this.collisionErrorArrayList = new ArrayList<String>();
+        this.prerequisiteErrorArrayList = new ArrayList<String>();
     }
 
     public ArrayList<String> getTeErrorArrayList() {
@@ -31,6 +32,10 @@ public class Advisor extends Lecturer {
 
     public ArrayList<String> getCollisionErrorArrayList() {
         return collisionErrorArrayList;
+    }
+
+    public ArrayList<String> getPrerequisiteErrorArrayList() {
+        return prerequisiteErrorArrayList;
     }
 
     public ArrayList<Student> getStudentArrayList() {

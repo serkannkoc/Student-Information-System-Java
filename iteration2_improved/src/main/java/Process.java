@@ -350,7 +350,7 @@ public class Process {
     private String generateRandomLetterGrade(){
         Random random = new Random();
 
-        String[] grades = {"AA", "BA", "BB", "CB", "CC", "DC", "DD", "FD", "FF"};
+        String[] grades = {"AA", "BA", "BA", "BB", "BB", "BB", "CB", "CB", "CC", "DC", "DD", "FD", "FF"};
 
         String letterGrade = grades[random.nextInt(grades.length)];
 
@@ -526,6 +526,7 @@ public class Process {
                                 String error = "The system did not allow " + myCourseArrayList.get(j).getCourseName() + " because student failed prerequisite " + courseName;
                                 errorArrayList.add(error);
                                 myCourseArrayList.remove(j);
+                                student.getAdvisor().getPrerequisiteErrorArrayList().add(Integer.toString(student.getStudentNumber()));
                             }
                         }
                     }
@@ -574,24 +575,29 @@ public class Process {
         for(int advisorCount=0; advisorCount<advisorArrayList.size(); advisorCount++) {
             Advisor advisor = advisorArrayList.get(advisorCount);
             if(advisor.getTeErrorArrayList().size() > 0){
-                System.out.println(advisor.getLecturerName() +"\'s list of students who cannot enroll in TE courses because they have less " +
+                System.out.println("> "+advisor.getLecturerName() +"\'s list of students who cannot enroll in TE courses because they have less " +
                         "than 155 credits - ("+ advisor.getTeErrorArrayList().size()+" student)");
                 System.out.println(advisor.getTeErrorArrayList() + "\n\n");
             }
             if(advisor.getProjectErrorArrayList().size() > 0){
-                System.out.println(advisor.getLecturerName() +"\'s list of students who cannot enroll in graduation project course because they have less " +
+                System.out.println("> "+advisor.getLecturerName() +"\'s list of students who cannot enroll in graduation project course because they have less " +
                         "than 165 credits - ("+ advisor.getProjectErrorArrayList().size()+" student)");
                 System.out.println(advisor.getProjectErrorArrayList() + "\n\n");
             }
             if(advisor.getQuotaErrorArrayList().size() > 0){
-                System.out.println(advisor.getLecturerName() +"\'s list of students who cannot register for classes due to " +
+                System.out.println("> "+advisor.getLecturerName() +"\'s list of students who cannot register for classes due to " +
                         "lack of quota - ("+ advisor.getQuotaErrorArrayList().size()+" student)");
                 System.out.println(advisor.getQuotaErrorArrayList() + "\n\n");
             }
             if(advisor.getCollisionErrorArrayList().size() > 0){
-                System.out.println(advisor.getLecturerName() +"\'s list of students with conflicting courses - " +
+                System.out.println("> "+advisor.getLecturerName() +"\'s list of students with conflicting courses - " +
                         "("+ advisor.getCollisionErrorArrayList().size()+" student)");
                 System.out.println(advisor.getCollisionErrorArrayList() + "\n\n");
+            }
+            if(advisor.getPrerequisiteErrorArrayList().size() > 0){
+                System.out.println("> "+advisor.getLecturerName() +"\'s list of students who could not complete the prerequisite course - " +
+                        "("+ advisor.getPrerequisiteErrorArrayList().size()+" student)");
+                System.out.println(advisor.getPrerequisiteErrorArrayList() + "\n\n");
             }
         }
     }

@@ -1,11 +1,11 @@
 {
   "studentNumber": 150118025,
-  "studentName": "Ferit Öztürk",
+  "studentName": "Ferit Büyük",
   "year": 4,
   "advisor": {
-    "lecturerName": "Murat Can Ganiz",
+    "lecturerName": "Betül Demiröz Boz",
     "department": "CSE",
-    "rank": "Doç.Dr"
+    "rank": "Dr.Öğr.Üyesi"
   },
   "transcriptBefore": {
     "transcriptRow": [
@@ -20,7 +20,7 @@
             32
           ]
         },
-        "letterGrade": "CC"
+        "letterGrade": "CB"
       },
       {
         "course": {
@@ -34,7 +34,7 @@
             68
           ]
         },
-        "letterGrade": "FD"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -48,7 +48,7 @@
             67
           ]
         },
-        "letterGrade": "BB"
+        "letterGrade": "CB"
       },
       {
         "course": {
@@ -62,7 +62,7 @@
             39
           ]
         },
-        "letterGrade": "FF"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -76,7 +76,7 @@
             49
           ]
         },
-        "letterGrade": "FF"
+        "letterGrade": "CB"
       },
       {
         "course": {
@@ -90,7 +90,7 @@
             56
           ]
         },
-        "letterGrade": "DD"
+        "letterGrade": "BA"
       },
       {
         "course": {
@@ -103,7 +103,7 @@
             2
           ]
         },
-        "letterGrade": "BA"
+        "letterGrade": "DD"
       },
       {
         "course": {
@@ -116,7 +116,7 @@
             105
           ]
         },
-        "letterGrade": "CC"
+        "letterGrade": "BB"
       },
       {
         "course": {
@@ -129,7 +129,7 @@
             103
           ]
         },
-        "letterGrade": "CB"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -143,7 +143,7 @@
             20
           ]
         },
-        "letterGrade": "BA"
+        "letterGrade": "DD"
       },
       {
         "course": {
@@ -157,7 +157,7 @@
             52
           ]
         },
-        "letterGrade": "BB"
+        "letterGrade": "CB"
       },
       {
         "course": {
@@ -171,7 +171,7 @@
             35
           ]
         },
-        "letterGrade": "FD"
+        "letterGrade": "FF"
       },
       {
         "course": {
@@ -185,7 +185,7 @@
             57
           ]
         },
-        "letterGrade": "FD"
+        "letterGrade": "DD"
       },
       {
         "course": {
@@ -198,7 +198,7 @@
             8
           ]
         },
-        "letterGrade": "BA"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -211,7 +211,7 @@
             83
           ]
         },
-        "letterGrade": "AA"
+        "letterGrade": "CB"
       },
       {
         "course": {
@@ -251,7 +251,7 @@
             40
           ]
         },
-        "letterGrade": "FF"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -278,7 +278,7 @@
             55
           ]
         },
-        "letterGrade": "DC"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -292,7 +292,7 @@
             34
           ]
         },
-        "letterGrade": "DD"
+        "letterGrade": "BB"
       },
       {
         "course": {
@@ -306,7 +306,7 @@
             56
           ]
         },
-        "letterGrade": "BA"
+        "letterGrade": "BB"
       },
       {
         "course": {
@@ -344,7 +344,7 @@
             72
           ]
         },
-        "letterGrade": "CB"
+        "letterGrade": "BA"
       },
       {
         "course": {
@@ -358,7 +358,7 @@
             22
           ]
         },
-        "letterGrade": "AA"
+        "letterGrade": "CC"
       },
       {
         "course": {
@@ -372,7 +372,7 @@
             115
           ]
         },
-        "letterGrade": "AA"
+        "letterGrade": "BB"
       },
       {
         "course": {
@@ -385,7 +385,7 @@
             59
           ]
         },
-        "letterGrade": "FF"
+        "letterGrade": "BB"
       },
       {
         "course": {
@@ -399,7 +399,7 @@
             24
           ]
         },
-        "letterGrade": "BB"
+        "letterGrade": "DD"
       },
       {
         "course": {
@@ -427,7 +427,7 @@
             50
           ]
         },
-        "letterGrade": "BB"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -440,7 +440,7 @@
             33
           ]
         },
-        "letterGrade": "CC"
+        "letterGrade": "FF"
       },
       {
         "course": {
@@ -454,7 +454,7 @@
             72
           ]
         },
-        "letterGrade": "CB"
+        "letterGrade": "BB"
       },
       {
         "course": {
@@ -468,7 +468,7 @@
             18
           ]
         },
-        "letterGrade": "CC"
+        "letterGrade": "FD"
       },
       {
         "course": {
@@ -482,7 +482,7 @@
             66
           ]
         },
-        "letterGrade": "DC"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -496,7 +496,7 @@
             52
           ]
         },
-        "letterGrade": "BB"
+        "letterGrade": "BA"
       },
       {
         "course": {
@@ -510,7 +510,7 @@
             51
           ]
         },
-        "letterGrade": "BB"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -524,7 +524,7 @@
             35
           ]
         },
-        "letterGrade": "CB"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -538,7 +538,7 @@
             66
           ]
         },
-        "letterGrade": "FD"
+        "letterGrade": "CB"
       },
       {
         "course": {
@@ -552,7 +552,7 @@
             19
           ]
         },
-        "letterGrade": "BB"
+        "letterGrade": "FD"
       },
       {
         "course": {
@@ -565,98 +565,169 @@
             118
           ]
         },
-        "letterGrade": "FD"
+        "letterGrade": "BB"
+      },
+      {
+        "course": {
+          "courseName": "Summer Practice II",
+          "courseCredit": 10,
+          "semester": 7,
+          "quota": 0,
+          "courseHour": [
+            120,
+            121
+          ]
+        },
+        "letterGrade": "CB"
+      },
+      {
+        "course": {
+          "courseName": "Computer Networks",
+          "courseCredit": 5,
+          "semester": 7,
+          "quota": 0,
+          "courseHour": [
+            8,
+            55,
+            56
+          ]
+        },
+        "letterGrade": "FF"
+      },
+      {
+        "course": {
+          "courseName": "Principles of Embedded System Design",
+          "courseCredit": 6,
+          "semester": 7,
+          "quota": 0,
+          "courseHour": [
+            9,
+            10,
+            54
+          ]
+        },
+        "letterGrade": "BB"
+      },
+      {
+        "course": {
+          "courseName": "Engineering Project I",
+          "courseCredit": 5,
+          "semester": 7,
+          "quota": 0,
+          "courseHour": [
+            125,
+            126
+          ]
+        },
+        "letterGrade": "BB"
+      },
+      {
+        "course": {
+          "courseName": "İş Sağlığı ve Güvenliği I",
+          "courseCredit": 2,
+          "semester": 7,
+          "quota": 0,
+          "courseHour": [
+            86,
+            87
+          ]
+        },
+        "letterGrade": "BA"
+      },
+      {
+        "course": {
+          "courseName": "Introduction to Machine Learning",
+          "courseCredit": 5,
+          "semester": 7,
+          "quota": 0,
+          "courseHour": [
+            81,
+            82,
+            83
+          ]
+        },
+        "letterGrade": "BA"
       }
     ],
-    "givenCredit": 184.0,
-    "completedCredit": 129.0,
-    "point": 373.0,
-    "gano": 2.03
+    "givenCredit": 217.0,
+    "completedCredit": 181.0,
+    "point": 511.0,
+    "gano": 2.35
   },
   "courseOffered": [
     {
-      "courseName": "Summer Practice II",
-      "courseCredit": 10,
-      "semester": 7,
-      "quota": 0,
-      "courseHour": [
-        120,
-        121
-      ]
-    },
-    {
-      "courseName": "Computer Networks",
+      "courseName": "Engineering Project II",
       "courseCredit": 5,
-      "semester": 7,
+      "semester": 8,
       "quota": 0,
+      "prequisite": {
+        "courseName": "Engineering Project I",
+        "courseCredit": 5,
+        "semester": 7,
+        "quota": 0,
+        "courseHour": [
+          125,
+          126
+        ]
+      },
+      "prequisiteName": "Engineering Project I",
       "courseHour": [
-        8,
-        55,
-        56
+        136,
+        137
       ]
     },
     {
-      "courseName": "Principles of Embedded System Design",
-      "courseCredit": 6,
-      "semester": 7,
-      "quota": 0,
-      "courseHour": [
-        9,
-        10,
-        54
-      ]
-    },
-    {
-      "courseName": "Engineering Project I",
-      "courseCredit": 5,
-      "semester": 7,
-      "quota": 0,
-      "courseHour": [
-        125,
-        126
-      ]
-    },
-    {
-      "courseName": "İş Sağlığı ve Güvenliği I",
+      "courseName": "İş Sağlığı ve Güvenliği II",
       "courseCredit": 2,
-      "semester": 7,
+      "semester": 8,
       "quota": 0,
       "courseHour": [
-        86,
-        87
+        90,
+        91
       ]
     },
     {
-      "courseName": "Introduction to Machine Learning",
-      "courseCredit": 5,
-      "semester": 7,
-      "quota": 0,
-      "courseHour": [
-        81,
-        82,
-        83
-      ]
-    },
-    {
-      "courseName": "Introduction to Robotics and Control Theory",
+      "courseName": "Management of Information Systems",
       "courseCredit": 5,
       "semester": 0,
       "quota": 10,
       "electiveType": "TE",
       "courseHour": [
-        120,
-        177
+        192,
+        193
       ]
     },
     {
-      "courseName": "International Business",
-      "courseCredit": 3,
+      "courseName": "Introduction to Parallel Processing",
+      "courseCredit": 5,
       "semester": 0,
       "quota": 10,
-      "electiveType": "ENG-UE",
+      "electiveType": "TE",
       "courseHour": [
-        162,
-        163
+        182,
+        183
+      ]
+    },
+    {
+      "courseName": "Software Project Management",
+      "courseCredit": 5,
+      "semester": 0,
+      "quota": 10,
+      "electiveType": "TE",
+      "courseHour": [
+        186,
+        179
+      ]
+    },
+    {
+      "courseName": "Introduction to Data Science and Analytics",
+      "courseCredit": 5,
+      "semester": 0,
+      "quota": 10,
+      "electiveType": "ENG-FTE",
+      "courseHour": [
+        210,
+        211
       ]
     }
   ],
@@ -673,7 +744,7 @@
             32
           ]
         },
-        "letterGrade": "CC"
+        "letterGrade": "CB"
       },
       {
         "course": {
@@ -687,7 +758,7 @@
             68
           ]
         },
-        "letterGrade": "FD"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -701,7 +772,7 @@
             67
           ]
         },
-        "letterGrade": "BB"
+        "letterGrade": "CB"
       },
       {
         "course": {
@@ -715,7 +786,7 @@
             39
           ]
         },
-        "letterGrade": "FF"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -729,7 +800,7 @@
             49
           ]
         },
-        "letterGrade": "FF"
+        "letterGrade": "CB"
       },
       {
         "course": {
@@ -743,7 +814,7 @@
             56
           ]
         },
-        "letterGrade": "DD"
+        "letterGrade": "BA"
       },
       {
         "course": {
@@ -756,7 +827,7 @@
             2
           ]
         },
-        "letterGrade": "BA"
+        "letterGrade": "DD"
       },
       {
         "course": {
@@ -769,7 +840,7 @@
             105
           ]
         },
-        "letterGrade": "CC"
+        "letterGrade": "BB"
       },
       {
         "course": {
@@ -782,7 +853,7 @@
             103
           ]
         },
-        "letterGrade": "CB"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -796,7 +867,7 @@
             20
           ]
         },
-        "letterGrade": "BA"
+        "letterGrade": "DD"
       },
       {
         "course": {
@@ -810,7 +881,7 @@
             52
           ]
         },
-        "letterGrade": "BB"
+        "letterGrade": "CB"
       },
       {
         "course": {
@@ -824,7 +895,7 @@
             35
           ]
         },
-        "letterGrade": "FD"
+        "letterGrade": "FF"
       },
       {
         "course": {
@@ -838,7 +909,7 @@
             57
           ]
         },
-        "letterGrade": "FD"
+        "letterGrade": "DD"
       },
       {
         "course": {
@@ -851,7 +922,7 @@
             8
           ]
         },
-        "letterGrade": "BA"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -864,7 +935,7 @@
             83
           ]
         },
-        "letterGrade": "AA"
+        "letterGrade": "CB"
       },
       {
         "course": {
@@ -904,7 +975,7 @@
             40
           ]
         },
-        "letterGrade": "FF"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -931,7 +1002,7 @@
             55
           ]
         },
-        "letterGrade": "DC"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -945,7 +1016,7 @@
             34
           ]
         },
-        "letterGrade": "DD"
+        "letterGrade": "BB"
       },
       {
         "course": {
@@ -959,7 +1030,7 @@
             56
           ]
         },
-        "letterGrade": "BA"
+        "letterGrade": "BB"
       },
       {
         "course": {
@@ -997,7 +1068,7 @@
             72
           ]
         },
-        "letterGrade": "CB"
+        "letterGrade": "BA"
       },
       {
         "course": {
@@ -1011,7 +1082,7 @@
             22
           ]
         },
-        "letterGrade": "AA"
+        "letterGrade": "CC"
       },
       {
         "course": {
@@ -1025,7 +1096,7 @@
             115
           ]
         },
-        "letterGrade": "AA"
+        "letterGrade": "BB"
       },
       {
         "course": {
@@ -1038,7 +1109,7 @@
             59
           ]
         },
-        "letterGrade": "FF"
+        "letterGrade": "BB"
       },
       {
         "course": {
@@ -1052,7 +1123,7 @@
             24
           ]
         },
-        "letterGrade": "BB"
+        "letterGrade": "DD"
       },
       {
         "course": {
@@ -1080,7 +1151,7 @@
             50
           ]
         },
-        "letterGrade": "BB"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -1093,7 +1164,7 @@
             33
           ]
         },
-        "letterGrade": "CC"
+        "letterGrade": "FF"
       },
       {
         "course": {
@@ -1107,7 +1178,7 @@
             72
           ]
         },
-        "letterGrade": "CB"
+        "letterGrade": "BB"
       },
       {
         "course": {
@@ -1121,7 +1192,7 @@
             18
           ]
         },
-        "letterGrade": "CC"
+        "letterGrade": "FD"
       },
       {
         "course": {
@@ -1135,7 +1206,7 @@
             66
           ]
         },
-        "letterGrade": "DC"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -1149,7 +1220,7 @@
             52
           ]
         },
-        "letterGrade": "BB"
+        "letterGrade": "BA"
       },
       {
         "course": {
@@ -1163,7 +1234,7 @@
             51
           ]
         },
-        "letterGrade": "BB"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -1177,7 +1248,7 @@
             35
           ]
         },
-        "letterGrade": "CB"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -1191,7 +1262,7 @@
             66
           ]
         },
-        "letterGrade": "FD"
+        "letterGrade": "CB"
       },
       {
         "course": {
@@ -1205,7 +1276,7 @@
             19
           ]
         },
-        "letterGrade": "BB"
+        "letterGrade": "FD"
       },
       {
         "course": {
@@ -1218,7 +1289,7 @@
             118
           ]
         },
-        "letterGrade": "FD"
+        "letterGrade": "BB"
       },
       {
         "course": {
@@ -1230,7 +1301,8 @@
             120,
             121
           ]
-        }
+        },
+        "letterGrade": "CB"
       },
       {
         "course": {
@@ -1243,7 +1315,8 @@
             55,
             56
           ]
-        }
+        },
+        "letterGrade": "FF"
       },
       {
         "course": {
@@ -1256,7 +1329,21 @@
             10,
             54
           ]
-        }
+        },
+        "letterGrade": "BB"
+      },
+      {
+        "course": {
+          "courseName": "Engineering Project I",
+          "courseCredit": 5,
+          "semester": 7,
+          "quota": 0,
+          "courseHour": [
+            125,
+            126
+          ]
+        },
+        "letterGrade": "BB"
       },
       {
         "course": {
@@ -1268,7 +1355,8 @@
             86,
             87
           ]
-        }
+        },
+        "letterGrade": "BA"
       },
       {
         "course": {
@@ -1281,17 +1369,51 @@
             82,
             83
           ]
+        },
+        "letterGrade": "BA"
+      },
+      {
+        "course": {
+          "courseName": "Engineering Project II",
+          "courseCredit": 5,
+          "semester": 8,
+          "quota": 0,
+          "prequisite": {
+            "courseName": "Engineering Project I",
+            "courseCredit": 5,
+            "semester": 7,
+            "quota": 0,
+            "courseHour": [
+              125,
+              126
+            ]
+          },
+          "prequisiteName": "Engineering Project I",
+          "courseHour": [
+            136,
+            137
+          ]
+        }
+      },
+      {
+        "course": {
+          "courseName": "İş Sağlığı ve Güvenliği II",
+          "courseCredit": 2,
+          "semester": 8,
+          "quota": 0,
+          "courseHour": [
+            90,
+            91
+          ]
         }
       }
     ],
-    "givenCredit": 212.0,
-    "completedCredit": 129.0,
-    "point": 373.0,
-    "gano": 2.03
+    "givenCredit": 224.0,
+    "completedCredit": 181.0,
+    "point": 511.0,
+    "gano": 2.35
   },
   "error": [
-    "There is a collision Summer Practice II 1.hour between Introduction to Robotics and Control Theory 1.hour",
-    "The advisor didnt approve Engineering Project I because student completed credits less than 165",
-    "The advisor didnt approve TE Introduction to Robotics and Control Theory because student completed credits less than 155"
+    "The system did not allow Our Biosphere because quota is full!"
   ]
 }
