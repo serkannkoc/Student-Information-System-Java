@@ -58,11 +58,9 @@ public class Advisor extends Lecturer {
             for(int courseOfferedCount=0; courseOfferedCount<student.getCourseOffered().size(); courseOfferedCount++){
                 Course course = student.getCourseOffered().get(courseOfferedCount);
 
-                if(course.getElectiveType() != null) {
-                    if (course.getElectiveType().equals("TE") && student.getTranscriptBefore().getCompletedCredit() < 155) {
-                        student.addError("The advisor didnt approve TE " + course.getCourseName() + " because student completed credits less than 155");
-                        teErrorArrayList.add(Integer.toString(student.getStudentNumber()));
-                    }
+                if (course.getElectiveType() != null && course.getElectiveType().equals("TE") && student.getTranscriptBefore().getCompletedCredit() < 155) {
+                    student.addError("The advisor didnt approve TE - " + course.getCourseName() + " because student completed credits less than 155");
+                    teErrorArrayList.add(Integer.toString(student.getStudentNumber()));
                 }
 
                 else if(student.getTranscriptBefore().getCompletedCredit() < 165 && (course.getCourseName().equals("Engineering Project I")
