@@ -232,10 +232,12 @@ public class Process {
 
         Transcript transcript = new Transcript();
         ArrayList<TranscriptRow> transcriptRowArrayList = new ArrayList<TranscriptRow>();
+        ArrayList<Course> courseArrayList = new ArrayList<>();
 
-        for (int i = 1; i < semester; i++) {
-            for (Course semesterCourse : getSemesterCourses(i)) {
-                TranscriptRow transcriptRow = new TranscriptRow(semesterCourse, generateRandomLetterGrade());
+        for (int semesterCount = 1; semesterCount < semester; semesterCount++) {
+            TranscriptRow transcriptRow;
+            for (Course semesterCourse : getSemesterCourses(semesterCount)) {
+                transcriptRow = new TranscriptRow(semesterCourse, generateRandomLetterGrade());
 
                 if (transcriptRow.getLetterGrade().equals("FF") || transcriptRow.getLetterGrade().equals("FD")) {
                     totalGivenCredit += semesterCourse.getCourseCredit();
@@ -246,9 +248,86 @@ public class Process {
 
                 point += semesterCourse.getCourseCredit() * getNumericGradeFromLetterGrade(transcriptRow.getLetterGrade());
 
+                courseArrayList.add(semesterCourse);
                 transcriptRowArrayList.add(transcriptRow);
             }
 
+            if(semesterCount==2){
+                Random r = new Random();
+                int random = r.nextInt(getElectiveCourses("NTE").size() - 0) + 0;
+                Course nteCourse = getElectiveCourses("NTE").get(random);
+                if (!courseArrayList.contains(nteCourse)) {
+                    transcriptRow = new TranscriptRow(nteCourse, generateRandomLetterGrade());
+                    transcriptRowArrayList.add(transcriptRow);
+                }
+            }
+
+            else if(semesterCount==7){
+                Random r = new Random();
+
+                while(true) {
+                    int random = r.nextInt(getElectiveCourses("TE").size() - 0) + 0;
+                    Course teCourse = getElectiveCourses("TE").get(random);
+
+                    if (!courseArrayList.contains(teCourse)) {
+                        transcriptRow = new TranscriptRow(teCourse, generateRandomLetterGrade());
+                        transcriptRowArrayList.add(transcriptRow);
+                        break;
+                    }
+                }
+
+                while(true) {
+                    int random = r.nextInt(getElectiveCourses("ENG-UE").size() - 0) + 0;
+                    Course engUeCourse = getElectiveCourses("ENG-UE").get(random);
+
+                    if (!courseArrayList.contains(engUeCourse)) {
+                        transcriptRow = new TranscriptRow(engUeCourse, generateRandomLetterGrade());
+                        transcriptRowArrayList.add(transcriptRow);
+                        break;
+                    }
+                }
+            }
+
+           /*else if(semesterCount == 8)
+            {
+                Random r = new Random();
+
+                for(int count=0; count<3; count++)
+                {
+                    while(true) {
+                        int random = r.nextInt(getElectiveCourses("TE").size() - 0) + 0;
+                        Course teCourse = getElectiveCourses("TE").get(random);
+
+                        if (!courseArrayList.contains(teCourse)) {
+                            transcriptRow = new TranscriptRow(teCourse, generateRandomLetterGrade());
+                            transcriptRowArrayList.add(transcriptRow);
+                            break;
+                        }
+                    }
+                }
+
+                while(true) {
+                    int random = r.nextInt(getElectiveCourses("ENG-FTE").size() - 0) + 0;
+                    Course engFteCourse = getElectiveCourses("ENG-FTE").get(random);
+
+                    if (!courseArrayList.contains(engFteCourse)) {
+                        transcriptRow = new TranscriptRow(engFteCourse, generateRandomLetterGrade());
+                        transcriptRowArrayList.add(transcriptRow);
+                        break;
+                    }
+                }
+
+                while(true) {
+                    int random = r.nextInt(getElectiveCourses("NTE").size() - 0) + 0;
+                    Course nteCourse = getElectiveCourses("NTE").get(random);
+
+                    if (!courseArrayList.contains(nteCourse)) {
+                        transcriptRow = new TranscriptRow(nteCourse, generateRandomLetterGrade());
+                        transcriptRowArrayList.add(transcriptRow);
+                        break;
+                    }
+                }
+            }*/
         }
 
         transcript.setTranscriptRow(transcriptRowArrayList);
@@ -508,7 +587,7 @@ public class Process {
     private String generateRandomLetterGrade(){
         Random random = new Random();
 
-        String[] grades = {"AA", "BA", "BA", "BB", "BB", "BB", "CB", "CC", "DC", "DD", "FD", "FF"};
+        String[] grades = {"AA", "BA", "BB", "CB", "CC", "DC", "DD", "FD", "FF"};
 
         String letterGrade = grades[random.nextInt(grades.length)];
 

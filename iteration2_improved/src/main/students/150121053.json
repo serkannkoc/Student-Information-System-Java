@@ -1,9 +1,9 @@
 {
   "studentNumber": 150121053,
-  "studentName": "Gökay Çetin",
+  "studentName": "Defne Ballıca",
   "year": 1,
   "advisor": {
-    "lecturerName": "Sanem Arslan",
+    "lecturerName": "Fatma Corut Ergin",
     "department": "CSE",
     "rank": "Dr.Öğr.Üyesi"
   },
@@ -15,7 +15,7 @@
           "courseCredit": 2,
           "semester": 1
         },
-        "letterGrade": "FF"
+        "letterGrade": "CC"
       },
       {
         "course": {
@@ -31,7 +31,7 @@
           "courseCredit": 4,
           "semester": 1
         },
-        "letterGrade": "BB"
+        "letterGrade": "CC"
       },
       {
         "course": {
@@ -39,7 +39,7 @@
           "courseCredit": 6,
           "semester": 1
         },
-        "letterGrade": "BB"
+        "letterGrade": "DD"
       },
       {
         "course": {
@@ -47,7 +47,7 @@
           "courseCredit": 6,
           "semester": 1
         },
-        "letterGrade": "CC"
+        "letterGrade": "FF"
       },
       {
         "course": {
@@ -55,7 +55,7 @@
           "courseCredit": 4,
           "semester": 1
         },
-        "letterGrade": "BA"
+        "letterGrade": "BB"
       },
       {
         "course": {
@@ -63,7 +63,7 @@
           "courseCredit": 2,
           "semester": 1
         },
-        "letterGrade": "BA"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -75,9 +75,9 @@
       }
     ],
     "givenCredit": 31.0,
-    "completedCredit": 29.0,
-    "point": 75.0,
-    "gano": 2.42
+    "completedCredit": 25.0,
+    "point": 50.0,
+    "gano": 1.61
   },
   "courseOffered": [
     {
@@ -116,7 +116,7 @@
       "semester": 2
     },
     {
-      "courseName": "Strategic Entrepreneurship",
+      "courseName": "Cardiopulmonary Resuscitation and First Aid Basics",
       "courseCredit": 3,
       "semester": 0,
       "electiveType": "NTE"
@@ -130,7 +130,7 @@
           "courseCredit": 2,
           "semester": 1
         },
-        "letterGrade": "FF"
+        "letterGrade": "CC"
       },
       {
         "course": {
@@ -146,7 +146,7 @@
           "courseCredit": 4,
           "semester": 1
         },
-        "letterGrade": "BB"
+        "letterGrade": "CC"
       },
       {
         "course": {
@@ -154,7 +154,7 @@
           "courseCredit": 6,
           "semester": 1
         },
-        "letterGrade": "BB"
+        "letterGrade": "DD"
       },
       {
         "course": {
@@ -162,7 +162,7 @@
           "courseCredit": 6,
           "semester": 1
         },
-        "letterGrade": "CC"
+        "letterGrade": "FF"
       },
       {
         "course": {
@@ -170,7 +170,7 @@
           "courseCredit": 4,
           "semester": 1
         },
-        "letterGrade": "BA"
+        "letterGrade": "BB"
       },
       {
         "course": {
@@ -178,7 +178,7 @@
           "courseCredit": 2,
           "semester": 1
         },
-        "letterGrade": "BA"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -239,7 +239,7 @@
       },
       {
         "course": {
-          "courseName": "Strategic Entrepreneurship",
+          "courseName": "Cardiopulmonary Resuscitation and First Aid Basics",
           "courseCredit": 3,
           "semester": 0,
           "electiveType": "NTE"
@@ -247,9 +247,9 @@
       }
     ],
     "givenCredit": 61.0,
-    "completedCredit": 29.0,
-    "point": 75.0,
-    "gano": 2.42
+    "completedCredit": 25.0,
+    "point": 50.0,
+    "gano": 1.61
   },
   "error": []
 }

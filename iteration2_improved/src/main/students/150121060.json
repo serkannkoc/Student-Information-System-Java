@@ -1,9 +1,9 @@
 {
   "studentNumber": 150121060,
-  "studentName": "Kerem Karakaya",
+  "studentName": "Hilal Parlak",
   "year": 1,
   "advisor": {
-    "lecturerName": "Sanem Arslan",
+    "lecturerName": "Fatma Corut Ergin",
     "department": "CSE",
     "rank": "Dr.Öğr.Üyesi"
   },
@@ -15,7 +15,7 @@
           "courseCredit": 2,
           "semester": 1
         },
-        "letterGrade": "BA"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -23,7 +23,7 @@
           "courseCredit": 5,
           "semester": 1
         },
-        "letterGrade": "CB"
+        "letterGrade": "BB"
       },
       {
         "course": {
@@ -39,7 +39,7 @@
           "courseCredit": 6,
           "semester": 1
         },
-        "letterGrade": "CB"
+        "letterGrade": "BA"
       },
       {
         "course": {
@@ -47,7 +47,7 @@
           "courseCredit": 6,
           "semester": 1
         },
-        "letterGrade": "DD"
+        "letterGrade": "FD"
       },
       {
         "course": {
@@ -55,7 +55,7 @@
           "courseCredit": 4,
           "semester": 1
         },
-        "letterGrade": "BA"
+        "letterGrade": "FD"
       },
       {
         "course": {
@@ -63,7 +63,7 @@
           "courseCredit": 2,
           "semester": 1
         },
-        "letterGrade": "BA"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -71,13 +71,13 @@
           "courseCredit": 2,
           "semester": 1
         },
-        "letterGrade": "BA"
+        "letterGrade": "FF"
       }
     ],
     "givenCredit": 31.0,
-    "completedCredit": 31.0,
-    "point": 84.5,
-    "gano": 2.73
+    "completedCredit": 19.0,
+    "point": 68.0,
+    "gano": 2.19
   },
   "courseOffered": [
     {
@@ -116,7 +116,7 @@
       "semester": 2
     },
     {
-      "courseName": "Energy for Physical Activity",
+      "courseName": "Our Biosphere",
       "courseCredit": 3,
       "semester": 0,
       "electiveType": "NTE"
@@ -130,7 +130,7 @@
           "courseCredit": 2,
           "semester": 1
         },
-        "letterGrade": "BA"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -138,7 +138,7 @@
           "courseCredit": 5,
           "semester": 1
         },
-        "letterGrade": "CB"
+        "letterGrade": "BB"
       },
       {
         "course": {
@@ -154,7 +154,7 @@
           "courseCredit": 6,
           "semester": 1
         },
-        "letterGrade": "CB"
+        "letterGrade": "BA"
       },
       {
         "course": {
@@ -162,7 +162,7 @@
           "courseCredit": 6,
           "semester": 1
         },
-        "letterGrade": "DD"
+        "letterGrade": "FD"
       },
       {
         "course": {
@@ -170,7 +170,7 @@
           "courseCredit": 4,
           "semester": 1
         },
-        "letterGrade": "BA"
+        "letterGrade": "FD"
       },
       {
         "course": {
@@ -178,7 +178,7 @@
           "courseCredit": 2,
           "semester": 1
         },
-        "letterGrade": "BA"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -186,7 +186,7 @@
           "courseCredit": 2,
           "semester": 1
         },
-        "letterGrade": "BA"
+        "letterGrade": "FF"
       },
       {
         "course": {
@@ -239,7 +239,7 @@
       },
       {
         "course": {
-          "courseName": "Energy for Physical Activity",
+          "courseName": "Our Biosphere",
           "courseCredit": 3,
           "semester": 0,
           "electiveType": "NTE"
@@ -247,9 +247,11 @@
       }
     ],
     "givenCredit": 61.0,
-    "completedCredit": 31.0,
-    "point": 84.5,
-    "gano": 2.73
+    "completedCredit": 19.0,
+    "point": 68.0,
+    "gano": 2.19
   },
-  "error": []
+  "error": [
+    "There is a collision Computer Programming II 2.hour between Our Biosphere 1.hour"
+  ]
 }

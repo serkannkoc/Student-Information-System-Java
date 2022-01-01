@@ -1,11 +1,11 @@
 {
   "studentNumber": 150120055,
-  "studentName": "Ömer Asaf Zengin",
+  "studentName": "Ulaş Kartal",
   "year": 2,
   "advisor": {
-    "lecturerName": "Müjdat Soytürk",
+    "lecturerName": "Ali Haydar Özer",
     "department": "CSE",
-    "rank": "Doç.Dr"
+    "rank": "Dr.Öğr.Üyesi"
   },
   "transcriptBefore": {
     "transcriptRow": [
@@ -15,7 +15,7 @@
           "courseCredit": 2,
           "semester": 1
         },
-        "letterGrade": "DC"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -23,7 +23,7 @@
           "courseCredit": 5,
           "semester": 1
         },
-        "letterGrade": "AA"
+        "letterGrade": "BA"
       },
       {
         "course": {
@@ -31,7 +31,7 @@
           "courseCredit": 4,
           "semester": 1
         },
-        "letterGrade": "CC"
+        "letterGrade": "CB"
       },
       {
         "course": {
@@ -39,7 +39,7 @@
           "courseCredit": 6,
           "semester": 1
         },
-        "letterGrade": "BB"
+        "letterGrade": "DD"
       },
       {
         "course": {
@@ -47,7 +47,7 @@
           "courseCredit": 6,
           "semester": 1
         },
-        "letterGrade": "CC"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -63,7 +63,7 @@
           "courseCredit": 2,
           "semester": 1
         },
-        "letterGrade": "FD"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -71,7 +71,7 @@
           "courseCredit": 2,
           "semester": 1
         },
-        "letterGrade": "FD"
+        "letterGrade": "BB"
       },
       {
         "course": {
@@ -87,7 +87,7 @@
           "courseCredit": 6,
           "semester": 2
         },
-        "letterGrade": "BA"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -95,7 +95,7 @@
           "courseCredit": 6,
           "semester": 2
         },
-        "letterGrade": "BB"
+        "letterGrade": "FF"
       },
       {
         "course": {
@@ -103,7 +103,7 @@
           "courseCredit": 5,
           "semester": 2
         },
-        "letterGrade": "AA"
+        "letterGrade": "FD"
       },
       {
         "course": {
@@ -111,7 +111,7 @@
           "courseCredit": 4,
           "semester": 2
         },
-        "letterGrade": "CB"
+        "letterGrade": "DD"
       },
       {
         "course": {
@@ -127,7 +127,16 @@
           "courseCredit": 2,
           "semester": 2
         },
-        "letterGrade": "BB"
+        "letterGrade": "CC"
+      },
+      {
+        "course": {
+          "courseName": "Cardiopulmonary Resuscitation and First Aid Basics",
+          "courseCredit": 3,
+          "semester": 0,
+          "electiveType": "NTE"
+        },
+        "letterGrade": "BA"
       },
       {
         "course": {
@@ -152,7 +161,7 @@
           "courseCredit": 4,
           "semester": 3
         },
-        "letterGrade": "BB"
+        "letterGrade": "FD"
       },
       {
         "course": {
@@ -168,7 +177,7 @@
           "courseCredit": 4,
           "semester": 3
         },
-        "letterGrade": "BA"
+        "letterGrade": "FF"
       },
       {
         "course": {
@@ -176,13 +185,13 @@
           "courseCredit": 4,
           "semester": 3
         },
-        "letterGrade": "DC"
+        "letterGrade": "AA"
       }
     ],
     "givenCredit": 88.0,
-    "completedCredit": 69.0,
-    "point": 199.5,
-    "gano": 2.27
+    "completedCredit": 54.0,
+    "point": 131.5,
+    "gano": 1.49
   },
   "courseOffered": [
     {
@@ -214,7 +223,7 @@
           "courseCredit": 2,
           "semester": 1
         },
-        "letterGrade": "FF"
+        "letterGrade": "CC"
       },
       {
         "course": {
@@ -222,7 +231,7 @@
           "courseCredit": 5,
           "semester": 1
         },
-        "letterGrade": "CB"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -230,7 +239,7 @@
           "courseCredit": 4,
           "semester": 1
         },
-        "letterGrade": "FD"
+        "letterGrade": "CC"
       },
       {
         "course": {
@@ -238,7 +247,7 @@
           "courseCredit": 6,
           "semester": 1
         },
-        "letterGrade": "FF"
+        "letterGrade": "DD"
       },
       {
         "course": {
@@ -254,7 +263,7 @@
           "courseCredit": 4,
           "semester": 1
         },
-        "letterGrade": "AA"
+        "letterGrade": "CC"
       },
       {
         "course": {
@@ -262,7 +271,7 @@
           "courseCredit": 2,
           "semester": 1
         },
-        "letterGrade": "BA"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -270,7 +279,7 @@
           "courseCredit": 2,
           "semester": 1
         },
-        "letterGrade": "CB"
+        "letterGrade": "BA"
       },
       {
         "course": {
@@ -278,7 +287,7 @@
           "courseCredit": 2,
           "semester": 2
         },
-        "letterGrade": "BB"
+        "letterGrade": "CB"
       },
       {
         "course": {
@@ -294,7 +303,7 @@
           "courseCredit": 6,
           "semester": 2
         },
-        "letterGrade": "DC"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -302,7 +311,7 @@
           "courseCredit": 5,
           "semester": 2
         },
-        "letterGrade": "CB"
+        "letterGrade": "BA"
       },
       {
         "course": {
@@ -310,7 +319,7 @@
           "courseCredit": 4,
           "semester": 2
         },
-        "letterGrade": "BA"
+        "letterGrade": "CC"
       },
       {
         "course": {
@@ -318,7 +327,7 @@
           "courseCredit": 2,
           "semester": 2
         },
-        "letterGrade": "BB"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -326,7 +335,16 @@
           "courseCredit": 2,
           "semester": 2
         },
-        "letterGrade": "AA"
+        "letterGrade": "DD"
+      },
+      {
+        "course": {
+          "courseName": "International Business",
+          "courseCredit": 3,
+          "semester": 0,
+          "electiveType": "NTE"
+        },
+        "letterGrade": "DD"
       },
       {
         "course": {
@@ -334,7 +352,7 @@
           "courseCredit": 6,
           "semester": 3
         },
-        "letterGrade": "BA"
+        "letterGrade": "CC"
       },
       {
         "course": {
@@ -343,7 +361,7 @@
           "semester": 3,
           "prequisiteName": "Computer Programming II"
         },
-        "letterGrade": "BB"
+        "letterGrade": "BA"
       },
       {
         "course": {
@@ -351,7 +369,7 @@
           "courseCredit": 4,
           "semester": 3
         },
-        "letterGrade": "DC"
+        "letterGrade": "CC"
       },
       {
         "course": {
@@ -359,7 +377,7 @@
           "courseCredit": 5,
           "semester": 3
         },
-        "letterGrade": "DD"
+        "letterGrade": "BB"
       },
       {
         "course": {
@@ -375,13 +393,13 @@
           "courseCredit": 4,
           "semester": 3
         },
-        "letterGrade": "CC"
+        "letterGrade": "FD"
       }
     ],
     "givenCredit": 88.0,
-    "completedCredit": 76.0,
-    "point": 212.0,
-    "gano": 2.41
+    "completedCredit": 84.0,
+    "point": 222.5,
+    "gano": 2.53
   },
   "error": [
     "The system did not allow Analysis of Algorithms because student failed prerequisite Data Structures"

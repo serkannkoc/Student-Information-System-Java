@@ -1,11 +1,11 @@
 {
   "studentNumber": 150120019,
-  "studentName": "Kübra Karakaya",
+  "studentName": "Mehmet Yıldız",
   "year": 2,
   "advisor": {
-    "lecturerName": "Müjdat Soytürk",
+    "lecturerName": "Ali Haydar Özer",
     "department": "CSE",
-    "rank": "Doç.Dr"
+    "rank": "Dr.Öğr.Üyesi"
   },
   "transcriptBefore": {
     "transcriptRow": [
@@ -15,7 +15,7 @@
           "courseCredit": 2,
           "semester": 1
         },
-        "letterGrade": "BA"
+        "letterGrade": "FF"
       },
       {
         "course": {
@@ -23,7 +23,7 @@
           "courseCredit": 5,
           "semester": 1
         },
-        "letterGrade": "CB"
+        "letterGrade": "BA"
       },
       {
         "course": {
@@ -31,7 +31,7 @@
           "courseCredit": 4,
           "semester": 1
         },
-        "letterGrade": "DD"
+        "letterGrade": "FF"
       },
       {
         "course": {
@@ -39,7 +39,7 @@
           "courseCredit": 6,
           "semester": 1
         },
-        "letterGrade": "CB"
+        "letterGrade": "BB"
       },
       {
         "course": {
@@ -47,7 +47,7 @@
           "courseCredit": 6,
           "semester": 1
         },
-        "letterGrade": "BB"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -55,7 +55,7 @@
           "courseCredit": 4,
           "semester": 1
         },
-        "letterGrade": "FF"
+        "letterGrade": "BA"
       },
       {
         "course": {
@@ -63,7 +63,7 @@
           "courseCredit": 2,
           "semester": 1
         },
-        "letterGrade": "BA"
+        "letterGrade": "DD"
       },
       {
         "course": {
@@ -71,7 +71,7 @@
           "courseCredit": 2,
           "semester": 1
         },
-        "letterGrade": "BB"
+        "letterGrade": "CC"
       },
       {
         "course": {
@@ -79,7 +79,7 @@
           "courseCredit": 2,
           "semester": 2
         },
-        "letterGrade": "DD"
+        "letterGrade": "CB"
       },
       {
         "course": {
@@ -87,7 +87,7 @@
           "courseCredit": 6,
           "semester": 2
         },
-        "letterGrade": "BB"
+        "letterGrade": "CB"
       },
       {
         "course": {
@@ -103,7 +103,7 @@
           "courseCredit": 5,
           "semester": 2
         },
-        "letterGrade": "FF"
+        "letterGrade": "BA"
       },
       {
         "course": {
@@ -111,7 +111,7 @@
           "courseCredit": 4,
           "semester": 2
         },
-        "letterGrade": "BA"
+        "letterGrade": "DD"
       },
       {
         "course": {
@@ -119,7 +119,7 @@
           "courseCredit": 2,
           "semester": 2
         },
-        "letterGrade": "AA"
+        "letterGrade": "BB"
       },
       {
         "course": {
@@ -127,7 +127,16 @@
           "courseCredit": 2,
           "semester": 2
         },
-        "letterGrade": "DD"
+        "letterGrade": "FF"
+      },
+      {
+        "course": {
+          "courseName": "Cardiopulmonary Resuscitation and First Aid Basics",
+          "courseCredit": 3,
+          "semester": 0,
+          "electiveType": "NTE"
+        },
+        "letterGrade": "CC"
       },
       {
         "course": {
@@ -135,7 +144,7 @@
           "courseCredit": 6,
           "semester": 3
         },
-        "letterGrade": "BB"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -144,7 +153,7 @@
           "semester": 3,
           "prequisiteName": "Computer Programming II"
         },
-        "letterGrade": "CB"
+        "letterGrade": "FD"
       },
       {
         "course": {
@@ -152,7 +161,7 @@
           "courseCredit": 4,
           "semester": 3
         },
-        "letterGrade": "BA"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -160,7 +169,7 @@
           "courseCredit": 5,
           "semester": 3
         },
-        "letterGrade": "BB"
+        "letterGrade": "BA"
       },
       {
         "course": {
@@ -176,21 +185,15 @@
           "courseCredit": 4,
           "semester": 3
         },
-        "letterGrade": "BB"
+        "letterGrade": "CB"
       }
     ],
     "givenCredit": 88.0,
-    "completedCredit": 73.0,
-    "point": 204.0,
-    "gano": 2.32
+    "completedCredit": 67.0,
+    "point": 202.0,
+    "gano": 2.3
   },
   "courseOffered": [
-    {
-      "courseName": "Analysis of Algorithms",
-      "courseCredit": 6,
-      "semester": 4,
-      "prequisiteName": "Data Structures"
-    },
     {
       "courseName": "Systems Programming",
       "courseCredit": 7,
@@ -220,7 +223,7 @@
           "courseCredit": 2,
           "semester": 1
         },
-        "letterGrade": "FD"
+        "letterGrade": "CC"
       },
       {
         "course": {
@@ -228,7 +231,7 @@
           "courseCredit": 5,
           "semester": 1
         },
-        "letterGrade": "BA"
+        "letterGrade": "DD"
       },
       {
         "course": {
@@ -236,7 +239,7 @@
           "courseCredit": 4,
           "semester": 1
         },
-        "letterGrade": "BB"
+        "letterGrade": "FF"
       },
       {
         "course": {
@@ -244,7 +247,7 @@
           "courseCredit": 6,
           "semester": 1
         },
-        "letterGrade": "FF"
+        "letterGrade": "DD"
       },
       {
         "course": {
@@ -252,7 +255,7 @@
           "courseCredit": 6,
           "semester": 1
         },
-        "letterGrade": "FD"
+        "letterGrade": "CB"
       },
       {
         "course": {
@@ -260,7 +263,7 @@
           "courseCredit": 4,
           "semester": 1
         },
-        "letterGrade": "FD"
+        "letterGrade": "CC"
       },
       {
         "course": {
@@ -268,7 +271,7 @@
           "courseCredit": 2,
           "semester": 1
         },
-        "letterGrade": "BB"
+        "letterGrade": "CC"
       },
       {
         "course": {
@@ -276,7 +279,7 @@
           "courseCredit": 2,
           "semester": 1
         },
-        "letterGrade": "DD"
+        "letterGrade": "BA"
       },
       {
         "course": {
@@ -284,7 +287,7 @@
           "courseCredit": 2,
           "semester": 2
         },
-        "letterGrade": "FF"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -292,7 +295,7 @@
           "courseCredit": 6,
           "semester": 2
         },
-        "letterGrade": "BB"
+        "letterGrade": "CC"
       },
       {
         "course": {
@@ -300,7 +303,7 @@
           "courseCredit": 6,
           "semester": 2
         },
-        "letterGrade": "BB"
+        "letterGrade": "CC"
       },
       {
         "course": {
@@ -308,7 +311,7 @@
           "courseCredit": 5,
           "semester": 2
         },
-        "letterGrade": "FD"
+        "letterGrade": "CB"
       },
       {
         "course": {
@@ -316,7 +319,7 @@
           "courseCredit": 4,
           "semester": 2
         },
-        "letterGrade": "FF"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -324,13 +327,22 @@
           "courseCredit": 2,
           "semester": 2
         },
-        "letterGrade": "DC"
+        "letterGrade": "FF"
       },
       {
         "course": {
           "courseName": "Türk Dili II",
           "courseCredit": 2,
           "semester": 2
+        },
+        "letterGrade": "FD"
+      },
+      {
+        "course": {
+          "courseName": "Our Biosphere",
+          "courseCredit": 3,
+          "semester": 0,
+          "electiveType": "NTE"
         },
         "letterGrade": "DC"
       },
@@ -340,7 +352,7 @@
           "courseCredit": 6,
           "semester": 3
         },
-        "letterGrade": "CB"
+        "letterGrade": "DD"
       },
       {
         "course": {
@@ -349,7 +361,7 @@
           "semester": 3,
           "prequisiteName": "Computer Programming II"
         },
-        "letterGrade": "FF"
+        "letterGrade": "BB"
       },
       {
         "course": {
@@ -357,7 +369,7 @@
           "courseCredit": 4,
           "semester": 3
         },
-        "letterGrade": "DC"
+        "letterGrade": "BB"
       },
       {
         "course": {
@@ -365,7 +377,7 @@
           "courseCredit": 5,
           "semester": 3
         },
-        "letterGrade": "AA"
+        "letterGrade": "DD"
       },
       {
         "course": {
@@ -381,13 +393,15 @@
           "courseCredit": 4,
           "semester": 3
         },
-        "letterGrade": "DD"
+        "letterGrade": "AA"
       }
     ],
     "givenCredit": 88.0,
-    "completedCredit": 52.0,
-    "point": 143.0,
-    "gano": 1.63
+    "completedCredit": 80.0,
+    "point": 180.5,
+    "gano": 2.05
   },
-  "error": []
+  "error": [
+    "The system did not allow Analysis of Algorithms because student failed prerequisite Data Structures"
+  ]
 }

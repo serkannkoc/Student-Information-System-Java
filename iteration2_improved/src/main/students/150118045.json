@@ -1,11 +1,11 @@
 {
   "studentNumber": 150118045,
-  "studentName": "Defne Şahin",
+  "studentName": "Hesna Korkmaz",
   "year": 4,
   "advisor": {
-    "lecturerName": "Mustafa Ağaoğlu",
+    "lecturerName": "Sanem Arslan",
     "department": "CSE",
-    "rank": "Doç.Dr"
+    "rank": "Dr.Öğr.Üyesi"
   },
   "transcriptBefore": {
     "transcriptRow": [
@@ -15,7 +15,7 @@
           "courseCredit": 2,
           "semester": 1
         },
-        "letterGrade": "BB"
+        "letterGrade": "CC"
       },
       {
         "course": {
@@ -23,7 +23,7 @@
           "courseCredit": 5,
           "semester": 1
         },
-        "letterGrade": "BB"
+        "letterGrade": "CB"
       },
       {
         "course": {
@@ -39,7 +39,7 @@
           "courseCredit": 6,
           "semester": 1
         },
-        "letterGrade": "BA"
+        "letterGrade": "FD"
       },
       {
         "course": {
@@ -47,7 +47,7 @@
           "courseCredit": 6,
           "semester": 1
         },
-        "letterGrade": "BB"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -55,7 +55,7 @@
           "courseCredit": 4,
           "semester": 1
         },
-        "letterGrade": "BB"
+        "letterGrade": "BA"
       },
       {
         "course": {
@@ -63,7 +63,7 @@
           "courseCredit": 2,
           "semester": 1
         },
-        "letterGrade": "CB"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -71,7 +71,7 @@
           "courseCredit": 2,
           "semester": 1
         },
-        "letterGrade": "DC"
+        "letterGrade": "FD"
       },
       {
         "course": {
@@ -87,7 +87,7 @@
           "courseCredit": 6,
           "semester": 2
         },
-        "letterGrade": "FD"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -95,7 +95,7 @@
           "courseCredit": 6,
           "semester": 2
         },
-        "letterGrade": "BB"
+        "letterGrade": "FD"
       },
       {
         "course": {
@@ -103,7 +103,7 @@
           "courseCredit": 5,
           "semester": 2
         },
-        "letterGrade": "FD"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -111,7 +111,7 @@
           "courseCredit": 4,
           "semester": 2
         },
-        "letterGrade": "BB"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -127,7 +127,16 @@
           "courseCredit": 2,
           "semester": 2
         },
-        "letterGrade": "DD"
+        "letterGrade": "DC"
+      },
+      {
+        "course": {
+          "courseName": "Human Performance and Nutrition",
+          "courseCredit": 3,
+          "semester": 0,
+          "electiveType": "NTE"
+        },
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -135,7 +144,7 @@
           "courseCredit": 6,
           "semester": 3
         },
-        "letterGrade": "FF"
+        "letterGrade": "DD"
       },
       {
         "course": {
@@ -144,7 +153,7 @@
           "semester": 3,
           "prequisiteName": "Computer Programming II"
         },
-        "letterGrade": "BB"
+        "letterGrade": "FD"
       },
       {
         "course": {
@@ -152,7 +161,7 @@
           "courseCredit": 4,
           "semester": 3
         },
-        "letterGrade": "DD"
+        "letterGrade": "FD"
       },
       {
         "course": {
@@ -160,7 +169,7 @@
           "courseCredit": 5,
           "semester": 3
         },
-        "letterGrade": "BB"
+        "letterGrade": "BA"
       },
       {
         "course": {
@@ -168,7 +177,7 @@
           "courseCredit": 4,
           "semester": 3
         },
-        "letterGrade": "AA"
+        "letterGrade": "BB"
       },
       {
         "course": {
@@ -185,7 +194,7 @@
           "semester": 4,
           "prequisiteName": "Data Structures"
         },
-        "letterGrade": "FF"
+        "letterGrade": "FD"
       },
       {
         "course": {
@@ -201,7 +210,7 @@
           "courseCredit": 4,
           "semester": 4
         },
-        "letterGrade": "AA"
+        "letterGrade": "CC"
       },
       {
         "course": {
@@ -209,7 +218,7 @@
           "courseCredit": 5,
           "semester": 4
         },
-        "letterGrade": "FD"
+        "letterGrade": "CB"
       },
       {
         "course": {
@@ -217,7 +226,7 @@
           "courseCredit": 5,
           "semester": 4
         },
-        "letterGrade": "AA"
+        "letterGrade": "BA"
       },
       {
         "course": {
@@ -225,7 +234,7 @@
           "courseCredit": 10,
           "semester": 5
         },
-        "letterGrade": "BB"
+        "letterGrade": "FD"
       },
       {
         "course": {
@@ -233,7 +242,7 @@
           "courseCredit": 6,
           "semester": 5
         },
-        "letterGrade": "BB"
+        "letterGrade": "CC"
       },
       {
         "course": {
@@ -257,7 +266,7 @@
           "courseCredit": 5,
           "semester": 5
         },
-        "letterGrade": "BB"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -265,7 +274,7 @@
           "courseCredit": 4,
           "semester": 5
         },
-        "letterGrade": "AA"
+        "letterGrade": "CC"
       },
       {
         "course": {
@@ -273,7 +282,7 @@
           "courseCredit": 7,
           "semester": 6
         },
-        "letterGrade": "BA"
+        "letterGrade": "FD"
       },
       {
         "course": {
@@ -281,7 +290,7 @@
           "courseCredit": 7,
           "semester": 6
         },
-        "letterGrade": "FF"
+        "letterGrade": "BA"
       },
       {
         "course": {
@@ -289,7 +298,7 @@
           "courseCredit": 5,
           "semester": 6
         },
-        "letterGrade": "BB"
+        "letterGrade": "CB"
       },
       {
         "course": {
@@ -297,7 +306,7 @@
           "courseCredit": 5,
           "semester": 6
         },
-        "letterGrade": "CB"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -305,7 +314,7 @@
           "courseCredit": 4,
           "semester": 6
         },
-        "letterGrade": "BB"
+        "letterGrade": "DD"
       },
       {
         "course": {
@@ -313,7 +322,7 @@
           "courseCredit": 2,
           "semester": 6
         },
-        "letterGrade": "BB"
+        "letterGrade": "CB"
       },
       {
         "course": {
@@ -321,7 +330,7 @@
           "courseCredit": 10,
           "semester": 7
         },
-        "letterGrade": "BB"
+        "letterGrade": "CB"
       },
       {
         "course": {
@@ -329,7 +338,7 @@
           "courseCredit": 5,
           "semester": 7
         },
-        "letterGrade": "BA"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -337,7 +346,7 @@
           "courseCredit": 6,
           "semester": 7
         },
-        "letterGrade": "CB"
+        "letterGrade": "DD"
       },
       {
         "course": {
@@ -353,7 +362,7 @@
           "courseCredit": 2,
           "semester": 7
         },
-        "letterGrade": "FF"
+        "letterGrade": "DD"
       },
       {
         "course": {
@@ -361,13 +370,32 @@
           "courseCredit": 5,
           "semester": 7
         },
-        "letterGrade": "DC"
+        "letterGrade": "FF"
+      },
+      {
+        "course": {
+          "courseName": "Advanced Unix Programming",
+          "courseCredit": 5,
+          "semester": 0,
+          "prequisiteName": "Operating Systems",
+          "electiveType": "TE"
+        },
+        "letterGrade": "BB"
+      },
+      {
+        "course": {
+          "courseName": "Self Management",
+          "courseCredit": 3,
+          "semester": 0,
+          "electiveType": "ENG-UE"
+        },
+        "letterGrade": "CB"
       }
     ],
     "givenCredit": 217.0,
-    "completedCredit": 178.0,
-    "point": 529.0,
-    "gano": 2.44
+    "completedCredit": 162.0,
+    "point": 432.5,
+    "gano": 1.99
   },
   "courseOffered": [
     {
@@ -382,18 +410,6 @@
       "semester": 8
     },
     {
-      "courseName": "Software Project Management",
-      "courseCredit": 5,
-      "semester": 0,
-      "electiveType": "TE"
-    },
-    {
-      "courseName": "Distributed Databases",
-      "courseCredit": 5,
-      "semester": 0,
-      "electiveType": "TE"
-    },
-    {
       "courseName": "Introduction to Parallel Processing",
       "courseCredit": 5,
       "semester": 0,
@@ -403,10 +419,22 @@
       "courseName": "Management of Information Systems",
       "courseCredit": 5,
       "semester": 0,
+      "electiveType": "TE"
+    },
+    {
+      "courseName": "Information Systems: Analysis and Design",
+      "courseCredit": 5,
+      "semester": 0,
+      "electiveType": "TE"
+    },
+    {
+      "courseName": "Cost Management in Chemical Industries",
+      "courseCredit": 5,
+      "semester": 0,
       "electiveType": "ENG-FTE"
     },
     {
-      "courseName": "Our Biosphere",
+      "courseName": "Self Management",
       "courseCredit": 3,
       "semester": 0,
       "electiveType": "NTE"
@@ -420,7 +448,7 @@
           "courseCredit": 2,
           "semester": 1
         },
-        "letterGrade": "BB"
+        "letterGrade": "CC"
       },
       {
         "course": {
@@ -428,7 +456,7 @@
           "courseCredit": 5,
           "semester": 1
         },
-        "letterGrade": "BB"
+        "letterGrade": "CB"
       },
       {
         "course": {
@@ -444,7 +472,7 @@
           "courseCredit": 6,
           "semester": 1
         },
-        "letterGrade": "BA"
+        "letterGrade": "FD"
       },
       {
         "course": {
@@ -452,7 +480,7 @@
           "courseCredit": 6,
           "semester": 1
         },
-        "letterGrade": "BB"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -460,7 +488,7 @@
           "courseCredit": 4,
           "semester": 1
         },
-        "letterGrade": "BB"
+        "letterGrade": "BA"
       },
       {
         "course": {
@@ -468,7 +496,7 @@
           "courseCredit": 2,
           "semester": 1
         },
-        "letterGrade": "CB"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -476,7 +504,7 @@
           "courseCredit": 2,
           "semester": 1
         },
-        "letterGrade": "DC"
+        "letterGrade": "FD"
       },
       {
         "course": {
@@ -492,7 +520,7 @@
           "courseCredit": 6,
           "semester": 2
         },
-        "letterGrade": "FD"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -500,7 +528,7 @@
           "courseCredit": 6,
           "semester": 2
         },
-        "letterGrade": "BB"
+        "letterGrade": "FD"
       },
       {
         "course": {
@@ -508,7 +536,7 @@
           "courseCredit": 5,
           "semester": 2
         },
-        "letterGrade": "FD"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -516,7 +544,7 @@
           "courseCredit": 4,
           "semester": 2
         },
-        "letterGrade": "BB"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -532,7 +560,16 @@
           "courseCredit": 2,
           "semester": 2
         },
-        "letterGrade": "DD"
+        "letterGrade": "DC"
+      },
+      {
+        "course": {
+          "courseName": "Human Performance and Nutrition",
+          "courseCredit": 3,
+          "semester": 0,
+          "electiveType": "NTE"
+        },
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -540,7 +577,7 @@
           "courseCredit": 6,
           "semester": 3
         },
-        "letterGrade": "FF"
+        "letterGrade": "DD"
       },
       {
         "course": {
@@ -549,7 +586,7 @@
           "semester": 3,
           "prequisiteName": "Computer Programming II"
         },
-        "letterGrade": "BB"
+        "letterGrade": "FD"
       },
       {
         "course": {
@@ -557,7 +594,7 @@
           "courseCredit": 4,
           "semester": 3
         },
-        "letterGrade": "DD"
+        "letterGrade": "FD"
       },
       {
         "course": {
@@ -565,7 +602,7 @@
           "courseCredit": 5,
           "semester": 3
         },
-        "letterGrade": "BB"
+        "letterGrade": "BA"
       },
       {
         "course": {
@@ -573,7 +610,7 @@
           "courseCredit": 4,
           "semester": 3
         },
-        "letterGrade": "AA"
+        "letterGrade": "BB"
       },
       {
         "course": {
@@ -590,7 +627,7 @@
           "semester": 4,
           "prequisiteName": "Data Structures"
         },
-        "letterGrade": "FF"
+        "letterGrade": "FD"
       },
       {
         "course": {
@@ -606,7 +643,7 @@
           "courseCredit": 4,
           "semester": 4
         },
-        "letterGrade": "AA"
+        "letterGrade": "CC"
       },
       {
         "course": {
@@ -614,7 +651,7 @@
           "courseCredit": 5,
           "semester": 4
         },
-        "letterGrade": "FD"
+        "letterGrade": "CB"
       },
       {
         "course": {
@@ -622,7 +659,7 @@
           "courseCredit": 5,
           "semester": 4
         },
-        "letterGrade": "AA"
+        "letterGrade": "BA"
       },
       {
         "course": {
@@ -630,7 +667,7 @@
           "courseCredit": 10,
           "semester": 5
         },
-        "letterGrade": "BB"
+        "letterGrade": "FD"
       },
       {
         "course": {
@@ -638,7 +675,7 @@
           "courseCredit": 6,
           "semester": 5
         },
-        "letterGrade": "BB"
+        "letterGrade": "CC"
       },
       {
         "course": {
@@ -662,7 +699,7 @@
           "courseCredit": 5,
           "semester": 5
         },
-        "letterGrade": "BB"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -670,7 +707,7 @@
           "courseCredit": 4,
           "semester": 5
         },
-        "letterGrade": "AA"
+        "letterGrade": "CC"
       },
       {
         "course": {
@@ -678,7 +715,7 @@
           "courseCredit": 7,
           "semester": 6
         },
-        "letterGrade": "BA"
+        "letterGrade": "FD"
       },
       {
         "course": {
@@ -686,7 +723,7 @@
           "courseCredit": 7,
           "semester": 6
         },
-        "letterGrade": "FF"
+        "letterGrade": "BA"
       },
       {
         "course": {
@@ -694,7 +731,7 @@
           "courseCredit": 5,
           "semester": 6
         },
-        "letterGrade": "BB"
+        "letterGrade": "CB"
       },
       {
         "course": {
@@ -702,7 +739,7 @@
           "courseCredit": 5,
           "semester": 6
         },
-        "letterGrade": "CB"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -710,7 +747,7 @@
           "courseCredit": 4,
           "semester": 6
         },
-        "letterGrade": "BB"
+        "letterGrade": "DD"
       },
       {
         "course": {
@@ -718,7 +755,7 @@
           "courseCredit": 2,
           "semester": 6
         },
-        "letterGrade": "BB"
+        "letterGrade": "CB"
       },
       {
         "course": {
@@ -726,7 +763,7 @@
           "courseCredit": 10,
           "semester": 7
         },
-        "letterGrade": "BB"
+        "letterGrade": "CB"
       },
       {
         "course": {
@@ -734,7 +771,7 @@
           "courseCredit": 5,
           "semester": 7
         },
-        "letterGrade": "BA"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -742,7 +779,7 @@
           "courseCredit": 6,
           "semester": 7
         },
-        "letterGrade": "CB"
+        "letterGrade": "DD"
       },
       {
         "course": {
@@ -758,7 +795,7 @@
           "courseCredit": 2,
           "semester": 7
         },
-        "letterGrade": "FF"
+        "letterGrade": "DD"
       },
       {
         "course": {
@@ -766,37 +803,32 @@
           "courseCredit": 5,
           "semester": 7
         },
-        "letterGrade": "DC"
+        "letterGrade": "FF"
       },
       {
         "course": {
-          "courseName": "Engineering Project II",
+          "courseName": "Advanced Unix Programming",
           "courseCredit": 5,
-          "semester": 8,
-          "prequisiteName": "Engineering Project I"
-        }
+          "semester": 0,
+          "prequisiteName": "Operating Systems",
+          "electiveType": "TE"
+        },
+        "letterGrade": "BB"
+      },
+      {
+        "course": {
+          "courseName": "Self Management",
+          "courseCredit": 3,
+          "semester": 0,
+          "electiveType": "ENG-UE"
+        },
+        "letterGrade": "CB"
       },
       {
         "course": {
           "courseName": "İş Sağlığı ve Güvenliği II",
           "courseCredit": 2,
           "semester": 8
-        }
-      },
-      {
-        "course": {
-          "courseName": "Software Project Management",
-          "courseCredit": 5,
-          "semester": 0,
-          "electiveType": "TE"
-        }
-      },
-      {
-        "course": {
-          "courseName": "Distributed Databases",
-          "courseCredit": 5,
-          "semester": 0,
-          "electiveType": "TE"
         }
       },
       {
@@ -812,24 +844,40 @@
           "courseName": "Management of Information Systems",
           "courseCredit": 5,
           "semester": 0,
+          "electiveType": "TE"
+        }
+      },
+      {
+        "course": {
+          "courseName": "Information Systems: Analysis and Design",
+          "courseCredit": 5,
+          "semester": 0,
+          "electiveType": "TE"
+        }
+      },
+      {
+        "course": {
+          "courseName": "Cost Management in Chemical Industries",
+          "courseCredit": 5,
+          "semester": 0,
           "electiveType": "ENG-FTE"
         }
       },
       {
         "course": {
-          "courseName": "Our Biosphere",
+          "courseName": "Self Management",
           "courseCredit": 3,
           "semester": 0,
           "electiveType": "NTE"
         }
       }
     ],
-    "givenCredit": 247.0,
-    "completedCredit": 178.0,
-    "point": 529.0,
-    "gano": 2.44
+    "givenCredit": 242.0,
+    "completedCredit": 162.0,
+    "point": 432.5,
+    "gano": 1.99
   },
   "error": [
-    "There is a collision Distributed Databases 2.hour between Introduction to Parallel Processing 1.hour"
+    "The advisor didnt approve Engineering Project II because student completed credits less than 165"
   ]
 }

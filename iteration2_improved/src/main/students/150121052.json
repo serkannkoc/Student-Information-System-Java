@@ -1,9 +1,9 @@
 {
   "studentNumber": 150121052,
-  "studentName": "Kemal Akyıldız",
+  "studentName": "Atilla Öztürk",
   "year": 1,
   "advisor": {
-    "lecturerName": "Sanem Arslan",
+    "lecturerName": "Fatma Corut Ergin",
     "department": "CSE",
     "rank": "Dr.Öğr.Üyesi"
   },
@@ -15,7 +15,7 @@
           "courseCredit": 2,
           "semester": 1
         },
-        "letterGrade": "BB"
+        "letterGrade": "BA"
       },
       {
         "course": {
@@ -31,7 +31,7 @@
           "courseCredit": 4,
           "semester": 1
         },
-        "letterGrade": "FF"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -39,7 +39,7 @@
           "courseCredit": 6,
           "semester": 1
         },
-        "letterGrade": "AA"
+        "letterGrade": "CC"
       },
       {
         "course": {
@@ -47,7 +47,7 @@
           "courseCredit": 6,
           "semester": 1
         },
-        "letterGrade": "BA"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -55,7 +55,7 @@
           "courseCredit": 4,
           "semester": 1
         },
-        "letterGrade": "BB"
+        "letterGrade": "CC"
       },
       {
         "course": {
@@ -63,7 +63,7 @@
           "courseCredit": 2,
           "semester": 1
         },
-        "letterGrade": "BB"
+        "letterGrade": "FD"
       },
       {
         "course": {
@@ -71,13 +71,13 @@
           "courseCredit": 2,
           "semester": 1
         },
-        "letterGrade": "BB"
+        "letterGrade": "DD"
       }
     ],
     "givenCredit": 31.0,
-    "completedCredit": 27.0,
-    "point": 92.5,
-    "gano": 2.98
+    "completedCredit": 29.0,
+    "point": 87.5,
+    "gano": 2.82
   },
   "courseOffered": [
     {
@@ -116,7 +116,7 @@
       "semester": 2
     },
     {
-      "courseName": "Human Performance and Nutrition",
+      "courseName": "Cardiopulmonary Resuscitation and First Aid Basics",
       "courseCredit": 3,
       "semester": 0,
       "electiveType": "NTE"
@@ -130,7 +130,7 @@
           "courseCredit": 2,
           "semester": 1
         },
-        "letterGrade": "BB"
+        "letterGrade": "BA"
       },
       {
         "course": {
@@ -146,7 +146,7 @@
           "courseCredit": 4,
           "semester": 1
         },
-        "letterGrade": "FF"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -154,7 +154,7 @@
           "courseCredit": 6,
           "semester": 1
         },
-        "letterGrade": "AA"
+        "letterGrade": "CC"
       },
       {
         "course": {
@@ -162,7 +162,7 @@
           "courseCredit": 6,
           "semester": 1
         },
-        "letterGrade": "BA"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -170,7 +170,7 @@
           "courseCredit": 4,
           "semester": 1
         },
-        "letterGrade": "BB"
+        "letterGrade": "CC"
       },
       {
         "course": {
@@ -178,7 +178,7 @@
           "courseCredit": 2,
           "semester": 1
         },
-        "letterGrade": "BB"
+        "letterGrade": "FD"
       },
       {
         "course": {
@@ -186,7 +186,7 @@
           "courseCredit": 2,
           "semester": 1
         },
-        "letterGrade": "BB"
+        "letterGrade": "DD"
       },
       {
         "course": {
@@ -239,7 +239,7 @@
       },
       {
         "course": {
-          "courseName": "Human Performance and Nutrition",
+          "courseName": "Cardiopulmonary Resuscitation and First Aid Basics",
           "courseCredit": 3,
           "semester": 0,
           "electiveType": "NTE"
@@ -247,11 +247,9 @@
       }
     ],
     "givenCredit": 61.0,
-    "completedCredit": 27.0,
-    "point": 92.5,
-    "gano": 2.98
+    "completedCredit": 29.0,
+    "point": 87.5,
+    "gano": 2.82
   },
-  "error": [
-    "There is a collision Physics II 2.hour between Human Performance and Nutrition 1.hour"
-  ]
+  "error": []
 }

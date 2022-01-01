@@ -1,9 +1,9 @@
 {
   "studentNumber": 150121059,
-  "studentName": "Kardelen Parlak",
+  "studentName": "Azra Küçük",
   "year": 1,
   "advisor": {
-    "lecturerName": "Sanem Arslan",
+    "lecturerName": "Fatma Corut Ergin",
     "department": "CSE",
     "rank": "Dr.Öğr.Üyesi"
   },
@@ -15,7 +15,7 @@
           "courseCredit": 2,
           "semester": 1
         },
-        "letterGrade": "DD"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -31,7 +31,7 @@
           "courseCredit": 4,
           "semester": 1
         },
-        "letterGrade": "FD"
+        "letterGrade": "BA"
       },
       {
         "course": {
@@ -47,7 +47,7 @@
           "courseCredit": 6,
           "semester": 1
         },
-        "letterGrade": "BB"
+        "letterGrade": "BA"
       },
       {
         "course": {
@@ -55,7 +55,7 @@
           "courseCredit": 4,
           "semester": 1
         },
-        "letterGrade": "DC"
+        "letterGrade": "FD"
       },
       {
         "course": {
@@ -63,7 +63,7 @@
           "courseCredit": 2,
           "semester": 1
         },
-        "letterGrade": "BA"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -71,13 +71,13 @@
           "courseCredit": 2,
           "semester": 1
         },
-        "letterGrade": "CC"
+        "letterGrade": "CB"
       }
     ],
     "givenCredit": 31.0,
     "completedCredit": 16.0,
-    "point": 39.0,
-    "gano": 1.26
+    "point": 53.0,
+    "gano": 1.71
   },
   "courseOffered": [
     {
@@ -116,7 +116,7 @@
       "semester": 2
     },
     {
-      "courseName": "Self Management",
+      "courseName": "Our Biosphere",
       "courseCredit": 3,
       "semester": 0,
       "electiveType": "NTE"
@@ -130,7 +130,7 @@
           "courseCredit": 2,
           "semester": 1
         },
-        "letterGrade": "DD"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -146,7 +146,7 @@
           "courseCredit": 4,
           "semester": 1
         },
-        "letterGrade": "FD"
+        "letterGrade": "BA"
       },
       {
         "course": {
@@ -162,7 +162,7 @@
           "courseCredit": 6,
           "semester": 1
         },
-        "letterGrade": "BB"
+        "letterGrade": "BA"
       },
       {
         "course": {
@@ -170,7 +170,7 @@
           "courseCredit": 4,
           "semester": 1
         },
-        "letterGrade": "DC"
+        "letterGrade": "FD"
       },
       {
         "course": {
@@ -178,7 +178,7 @@
           "courseCredit": 2,
           "semester": 1
         },
-        "letterGrade": "BA"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -186,7 +186,7 @@
           "courseCredit": 2,
           "semester": 1
         },
-        "letterGrade": "CC"
+        "letterGrade": "CB"
       },
       {
         "course": {
@@ -239,7 +239,7 @@
       },
       {
         "course": {
-          "courseName": "Self Management",
+          "courseName": "Our Biosphere",
           "courseCredit": 3,
           "semester": 0,
           "electiveType": "NTE"
@@ -248,8 +248,10 @@
     ],
     "givenCredit": 61.0,
     "completedCredit": 16.0,
-    "point": 39.0,
-    "gano": 1.26
+    "point": 53.0,
+    "gano": 1.71
   },
-  "error": []
+  "error": [
+    "There is a collision Computer Programming II 2.hour between Our Biosphere 1.hour"
+  ]
 }
