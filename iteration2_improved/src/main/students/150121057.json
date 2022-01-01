@@ -1,9 +1,9 @@
 {
   "studentNumber": 150121057,
-  "studentName": "Ahmet Yılmazer",
+  "studentName": "Murat Büyük",
   "year": 1,
   "advisor": {
-    "lecturerName": "Betül Demiröz Boz",
+    "lecturerName": "Fatma Corut Ergin",
     "department": "CSE",
     "rank": "Dr.Öğr.Üyesi"
   },
@@ -34,7 +34,7 @@
             68
           ]
         },
-        "letterGrade": "FD"
+        "letterGrade": "CC"
       },
       {
         "course": {
@@ -48,7 +48,7 @@
             67
           ]
         },
-        "letterGrade": "DC"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -62,7 +62,7 @@
             39
           ]
         },
-        "letterGrade": "DC"
+        "letterGrade": "BB"
       },
       {
         "course": {
@@ -76,7 +76,7 @@
             49
           ]
         },
-        "letterGrade": "CC"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -90,7 +90,7 @@
             56
           ]
         },
-        "letterGrade": "CC"
+        "letterGrade": "FD"
       },
       {
         "course": {
@@ -103,7 +103,7 @@
             2
           ]
         },
-        "letterGrade": "DC"
+        "letterGrade": "BB"
       },
       {
         "course": {
@@ -116,13 +116,13 @@
             105
           ]
         },
-        "letterGrade": "FD"
+        "letterGrade": "BA"
       }
     ],
     "givenCredit": 31.0,
-    "completedCredit": 24.0,
-    "point": 49.5,
-    "gano": 1.6
+    "completedCredit": 27.0,
+    "point": 76.0,
+    "gano": 2.45
   },
   "courseOffered": [
     {
@@ -200,14 +200,14 @@
       ]
     },
     {
-      "courseName": "International Business",
+      "courseName": "Interpersonal Relations and Communication",
       "courseCredit": 3,
       "semester": 0,
       "quota": 10,
       "electiveType": "NTE",
       "courseHour": [
-        55,
-        145
+        156,
+        157
       ]
     }
   ],
@@ -238,7 +238,7 @@
             68
           ]
         },
-        "letterGrade": "FD"
+        "letterGrade": "CC"
       },
       {
         "course": {
@@ -252,7 +252,7 @@
             67
           ]
         },
-        "letterGrade": "DC"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -266,7 +266,7 @@
             39
           ]
         },
-        "letterGrade": "DC"
+        "letterGrade": "BB"
       },
       {
         "course": {
@@ -280,7 +280,7 @@
             49
           ]
         },
-        "letterGrade": "CC"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -294,7 +294,7 @@
             56
           ]
         },
-        "letterGrade": "CC"
+        "letterGrade": "FD"
       },
       {
         "course": {
@@ -307,7 +307,7 @@
             2
           ]
         },
-        "letterGrade": "DC"
+        "letterGrade": "BB"
       },
       {
         "course": {
@@ -320,7 +320,7 @@
             105
           ]
         },
-        "letterGrade": "FD"
+        "letterGrade": "BA"
       },
       {
         "course": {
@@ -409,27 +409,12 @@
             83
           ]
         }
-      },
-      {
-        "course": {
-          "courseName": "International Business",
-          "courseCredit": 3,
-          "semester": 0,
-          "quota": 10,
-          "electiveType": "NTE",
-          "courseHour": [
-            55,
-            145
-          ]
-        }
       }
     ],
-    "givenCredit": 61.0,
-    "completedCredit": 24.0,
-    "point": 49.5,
-    "gano": 1.6
+    "givenCredit": 58.0,
+    "completedCredit": 27.0,
+    "point": 76.0,
+    "gano": 2.45
   },
-  "error": [
-    "There is a collision Physics II 1.hour between International Business 1.hour"
-  ]
+  "error": []
 }

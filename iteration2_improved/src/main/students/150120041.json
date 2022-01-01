@@ -1,6 +1,6 @@
 {
   "studentNumber": 150120041,
-  "studentName": "Hilal Dinç",
+  "studentName": "Mehmet Kaya",
   "year": 2,
   "advisor": {
     "lecturerName": "Borahan Tümer",
@@ -20,7 +20,7 @@
             32
           ]
         },
-        "letterGrade": "BB"
+        "letterGrade": "CB"
       },
       {
         "course": {
@@ -34,7 +34,7 @@
             68
           ]
         },
-        "letterGrade": "FD"
+        "letterGrade": "CB"
       },
       {
         "course": {
@@ -48,7 +48,7 @@
             67
           ]
         },
-        "letterGrade": "CB"
+        "letterGrade": "BA"
       },
       {
         "course": {
@@ -62,7 +62,7 @@
             39
           ]
         },
-        "letterGrade": "DD"
+        "letterGrade": "BB"
       },
       {
         "course": {
@@ -76,7 +76,7 @@
             49
           ]
         },
-        "letterGrade": "AA"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -90,7 +90,7 @@
             56
           ]
         },
-        "letterGrade": "BA"
+        "letterGrade": "CC"
       },
       {
         "course": {
@@ -103,7 +103,7 @@
             2
           ]
         },
-        "letterGrade": "FF"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -116,7 +116,7 @@
             105
           ]
         },
-        "letterGrade": "FD"
+        "letterGrade": "CB"
       },
       {
         "course": {
@@ -129,7 +129,7 @@
             103
           ]
         },
-        "letterGrade": "CC"
+        "letterGrade": "FD"
       },
       {
         "course": {
@@ -143,7 +143,7 @@
             20
           ]
         },
-        "letterGrade": "CB"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -157,7 +157,7 @@
             52
           ]
         },
-        "letterGrade": "FF"
+        "letterGrade": "BA"
       },
       {
         "course": {
@@ -171,7 +171,7 @@
             35
           ]
         },
-        "letterGrade": "BB"
+        "letterGrade": "DD"
       },
       {
         "course": {
@@ -185,7 +185,7 @@
             57
           ]
         },
-        "letterGrade": "BA"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -198,7 +198,7 @@
             8
           ]
         },
-        "letterGrade": "CC"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -211,7 +211,7 @@
             83
           ]
         },
-        "letterGrade": "BB"
+        "letterGrade": "CB"
       },
       {
         "course": {
@@ -225,7 +225,7 @@
             73
           ]
         },
-        "letterGrade": "FF"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -251,7 +251,7 @@
             40
           ]
         },
-        "letterGrade": "CC"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -278,7 +278,7 @@
             55
           ]
         },
-        "letterGrade": "BB"
+        "letterGrade": "FF"
       },
       {
         "course": {
@@ -292,7 +292,7 @@
             34
           ]
         },
-        "letterGrade": "DD"
+        "letterGrade": "CB"
       },
       {
         "course": {
@@ -306,13 +306,13 @@
             56
           ]
         },
-        "letterGrade": "AA"
+        "letterGrade": "FD"
       }
     ],
     "givenCredit": 88.0,
-    "completedCredit": 63.0,
-    "point": 172.5,
-    "gano": 1.96
+    "completedCredit": 73.0,
+    "point": 215.5,
+    "gano": 2.45
   },
   "courseOffered": [
     {
@@ -407,7 +407,7 @@
             32
           ]
         },
-        "letterGrade": "BB"
+        "letterGrade": "CB"
       },
       {
         "course": {
@@ -421,7 +421,7 @@
             68
           ]
         },
-        "letterGrade": "FD"
+        "letterGrade": "CB"
       },
       {
         "course": {
@@ -435,7 +435,7 @@
             67
           ]
         },
-        "letterGrade": "CB"
+        "letterGrade": "BA"
       },
       {
         "course": {
@@ -449,7 +449,7 @@
             39
           ]
         },
-        "letterGrade": "DD"
+        "letterGrade": "BB"
       },
       {
         "course": {
@@ -463,7 +463,7 @@
             49
           ]
         },
-        "letterGrade": "AA"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -477,7 +477,7 @@
             56
           ]
         },
-        "letterGrade": "BA"
+        "letterGrade": "CC"
       },
       {
         "course": {
@@ -490,7 +490,7 @@
             2
           ]
         },
-        "letterGrade": "FF"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -503,7 +503,7 @@
             105
           ]
         },
-        "letterGrade": "FD"
+        "letterGrade": "CB"
       },
       {
         "course": {
@@ -516,7 +516,7 @@
             103
           ]
         },
-        "letterGrade": "CC"
+        "letterGrade": "FD"
       },
       {
         "course": {
@@ -530,7 +530,7 @@
             20
           ]
         },
-        "letterGrade": "CB"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -544,7 +544,7 @@
             52
           ]
         },
-        "letterGrade": "FF"
+        "letterGrade": "BA"
       },
       {
         "course": {
@@ -558,7 +558,7 @@
             35
           ]
         },
-        "letterGrade": "BB"
+        "letterGrade": "DD"
       },
       {
         "course": {
@@ -572,7 +572,7 @@
             57
           ]
         },
-        "letterGrade": "BA"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -585,7 +585,7 @@
             8
           ]
         },
-        "letterGrade": "CC"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -598,7 +598,7 @@
             83
           ]
         },
-        "letterGrade": "BB"
+        "letterGrade": "CB"
       },
       {
         "course": {
@@ -612,7 +612,7 @@
             73
           ]
         },
-        "letterGrade": "FF"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -638,7 +638,7 @@
             40
           ]
         },
-        "letterGrade": "CC"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -665,7 +665,7 @@
             55
           ]
         },
-        "letterGrade": "BB"
+        "letterGrade": "FF"
       },
       {
         "course": {
@@ -679,7 +679,7 @@
             34
           ]
         },
-        "letterGrade": "DD"
+        "letterGrade": "CB"
       },
       {
         "course": {
@@ -693,7 +693,7 @@
             56
           ]
         },
-        "letterGrade": "AA"
+        "letterGrade": "FD"
       },
       {
         "course": {
@@ -785,9 +785,9 @@
       }
     ],
     "givenCredit": 115.0,
-    "completedCredit": 63.0,
-    "point": 172.5,
-    "gano": 1.96
+    "completedCredit": 73.0,
+    "point": 215.5,
+    "gano": 2.45
   },
   "error": [
     "There is a collision Analysis of Algorithms 1.hour between Systems Programming 1.hour"

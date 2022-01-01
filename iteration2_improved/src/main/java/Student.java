@@ -89,6 +89,10 @@ public class Student {
         this.error = error;
     }
 
+    public void addError(String error){
+        this.error.add(error);
+    }
+
     // This method takes a student parameter and creates a JSON file with the student's attributes.
     public void createStudentJSON() {
         Gson gson = new GsonBuilder().setPrettyPrinting().create();

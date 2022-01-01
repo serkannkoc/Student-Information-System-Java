@@ -1,9 +1,9 @@
 {
   "studentNumber": 150121002,
-  "studentName": "Öykü Ekşi",
+  "studentName": "Miran Ekşi",
   "year": 1,
   "advisor": {
-    "lecturerName": "Betül Demiröz Boz",
+    "lecturerName": "Fatma Corut Ergin",
     "department": "CSE",
     "rank": "Dr.Öğr.Üyesi"
   },
@@ -48,7 +48,7 @@
             67
           ]
         },
-        "letterGrade": "CC"
+        "letterGrade": "BB"
       },
       {
         "course": {
@@ -62,7 +62,7 @@
             39
           ]
         },
-        "letterGrade": "CC"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -76,7 +76,7 @@
             49
           ]
         },
-        "letterGrade": "AA"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -90,7 +90,7 @@
             56
           ]
         },
-        "letterGrade": "BA"
+        "letterGrade": "BB"
       },
       {
         "course": {
@@ -103,7 +103,7 @@
             2
           ]
         },
-        "letterGrade": "BB"
+        "letterGrade": "FD"
       },
       {
         "course": {
@@ -116,13 +116,13 @@
             105
           ]
         },
-        "letterGrade": "CC"
+        "letterGrade": "DD"
       }
     ],
     "givenCredit": 31.0,
-    "completedCredit": 31.0,
-    "point": 83.0,
-    "gano": 2.68
+    "completedCredit": 29.0,
+    "point": 75.0,
+    "gano": 2.42
   },
   "courseOffered": [
     {
@@ -200,14 +200,14 @@
       ]
     },
     {
-      "courseName": "Strategic Entrepreneurship",
+      "courseName": "International Business",
       "courseCredit": 3,
       "semester": 0,
       "quota": 10,
       "electiveType": "NTE",
       "courseHour": [
-        142,
-        143
+        55,
+        145
       ]
     }
   ],
@@ -252,7 +252,7 @@
             67
           ]
         },
-        "letterGrade": "CC"
+        "letterGrade": "BB"
       },
       {
         "course": {
@@ -266,7 +266,7 @@
             39
           ]
         },
-        "letterGrade": "CC"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -280,7 +280,7 @@
             49
           ]
         },
-        "letterGrade": "AA"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -294,7 +294,7 @@
             56
           ]
         },
-        "letterGrade": "BA"
+        "letterGrade": "BB"
       },
       {
         "course": {
@@ -307,7 +307,7 @@
             2
           ]
         },
-        "letterGrade": "BB"
+        "letterGrade": "FD"
       },
       {
         "course": {
@@ -320,7 +320,7 @@
             105
           ]
         },
-        "letterGrade": "CC"
+        "letterGrade": "DD"
       },
       {
         "course": {
@@ -409,25 +409,14 @@
             83
           ]
         }
-      },
-      {
-        "course": {
-          "courseName": "Strategic Entrepreneurship",
-          "courseCredit": 3,
-          "semester": 0,
-          "quota": 10,
-          "electiveType": "NTE",
-          "courseHour": [
-            142,
-            143
-          ]
-        }
       }
     ],
-    "givenCredit": 61.0,
-    "completedCredit": 31.0,
-    "point": 83.0,
-    "gano": 2.68
+    "givenCredit": 58.0,
+    "completedCredit": 29.0,
+    "point": 75.0,
+    "gano": 2.42
   },
-  "error": []
+  "error": [
+    "There is a collision Physics II 1.hour between International Business 1.hour"
+  ]
 }

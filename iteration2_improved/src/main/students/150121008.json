@@ -1,9 +1,9 @@
 {
   "studentNumber": 150121008,
-  "studentName": "Kerem Temur",
+  "studentName": "Ahsen Ballıca",
   "year": 1,
   "advisor": {
-    "lecturerName": "Betül Demiröz Boz",
+    "lecturerName": "Fatma Corut Ergin",
     "department": "CSE",
     "rank": "Dr.Öğr.Üyesi"
   },
@@ -34,7 +34,7 @@
             68
           ]
         },
-        "letterGrade": "CC"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -62,7 +62,7 @@
             39
           ]
         },
-        "letterGrade": "CC"
+        "letterGrade": "DD"
       },
       {
         "course": {
@@ -90,7 +90,7 @@
             56
           ]
         },
-        "letterGrade": "FF"
+        "letterGrade": "CC"
       },
       {
         "course": {
@@ -103,7 +103,7 @@
             2
           ]
         },
-        "letterGrade": "DD"
+        "letterGrade": "FD"
       },
       {
         "course": {
@@ -116,13 +116,13 @@
             105
           ]
         },
-        "letterGrade": "BA"
+        "letterGrade": "DC"
       }
     ],
     "givenCredit": 31.0,
-    "completedCredit": 27.0,
-    "point": 54.0,
-    "gano": 1.74
+    "completedCredit": 29.0,
+    "point": 48.5,
+    "gano": 1.56
   },
   "courseOffered": [
     {
@@ -200,14 +200,14 @@
       ]
     },
     {
-      "courseName": "Cardiopulmonary Resuscitation and First Aid Basics",
+      "courseName": "Interpersonal Relations and Communication",
       "courseCredit": 3,
       "semester": 0,
       "quota": 10,
       "electiveType": "NTE",
       "courseHour": [
-        154,
-        155
+        156,
+        157
       ]
     }
   ],
@@ -238,7 +238,7 @@
             68
           ]
         },
-        "letterGrade": "CC"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -266,7 +266,7 @@
             39
           ]
         },
-        "letterGrade": "CC"
+        "letterGrade": "DD"
       },
       {
         "course": {
@@ -294,7 +294,7 @@
             56
           ]
         },
-        "letterGrade": "FF"
+        "letterGrade": "CC"
       },
       {
         "course": {
@@ -307,7 +307,7 @@
             2
           ]
         },
-        "letterGrade": "DD"
+        "letterGrade": "FD"
       },
       {
         "course": {
@@ -320,7 +320,7 @@
             105
           ]
         },
-        "letterGrade": "BA"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -409,25 +409,12 @@
             83
           ]
         }
-      },
-      {
-        "course": {
-          "courseName": "Cardiopulmonary Resuscitation and First Aid Basics",
-          "courseCredit": 3,
-          "semester": 0,
-          "quota": 10,
-          "electiveType": "NTE",
-          "courseHour": [
-            154,
-            155
-          ]
-        }
       }
     ],
-    "givenCredit": 61.0,
-    "completedCredit": 27.0,
-    "point": 54.0,
-    "gano": 1.74
+    "givenCredit": 58.0,
+    "completedCredit": 29.0,
+    "point": 48.5,
+    "gano": 1.56
   },
   "error": []
 }

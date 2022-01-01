@@ -1,9 +1,9 @@
 {
   "studentNumber": 150121013,
-  "studentName": "Hesna Türkay",
+  "studentName": "Kerem Temur",
   "year": 1,
   "advisor": {
-    "lecturerName": "Betül Demiröz Boz",
+    "lecturerName": "Fatma Corut Ergin",
     "department": "CSE",
     "rank": "Dr.Öğr.Üyesi"
   },
@@ -20,7 +20,7 @@
             32
           ]
         },
-        "letterGrade": "CC"
+        "letterGrade": "BB"
       },
       {
         "course": {
@@ -48,7 +48,7 @@
             67
           ]
         },
-        "letterGrade": "DD"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -103,7 +103,7 @@
             2
           ]
         },
-        "letterGrade": "DD"
+        "letterGrade": "FF"
       },
       {
         "course": {
@@ -116,13 +116,13 @@
             105
           ]
         },
-        "letterGrade": "CC"
+        "letterGrade": "BB"
       }
     ],
     "givenCredit": 31.0,
-    "completedCredit": 31.0,
-    "point": 80.0,
-    "gano": 2.58
+    "completedCredit": 29.0,
+    "point": 94.0,
+    "gano": 3.03
   },
   "courseOffered": [
     {
@@ -200,14 +200,14 @@
       ]
     },
     {
-      "courseName": "Our Biosphere",
+      "courseName": "Self Management",
       "courseCredit": 3,
       "semester": 0,
       "quota": 10,
       "electiveType": "NTE",
       "courseHour": [
-        5,
-        149
+        7,
+        147
       ]
     }
   ],
@@ -224,7 +224,7 @@
             32
           ]
         },
-        "letterGrade": "CC"
+        "letterGrade": "BB"
       },
       {
         "course": {
@@ -252,7 +252,7 @@
             67
           ]
         },
-        "letterGrade": "DD"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -307,7 +307,7 @@
             2
           ]
         },
-        "letterGrade": "DD"
+        "letterGrade": "FF"
       },
       {
         "course": {
@@ -320,7 +320,7 @@
             105
           ]
         },
-        "letterGrade": "CC"
+        "letterGrade": "BB"
       },
       {
         "course": {
@@ -409,27 +409,14 @@
             83
           ]
         }
-      },
-      {
-        "course": {
-          "courseName": "Our Biosphere",
-          "courseCredit": 3,
-          "semester": 0,
-          "quota": 10,
-          "electiveType": "NTE",
-          "courseHour": [
-            5,
-            149
-          ]
-        }
       }
     ],
-    "givenCredit": 61.0,
-    "completedCredit": 31.0,
-    "point": 80.0,
-    "gano": 2.58
+    "givenCredit": 58.0,
+    "completedCredit": 29.0,
+    "point": 94.0,
+    "gano": 3.03
   },
   "error": [
-    "There is a collision Computer Programming II 2.hour between Our Biosphere 1.hour"
+    "There is a collision Physics Lab II 1.hour between Self Management 1.hour"
   ]
 }

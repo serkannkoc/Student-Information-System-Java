@@ -1,9 +1,9 @@
 {
   "studentNumber": 150121023,
-  "studentName": "Ahsen Ballıca",
+  "studentName": "Ömer Güçlü",
   "year": 1,
   "advisor": {
-    "lecturerName": "Betül Demiröz Boz",
+    "lecturerName": "Fatma Corut Ergin",
     "department": "CSE",
     "rank": "Dr.Öğr.Üyesi"
   },
@@ -34,7 +34,7 @@
             68
           ]
         },
-        "letterGrade": "BB"
+        "letterGrade": "CC"
       },
       {
         "course": {
@@ -48,7 +48,7 @@
             67
           ]
         },
-        "letterGrade": "CC"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -62,7 +62,7 @@
             39
           ]
         },
-        "letterGrade": "BA"
+        "letterGrade": "FF"
       },
       {
         "course": {
@@ -76,7 +76,7 @@
             49
           ]
         },
-        "letterGrade": "FF"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -90,7 +90,7 @@
             56
           ]
         },
-        "letterGrade": "FF"
+        "letterGrade": "CB"
       },
       {
         "course": {
@@ -103,7 +103,7 @@
             2
           ]
         },
-        "letterGrade": "CB"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -120,9 +120,9 @@
       }
     ],
     "givenCredit": 31.0,
-    "completedCredit": 17.0,
-    "point": 49.0,
-    "gano": 1.58
+    "completedCredit": 21.0,
+    "point": 48.0,
+    "gano": 1.55
   },
   "courseOffered": [
     {
@@ -200,14 +200,14 @@
       ]
     },
     {
-      "courseName": "Self Management",
+      "courseName": "Energy for Physical Activity",
       "courseCredit": 3,
       "semester": 0,
       "quota": 10,
       "electiveType": "NTE",
       "courseHour": [
-        7,
-        147
+        150,
+        151
       ]
     }
   ],
@@ -238,7 +238,7 @@
             68
           ]
         },
-        "letterGrade": "BB"
+        "letterGrade": "CC"
       },
       {
         "course": {
@@ -252,7 +252,7 @@
             67
           ]
         },
-        "letterGrade": "CC"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -266,7 +266,7 @@
             39
           ]
         },
-        "letterGrade": "BA"
+        "letterGrade": "FF"
       },
       {
         "course": {
@@ -280,7 +280,7 @@
             49
           ]
         },
-        "letterGrade": "FF"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -294,7 +294,7 @@
             56
           ]
         },
-        "letterGrade": "FF"
+        "letterGrade": "CB"
       },
       {
         "course": {
@@ -307,7 +307,7 @@
             2
           ]
         },
-        "letterGrade": "CB"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -409,27 +409,12 @@
             83
           ]
         }
-      },
-      {
-        "course": {
-          "courseName": "Self Management",
-          "courseCredit": 3,
-          "semester": 0,
-          "quota": 10,
-          "electiveType": "NTE",
-          "courseHour": [
-            7,
-            147
-          ]
-        }
       }
     ],
-    "givenCredit": 61.0,
-    "completedCredit": 17.0,
-    "point": 49.0,
-    "gano": 1.58
+    "givenCredit": 58.0,
+    "completedCredit": 21.0,
+    "point": 48.0,
+    "gano": 1.55
   },
-  "error": [
-    "There is a collision Physics Lab II 1.hour between Self Management 1.hour"
-  ]
+  "error": []
 }

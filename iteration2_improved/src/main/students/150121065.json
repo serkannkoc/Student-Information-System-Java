@@ -1,9 +1,9 @@
 {
   "studentNumber": 150121065,
-  "studentName": "Ömer Asaf Yılmazer",
+  "studentName": "Koray Temur",
   "year": 1,
   "advisor": {
-    "lecturerName": "Betül Demiröz Boz",
+    "lecturerName": "Fatma Corut Ergin",
     "department": "CSE",
     "rank": "Dr.Öğr.Üyesi"
   },
@@ -20,7 +20,7 @@
             32
           ]
         },
-        "letterGrade": "FF"
+        "letterGrade": "DD"
       },
       {
         "course": {
@@ -34,7 +34,7 @@
             68
           ]
         },
-        "letterGrade": "FF"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -48,7 +48,7 @@
             67
           ]
         },
-        "letterGrade": "DD"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -62,7 +62,7 @@
             39
           ]
         },
-        "letterGrade": "DC"
+        "letterGrade": "FF"
       },
       {
         "course": {
@@ -76,7 +76,7 @@
             49
           ]
         },
-        "letterGrade": "DC"
+        "letterGrade": "FF"
       },
       {
         "course": {
@@ -90,7 +90,7 @@
             56
           ]
         },
-        "letterGrade": "DD"
+        "letterGrade": "FF"
       },
       {
         "course": {
@@ -103,7 +103,7 @@
             2
           ]
         },
-        "letterGrade": "DD"
+        "letterGrade": "CC"
       },
       {
         "course": {
@@ -120,9 +120,9 @@
       }
     ],
     "givenCredit": 31.0,
-    "completedCredit": 22.0,
-    "point": 29.0,
-    "gano": 0.94
+    "completedCredit": 13.0,
+    "point": 33.0,
+    "gano": 1.06
   },
   "courseOffered": [
     {
@@ -198,17 +198,6 @@
         82,
         83
       ]
-    },
-    {
-      "courseName": "Entrepreneurship and Innovation",
-      "courseCredit": 3,
-      "semester": 0,
-      "quota": 10,
-      "electiveType": "NTE",
-      "courseHour": [
-        51,
-        141
-      ]
     }
   ],
   "transcriptAfter": {
@@ -224,7 +213,7 @@
             32
           ]
         },
-        "letterGrade": "FF"
+        "letterGrade": "DD"
       },
       {
         "course": {
@@ -238,7 +227,7 @@
             68
           ]
         },
-        "letterGrade": "FF"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -252,7 +241,7 @@
             67
           ]
         },
-        "letterGrade": "DD"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -266,7 +255,7 @@
             39
           ]
         },
-        "letterGrade": "DC"
+        "letterGrade": "FF"
       },
       {
         "course": {
@@ -280,7 +269,7 @@
             49
           ]
         },
-        "letterGrade": "DC"
+        "letterGrade": "FF"
       },
       {
         "course": {
@@ -294,7 +283,7 @@
             56
           ]
         },
-        "letterGrade": "DD"
+        "letterGrade": "FF"
       },
       {
         "course": {
@@ -307,7 +296,7 @@
             2
           ]
         },
-        "letterGrade": "DD"
+        "letterGrade": "CC"
       },
       {
         "course": {
@@ -409,27 +398,14 @@
             83
           ]
         }
-      },
-      {
-        "course": {
-          "courseName": "Entrepreneurship and Innovation",
-          "courseCredit": 3,
-          "semester": 0,
-          "quota": 10,
-          "electiveType": "NTE",
-          "courseHour": [
-            51,
-            141
-          ]
-        }
       }
     ],
-    "givenCredit": 61.0,
-    "completedCredit": 22.0,
-    "point": 29.0,
-    "gano": 0.94
+    "givenCredit": 58.0,
+    "completedCredit": 13.0,
+    "point": 33.0,
+    "gano": 1.06
   },
   "error": [
-    "There is a collision Calculus II 2.hour between Entrepreneurship and Innovation 1.hour"
+    "The system did not allow Self Management because quota is full!"
   ]
 }

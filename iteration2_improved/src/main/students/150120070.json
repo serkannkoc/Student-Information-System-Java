@@ -1,6 +1,6 @@
 {
   "studentNumber": 150120070,
-  "studentName": "Fatih Açıkgöz",
+  "studentName": "Bihter Zengin",
   "year": 2,
   "advisor": {
     "lecturerName": "Borahan Tümer",
@@ -34,7 +34,7 @@
             68
           ]
         },
-        "letterGrade": "AA"
+        "letterGrade": "CC"
       },
       {
         "course": {
@@ -48,7 +48,7 @@
             67
           ]
         },
-        "letterGrade": "BA"
+        "letterGrade": "FF"
       },
       {
         "course": {
@@ -62,7 +62,7 @@
             39
           ]
         },
-        "letterGrade": "FD"
+        "letterGrade": "BB"
       },
       {
         "course": {
@@ -76,7 +76,7 @@
             49
           ]
         },
-        "letterGrade": "FF"
+        "letterGrade": "BA"
       },
       {
         "course": {
@@ -90,7 +90,7 @@
             56
           ]
         },
-        "letterGrade": "FF"
+        "letterGrade": "BB"
       },
       {
         "course": {
@@ -103,7 +103,7 @@
             2
           ]
         },
-        "letterGrade": "FD"
+        "letterGrade": "DD"
       },
       {
         "course": {
@@ -129,7 +129,7 @@
             103
           ]
         },
-        "letterGrade": "FD"
+        "letterGrade": "BA"
       },
       {
         "course": {
@@ -143,7 +143,7 @@
             20
           ]
         },
-        "letterGrade": "FD"
+        "letterGrade": "CC"
       },
       {
         "course": {
@@ -157,7 +157,7 @@
             52
           ]
         },
-        "letterGrade": "DD"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -171,7 +171,7 @@
             35
           ]
         },
-        "letterGrade": "DC"
+        "letterGrade": "CC"
       },
       {
         "course": {
@@ -185,7 +185,7 @@
             57
           ]
         },
-        "letterGrade": "BA"
+        "letterGrade": "BB"
       },
       {
         "course": {
@@ -198,7 +198,7 @@
             8
           ]
         },
-        "letterGrade": "BA"
+        "letterGrade": "BB"
       },
       {
         "course": {
@@ -211,7 +211,7 @@
             83
           ]
         },
-        "letterGrade": "FF"
+        "letterGrade": "BA"
       },
       {
         "course": {
@@ -225,7 +225,7 @@
             73
           ]
         },
-        "letterGrade": "FF"
+        "letterGrade": "CB"
       },
       {
         "course": {
@@ -251,7 +251,7 @@
             40
           ]
         },
-        "letterGrade": "FF"
+        "letterGrade": "FD"
       },
       {
         "course": {
@@ -278,7 +278,7 @@
             55
           ]
         },
-        "letterGrade": "BA"
+        "letterGrade": "CB"
       },
       {
         "course": {
@@ -292,7 +292,7 @@
             34
           ]
         },
-        "letterGrade": "BB"
+        "letterGrade": "CC"
       },
       {
         "course": {
@@ -310,9 +310,9 @@
       }
     ],
     "givenCredit": 88.0,
-    "completedCredit": 43.0,
-    "point": 128.0,
-    "gano": 1.45
+    "completedCredit": 73.0,
+    "point": 202.0,
+    "gano": 2.3
   },
   "courseOffered": [
     {
@@ -386,7 +386,7 @@
             68
           ]
         },
-        "letterGrade": "AA"
+        "letterGrade": "CC"
       },
       {
         "course": {
@@ -400,7 +400,7 @@
             67
           ]
         },
-        "letterGrade": "BA"
+        "letterGrade": "FF"
       },
       {
         "course": {
@@ -414,7 +414,7 @@
             39
           ]
         },
-        "letterGrade": "FD"
+        "letterGrade": "BB"
       },
       {
         "course": {
@@ -428,7 +428,7 @@
             49
           ]
         },
-        "letterGrade": "FF"
+        "letterGrade": "BA"
       },
       {
         "course": {
@@ -442,7 +442,7 @@
             56
           ]
         },
-        "letterGrade": "FF"
+        "letterGrade": "BB"
       },
       {
         "course": {
@@ -455,7 +455,7 @@
             2
           ]
         },
-        "letterGrade": "FD"
+        "letterGrade": "DD"
       },
       {
         "course": {
@@ -481,7 +481,7 @@
             103
           ]
         },
-        "letterGrade": "FD"
+        "letterGrade": "BA"
       },
       {
         "course": {
@@ -495,7 +495,7 @@
             20
           ]
         },
-        "letterGrade": "FD"
+        "letterGrade": "CC"
       },
       {
         "course": {
@@ -509,7 +509,7 @@
             52
           ]
         },
-        "letterGrade": "DD"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -523,7 +523,7 @@
             35
           ]
         },
-        "letterGrade": "DC"
+        "letterGrade": "CC"
       },
       {
         "course": {
@@ -537,7 +537,7 @@
             57
           ]
         },
-        "letterGrade": "BA"
+        "letterGrade": "BB"
       },
       {
         "course": {
@@ -550,7 +550,7 @@
             8
           ]
         },
-        "letterGrade": "BA"
+        "letterGrade": "BB"
       },
       {
         "course": {
@@ -563,7 +563,7 @@
             83
           ]
         },
-        "letterGrade": "FF"
+        "letterGrade": "BA"
       },
       {
         "course": {
@@ -577,7 +577,7 @@
             73
           ]
         },
-        "letterGrade": "FF"
+        "letterGrade": "CB"
       },
       {
         "course": {
@@ -603,7 +603,7 @@
             40
           ]
         },
-        "letterGrade": "FF"
+        "letterGrade": "FD"
       },
       {
         "course": {
@@ -630,7 +630,7 @@
             55
           ]
         },
-        "letterGrade": "BA"
+        "letterGrade": "CB"
       },
       {
         "course": {
@@ -644,7 +644,7 @@
             34
           ]
         },
-        "letterGrade": "BB"
+        "letterGrade": "CC"
       },
       {
         "course": {
@@ -713,9 +713,9 @@
       }
     ],
     "givenCredit": 109.0,
-    "completedCredit": 43.0,
-    "point": 128.0,
-    "gano": 1.45
+    "completedCredit": 73.0,
+    "point": 202.0,
+    "gano": 2.3
   },
   "error": [
     "The system did not allow Analysis of Algorithms because student failed prerequisite Data Structures"

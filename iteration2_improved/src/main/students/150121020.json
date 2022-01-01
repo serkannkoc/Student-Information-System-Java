@@ -1,9 +1,9 @@
 {
   "studentNumber": 150121020,
-  "studentName": "Koray Adıgüzel",
+  "studentName": "Asena Duraner",
   "year": 1,
   "advisor": {
-    "lecturerName": "Betül Demiröz Boz",
+    "lecturerName": "Fatma Corut Ergin",
     "department": "CSE",
     "rank": "Dr.Öğr.Üyesi"
   },
@@ -48,7 +48,7 @@
             67
           ]
         },
-        "letterGrade": "CB"
+        "letterGrade": "BB"
       },
       {
         "course": {
@@ -90,7 +90,7 @@
             56
           ]
         },
-        "letterGrade": "DC"
+        "letterGrade": "CC"
       },
       {
         "course": {
@@ -103,7 +103,7 @@
             2
           ]
         },
-        "letterGrade": "BB"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -116,13 +116,13 @@
             105
           ]
         },
-        "letterGrade": "CB"
+        "letterGrade": "FD"
       }
     ],
     "givenCredit": 31.0,
-    "completedCredit": 31.0,
-    "point": 79.0,
-    "gano": 2.55
+    "completedCredit": 29.0,
+    "point": 81.0,
+    "gano": 2.61
   },
   "courseOffered": [
     {
@@ -200,14 +200,14 @@
       ]
     },
     {
-      "courseName": "Strategic Entrepreneurship",
+      "courseName": "Cardiopulmonary Resuscitation and First Aid Basics",
       "courseCredit": 3,
       "semester": 0,
       "quota": 10,
       "electiveType": "NTE",
       "courseHour": [
-        142,
-        143
+        154,
+        155
       ]
     }
   ],
@@ -252,7 +252,7 @@
             67
           ]
         },
-        "letterGrade": "CB"
+        "letterGrade": "BB"
       },
       {
         "course": {
@@ -294,7 +294,7 @@
             56
           ]
         },
-        "letterGrade": "DC"
+        "letterGrade": "CC"
       },
       {
         "course": {
@@ -307,7 +307,7 @@
             2
           ]
         },
-        "letterGrade": "BB"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -320,7 +320,7 @@
             105
           ]
         },
-        "letterGrade": "CB"
+        "letterGrade": "FD"
       },
       {
         "course": {
@@ -409,25 +409,12 @@
             83
           ]
         }
-      },
-      {
-        "course": {
-          "courseName": "Strategic Entrepreneurship",
-          "courseCredit": 3,
-          "semester": 0,
-          "quota": 10,
-          "electiveType": "NTE",
-          "courseHour": [
-            142,
-            143
-          ]
-        }
       }
     ],
-    "givenCredit": 61.0,
-    "completedCredit": 31.0,
-    "point": 79.0,
-    "gano": 2.55
+    "givenCredit": 58.0,
+    "completedCredit": 29.0,
+    "point": 81.0,
+    "gano": 2.61
   },
   "error": []
 }

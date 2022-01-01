@@ -1,9 +1,9 @@
 {
   "studentNumber": 150121005,
-  "studentName": "Kardelen Küçük",
+  "studentName": "Özlem Şahin",
   "year": 1,
   "advisor": {
-    "lecturerName": "Betül Demiröz Boz",
+    "lecturerName": "Fatma Corut Ergin",
     "department": "CSE",
     "rank": "Dr.Öğr.Üyesi"
   },
@@ -20,7 +20,7 @@
             32
           ]
         },
-        "letterGrade": "AA"
+        "letterGrade": "BB"
       },
       {
         "course": {
@@ -34,7 +34,7 @@
             68
           ]
         },
-        "letterGrade": "BA"
+        "letterGrade": "CC"
       },
       {
         "course": {
@@ -48,7 +48,7 @@
             67
           ]
         },
-        "letterGrade": "FF"
+        "letterGrade": "CB"
       },
       {
         "course": {
@@ -62,7 +62,7 @@
             39
           ]
         },
-        "letterGrade": "FD"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -76,7 +76,7 @@
             49
           ]
         },
-        "letterGrade": "CB"
+        "letterGrade": "CC"
       },
       {
         "course": {
@@ -90,7 +90,7 @@
             56
           ]
         },
-        "letterGrade": "BA"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -103,7 +103,7 @@
             2
           ]
         },
-        "letterGrade": "FF"
+        "letterGrade": "BA"
       },
       {
         "course": {
@@ -116,13 +116,13 @@
             105
           ]
         },
-        "letterGrade": "BB"
+        "letterGrade": "AA"
       }
     ],
     "givenCredit": 31.0,
-    "completedCredit": 19.0,
-    "point": 63.5,
-    "gano": 2.05
+    "completedCredit": 31.0,
+    "point": 83.0,
+    "gano": 2.68
   },
   "courseOffered": [
     {
@@ -200,14 +200,14 @@
       ]
     },
     {
-      "courseName": "Interpersonal Relations and Communication",
+      "courseName": "Self Management",
       "courseCredit": 3,
       "semester": 0,
       "quota": 10,
       "electiveType": "NTE",
       "courseHour": [
-        156,
-        157
+        7,
+        147
       ]
     }
   ],
@@ -224,7 +224,7 @@
             32
           ]
         },
-        "letterGrade": "AA"
+        "letterGrade": "BB"
       },
       {
         "course": {
@@ -238,7 +238,7 @@
             68
           ]
         },
-        "letterGrade": "BA"
+        "letterGrade": "CC"
       },
       {
         "course": {
@@ -252,7 +252,7 @@
             67
           ]
         },
-        "letterGrade": "FF"
+        "letterGrade": "CB"
       },
       {
         "course": {
@@ -266,7 +266,7 @@
             39
           ]
         },
-        "letterGrade": "FD"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -280,7 +280,7 @@
             49
           ]
         },
-        "letterGrade": "CB"
+        "letterGrade": "CC"
       },
       {
         "course": {
@@ -294,7 +294,7 @@
             56
           ]
         },
-        "letterGrade": "BA"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -307,7 +307,7 @@
             2
           ]
         },
-        "letterGrade": "FF"
+        "letterGrade": "BA"
       },
       {
         "course": {
@@ -320,7 +320,7 @@
             105
           ]
         },
-        "letterGrade": "BB"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -409,25 +409,14 @@
             83
           ]
         }
-      },
-      {
-        "course": {
-          "courseName": "Interpersonal Relations and Communication",
-          "courseCredit": 3,
-          "semester": 0,
-          "quota": 10,
-          "electiveType": "NTE",
-          "courseHour": [
-            156,
-            157
-          ]
-        }
       }
     ],
-    "givenCredit": 61.0,
-    "completedCredit": 19.0,
-    "point": 63.5,
-    "gano": 2.05
+    "givenCredit": 58.0,
+    "completedCredit": 31.0,
+    "point": 83.0,
+    "gano": 2.68
   },
-  "error": []
+  "error": [
+    "There is a collision Physics Lab II 1.hour between Self Management 1.hour"
+  ]
 }
