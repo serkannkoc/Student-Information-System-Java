@@ -1,9 +1,9 @@
 {
   "studentNumber": 150120049,
-  "studentName": "Öykü Çubukluöz",
+  "studentName": "Muhammed Büyük",
   "year": 2,
   "advisor": {
-    "lecturerName": "Murat Can Ganiz",
+    "lecturerName": "Müjdat Soytürk",
     "department": "CSE",
     "rank": "Doç.Dr"
   },
@@ -20,7 +20,7 @@
             32
           ]
         },
-        "letterGrade": "BB"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -34,7 +34,7 @@
             68
           ]
         },
-        "letterGrade": "FD"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -48,7 +48,7 @@
             67
           ]
         },
-        "letterGrade": "BA"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -62,7 +62,7 @@
             39
           ]
         },
-        "letterGrade": "FD"
+        "letterGrade": "DD"
       },
       {
         "course": {
@@ -76,7 +76,7 @@
             49
           ]
         },
-        "letterGrade": "AA"
+        "letterGrade": "FF"
       },
       {
         "course": {
@@ -90,7 +90,7 @@
             56
           ]
         },
-        "letterGrade": "FF"
+        "letterGrade": "DD"
       },
       {
         "course": {
@@ -103,7 +103,7 @@
             2
           ]
         },
-        "letterGrade": "AA"
+        "letterGrade": "DD"
       },
       {
         "course": {
@@ -129,7 +129,7 @@
             103
           ]
         },
-        "letterGrade": "AA"
+        "letterGrade": "FF"
       },
       {
         "course": {
@@ -143,7 +143,7 @@
             20
           ]
         },
-        "letterGrade": "BB"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -157,7 +157,7 @@
             52
           ]
         },
-        "letterGrade": "FD"
+        "letterGrade": "BA"
       },
       {
         "course": {
@@ -171,7 +171,7 @@
             35
           ]
         },
-        "letterGrade": "DD"
+        "letterGrade": "BA"
       },
       {
         "course": {
@@ -185,7 +185,7 @@
             57
           ]
         },
-        "letterGrade": "FD"
+        "letterGrade": "CB"
       },
       {
         "course": {
@@ -198,7 +198,7 @@
             8
           ]
         },
-        "letterGrade": "FF"
+        "letterGrade": "CB"
       },
       {
         "course": {
@@ -211,186 +211,90 @@
             83
           ]
         },
-        "letterGrade": "BA"
-      },
-      {
-        "course": {
-          "courseName": "Discrete Computational Structures",
-          "courseCredit": 6,
-          "semester": 3,
-          "quota": 0,
-          "courseHour": [
-            6,
-            7,
-            73
-          ]
-        },
-        "letterGrade": "BB"
-      },
-      {
-        "course": {
-          "courseName": "Data Structures",
-          "courseCredit": 7,
-          "semester": 3,
-          "quota": 0,
-          "prequisite": {
-            "courseName": "Computer Programming II",
-            "courseCredit": 6,
-            "semester": 2,
-            "quota": 0,
-            "courseHour": [
-              4,
-              5,
-              20
-            ]
-          },
-          "prequisiteName": "Computer Programming II",
-          "courseHour": [
-            8,
-            39,
-            40
-          ]
-        },
-        "letterGrade": "CC"
-      },
-      {
-        "course": {
-          "courseName": "Engineering Economy",
-          "courseCredit": 4,
-          "semester": 3,
-          "quota": 0,
-          "courseHour": [
-            27,
-            28
-          ]
-        },
-        "letterGrade": "BB"
-      },
-      {
-        "course": {
-          "courseName": "Electric Circuits",
-          "courseCredit": 5,
-          "semester": 3,
-          "quota": 0,
-          "courseHour": [
-            22,
-            23,
-            55
-          ]
-        },
-        "letterGrade": "BA"
-      },
-      {
-        "course": {
-          "courseName": "Differential Equations",
-          "courseCredit": 4,
-          "semester": 3,
-          "quota": 0,
-          "courseHour": [
-            2,
-            33,
-            34
-          ]
-        },
-        "letterGrade": "FD"
-      },
-      {
-        "course": {
-          "courseName": "Numerical Methods",
-          "courseCredit": 4,
-          "semester": 3,
-          "quota": 0,
-          "courseHour": [
-            24,
-            25,
-            56
-          ]
-        },
-        "letterGrade": "FD"
+        "letterGrade": "CB"
       }
     ],
-    "givenCredit": 88.0,
-    "completedCredit": 51.0,
-    "point": 167.0,
-    "gano": 1.9
+    "givenCredit": 58.0,
+    "completedCredit": 48.0,
+    "point": 117.0,
+    "gano": 2.02
   },
   "courseOffered": [
     {
-      "courseName": "Analysis of Algorithms",
+      "courseName": "Discrete Computational Structures",
       "courseCredit": 6,
-      "semester": 4,
+      "semester": 3,
+      "quota": 0,
+      "courseHour": [
+        6,
+        7,
+        73
+      ]
+    },
+    {
+      "courseName": "Data Structures",
+      "courseCredit": 7,
+      "semester": 3,
       "quota": 0,
       "prequisite": {
-        "courseName": "Data Structures",
-        "courseCredit": 7,
-        "semester": 3,
+        "courseName": "Computer Programming II",
+        "courseCredit": 6,
+        "semester": 2,
         "quota": 0,
-        "prequisite": {
-          "courseName": "Computer Programming II",
-          "courseCredit": 6,
-          "semester": 2,
-          "quota": 0,
-          "courseHour": [
-            4,
-            5,
-            20
-          ]
-        },
-        "prequisiteName": "Computer Programming II",
         "courseHour": [
-          8,
-          39,
-          40
+          4,
+          5,
+          20
         ]
       },
-      "prequisiteName": "Data Structures",
+      "prequisiteName": "Computer Programming II",
       "courseHour": [
-        54,
-        71,
-        72
-      ]
-    },
-    {
-      "courseName": "Systems Programming",
-      "courseCredit": 7,
-      "semester": 4,
-      "quota": 0,
-      "courseHour": [
-        54,
         8,
-        22
+        39,
+        40
       ]
     },
     {
-      "courseName": "Principles of Programming Languages",
+      "courseName": "Engineering Economy",
       "courseCredit": 4,
-      "semester": 4,
+      "semester": 3,
       "quota": 0,
       "courseHour": [
-        113,
-        114,
-        115
+        27,
+        28
       ]
     },
     {
-      "courseName": "Electronics",
+      "courseName": "Electric Circuits",
       "courseCredit": 5,
-      "semester": 4,
+      "semester": 3,
       "quota": 0,
       "courseHour": [
-        58,
-        59
-      ]
-    },
-    {
-      "courseName": "Introduction to Probability and Statistics",
-      "courseCredit": 5,
-      "semester": 4,
-      "quota": 0,
-      "courseHour": [
-        9,
+        22,
         23,
-        24
+        55
+      ]
+    },
+    {
+      "courseName": "Differential Equations",
+      "courseCredit": 4,
+      "semester": 3,
+      "quota": 0,
+      "courseHour": [
+        2,
+        33,
+        34
+      ]
+    },
+    {
+      "courseName": "Numerical Methods",
+      "courseCredit": 4,
+      "semester": 3,
+      "quota": 0,
+      "courseHour": [
+        24,
+        25,
+        56
       ]
     }
   ],
@@ -407,7 +311,7 @@
             32
           ]
         },
-        "letterGrade": "BB"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -421,7 +325,7 @@
             68
           ]
         },
-        "letterGrade": "FD"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -435,7 +339,7 @@
             67
           ]
         },
-        "letterGrade": "BA"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -449,7 +353,7 @@
             39
           ]
         },
-        "letterGrade": "FD"
+        "letterGrade": "DD"
       },
       {
         "course": {
@@ -463,7 +367,7 @@
             49
           ]
         },
-        "letterGrade": "AA"
+        "letterGrade": "FF"
       },
       {
         "course": {
@@ -477,7 +381,7 @@
             56
           ]
         },
-        "letterGrade": "FF"
+        "letterGrade": "DD"
       },
       {
         "course": {
@@ -490,7 +394,7 @@
             2
           ]
         },
-        "letterGrade": "AA"
+        "letterGrade": "DD"
       },
       {
         "course": {
@@ -516,7 +420,7 @@
             103
           ]
         },
-        "letterGrade": "AA"
+        "letterGrade": "FF"
       },
       {
         "course": {
@@ -530,7 +434,7 @@
             20
           ]
         },
-        "letterGrade": "BB"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -544,7 +448,7 @@
             52
           ]
         },
-        "letterGrade": "FD"
+        "letterGrade": "BA"
       },
       {
         "course": {
@@ -558,7 +462,7 @@
             35
           ]
         },
-        "letterGrade": "DD"
+        "letterGrade": "BA"
       },
       {
         "course": {
@@ -572,7 +476,7 @@
             57
           ]
         },
-        "letterGrade": "FD"
+        "letterGrade": "CB"
       },
       {
         "course": {
@@ -585,7 +489,7 @@
             8
           ]
         },
-        "letterGrade": "FF"
+        "letterGrade": "CB"
       },
       {
         "course": {
@@ -598,7 +502,7 @@
             83
           ]
         },
-        "letterGrade": "BA"
+        "letterGrade": "CB"
       },
       {
         "course": {
@@ -611,8 +515,7 @@
             7,
             73
           ]
-        },
-        "letterGrade": "BB"
+        }
       },
       {
         "course": {
@@ -637,8 +540,7 @@
             39,
             40
           ]
-        },
-        "letterGrade": "CC"
+        }
       },
       {
         "course": {
@@ -650,8 +552,7 @@
             27,
             28
           ]
-        },
-        "letterGrade": "BB"
+        }
       },
       {
         "course": {
@@ -664,8 +565,7 @@
             23,
             55
           ]
-        },
-        "letterGrade": "BA"
+        }
       },
       {
         "course": {
@@ -678,8 +578,7 @@
             33,
             34
           ]
-        },
-        "letterGrade": "FD"
+        }
       },
       {
         "course": {
@@ -692,104 +591,13 @@
             25,
             56
           ]
-        },
-        "letterGrade": "FD"
-      },
-      {
-        "course": {
-          "courseName": "Analysis of Algorithms",
-          "courseCredit": 6,
-          "semester": 4,
-          "quota": 0,
-          "prequisite": {
-            "courseName": "Data Structures",
-            "courseCredit": 7,
-            "semester": 3,
-            "quota": 0,
-            "prequisite": {
-              "courseName": "Computer Programming II",
-              "courseCredit": 6,
-              "semester": 2,
-              "quota": 0,
-              "courseHour": [
-                4,
-                5,
-                20
-              ]
-            },
-            "prequisiteName": "Computer Programming II",
-            "courseHour": [
-              8,
-              39,
-              40
-            ]
-          },
-          "prequisiteName": "Data Structures",
-          "courseHour": [
-            54,
-            71,
-            72
-          ]
-        }
-      },
-      {
-        "course": {
-          "courseName": "Systems Programming",
-          "courseCredit": 7,
-          "semester": 4,
-          "quota": 0,
-          "courseHour": [
-            54,
-            8,
-            22
-          ]
-        }
-      },
-      {
-        "course": {
-          "courseName": "Principles of Programming Languages",
-          "courseCredit": 4,
-          "semester": 4,
-          "quota": 0,
-          "courseHour": [
-            113,
-            114,
-            115
-          ]
-        }
-      },
-      {
-        "course": {
-          "courseName": "Electronics",
-          "courseCredit": 5,
-          "semester": 4,
-          "quota": 0,
-          "courseHour": [
-            58,
-            59
-          ]
-        }
-      },
-      {
-        "course": {
-          "courseName": "Introduction to Probability and Statistics",
-          "courseCredit": 5,
-          "semester": 4,
-          "quota": 0,
-          "courseHour": [
-            9,
-            23,
-            24
-          ]
         }
       }
     ],
-    "givenCredit": 115.0,
-    "completedCredit": 51.0,
-    "point": 167.0,
-    "gano": 1.9
+    "givenCredit": 88.0,
+    "completedCredit": 48.0,
+    "point": 117.0,
+    "gano": 2.02
   },
-  "error": [
-    "There is a collision Analysis of Algorithms 1.hour between Systems Programming 1.hour"
-  ]
+  "error": []
 }

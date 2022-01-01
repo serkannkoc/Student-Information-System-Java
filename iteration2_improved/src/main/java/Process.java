@@ -425,6 +425,7 @@ public class Process {
                 } else {
                     String error = "The system did not allow " + resCourse.getCourseName() + " because quota is full!";
                     errorArrayList.add(error);
+                    student.getAdvisor().getQuotaErrorArrayList().add(Integer.toString(student.getStudentNumber())); // Yeni ekledim.
                 }
             }
 
@@ -544,6 +545,7 @@ public class Process {
                         if (equal) {
                             String error ="There is a collision "+ myCourseArrayList.get(i).getCourseName() +" "+(k+1) + ".hour between " + myCourseArrayList.get(j).getCourseName()+" "+(n+1)+ ".hour";
                             errorArrayList.add(error);
+                            student.getAdvisor().getCollisionErrorArrayList().add(Integer.toString(student.getStudentNumber()));
                             //break;
                         }
                     }
@@ -562,7 +564,35 @@ public class Process {
 
     public void addApprovalCoursesForAllStudents(){
         for(int advisorCount=0; advisorCount<advisorArrayList.size(); advisorCount++) {
-            advisorArrayList.get(advisorCount).addApprovalCourses();
+            if(advisorArrayList.get(advisorCount).getStudentArrayList().size() > 0) {
+                advisorArrayList.get(advisorCount).addApprovalCourses();
+            }
+        }
+    }
+
+    public void printErrorLog(){
+        for(int advisorCount=0; advisorCount<advisorArrayList.size(); advisorCount++) {
+            Advisor advisor = advisorArrayList.get(advisorCount);
+            if(advisor.getTeErrorArrayList().size() > 0){
+                System.out.println(advisor.getLecturerName() +"\'s list of students who cannot enroll in TE courses because they have less " +
+                        "than 155 credits - ("+ advisor.getTeErrorArrayList().size()+" student)");
+                System.out.println(advisor.getTeErrorArrayList() + "\n\n");
+            }
+            if(advisor.getProjectErrorArrayList().size() > 0){
+                System.out.println(advisor.getLecturerName() +"\'s list of students who cannot enroll in graduation project course because they have less " +
+                        "than 165 credits - ("+ advisor.getProjectErrorArrayList().size()+" student)");
+                System.out.println(advisor.getProjectErrorArrayList() + "\n\n");
+            }
+            if(advisor.getQuotaErrorArrayList().size() > 0){
+                System.out.println(advisor.getLecturerName() +"\'s list of students who cannot register for classes due to " +
+                        "lack of quota - ("+ advisor.getQuotaErrorArrayList().size()+" student)");
+                System.out.println(advisor.getQuotaErrorArrayList() + "\n\n");
+            }
+            if(advisor.getCollisionErrorArrayList().size() > 0){
+                System.out.println(advisor.getLecturerName() +"\'s list of students with conflicting courses - " +
+                        "("+ advisor.getCollisionErrorArrayList().size()+" student)");
+                System.out.println(advisor.getCollisionErrorArrayList() + "\n\n");
+            }
         }
     }
 }

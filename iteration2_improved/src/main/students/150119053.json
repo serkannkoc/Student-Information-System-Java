@@ -1,9 +1,9 @@
 {
   "studentNumber": 150119053,
-  "studentName": "Ulaş Erdoğmuş",
+  "studentName": "Öykü Korkmaz",
   "year": 3,
   "advisor": {
-    "lecturerName": "Müjdat Soytürk",
+    "lecturerName": "Murat Can Ganiz",
     "department": "CSE",
     "rank": "Doç.Dr"
   },
@@ -34,7 +34,7 @@
             68
           ]
         },
-        "letterGrade": "CB"
+        "letterGrade": "CC"
       },
       {
         "course": {
@@ -62,7 +62,7 @@
             39
           ]
         },
-        "letterGrade": "BA"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -76,7 +76,7 @@
             49
           ]
         },
-        "letterGrade": "DD"
+        "letterGrade": "BA"
       },
       {
         "course": {
@@ -103,7 +103,7 @@
             2
           ]
         },
-        "letterGrade": "BB"
+        "letterGrade": "DD"
       },
       {
         "course": {
@@ -116,7 +116,7 @@
             105
           ]
         },
-        "letterGrade": "DC"
+        "letterGrade": "CB"
       },
       {
         "course": {
@@ -129,7 +129,7 @@
             103
           ]
         },
-        "letterGrade": "FF"
+        "letterGrade": "CC"
       },
       {
         "course": {
@@ -143,7 +143,7 @@
             20
           ]
         },
-        "letterGrade": "CB"
+        "letterGrade": "BA"
       },
       {
         "course": {
@@ -157,7 +157,7 @@
             52
           ]
         },
-        "letterGrade": "BA"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -171,7 +171,7 @@
             35
           ]
         },
-        "letterGrade": "DC"
+        "letterGrade": "BA"
       },
       {
         "course": {
@@ -185,7 +185,7 @@
             57
           ]
         },
-        "letterGrade": "CC"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -198,7 +198,7 @@
             8
           ]
         },
-        "letterGrade": "FF"
+        "letterGrade": "CC"
       },
       {
         "course": {
@@ -211,7 +211,7 @@
             83
           ]
         },
-        "letterGrade": "CC"
+        "letterGrade": "CB"
       },
       {
         "course": {
@@ -225,7 +225,7 @@
             73
           ]
         },
-        "letterGrade": "AA"
+        "letterGrade": "FD"
       },
       {
         "course": {
@@ -251,7 +251,7 @@
             40
           ]
         },
-        "letterGrade": "DD"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -264,7 +264,7 @@
             28
           ]
         },
-        "letterGrade": "DD"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -278,7 +278,7 @@
             55
           ]
         },
-        "letterGrade": "CC"
+        "letterGrade": "FF"
       },
       {
         "course": {
@@ -292,7 +292,7 @@
             34
           ]
         },
-        "letterGrade": "DD"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -306,7 +306,7 @@
             56
           ]
         },
-        "letterGrade": "CC"
+        "letterGrade": "BA"
       },
       {
         "course": {
@@ -344,7 +344,7 @@
             72
           ]
         },
-        "letterGrade": "DC"
+        "letterGrade": "DD"
       },
       {
         "course": {
@@ -358,7 +358,7 @@
             22
           ]
         },
-        "letterGrade": "FD"
+        "letterGrade": "CC"
       },
       {
         "course": {
@@ -372,7 +372,7 @@
             115
           ]
         },
-        "letterGrade": "FF"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -385,7 +385,7 @@
             59
           ]
         },
-        "letterGrade": "BB"
+        "letterGrade": "BA"
       },
       {
         "course": {
@@ -399,161 +399,78 @@
             24
           ]
         },
-        "letterGrade": "BA"
-      },
-      {
-        "course": {
-          "courseName": "Summer Practice I",
-          "courseCredit": 10,
-          "semester": 5,
-          "quota": 0,
-          "courseHour": [
-            128,
-            19,
-            130
-          ]
-        },
         "letterGrade": "AA"
-      },
-      {
-        "course": {
-          "courseName": "Digital Logic Design",
-          "courseCredit": 6,
-          "semester": 5,
-          "quota": 0,
-          "courseHour": [
-            19,
-            20,
-            50
-          ]
-        },
-        "letterGrade": "FF"
-      },
-      {
-        "course": {
-          "courseName": "Operating Systems",
-          "courseCredit": 7,
-          "semester": 5,
-          "quota": 0,
-          "courseHour": [
-            30,
-            33
-          ]
-        },
-        "letterGrade": "DD"
-      },
-      {
-        "course": {
-          "courseName": "Database Systems",
-          "courseCredit": 7,
-          "semester": 5,
-          "quota": 0,
-          "courseHour": [
-            35,
-            38,
-            72
-          ]
-        },
-        "letterGrade": "DC"
-      },
-      {
-        "course": {
-          "courseName": "Object-Oriented Software Design",
-          "courseCredit": 5,
-          "semester": 5,
-          "quota": 0,
-          "courseHour": [
-            2,
-            3,
-            18
-          ]
-        },
-        "letterGrade": "AA"
-      },
-      {
-        "course": {
-          "courseName": "Modeling and Discrete Simulation",
-          "courseCredit": 4,
-          "semester": 5,
-          "quota": 0,
-          "courseHour": [
-            51,
-            52,
-            66
-          ]
-        },
-        "letterGrade": "DC"
       }
     ],
-    "givenCredit": 154.0,
-    "completedCredit": 129.0,
-    "point": 305.5,
-    "gano": 1.98
+    "givenCredit": 115.0,
+    "completedCredit": 100.0,
+    "point": 292.5,
+    "gano": 2.54
   },
   "courseOffered": [
     {
-      "courseName": "Computer Organization",
+      "courseName": "Summer Practice I",
+      "courseCredit": 10,
+      "semester": 5,
+      "quota": 0,
+      "courseHour": [
+        128,
+        19,
+        130
+      ]
+    },
+    {
+      "courseName": "Digital Logic Design",
+      "courseCredit": 6,
+      "semester": 5,
+      "quota": 0,
+      "courseHour": [
+        19,
+        20,
+        50
+      ]
+    },
+    {
+      "courseName": "Operating Systems",
       "courseCredit": 7,
-      "semester": 6,
+      "semester": 5,
+      "quota": 0,
+      "courseHour": [
+        30,
+        33
+      ]
+    },
+    {
+      "courseName": "Database Systems",
+      "courseCredit": 7,
+      "semester": 5,
       "quota": 0,
       "courseHour": [
         35,
-        36,
-        52
+        38,
+        72
       ]
     },
     {
-      "courseName": "Software Engineering",
-      "courseCredit": 7,
-      "semester": 6,
-      "quota": 0,
-      "courseHour": [
-        34,
-        50,
-        51
-      ]
-    },
-    {
-      "courseName": "Introduction to Signals and Systems",
+      "courseName": "Object-Oriented Software Design",
       "courseCredit": 5,
-      "semester": 6,
-      "quota": 0,
-      "courseHour": [
-        20,
-        21,
-        35
-      ]
-    },
-    {
-      "courseName": "Formal Languages and Automata Theory",
-      "courseCredit": 5,
-      "semester": 6,
-      "quota": 0,
-      "courseHour": [
-        4,
-        5,
-        66
-      ]
-    },
-    {
-      "courseName": "Operations Research",
-      "courseCredit": 4,
-      "semester": 6,
+      "semester": 5,
       "quota": 0,
       "courseHour": [
         2,
         3,
-        19
+        18
       ]
     },
     {
-      "courseName": "Technical Comm. and Entrepreneurship",
-      "courseCredit": 2,
-      "semester": 6,
+      "courseName": "Modeling and Discrete Simulation",
+      "courseCredit": 4,
+      "semester": 5,
       "quota": 0,
       "courseHour": [
-        117,
-        118
+        51,
+        52,
+        66
       ]
     }
   ],
@@ -584,7 +501,7 @@
             68
           ]
         },
-        "letterGrade": "CB"
+        "letterGrade": "CC"
       },
       {
         "course": {
@@ -612,7 +529,7 @@
             39
           ]
         },
-        "letterGrade": "BA"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -626,7 +543,7 @@
             49
           ]
         },
-        "letterGrade": "DD"
+        "letterGrade": "BA"
       },
       {
         "course": {
@@ -653,7 +570,7 @@
             2
           ]
         },
-        "letterGrade": "BB"
+        "letterGrade": "DD"
       },
       {
         "course": {
@@ -666,7 +583,7 @@
             105
           ]
         },
-        "letterGrade": "DC"
+        "letterGrade": "CB"
       },
       {
         "course": {
@@ -679,7 +596,7 @@
             103
           ]
         },
-        "letterGrade": "FF"
+        "letterGrade": "CC"
       },
       {
         "course": {
@@ -693,7 +610,7 @@
             20
           ]
         },
-        "letterGrade": "CB"
+        "letterGrade": "BA"
       },
       {
         "course": {
@@ -707,7 +624,7 @@
             52
           ]
         },
-        "letterGrade": "BA"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -721,7 +638,7 @@
             35
           ]
         },
-        "letterGrade": "DC"
+        "letterGrade": "BA"
       },
       {
         "course": {
@@ -735,7 +652,7 @@
             57
           ]
         },
-        "letterGrade": "CC"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -748,7 +665,7 @@
             8
           ]
         },
-        "letterGrade": "FF"
+        "letterGrade": "CC"
       },
       {
         "course": {
@@ -761,7 +678,7 @@
             83
           ]
         },
-        "letterGrade": "CC"
+        "letterGrade": "CB"
       },
       {
         "course": {
@@ -775,7 +692,7 @@
             73
           ]
         },
-        "letterGrade": "AA"
+        "letterGrade": "FD"
       },
       {
         "course": {
@@ -801,7 +718,7 @@
             40
           ]
         },
-        "letterGrade": "DD"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -814,7 +731,7 @@
             28
           ]
         },
-        "letterGrade": "DD"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -828,7 +745,7 @@
             55
           ]
         },
-        "letterGrade": "CC"
+        "letterGrade": "FF"
       },
       {
         "course": {
@@ -842,7 +759,7 @@
             34
           ]
         },
-        "letterGrade": "DD"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -856,7 +773,7 @@
             56
           ]
         },
-        "letterGrade": "CC"
+        "letterGrade": "BA"
       },
       {
         "course": {
@@ -894,7 +811,7 @@
             72
           ]
         },
-        "letterGrade": "DC"
+        "letterGrade": "DD"
       },
       {
         "course": {
@@ -908,7 +825,7 @@
             22
           ]
         },
-        "letterGrade": "FD"
+        "letterGrade": "CC"
       },
       {
         "course": {
@@ -922,7 +839,7 @@
             115
           ]
         },
-        "letterGrade": "FF"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -935,7 +852,7 @@
             59
           ]
         },
-        "letterGrade": "BB"
+        "letterGrade": "BA"
       },
       {
         "course": {
@@ -949,7 +866,7 @@
             24
           ]
         },
-        "letterGrade": "BA"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -962,8 +879,7 @@
             19,
             130
           ]
-        },
-        "letterGrade": "AA"
+        }
       },
       {
         "course": {
@@ -976,8 +892,7 @@
             20,
             50
           ]
-        },
-        "letterGrade": "FF"
+        }
       },
       {
         "course": {
@@ -989,8 +904,7 @@
             30,
             33
           ]
-        },
-        "letterGrade": "DD"
+        }
       },
       {
         "course": {
@@ -1003,8 +917,7 @@
             38,
             72
           ]
-        },
-        "letterGrade": "DC"
+        }
       },
       {
         "course": {
@@ -1017,8 +930,7 @@
             3,
             18
           ]
-        },
-        "letterGrade": "AA"
+        }
       },
       {
         "course": {
@@ -1031,93 +943,15 @@
             52,
             66
           ]
-        },
-        "letterGrade": "DC"
-      },
-      {
-        "course": {
-          "courseName": "Computer Organization",
-          "courseCredit": 7,
-          "semester": 6,
-          "quota": 0,
-          "courseHour": [
-            35,
-            36,
-            52
-          ]
-        }
-      },
-      {
-        "course": {
-          "courseName": "Software Engineering",
-          "courseCredit": 7,
-          "semester": 6,
-          "quota": 0,
-          "courseHour": [
-            34,
-            50,
-            51
-          ]
-        }
-      },
-      {
-        "course": {
-          "courseName": "Introduction to Signals and Systems",
-          "courseCredit": 5,
-          "semester": 6,
-          "quota": 0,
-          "courseHour": [
-            20,
-            21,
-            35
-          ]
-        }
-      },
-      {
-        "course": {
-          "courseName": "Formal Languages and Automata Theory",
-          "courseCredit": 5,
-          "semester": 6,
-          "quota": 0,
-          "courseHour": [
-            4,
-            5,
-            66
-          ]
-        }
-      },
-      {
-        "course": {
-          "courseName": "Operations Research",
-          "courseCredit": 4,
-          "semester": 6,
-          "quota": 0,
-          "courseHour": [
-            2,
-            3,
-            19
-          ]
-        }
-      },
-      {
-        "course": {
-          "courseName": "Technical Comm. and Entrepreneurship",
-          "courseCredit": 2,
-          "semester": 6,
-          "quota": 0,
-          "courseHour": [
-            117,
-            118
-          ]
         }
       }
     ],
-    "givenCredit": 184.0,
-    "completedCredit": 129.0,
-    "point": 305.5,
-    "gano": 1.98
+    "givenCredit": 154.0,
+    "completedCredit": 100.0,
+    "point": 292.5,
+    "gano": 2.54
   },
   "error": [
-    "There is a collision Computer Organization 1.hour between Introduction to Signals and Systems 3.hour"
+    "There is a collision Summer Practice I 2.hour between Digital Logic Design 1.hour"
   ]
 }

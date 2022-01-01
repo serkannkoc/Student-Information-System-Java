@@ -5,7 +5,7 @@ public class Main {
         Process process = Process.getProcess();
         process.initializeStudents();
         process.addApprovalCoursesForAllStudents();
+        process.printErrorLog();
         process.createJSONForAllStudents();
     }
-
 }
