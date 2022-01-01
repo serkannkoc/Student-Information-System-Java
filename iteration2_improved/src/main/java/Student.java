@@ -7,7 +7,6 @@ public class Student {
     private int studentNumber;
     private String studentName;
     private int year;
-    private ArrayList<Course> courseTaken;
     private Advisor advisor;
     private Transcript transcriptBefore;
     private ArrayList<Course> courseOffered;
@@ -39,14 +38,6 @@ public class Student {
 
     public void setYear(int year) {
         this.year = year;
-    }
-
-    public ArrayList<Course> getCourseTaken() {
-        return courseTaken;
-    }
-
-    public void setCourseTaken(ArrayList<Course> courseTaken) {
-        this.courseTaken = courseTaken;
     }
 
     public Advisor getAdvisor() {

@@ -1,12 +1,26 @@
 import java.util.ArrayList;
 
 public class Advisor extends Lecturer {
+    private transient ArrayList<Student> studentArrayList;
 
     public Advisor(String lecturerName, String department, String rank) {
         super(lecturerName, department, rank);
+        this.studentArrayList = new ArrayList<Student>();
     }
 
-    public void addApprovalCourses(ArrayList<Student> studentArrayList) {
+    public ArrayList<Student> getStudentArrayList() {
+        return studentArrayList;
+    }
+
+    public void setStudentArrayList(ArrayList<Student> studentArrayList) {
+        this.studentArrayList = studentArrayList;
+    }
+
+    public void addStudent(Student student){
+        this.studentArrayList.add(student);
+    }
+
+    public void addApprovalCourses() {
 
         for(int studentCount=0; studentCount<studentArrayList.size(); studentCount++)
         {

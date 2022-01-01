@@ -236,13 +236,14 @@ public class Process {
 
     // This method creates new students based on the createNewStudents parameter in input.json
     // or create courseOffered information from existing students.
-    public ArrayList<Student> initializeStudents() throws FileNotFoundException {;
+    public ArrayList<Student> initializeStudents() throws FileNotFoundException {
+
         if(createNewStudent == true) {
             for (int year = 1; year <= 4; year++) {
 
                 Random r = new Random();
                 int random = r.nextInt(advisorArrayList.size()-0) + 0;
-
+                ArrayList<Student> studentArrayListForAdvisor = new ArrayList<>();
                 for (int studentCount = 0; studentCount < 70; studentCount++) {
                     Student student = new Student();
 
@@ -253,11 +254,13 @@ public class Process {
                     student.setTranscriptAfter(createTranscriptBefore(courseArrayList,year));
 
                     student.setAdvisor(advisorArrayList.get(random));
+                    studentArrayListForAdvisor.add(student);
 
                     student.setCourseOffered(createCourseOffered(courseArrayList,year,student));
 
                     studentArrayList.add(student);
                 }
+                advisorArrayList.get(random).setStudentArrayList(studentArrayListForAdvisor);
             }
 
             System.out.println("• " + studentArrayList.size() + " students were recreated.");
@@ -555,5 +558,11 @@ public class Process {
     public void createJSONForAllStudents(){
         for(int studentCount=0; studentCount<studentArrayList.size(); studentCount++)
             studentArrayList.get(studentCount).createStudentJSON();
+    }
+
+    public void addApprovalCoursesForAllStudents(){
+        for(int advisorCount=0; advisorCount<advisorArrayList.size(); advisorCount++) {
+            advisorArrayList.get(advisorCount).addApprovalCourses();
+        }
     }
 }

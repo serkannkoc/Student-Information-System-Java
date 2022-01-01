@@ -9,10 +9,6 @@ public class Lecturer {
         this.rank = rank;
     }
 
-    public Lecturer(){
-
-    }
-
     public String getLecturerName() {
         return lecturerName;
     }
