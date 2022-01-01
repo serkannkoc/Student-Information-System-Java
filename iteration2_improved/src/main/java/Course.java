@@ -14,8 +14,6 @@ public class Course {
     private String electiveType;
     private transient JsonArray courseHour;
 
-
-
     public Course(String courseName, int credit, int semester, Lecturer lecturer, int quota, Course prequisite, JsonArray courseHour) {
         this.courseName = courseName;
         this.courseCredit = credit;
@@ -78,28 +76,12 @@ public class Course {
         this.semester = semester;
     }
 
-    public Lecturer getLecturer() {
-        return lecturer;
-    }
-
-    public void setLecturer(Lecturer lecturer) {
-        this.lecturer = lecturer;
-    }
-
     public int getQuota() {
         return quota;
     }
 
     public void setQuota(int quota) {
         this.quota = quota;
-    }
-
-    public Course getPrequisite() {
-        return prequisite;
-    }
-
-    public void setPrequisite(Course prequisite) {
-        this.prequisite = prequisite;
     }
 
     public JsonArray getCourseHour() {
