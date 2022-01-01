@@ -1,11 +1,11 @@
 {
   "studentNumber": 150121069,
-  "studentName": "Asya Çetin",
+  "studentName": "Özge Kaya",
   "year": 1,
   "advisor": {
-    "lecturerName": "Ali Haydar Özer",
+    "lecturerName": "Murat Can Ganiz",
     "department": "CSE",
-    "rank": "Dr.Öğr.Üyesi"
+    "rank": "Doç.Dr"
   },
   "transcriptBefore": {
     "transcriptRow": [
@@ -34,7 +34,7 @@
             68
           ]
         },
-        "letterGrade": "DD"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -48,7 +48,7 @@
             67
           ]
         },
-        "letterGrade": "DC"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -76,7 +76,7 @@
             49
           ]
         },
-        "letterGrade": "FF"
+        "letterGrade": "BB"
       },
       {
         "course": {
@@ -90,7 +90,7 @@
             56
           ]
         },
-        "letterGrade": "FD"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -103,7 +103,7 @@
             2
           ]
         },
-        "letterGrade": "DC"
+        "letterGrade": "FF"
       },
       {
         "course": {
@@ -116,13 +116,13 @@
             105
           ]
         },
-        "letterGrade": "CB"
+        "letterGrade": "FD"
       }
     ],
     "givenCredit": 31.0,
-    "completedCredit": 21.0,
-    "point": 52.0,
-    "gano": 1.68
+    "completedCredit": 27.0,
+    "point": 79.5,
+    "gano": 2.56
   },
   "courseOffered": [
     {
@@ -198,17 +198,6 @@
         82,
         83
       ]
-    },
-    {
-      "courseName": "Cardiopulmonary Resuscitation and First Aid Basics",
-      "courseCredit": 3,
-      "semester": 0,
-      "quota": 10,
-      "electiveType": "NTE",
-      "courseHour": [
-        154,
-        155
-      ]
     }
   ],
   "transcriptAfter": {
@@ -238,7 +227,7 @@
             68
           ]
         },
-        "letterGrade": "DD"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -252,7 +241,7 @@
             67
           ]
         },
-        "letterGrade": "DC"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -280,7 +269,7 @@
             49
           ]
         },
-        "letterGrade": "FF"
+        "letterGrade": "BB"
       },
       {
         "course": {
@@ -294,7 +283,7 @@
             56
           ]
         },
-        "letterGrade": "FD"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -307,7 +296,7 @@
             2
           ]
         },
-        "letterGrade": "DC"
+        "letterGrade": "FF"
       },
       {
         "course": {
@@ -320,7 +309,7 @@
             105
           ]
         },
-        "letterGrade": "CB"
+        "letterGrade": "FD"
       },
       {
         "course": {
@@ -412,9 +401,11 @@
       }
     ],
     "givenCredit": 58.0,
-    "completedCredit": 21.0,
-    "point": 52.0,
-    "gano": 1.68
+    "completedCredit": 27.0,
+    "point": 79.5,
+    "gano": 2.56
   },
-  "error": []
+  "error": [
+    "The system did not allow Our Biosphere because quota is full!"
+  ]
 }
