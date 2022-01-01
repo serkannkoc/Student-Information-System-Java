@@ -30,9 +30,15 @@ public class Process {
         advisorArrayList = getAdvisorsFromJSON();
         courseArrayList = createCourses();
     }
+
+    public ArrayList<Course> getCourseArrayList() {
+        return courseArrayList;
+    }
+
     public static Process getProcess(){
         return process;
     }
+
     public ArrayList<Student> getStudentArrayList() {
         return studentArrayList;
     }
@@ -108,7 +114,7 @@ public class Process {
         return courseArrayList;
     }
 
-    // This method pulls related courses according to the entered elective course type parameter.
+    // This method returns related courses according to the entered elective course type parameter.
     private ArrayList<Course> getElectiveCourses( ArrayList<Course> courses, String typeOfElective) {
         ArrayList<Course> courseArrayList = new ArrayList<Course>();
 
@@ -121,6 +127,8 @@ public class Process {
 
     // This method creates the lessons in the input.json file with our course classes.
     private ArrayList<Course> createCourses() throws FileNotFoundException {
+        ArrayList<Course> myCourseArrayList = new ArrayList<>();
+
         File input = new File(System.getProperty("user.dir")+"/iteration2_improved/src/main/input.json");
         JsonElement fileElement = JsonParser.parseReader(new FileReader(input));
         JsonObject fileObject = fileElement.getAsJsonObject();
@@ -141,91 +149,37 @@ public class Process {
                     course.setSemester(i);
                     if(semesterCourseJsonObject.has("prequisite"))
                         course.setPrequisiteName(semesterCourseJsonObject.get("prequisite").getAsString());
-                    courseArrayList.add(course);
+                    myCourseArrayList.add(course);
                 }
             }
 
-            for(JsonElement semesterElement: courseJsonObject.get("NTE").getAsJsonArray()){
-                JsonObject semesterCourseJsonObject = semesterElement.getAsJsonObject();
-                Course course = new Course();
-                course.setCourseName(semesterCourseJsonObject.get("courseName").getAsString());
-                course.setCourseCredit(semesterCourseJsonObject.get("courseCredit").getAsInt());
-                course.setCourseHour(semesterCourseJsonObject.get("courseHourCode").getAsJsonArray());
-
-                if(semesterCourseJsonObject.has("prequisite"))
-                    course.setPrequisiteName(semesterCourseJsonObject.get("prequisite").getAsString());
-                if(semesterCourseJsonObject.get("quota").getAsInt()>0)
-                    course.setQuota(semesterCourseJsonObject.get("quota").getAsInt());
-
-                course.setElectiveType("NTE");
-                courseArrayList.add(course);
-            }
-
-            for(JsonElement semesterElement: courseJsonObject.get("ENG-UE").getAsJsonArray()){
-                JsonObject semesterCourseJsonObject = semesterElement.getAsJsonObject();
-                Course course = new Course();
-                course.setCourseName(semesterCourseJsonObject.get("courseName").getAsString());
-                course.setCourseCredit(semesterCourseJsonObject.get("courseCredit").getAsInt());
-                course.setCourseHour(semesterCourseJsonObject.get("courseHourCode").getAsJsonArray());
-
-                if(semesterCourseJsonObject.has("prequisite"))
-                    course.setPrequisiteName(semesterCourseJsonObject.get("prequisite").getAsString());
-                if(semesterCourseJsonObject.get("quota").getAsInt()>0)
-                    course.setQuota(semesterCourseJsonObject.get("quota").getAsInt());
-
-                course.setElectiveType("ENG-UE");
-                courseArrayList.add(course);
-            }
-
-            for(JsonElement semesterElement: courseJsonObject.get("TE").getAsJsonArray()) {
-                JsonObject semesterCourseJsonObject = semesterElement.getAsJsonObject();
-                Course course = new Course();
-                course.setCourseName(semesterCourseJsonObject.get("courseName").getAsString());
-                course.setCourseCredit(semesterCourseJsonObject.get("courseCredit").getAsInt());
-                course.setCourseHour(semesterCourseJsonObject.get("courseHourCode").getAsJsonArray());
-
-                if (semesterCourseJsonObject.has("prequisite"))
-                    course.setPrequisiteName(semesterCourseJsonObject.get("prequisite").getAsString());
-                if (semesterCourseJsonObject.get("quota").getAsInt() > 0)
-                    course.setQuota(semesterCourseJsonObject.get("quota").getAsInt());
-
-                course.setElectiveType("TE");
-                courseArrayList.add(course);
-            }
-
-            for(JsonElement semesterElement: courseJsonObject.get("ENG-FTE").getAsJsonArray()){
-                JsonObject semesterCourseJsonObject = semesterElement.getAsJsonObject();
-                Course course = new Course();
-                course.setCourseName(semesterCourseJsonObject.get("courseName").getAsString());
-                course.setCourseCredit(semesterCourseJsonObject.get("courseCredit").getAsInt());
-                course.setCourseHour(semesterCourseJsonObject.get("courseHourCode").getAsJsonArray());
-
-                if(semesterCourseJsonObject.has("prequisite"))
-                    course.setPrequisiteName(semesterCourseJsonObject.get("prequisite").getAsString());
-                if(semesterCourseJsonObject.get("quota").getAsInt()>0)
-                    course.setQuota(semesterCourseJsonObject.get("quota").getAsInt());
-
-                course.setElectiveType("ENG-FTE");
-                courseArrayList.add(course);
-            }
+            createElectiveCourses(myCourseArrayList, courseJsonObject, "NTE");
+            createElectiveCourses(myCourseArrayList, courseJsonObject, "ENG-UE");
+            createElectiveCourses(myCourseArrayList, courseJsonObject, "TE");
+            createElectiveCourses(myCourseArrayList, courseJsonObject, "ENG-FTE");
         }
 
+        return myCourseArrayList;
+    }
 
-        for(Course course3: courseArrayList){
-            if ( course3.getPrequisiteName()!=null && !course3.getPrequisiteName().equals("")){
-                if(true){
-                    for(Course course4: courseArrayList) {
-                        if(course4.getCourseName().equals(course3.getPrequisiteName()) )
-                        {
-                        course3.setPrequisite(course4);
-                        }
-                    }
-                }
+    public ArrayList<Course> createElectiveCourses(ArrayList<Course> myCourseArrayList, JsonObject courseJsonObject, String type){
+        for(JsonElement semesterElement: courseJsonObject.get(type).getAsJsonArray()){
+            JsonObject semesterCourseJsonObject = semesterElement.getAsJsonObject();
+            Course course = new Course();
+            course.setCourseName(semesterCourseJsonObject.get("courseName").getAsString());
+            course.setCourseCredit(semesterCourseJsonObject.get("courseCredit").getAsInt());
+            course.setCourseHour(semesterCourseJsonObject.get("courseHourCode").getAsJsonArray());
 
-            }
+            if(semesterCourseJsonObject.has("prequisite"))
+                course.setPrequisiteName(semesterCourseJsonObject.get("prequisite").getAsString());
+            if(semesterCourseJsonObject.get("quota").getAsInt()>0)
+                course.setQuota(semesterCourseJsonObject.get("quota").getAsInt());
+
+            course.setElectiveType(type);
+            myCourseArrayList.add(course);
         }
 
-        return courseArrayList;
+        return myCourseArrayList;
     }
 
     private boolean checkForQuota(Course course){

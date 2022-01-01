@@ -1,11 +1,11 @@
 {
   "studentNumber": 150120065,
-  "studentName": "Ahsen Beler",
+  "studentName": "Asya Turgut",
   "year": 2,
   "advisor": {
-    "lecturerName": "Mustafa Ağaoğlu",
+    "lecturerName": "Fatma Corut Ergin",
     "department": "CSE",
-    "rank": "Doç.Dr"
+    "rank": "Dr.Öğr.Üyesi"
   },
   "transcriptBefore": {
     "transcriptRow": [
@@ -20,7 +20,7 @@
             32
           ]
         },
-        "letterGrade": "CC"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -34,7 +34,7 @@
             68
           ]
         },
-        "letterGrade": "FF"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -48,7 +48,7 @@
             67
           ]
         },
-        "letterGrade": "AA"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -62,7 +62,7 @@
             39
           ]
         },
-        "letterGrade": "FD"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -76,7 +76,7 @@
             49
           ]
         },
-        "letterGrade": "CC"
+        "letterGrade": "CB"
       },
       {
         "course": {
@@ -90,7 +90,7 @@
             56
           ]
         },
-        "letterGrade": "BA"
+        "letterGrade": "CB"
       },
       {
         "course": {
@@ -103,7 +103,7 @@
             2
           ]
         },
-        "letterGrade": "DD"
+        "letterGrade": "CB"
       },
       {
         "course": {
@@ -116,7 +116,7 @@
             105
           ]
         },
-        "letterGrade": "CC"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -129,7 +129,7 @@
             103
           ]
         },
-        "letterGrade": "CB"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -171,7 +171,7 @@
             35
           ]
         },
-        "letterGrade": "BB"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -185,7 +185,7 @@
             57
           ]
         },
-        "letterGrade": "DD"
+        "letterGrade": "BA"
       },
       {
         "course": {
@@ -198,7 +198,7 @@
             8
           ]
         },
-        "letterGrade": "DC"
+        "letterGrade": "BA"
       },
       {
         "course": {
@@ -211,7 +211,7 @@
             83
           ]
         },
-        "letterGrade": "DC"
+        "letterGrade": "CC"
       },
       {
         "course": {
@@ -225,7 +225,7 @@
             73
           ]
         },
-        "letterGrade": "FD"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -233,17 +233,6 @@
           "courseCredit": 7,
           "semester": 3,
           "quota": 0,
-          "prequisite": {
-            "courseName": "Computer Programming II",
-            "courseCredit": 6,
-            "semester": 2,
-            "quota": 0,
-            "courseHour": [
-              4,
-              5,
-              20
-            ]
-          },
           "prequisiteName": "Computer Programming II",
           "courseHour": [
             8,
@@ -251,7 +240,7 @@
             40
           ]
         },
-        "letterGrade": "FF"
+        "letterGrade": "FD"
       },
       {
         "course": {
@@ -264,7 +253,7 @@
             28
           ]
         },
-        "letterGrade": "BB"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -278,7 +267,7 @@
             55
           ]
         },
-        "letterGrade": "CB"
+        "letterGrade": "CC"
       },
       {
         "course": {
@@ -292,7 +281,7 @@
             34
           ]
         },
-        "letterGrade": "CC"
+        "letterGrade": "FF"
       },
       {
         "course": {
@@ -306,13 +295,13 @@
             56
           ]
         },
-        "letterGrade": "DD"
+        "letterGrade": "CB"
       }
     ],
     "givenCredit": 88.0,
-    "completedCredit": 64.0,
-    "point": 166.5,
-    "gano": 1.89
+    "completedCredit": 77.0,
+    "point": 194.5,
+    "gano": 2.21
   },
   "courseOffered": [
     {
@@ -372,7 +361,7 @@
             32
           ]
         },
-        "letterGrade": "CC"
+        "letterGrade": "DD"
       },
       {
         "course": {
@@ -386,7 +375,7 @@
             68
           ]
         },
-        "letterGrade": "FF"
+        "letterGrade": "BB"
       },
       {
         "course": {
@@ -400,7 +389,7 @@
             67
           ]
         },
-        "letterGrade": "AA"
+        "letterGrade": "BA"
       },
       {
         "course": {
@@ -414,7 +403,7 @@
             39
           ]
         },
-        "letterGrade": "FD"
+        "letterGrade": "FF"
       },
       {
         "course": {
@@ -428,7 +417,7 @@
             49
           ]
         },
-        "letterGrade": "CC"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -468,7 +457,7 @@
             105
           ]
         },
-        "letterGrade": "CC"
+        "letterGrade": "FF"
       },
       {
         "course": {
@@ -481,7 +470,7 @@
             103
           ]
         },
-        "letterGrade": "CB"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -537,7 +526,7 @@
             57
           ]
         },
-        "letterGrade": "DD"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -550,7 +539,7 @@
             8
           ]
         },
-        "letterGrade": "DC"
+        "letterGrade": "FF"
       },
       {
         "course": {
@@ -563,7 +552,7 @@
             83
           ]
         },
-        "letterGrade": "DC"
+        "letterGrade": "DD"
       },
       {
         "course": {
@@ -577,7 +566,7 @@
             73
           ]
         },
-        "letterGrade": "FD"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -585,17 +574,6 @@
           "courseCredit": 7,
           "semester": 3,
           "quota": 0,
-          "prequisite": {
-            "courseName": "Computer Programming II",
-            "courseCredit": 6,
-            "semester": 2,
-            "quota": 0,
-            "courseHour": [
-              4,
-              5,
-              20
-            ]
-          },
           "prequisiteName": "Computer Programming II",
           "courseHour": [
             8,
@@ -603,7 +581,7 @@
             40
           ]
         },
-        "letterGrade": "FF"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -616,7 +594,7 @@
             28
           ]
         },
-        "letterGrade": "BB"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -630,7 +608,7 @@
             55
           ]
         },
-        "letterGrade": "CB"
+        "letterGrade": "BB"
       },
       {
         "course": {
@@ -644,7 +622,7 @@
             34
           ]
         },
-        "letterGrade": "CC"
+        "letterGrade": "BA"
       },
       {
         "course": {
@@ -658,64 +636,13 @@
             56
           ]
         },
-        "letterGrade": "DD"
-      },
-      {
-        "course": {
-          "courseName": "Systems Programming",
-          "courseCredit": 7,
-          "semester": 4,
-          "quota": 0,
-          "courseHour": [
-            7,
-            8,
-            22
-          ]
-        }
-      },
-      {
-        "course": {
-          "courseName": "Principles of Programming Languages",
-          "courseCredit": 4,
-          "semester": 4,
-          "quota": 0,
-          "courseHour": [
-            113,
-            114,
-            115
-          ]
-        }
-      },
-      {
-        "course": {
-          "courseName": "Electronics",
-          "courseCredit": 5,
-          "semester": 4,
-          "quota": 0,
-          "courseHour": [
-            58,
-            59
-          ]
-        }
-      },
-      {
-        "course": {
-          "courseName": "Introduction to Probability and Statistics",
-          "courseCredit": 5,
-          "semester": 4,
-          "quota": 0,
-          "courseHour": [
-            9,
-            23,
-            24
-          ]
-        }
+        "letterGrade": "BB"
       }
     ],
-    "givenCredit": 109.0,
-    "completedCredit": 64.0,
-    "point": 166.5,
-    "gano": 1.89
+    "givenCredit": 88.0,
+    "completedCredit": 78.0,
+    "point": 228.0,
+    "gano": 2.59
   },
   "error": [
     "The system did not allow Analysis of Algorithms because student failed prerequisite Data Structures"

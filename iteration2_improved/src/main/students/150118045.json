@@ -1,9 +1,9 @@
 {
   "studentNumber": 150118045,
-  "studentName": "Ahsen Hüyüktepe",
+  "studentName": "Ali Ballıca",
   "year": 4,
   "advisor": {
-    "lecturerName": "Borahan Tümer",
+    "lecturerName": "Mustafa Ağaoğlu",
     "department": "CSE",
     "rank": "Doç.Dr"
   },
@@ -20,7 +20,7 @@
             32
           ]
         },
-        "letterGrade": "BB"
+        "letterGrade": "BA"
       },
       {
         "course": {
@@ -34,7 +34,7 @@
             68
           ]
         },
-        "letterGrade": "CC"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -62,7 +62,7 @@
             39
           ]
         },
-        "letterGrade": "BB"
+        "letterGrade": "CC"
       },
       {
         "course": {
@@ -76,7 +76,7 @@
             49
           ]
         },
-        "letterGrade": "BA"
+        "letterGrade": "FD"
       },
       {
         "course": {
@@ -90,7 +90,7 @@
             56
           ]
         },
-        "letterGrade": "DC"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -103,7 +103,7 @@
             2
           ]
         },
-        "letterGrade": "DD"
+        "letterGrade": "FF"
       },
       {
         "course": {
@@ -116,7 +116,7 @@
             105
           ]
         },
-        "letterGrade": "CC"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -129,7 +129,7 @@
             103
           ]
         },
-        "letterGrade": "CB"
+        "letterGrade": "BB"
       },
       {
         "course": {
@@ -143,7 +143,7 @@
             20
           ]
         },
-        "letterGrade": "FD"
+        "letterGrade": "DD"
       },
       {
         "course": {
@@ -171,7 +171,7 @@
             35
           ]
         },
-        "letterGrade": "BA"
+        "letterGrade": "DD"
       },
       {
         "course": {
@@ -185,7 +185,7 @@
             57
           ]
         },
-        "letterGrade": "AA"
+        "letterGrade": "FD"
       },
       {
         "course": {
@@ -198,7 +198,7 @@
             8
           ]
         },
-        "letterGrade": "CB"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -211,7 +211,7 @@
             83
           ]
         },
-        "letterGrade": "FF"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -225,7 +225,7 @@
             73
           ]
         },
-        "letterGrade": "BB"
+        "letterGrade": "CB"
       },
       {
         "course": {
@@ -233,17 +233,6 @@
           "courseCredit": 7,
           "semester": 3,
           "quota": 0,
-          "prequisite": {
-            "courseName": "Computer Programming II",
-            "courseCredit": 6,
-            "semester": 2,
-            "quota": 0,
-            "courseHour": [
-              4,
-              5,
-              20
-            ]
-          },
           "prequisiteName": "Computer Programming II",
           "courseHour": [
             8,
@@ -251,7 +240,7 @@
             40
           ]
         },
-        "letterGrade": "AA"
+        "letterGrade": "FF"
       },
       {
         "course": {
@@ -264,7 +253,7 @@
             28
           ]
         },
-        "letterGrade": "DD"
+        "letterGrade": "CB"
       },
       {
         "course": {
@@ -292,7 +281,7 @@
             34
           ]
         },
-        "letterGrade": "CB"
+        "letterGrade": "BB"
       },
       {
         "course": {
@@ -306,7 +295,7 @@
             56
           ]
         },
-        "letterGrade": "DD"
+        "letterGrade": "FF"
       },
       {
         "course": {
@@ -314,29 +303,6 @@
           "courseCredit": 6,
           "semester": 4,
           "quota": 0,
-          "prequisite": {
-            "courseName": "Data Structures",
-            "courseCredit": 7,
-            "semester": 3,
-            "quota": 0,
-            "prequisite": {
-              "courseName": "Computer Programming II",
-              "courseCredit": 6,
-              "semester": 2,
-              "quota": 0,
-              "courseHour": [
-                4,
-                5,
-                20
-              ]
-            },
-            "prequisiteName": "Computer Programming II",
-            "courseHour": [
-              8,
-              39,
-              40
-            ]
-          },
           "prequisiteName": "Data Structures",
           "courseHour": [
             54,
@@ -344,7 +310,7 @@
             72
           ]
         },
-        "letterGrade": "BA"
+        "letterGrade": "FF"
       },
       {
         "course": {
@@ -358,7 +324,7 @@
             22
           ]
         },
-        "letterGrade": "BB"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -385,7 +351,7 @@
             59
           ]
         },
-        "letterGrade": "AA"
+        "letterGrade": "CB"
       },
       {
         "course": {
@@ -399,7 +365,7 @@
             24
           ]
         },
-        "letterGrade": "AA"
+        "letterGrade": "FD"
       },
       {
         "course": {
@@ -413,7 +379,7 @@
             130
           ]
         },
-        "letterGrade": "BB"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -427,7 +393,7 @@
             50
           ]
         },
-        "letterGrade": "BA"
+        "letterGrade": "DD"
       },
       {
         "course": {
@@ -440,7 +406,7 @@
             33
           ]
         },
-        "letterGrade": "CB"
+        "letterGrade": "FF"
       },
       {
         "course": {
@@ -454,7 +420,7 @@
             72
           ]
         },
-        "letterGrade": "BB"
+        "letterGrade": "BA"
       },
       {
         "course": {
@@ -468,7 +434,7 @@
             18
           ]
         },
-        "letterGrade": "FD"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -496,7 +462,7 @@
             52
           ]
         },
-        "letterGrade": "DC"
+        "letterGrade": "BA"
       },
       {
         "course": {
@@ -510,7 +476,7 @@
             51
           ]
         },
-        "letterGrade": "FF"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -524,7 +490,7 @@
             22
           ]
         },
-        "letterGrade": "BA"
+        "letterGrade": "DD"
       },
       {
         "course": {
@@ -538,7 +504,7 @@
             66
           ]
         },
-        "letterGrade": "CB"
+        "letterGrade": "BB"
       },
       {
         "course": {
@@ -552,7 +518,7 @@
             19
           ]
         },
-        "letterGrade": "FD"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -565,7 +531,7 @@
             118
           ]
         },
-        "letterGrade": "BB"
+        "letterGrade": "DD"
       },
       {
         "course": {
@@ -578,7 +544,7 @@
             121
           ]
         },
-        "letterGrade": "DC"
+        "letterGrade": "DD"
       },
       {
         "course": {
@@ -592,7 +558,7 @@
             56
           ]
         },
-        "letterGrade": "DD"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -606,7 +572,7 @@
             54
           ]
         },
-        "letterGrade": "BA"
+        "letterGrade": "FF"
       },
       {
         "course": {
@@ -619,7 +585,7 @@
             126
           ]
         },
-        "letterGrade": "AA"
+        "letterGrade": "FD"
       },
       {
         "course": {
@@ -632,7 +598,7 @@
             87
           ]
         },
-        "letterGrade": "CC"
+        "letterGrade": "DD"
       },
       {
         "course": {
@@ -650,32 +616,11 @@
       }
     ],
     "givenCredit": 217.0,
-    "completedCredit": 187.0,
-    "point": 533.5,
-    "gano": 2.46
+    "completedCredit": 159.0,
+    "point": 420.0,
+    "gano": 1.94
   },
   "courseOffered": [
-    {
-      "courseName": "Engineering Project II",
-      "courseCredit": 5,
-      "semester": 8,
-      "quota": 0,
-      "prequisite": {
-        "courseName": "Engineering Project I",
-        "courseCredit": 5,
-        "semester": 7,
-        "quota": 0,
-        "courseHour": [
-          125,
-          126
-        ]
-      },
-      "prequisiteName": "Engineering Project I",
-      "courseHour": [
-        136,
-        137
-      ]
-    },
     {
       "courseName": "İş Sağlığı ve Güvenliği II",
       "courseCredit": 2,
@@ -687,36 +632,25 @@
       ]
     },
     {
-      "courseName": "Introduction to Robotics and Control Theory",
+      "courseName": "Introduction to Distributed Systems",
       "courseCredit": 5,
       "semester": 0,
       "quota": 10,
       "electiveType": "TE",
       "courseHour": [
-        120,
-        177
+        8,
+        179
       ]
     },
     {
-      "courseName": "Software Project Management",
+      "courseName": "Financial Engineering",
       "courseCredit": 5,
       "semester": 0,
       "quota": 10,
       "electiveType": "ENG-FTE",
       "courseHour": [
-        206,
-        207
-      ]
-    },
-    {
-      "courseName": "Human Performance and Nutrition",
-      "courseCredit": 3,
-      "semester": 0,
-      "quota": 10,
-      "electiveType": "NTE",
-      "courseHour": [
-        56,
-        153
+        113,
+        203
       ]
     }
   ],
@@ -733,7 +667,7 @@
             32
           ]
         },
-        "letterGrade": "BB"
+        "letterGrade": "BA"
       },
       {
         "course": {
@@ -747,7 +681,7 @@
             68
           ]
         },
-        "letterGrade": "CC"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -775,7 +709,7 @@
             39
           ]
         },
-        "letterGrade": "BB"
+        "letterGrade": "CC"
       },
       {
         "course": {
@@ -789,7 +723,7 @@
             49
           ]
         },
-        "letterGrade": "BA"
+        "letterGrade": "FD"
       },
       {
         "course": {
@@ -803,7 +737,7 @@
             56
           ]
         },
-        "letterGrade": "DC"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -816,7 +750,7 @@
             2
           ]
         },
-        "letterGrade": "DD"
+        "letterGrade": "FF"
       },
       {
         "course": {
@@ -829,7 +763,7 @@
             105
           ]
         },
-        "letterGrade": "CC"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -842,7 +776,7 @@
             103
           ]
         },
-        "letterGrade": "CB"
+        "letterGrade": "BB"
       },
       {
         "course": {
@@ -856,7 +790,7 @@
             20
           ]
         },
-        "letterGrade": "FD"
+        "letterGrade": "DD"
       },
       {
         "course": {
@@ -884,7 +818,7 @@
             35
           ]
         },
-        "letterGrade": "BA"
+        "letterGrade": "DD"
       },
       {
         "course": {
@@ -898,7 +832,7 @@
             57
           ]
         },
-        "letterGrade": "AA"
+        "letterGrade": "FD"
       },
       {
         "course": {
@@ -911,7 +845,7 @@
             8
           ]
         },
-        "letterGrade": "CB"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -924,7 +858,7 @@
             83
           ]
         },
-        "letterGrade": "FF"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -938,7 +872,7 @@
             73
           ]
         },
-        "letterGrade": "BB"
+        "letterGrade": "CB"
       },
       {
         "course": {
@@ -946,17 +880,6 @@
           "courseCredit": 7,
           "semester": 3,
           "quota": 0,
-          "prequisite": {
-            "courseName": "Computer Programming II",
-            "courseCredit": 6,
-            "semester": 2,
-            "quota": 0,
-            "courseHour": [
-              4,
-              5,
-              20
-            ]
-          },
           "prequisiteName": "Computer Programming II",
           "courseHour": [
             8,
@@ -964,7 +887,7 @@
             40
           ]
         },
-        "letterGrade": "AA"
+        "letterGrade": "FF"
       },
       {
         "course": {
@@ -977,7 +900,7 @@
             28
           ]
         },
-        "letterGrade": "DD"
+        "letterGrade": "CB"
       },
       {
         "course": {
@@ -1005,7 +928,7 @@
             34
           ]
         },
-        "letterGrade": "CB"
+        "letterGrade": "BB"
       },
       {
         "course": {
@@ -1019,7 +942,7 @@
             56
           ]
         },
-        "letterGrade": "DD"
+        "letterGrade": "FF"
       },
       {
         "course": {
@@ -1027,29 +950,6 @@
           "courseCredit": 6,
           "semester": 4,
           "quota": 0,
-          "prequisite": {
-            "courseName": "Data Structures",
-            "courseCredit": 7,
-            "semester": 3,
-            "quota": 0,
-            "prequisite": {
-              "courseName": "Computer Programming II",
-              "courseCredit": 6,
-              "semester": 2,
-              "quota": 0,
-              "courseHour": [
-                4,
-                5,
-                20
-              ]
-            },
-            "prequisiteName": "Computer Programming II",
-            "courseHour": [
-              8,
-              39,
-              40
-            ]
-          },
           "prequisiteName": "Data Structures",
           "courseHour": [
             54,
@@ -1057,7 +957,7 @@
             72
           ]
         },
-        "letterGrade": "BA"
+        "letterGrade": "FF"
       },
       {
         "course": {
@@ -1071,7 +971,7 @@
             22
           ]
         },
-        "letterGrade": "BB"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -1098,7 +998,7 @@
             59
           ]
         },
-        "letterGrade": "AA"
+        "letterGrade": "CB"
       },
       {
         "course": {
@@ -1112,7 +1012,7 @@
             24
           ]
         },
-        "letterGrade": "AA"
+        "letterGrade": "FD"
       },
       {
         "course": {
@@ -1126,7 +1026,7 @@
             130
           ]
         },
-        "letterGrade": "BB"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -1140,7 +1040,7 @@
             50
           ]
         },
-        "letterGrade": "BA"
+        "letterGrade": "DD"
       },
       {
         "course": {
@@ -1153,7 +1053,7 @@
             33
           ]
         },
-        "letterGrade": "CB"
+        "letterGrade": "FF"
       },
       {
         "course": {
@@ -1167,7 +1067,7 @@
             72
           ]
         },
-        "letterGrade": "BB"
+        "letterGrade": "BA"
       },
       {
         "course": {
@@ -1181,7 +1081,7 @@
             18
           ]
         },
-        "letterGrade": "FD"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -1209,7 +1109,7 @@
             52
           ]
         },
-        "letterGrade": "DC"
+        "letterGrade": "BA"
       },
       {
         "course": {
@@ -1223,7 +1123,7 @@
             51
           ]
         },
-        "letterGrade": "FF"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -1237,7 +1137,7 @@
             22
           ]
         },
-        "letterGrade": "BA"
+        "letterGrade": "DD"
       },
       {
         "course": {
@@ -1251,7 +1151,7 @@
             66
           ]
         },
-        "letterGrade": "CB"
+        "letterGrade": "BB"
       },
       {
         "course": {
@@ -1265,7 +1165,7 @@
             19
           ]
         },
-        "letterGrade": "FD"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -1278,7 +1178,7 @@
             118
           ]
         },
-        "letterGrade": "BB"
+        "letterGrade": "DD"
       },
       {
         "course": {
@@ -1291,7 +1191,7 @@
             121
           ]
         },
-        "letterGrade": "DC"
+        "letterGrade": "DD"
       },
       {
         "course": {
@@ -1305,7 +1205,7 @@
             56
           ]
         },
-        "letterGrade": "DD"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -1319,7 +1219,7 @@
             54
           ]
         },
-        "letterGrade": "BA"
+        "letterGrade": "FF"
       },
       {
         "course": {
@@ -1332,7 +1232,7 @@
             126
           ]
         },
-        "letterGrade": "AA"
+        "letterGrade": "FD"
       },
       {
         "course": {
@@ -1345,7 +1245,7 @@
             87
           ]
         },
-        "letterGrade": "CC"
+        "letterGrade": "DD"
       },
       {
         "course": {
@@ -1363,29 +1263,6 @@
       },
       {
         "course": {
-          "courseName": "Engineering Project II",
-          "courseCredit": 5,
-          "semester": 8,
-          "quota": 0,
-          "prequisite": {
-            "courseName": "Engineering Project I",
-            "courseCredit": 5,
-            "semester": 7,
-            "quota": 0,
-            "courseHour": [
-              125,
-              126
-            ]
-          },
-          "prequisiteName": "Engineering Project I",
-          "courseHour": [
-            136,
-            137
-          ]
-        }
-      },
-      {
-        "course": {
           "courseName": "İş Sağlığı ve Güvenliği II",
           "courseCredit": 2,
           "semester": 8,
@@ -1398,51 +1275,40 @@
       },
       {
         "course": {
-          "courseName": "Introduction to Robotics and Control Theory",
+          "courseName": "Introduction to Distributed Systems",
           "courseCredit": 5,
           "semester": 0,
           "quota": 10,
           "electiveType": "TE",
           "courseHour": [
-            120,
-            177
+            8,
+            179
           ]
         }
       },
       {
         "course": {
-          "courseName": "Software Project Management",
+          "courseName": "Financial Engineering",
           "courseCredit": 5,
           "semester": 0,
           "quota": 10,
           "electiveType": "ENG-FTE",
           "courseHour": [
-            206,
-            207
-          ]
-        }
-      },
-      {
-        "course": {
-          "courseName": "Human Performance and Nutrition",
-          "courseCredit": 3,
-          "semester": 0,
-          "quota": 10,
-          "electiveType": "NTE",
-          "courseHour": [
-            56,
-            153
+            113,
+            203
           ]
         }
       }
     ],
-    "givenCredit": 237.0,
-    "completedCredit": 187.0,
-    "point": 533.5,
-    "gano": 2.46
+    "givenCredit": 229.0,
+    "completedCredit": 159.0,
+    "point": 420.0,
+    "gano": 1.94
   },
   "error": [
-    "The system did not allow Introduction to Parallel Processing because quota is full!",
-    "The system did not allow Introduction to Parallel Processing because quota is full!"
+    "The system did not allow Management of Information Systems because quota is full!",
+    "The system did not allow Management of Information Systems because quota is full!",
+    "The system did not allow Cardiopulmonary Resuscitation and First Aid Basics because quota is full!",
+    "The system did not allow Engineering Project II because student failed prerequisite Engineering Project I"
   ]
 }

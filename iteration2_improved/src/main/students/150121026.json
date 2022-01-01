@@ -1,11 +1,11 @@
 {
   "studentNumber": 150121026,
-  "studentName": "Atilla Güçlü",
+  "studentName": "Ferit Parlak",
   "year": 1,
   "advisor": {
-    "lecturerName": "Fatma Corut Ergin",
+    "lecturerName": "Müjdat Soytürk",
     "department": "CSE",
-    "rank": "Dr.Öğr.Üyesi"
+    "rank": "Doç.Dr"
   },
   "transcriptBefore": {
     "transcriptRow": [
@@ -34,7 +34,7 @@
             68
           ]
         },
-        "letterGrade": "CC"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -48,7 +48,7 @@
             67
           ]
         },
-        "letterGrade": "DC"
+        "letterGrade": "CB"
       },
       {
         "course": {
@@ -62,7 +62,7 @@
             39
           ]
         },
-        "letterGrade": "FF"
+        "letterGrade": "DD"
       },
       {
         "course": {
@@ -90,7 +90,7 @@
             56
           ]
         },
-        "letterGrade": "BA"
+        "letterGrade": "FD"
       },
       {
         "course": {
@@ -103,7 +103,7 @@
             2
           ]
         },
-        "letterGrade": "CC"
+        "letterGrade": "BB"
       },
       {
         "course": {
@@ -116,13 +116,13 @@
             105
           ]
         },
-        "letterGrade": "DD"
+        "letterGrade": "AA"
       }
     ],
     "givenCredit": 31.0,
-    "completedCredit": 25.0,
-    "point": 50.0,
-    "gano": 1.61
+    "completedCredit": 27.0,
+    "point": 66.0,
+    "gano": 2.13
   },
   "courseOffered": [
     {
@@ -200,14 +200,14 @@
       ]
     },
     {
-      "courseName": "Energy for Physical Activity",
+      "courseName": "International Business",
       "courseCredit": 3,
       "semester": 0,
       "quota": 10,
       "electiveType": "NTE",
       "courseHour": [
-        9,
-        151
+        57,
+        33
       ]
     }
   ],
@@ -238,7 +238,7 @@
             68
           ]
         },
-        "letterGrade": "CC"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -252,7 +252,7 @@
             67
           ]
         },
-        "letterGrade": "DC"
+        "letterGrade": "CB"
       },
       {
         "course": {
@@ -266,7 +266,7 @@
             39
           ]
         },
-        "letterGrade": "FF"
+        "letterGrade": "DD"
       },
       {
         "course": {
@@ -294,7 +294,7 @@
             56
           ]
         },
-        "letterGrade": "BA"
+        "letterGrade": "FD"
       },
       {
         "course": {
@@ -307,7 +307,7 @@
             2
           ]
         },
-        "letterGrade": "CC"
+        "letterGrade": "BB"
       },
       {
         "course": {
@@ -320,7 +320,7 @@
             105
           ]
         },
-        "letterGrade": "DD"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -412,22 +412,24 @@
       },
       {
         "course": {
-          "courseName": "Energy for Physical Activity",
+          "courseName": "International Business",
           "courseCredit": 3,
           "semester": 0,
           "quota": 10,
           "electiveType": "NTE",
           "courseHour": [
-            9,
-            151
+            57,
+            33
           ]
         }
       }
     ],
     "givenCredit": 61.0,
-    "completedCredit": 25.0,
-    "point": 50.0,
-    "gano": 1.61
+    "completedCredit": 27.0,
+    "point": 66.0,
+    "gano": 2.13
   },
-  "error": []
+  "error": [
+    "There is a collision Physics II 3.hour between International Business 1.hour"
+  ]
 }

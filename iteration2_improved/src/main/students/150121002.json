@@ -1,11 +1,11 @@
 {
   "studentNumber": 150121002,
-  "studentName": "Ahsen Çubukluöz",
+  "studentName": "Asya Genç",
   "year": 1,
   "advisor": {
-    "lecturerName": "Fatma Corut Ergin",
+    "lecturerName": "Müjdat Soytürk",
     "department": "CSE",
-    "rank": "Dr.Öğr.Üyesi"
+    "rank": "Doç.Dr"
   },
   "transcriptBefore": {
     "transcriptRow": [
@@ -20,7 +20,7 @@
             32
           ]
         },
-        "letterGrade": "CC"
+        "letterGrade": "FF"
       },
       {
         "course": {
@@ -48,7 +48,7 @@
             67
           ]
         },
-        "letterGrade": "DD"
+        "letterGrade": "BA"
       },
       {
         "course": {
@@ -62,7 +62,7 @@
             39
           ]
         },
-        "letterGrade": "DD"
+        "letterGrade": "FF"
       },
       {
         "course": {
@@ -90,7 +90,7 @@
             56
           ]
         },
-        "letterGrade": "FD"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -103,7 +103,7 @@
             2
           ]
         },
-        "letterGrade": "FF"
+        "letterGrade": "CB"
       },
       {
         "course": {
@@ -116,13 +116,13 @@
             105
           ]
         },
-        "letterGrade": "CC"
+        "letterGrade": "AA"
       }
     ],
     "givenCredit": 31.0,
-    "completedCredit": 20.0,
-    "point": 44.0,
-    "gano": 1.42
+    "completedCredit": 18.0,
+    "point": 67.0,
+    "gano": 2.16
   },
   "courseOffered": [
     {
@@ -200,14 +200,14 @@
       ]
     },
     {
-      "courseName": "Interpersonal Relations and Communication",
+      "courseName": "Human Performance and Nutrition",
       "courseCredit": 3,
       "semester": 0,
       "quota": 10,
       "electiveType": "NTE",
       "courseHour": [
-        156,
-        157
+        56,
+        153
       ]
     }
   ],
@@ -224,7 +224,7 @@
             32
           ]
         },
-        "letterGrade": "CC"
+        "letterGrade": "FF"
       },
       {
         "course": {
@@ -252,7 +252,7 @@
             67
           ]
         },
-        "letterGrade": "DD"
+        "letterGrade": "BA"
       },
       {
         "course": {
@@ -266,7 +266,7 @@
             39
           ]
         },
-        "letterGrade": "DD"
+        "letterGrade": "FF"
       },
       {
         "course": {
@@ -294,7 +294,7 @@
             56
           ]
         },
-        "letterGrade": "FD"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -307,7 +307,7 @@
             2
           ]
         },
-        "letterGrade": "FF"
+        "letterGrade": "CB"
       },
       {
         "course": {
@@ -320,7 +320,7 @@
             105
           ]
         },
-        "letterGrade": "CC"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -412,22 +412,24 @@
       },
       {
         "course": {
-          "courseName": "Interpersonal Relations and Communication",
+          "courseName": "Human Performance and Nutrition",
           "courseCredit": 3,
           "semester": 0,
           "quota": 10,
           "electiveType": "NTE",
           "courseHour": [
-            156,
-            157
+            56,
+            153
           ]
         }
       }
     ],
     "givenCredit": 61.0,
-    "completedCredit": 20.0,
-    "point": 44.0,
-    "gano": 1.42
+    "completedCredit": 18.0,
+    "point": 67.0,
+    "gano": 2.16
   },
-  "error": []
+  "error": [
+    "There is a collision Physics II 2.hour between Human Performance and Nutrition 1.hour"
+  ]
 }

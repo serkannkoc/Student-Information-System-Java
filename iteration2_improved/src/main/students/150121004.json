@@ -1,11 +1,11 @@
 {
   "studentNumber": 150121004,
-  "studentName": "Önder Yılmaz",
+  "studentName": "Ahmet Genç",
   "year": 1,
   "advisor": {
-    "lecturerName": "Fatma Corut Ergin",
+    "lecturerName": "Müjdat Soytürk",
     "department": "CSE",
-    "rank": "Dr.Öğr.Üyesi"
+    "rank": "Doç.Dr"
   },
   "transcriptBefore": {
     "transcriptRow": [
@@ -34,7 +34,7 @@
             68
           ]
         },
-        "letterGrade": "AA"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -48,7 +48,7 @@
             67
           ]
         },
-        "letterGrade": "FD"
+        "letterGrade": "CB"
       },
       {
         "course": {
@@ -62,7 +62,7 @@
             39
           ]
         },
-        "letterGrade": "DC"
+        "letterGrade": "BA"
       },
       {
         "course": {
@@ -90,7 +90,7 @@
             56
           ]
         },
-        "letterGrade": "FD"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -103,7 +103,7 @@
             2
           ]
         },
-        "letterGrade": "DD"
+        "letterGrade": "CB"
       },
       {
         "course": {
@@ -120,9 +120,9 @@
       }
     ],
     "givenCredit": 31.0,
-    "completedCredit": 23.0,
-    "point": 51.0,
-    "gano": 1.65
+    "completedCredit": 31.0,
+    "point": 75.5,
+    "gano": 2.44
   },
   "courseOffered": [
     {
@@ -200,14 +200,14 @@
       ]
     },
     {
-      "courseName": "Our Biosphere",
+      "courseName": "International Business",
       "courseCredit": 3,
       "semester": 0,
       "quota": 10,
       "electiveType": "NTE",
       "courseHour": [
-        5,
-        149
+        57,
+        33
       ]
     }
   ],
@@ -238,7 +238,7 @@
             68
           ]
         },
-        "letterGrade": "AA"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -252,7 +252,7 @@
             67
           ]
         },
-        "letterGrade": "FD"
+        "letterGrade": "CB"
       },
       {
         "course": {
@@ -266,7 +266,7 @@
             39
           ]
         },
-        "letterGrade": "DC"
+        "letterGrade": "BA"
       },
       {
         "course": {
@@ -294,7 +294,7 @@
             56
           ]
         },
-        "letterGrade": "FD"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -307,7 +307,7 @@
             2
           ]
         },
-        "letterGrade": "DD"
+        "letterGrade": "CB"
       },
       {
         "course": {
@@ -412,24 +412,24 @@
       },
       {
         "course": {
-          "courseName": "Our Biosphere",
+          "courseName": "International Business",
           "courseCredit": 3,
           "semester": 0,
           "quota": 10,
           "electiveType": "NTE",
           "courseHour": [
-            5,
-            149
+            57,
+            33
           ]
         }
       }
     ],
     "givenCredit": 61.0,
-    "completedCredit": 23.0,
-    "point": 51.0,
-    "gano": 1.65
+    "completedCredit": 31.0,
+    "point": 75.5,
+    "gano": 2.44
   },
   "error": [
-    "There is a collision Computer Programming II 2.hour between Our Biosphere 1.hour"
+    "There is a collision Physics II 3.hour between International Business 1.hour"
   ]
 }

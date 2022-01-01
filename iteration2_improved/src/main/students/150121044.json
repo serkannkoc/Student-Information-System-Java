@@ -1,11 +1,11 @@
 {
   "studentNumber": 150121044,
-  "studentName": "Buse Dinç",
+  "studentName": "Mehmet Türkay",
   "year": 1,
   "advisor": {
-    "lecturerName": "Fatma Corut Ergin",
+    "lecturerName": "Müjdat Soytürk",
     "department": "CSE",
-    "rank": "Dr.Öğr.Üyesi"
+    "rank": "Doç.Dr"
   },
   "transcriptBefore": {
     "transcriptRow": [
@@ -20,7 +20,7 @@
             32
           ]
         },
-        "letterGrade": "BA"
+        "letterGrade": "CC"
       },
       {
         "course": {
@@ -34,7 +34,7 @@
             68
           ]
         },
-        "letterGrade": "CB"
+        "letterGrade": "FF"
       },
       {
         "course": {
@@ -62,7 +62,7 @@
             39
           ]
         },
-        "letterGrade": "BB"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -76,7 +76,7 @@
             49
           ]
         },
-        "letterGrade": "FD"
+        "letterGrade": "BA"
       },
       {
         "course": {
@@ -90,7 +90,7 @@
             56
           ]
         },
-        "letterGrade": "CC"
+        "letterGrade": "DD"
       },
       {
         "course": {
@@ -103,7 +103,7 @@
             2
           ]
         },
-        "letterGrade": "DC"
+        "letterGrade": "FF"
       },
       {
         "course": {
@@ -116,13 +116,13 @@
             105
           ]
         },
-        "letterGrade": "DC"
+        "letterGrade": "AA"
       }
     ],
     "givenCredit": 31.0,
-    "completedCredit": 25.0,
-    "point": 58.5,
-    "gano": 1.89
+    "completedCredit": 24.0,
+    "point": 50.0,
+    "gano": 1.61
   },
   "courseOffered": [
     {
@@ -198,6 +198,17 @@
         82,
         83
       ]
+    },
+    {
+      "courseName": "Strategic Entrepreneurship",
+      "courseCredit": 3,
+      "semester": 0,
+      "quota": 10,
+      "electiveType": "NTE",
+      "courseHour": [
+        50,
+        17
+      ]
     }
   ],
   "transcriptAfter": {
@@ -213,7 +224,7 @@
             32
           ]
         },
-        "letterGrade": "BA"
+        "letterGrade": "CC"
       },
       {
         "course": {
@@ -227,7 +238,7 @@
             68
           ]
         },
-        "letterGrade": "CB"
+        "letterGrade": "FF"
       },
       {
         "course": {
@@ -255,7 +266,7 @@
             39
           ]
         },
-        "letterGrade": "BB"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -269,7 +280,7 @@
             49
           ]
         },
-        "letterGrade": "FD"
+        "letterGrade": "BA"
       },
       {
         "course": {
@@ -283,7 +294,7 @@
             56
           ]
         },
-        "letterGrade": "CC"
+        "letterGrade": "DD"
       },
       {
         "course": {
@@ -296,7 +307,7 @@
             2
           ]
         },
-        "letterGrade": "DC"
+        "letterGrade": "FF"
       },
       {
         "course": {
@@ -309,7 +320,7 @@
             105
           ]
         },
-        "letterGrade": "DC"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -398,14 +409,25 @@
             83
           ]
         }
+      },
+      {
+        "course": {
+          "courseName": "Strategic Entrepreneurship",
+          "courseCredit": 3,
+          "semester": 0,
+          "quota": 10,
+          "electiveType": "NTE",
+          "courseHour": [
+            50,
+            17
+          ]
+        }
       }
     ],
-    "givenCredit": 58.0,
-    "completedCredit": 25.0,
-    "point": 58.5,
-    "gano": 1.89
+    "givenCredit": 61.0,
+    "completedCredit": 24.0,
+    "point": 50.0,
+    "gano": 1.61
   },
-  "error": [
-    "The system did not allow Interpersonal Relations and Communication because quota is full!"
-  ]
+  "error": []
 }
