@@ -1,11 +1,11 @@
 {
   "studentNumber": 150120069,
-  "studentName": "Esra Çetin",
+  "studentName": "Kerem Türkay",
   "year": 2,
   "advisor": {
-    "lecturerName": "Müjdat Soytürk",
+    "lecturerName": "Çiğdem Eroğlu Erdem",
     "department": "CSE",
-    "rank": "Doç.Dr"
+    "rank": "Prof.Dr."
   },
   "transcriptBefore": {
     "transcriptRow": [
@@ -43,7 +43,7 @@
           "semester": 1,
           "quota": 0,
           "courseHour": [
-            3,
+            65,
             66,
             67
           ]
@@ -76,7 +76,7 @@
             49
           ]
         },
-        "letterGrade": "FD"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -90,7 +90,7 @@
             56
           ]
         },
-        "letterGrade": "BB"
+        "letterGrade": "DD"
       },
       {
         "course": {
@@ -103,7 +103,7 @@
             2
           ]
         },
-        "letterGrade": "CB"
+        "letterGrade": "BA"
       },
       {
         "course": {
@@ -116,7 +116,7 @@
             105
           ]
         },
-        "letterGrade": "CC"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -129,7 +129,7 @@
             103
           ]
         },
-        "letterGrade": "FD"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -143,7 +143,7 @@
             20
           ]
         },
-        "letterGrade": "AA"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -157,7 +157,7 @@
             52
           ]
         },
-        "letterGrade": "BA"
+        "letterGrade": "FD"
       },
       {
         "course": {
@@ -171,7 +171,7 @@
             35
           ]
         },
-        "letterGrade": "BA"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -185,7 +185,7 @@
             57
           ]
         },
-        "letterGrade": "CB"
+        "letterGrade": "FF"
       },
       {
         "course": {
@@ -198,7 +198,7 @@
             8
           ]
         },
-        "letterGrade": "BB"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -211,13 +211,13 @@
             83
           ]
         },
-        "letterGrade": "BB"
+        "letterGrade": "CC"
       }
     ],
     "givenCredit": 58.0,
-    "completedCredit": 39.0,
-    "point": 125.5,
-    "gano": 2.16
+    "completedCredit": 37.0,
+    "point": 86.0,
+    "gano": 1.48
   },
   "courseOffered": [
     {
@@ -334,7 +334,7 @@
           "semester": 1,
           "quota": 0,
           "courseHour": [
-            3,
+            65,
             66,
             67
           ]
@@ -367,7 +367,7 @@
             49
           ]
         },
-        "letterGrade": "FD"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -381,7 +381,7 @@
             56
           ]
         },
-        "letterGrade": "BB"
+        "letterGrade": "DD"
       },
       {
         "course": {
@@ -394,7 +394,7 @@
             2
           ]
         },
-        "letterGrade": "CB"
+        "letterGrade": "BA"
       },
       {
         "course": {
@@ -407,7 +407,7 @@
             105
           ]
         },
-        "letterGrade": "CC"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -420,7 +420,7 @@
             103
           ]
         },
-        "letterGrade": "FD"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -434,7 +434,7 @@
             20
           ]
         },
-        "letterGrade": "AA"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -448,7 +448,7 @@
             52
           ]
         },
-        "letterGrade": "BA"
+        "letterGrade": "FD"
       },
       {
         "course": {
@@ -462,7 +462,7 @@
             35
           ]
         },
-        "letterGrade": "BA"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -476,7 +476,7 @@
             57
           ]
         },
-        "letterGrade": "CB"
+        "letterGrade": "FF"
       },
       {
         "course": {
@@ -489,7 +489,7 @@
             8
           ]
         },
-        "letterGrade": "BB"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -502,7 +502,7 @@
             83
           ]
         },
-        "letterGrade": "BB"
+        "letterGrade": "CC"
       },
       {
         "course": {
@@ -595,9 +595,9 @@
       }
     ],
     "givenCredit": 88.0,
-    "completedCredit": 39.0,
-    "point": 125.5,
-    "gano": 2.16
+    "completedCredit": 37.0,
+    "point": 86.0,
+    "gano": 1.48
   },
   "error": []
 }

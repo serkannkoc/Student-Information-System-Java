@@ -1,11 +1,11 @@
 {
   "studentNumber": 150120034,
-  "studentName": "İlhan Öztürk",
+  "studentName": "Elif Çubukluöz",
   "year": 2,
   "advisor": {
-    "lecturerName": "Müjdat Soytürk",
+    "lecturerName": "Çiğdem Eroğlu Erdem",
     "department": "CSE",
-    "rank": "Doç.Dr"
+    "rank": "Prof.Dr."
   },
   "transcriptBefore": {
     "transcriptRow": [
@@ -20,7 +20,7 @@
             32
           ]
         },
-        "letterGrade": "CC"
+        "letterGrade": "FD"
       },
       {
         "course": {
@@ -43,12 +43,12 @@
           "semester": 1,
           "quota": 0,
           "courseHour": [
-            3,
+            65,
             66,
             67
           ]
         },
-        "letterGrade": "FF"
+        "letterGrade": "BB"
       },
       {
         "course": {
@@ -62,7 +62,7 @@
             39
           ]
         },
-        "letterGrade": "FF"
+        "letterGrade": "BA"
       },
       {
         "course": {
@@ -76,7 +76,7 @@
             49
           ]
         },
-        "letterGrade": "CC"
+        "letterGrade": "FD"
       },
       {
         "course": {
@@ -103,7 +103,7 @@
             2
           ]
         },
-        "letterGrade": "FD"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -116,7 +116,7 @@
             105
           ]
         },
-        "letterGrade": "DD"
+        "letterGrade": "FD"
       },
       {
         "course": {
@@ -129,7 +129,7 @@
             103
           ]
         },
-        "letterGrade": "FF"
+        "letterGrade": "FD"
       },
       {
         "course": {
@@ -143,7 +143,7 @@
             20
           ]
         },
-        "letterGrade": "BB"
+        "letterGrade": "FD"
       },
       {
         "course": {
@@ -157,7 +157,7 @@
             52
           ]
         },
-        "letterGrade": "DD"
+        "letterGrade": "FF"
       },
       {
         "course": {
@@ -185,7 +185,7 @@
             57
           ]
         },
-        "letterGrade": "FF"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -198,7 +198,7 @@
             8
           ]
         },
-        "letterGrade": "DC"
+        "letterGrade": "DD"
       },
       {
         "course": {
@@ -211,13 +211,13 @@
             83
           ]
         },
-        "letterGrade": "DD"
+        "letterGrade": "CB"
       }
     ],
     "givenCredit": 58.0,
-    "completedCredit": 35.0,
-    "point": 84.0,
-    "gano": 1.45
+    "completedCredit": 29.0,
+    "point": 99.0,
+    "gano": 1.71
   },
   "courseOffered": [
     {
@@ -229,29 +229,6 @@
         6,
         7,
         73
-      ]
-    },
-    {
-      "courseName": "Data Structures",
-      "courseCredit": 7,
-      "semester": 3,
-      "quota": 0,
-      "prequisite": {
-        "courseName": "Computer Programming II",
-        "courseCredit": 6,
-        "semester": 2,
-        "quota": 0,
-        "courseHour": [
-          4,
-          5,
-          20
-        ]
-      },
-      "prequisiteName": "Computer Programming II",
-      "courseHour": [
-        8,
-        39,
-        40
       ]
     },
     {
@@ -311,7 +288,7 @@
             32
           ]
         },
-        "letterGrade": "CC"
+        "letterGrade": "FD"
       },
       {
         "course": {
@@ -334,12 +311,12 @@
           "semester": 1,
           "quota": 0,
           "courseHour": [
-            3,
+            65,
             66,
             67
           ]
         },
-        "letterGrade": "FF"
+        "letterGrade": "BB"
       },
       {
         "course": {
@@ -353,7 +330,7 @@
             39
           ]
         },
-        "letterGrade": "FF"
+        "letterGrade": "BA"
       },
       {
         "course": {
@@ -367,7 +344,7 @@
             49
           ]
         },
-        "letterGrade": "CC"
+        "letterGrade": "FD"
       },
       {
         "course": {
@@ -394,7 +371,7 @@
             2
           ]
         },
-        "letterGrade": "FD"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -407,7 +384,7 @@
             105
           ]
         },
-        "letterGrade": "DD"
+        "letterGrade": "FD"
       },
       {
         "course": {
@@ -420,7 +397,7 @@
             103
           ]
         },
-        "letterGrade": "FF"
+        "letterGrade": "FD"
       },
       {
         "course": {
@@ -434,7 +411,7 @@
             20
           ]
         },
-        "letterGrade": "BB"
+        "letterGrade": "FD"
       },
       {
         "course": {
@@ -448,7 +425,7 @@
             52
           ]
         },
-        "letterGrade": "DD"
+        "letterGrade": "FF"
       },
       {
         "course": {
@@ -476,7 +453,7 @@
             57
           ]
         },
-        "letterGrade": "FF"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -489,7 +466,7 @@
             8
           ]
         },
-        "letterGrade": "DC"
+        "letterGrade": "DD"
       },
       {
         "course": {
@@ -502,7 +479,7 @@
             83
           ]
         },
-        "letterGrade": "DD"
+        "letterGrade": "CB"
       },
       {
         "course": {
@@ -514,31 +491,6 @@
             6,
             7,
             73
-          ]
-        }
-      },
-      {
-        "course": {
-          "courseName": "Data Structures",
-          "courseCredit": 7,
-          "semester": 3,
-          "quota": 0,
-          "prequisite": {
-            "courseName": "Computer Programming II",
-            "courseCredit": 6,
-            "semester": 2,
-            "quota": 0,
-            "courseHour": [
-              4,
-              5,
-              20
-            ]
-          },
-          "prequisiteName": "Computer Programming II",
-          "courseHour": [
-            8,
-            39,
-            40
           ]
         }
       },
@@ -594,10 +546,12 @@
         }
       }
     ],
-    "givenCredit": 88.0,
-    "completedCredit": 35.0,
-    "point": 84.0,
-    "gano": 1.45
+    "givenCredit": 81.0,
+    "completedCredit": 29.0,
+    "point": 99.0,
+    "gano": 1.71
   },
-  "error": []
+  "error": [
+    "The system did not allow Data Structures because student failed prerequisite Computer Programming II"
+  ]
 }

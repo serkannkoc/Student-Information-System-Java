@@ -70,7 +70,7 @@
                 {
                     "courseName": "Introduction to Computer Engineering",
                     "courseCredit": 4,
-                    "courseHourCode": [3,66,67]
+                    "courseHourCode": [65,66,67]
                 },
                 {
                     "courseName": "Computer Programming I",
@@ -211,7 +211,7 @@
                 {
                     "courseName": "Summer Practice I",
                     "courseCredit": 10,
-                    "courseHourCode": [128,19,130]
+                    "courseHourCode": [128,129,130]
                 },
                 {
                     "courseName": "Digital Logic Design",
@@ -330,25 +330,25 @@
                 {
                     "courseName": "Entrepreneurship and Innovation",
                     "courseCredit": 3,
-                    "courseHourCode": [51,141],
+                    "courseHourCode": [68,141],
                     "quota": 10
                 },
                 {
                     "courseName": "Strategic Entrepreneurship",
                     "courseCredit": 3,
-                    "courseHourCode": [142,143],
+                    "courseHourCode": [50,17],
                     "quota": 10
                 },
                 {
                     "courseName": "International Business",
                     "courseCredit": 3,
-                    "courseHourCode": [55,145],
+                    "courseHourCode": [57,33],
                     "quota": 10
                 },
                 {
                     "courseName": "Self Management",
                     "courseCredit": 3,
-                    "courseHourCode": [7,147],
+                    "courseHourCode": [7,52],
                     "quota": 10
                 },
                 {
@@ -360,13 +360,13 @@
                 {
                     "courseName": "Energy for Physical Activity",
                     "courseCredit": 3,
-                    "courseHourCode": [150,151],
+                    "courseHourCode": [9,151],
                     "quota": 10
                 },
                 {
                     "courseName": "Human Performance and Nutrition",
                     "courseCredit": 3,
-                    "courseHourCode": [152,153],
+                    "courseHourCode": [56,153],
                     "quota": 10
                 },
                 {
@@ -387,13 +387,13 @@
                 {
                     "courseName": "Entrepreneurship and Innovation",
                     "courseCredit": 3,
-                    "courseHourCode": [152,159],
+                    "courseHourCode": [8,159],
                     "quota": 10
                 },
                 {
                     "courseName": "Strategic Entrepreneurship",
                     "courseCredit": 3,
-                    "courseHourCode": [136,161],
+                    "courseHourCode": [55,161],
                     "quota": 10
                 },
                 {
@@ -405,7 +405,7 @@
                 {
                     "courseName": "Self Management",
                     "courseCredit": 3,
-                    "courseHourCode": [164,165],
+                    "courseHourCode": [9,165],
                     "quota": 10
                 },
                 {
@@ -444,13 +444,13 @@
                 {
                     "courseName": "Introduction to Robotics and Control Theory",
                     "courseCredit": 5,
-                    "courseHourCode": [176,177],
+                    "courseHourCode": [120,177],
                     "quota": 10
                 },
                 {
                     "courseName": "Introduction to Distributed Systems",
                     "courseCredit": 5,
-                    "courseHourCode": [136,179],
+                    "courseHourCode": [8,179],
                     "quota": 10
                 },
                 {
@@ -469,7 +469,7 @@
                 {
                     "courseName": "Cloud Computing",
                     "courseCredit": 5,
-                    "courseHourCode": [176,185],
+                    "courseHourCode": [176,9],
                     "quota": 10
                 },
                 {
@@ -546,7 +546,7 @@
                 {
                     "courseName": "Management of Information Systems",
                     "courseCredit": 5,
-                    "courseHourCode": [208,209],
+                    "courseHourCode": [35,209],
                     "quota": 10
                 },
                 {
@@ -558,7 +558,7 @@
                 {
                     "courseName": "Introduction to Information Systems Management",
                     "courseCredit": 5,
-                    "courseHourCode": [212,213],
+                    "courseHourCode": [212,6],
                     "quota": 10
                 },
                 {

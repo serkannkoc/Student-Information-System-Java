@@ -1,11 +1,11 @@
 {
   "studentNumber": 150121056,
-  "studentName": "Hilal Zengin",
+  "studentName": "Ceyda Kuruçay",
   "year": 1,
   "advisor": {
-    "lecturerName": "Müjdat Soytürk",
+    "lecturerName": "Betül Demiröz Boz",
     "department": "CSE",
-    "rank": "Doç.Dr"
+    "rank": "Dr.Öğr.Üyesi"
   },
   "transcriptBefore": {
     "transcriptRow": [],
@@ -42,7 +42,7 @@
       "semester": 1,
       "quota": 0,
       "courseHour": [
-        3,
+        65,
         66,
         67
       ]
@@ -102,13 +102,113 @@
     }
   ],
   "transcriptAfter": {
-    "transcriptRow": [],
-    "givenCredit": 0.0,
+    "transcriptRow": [
+      {
+        "course": {
+          "courseName": "Atatürk İlkeleri ve İnkılap Tarihi I",
+          "courseCredit": 2,
+          "semester": 1,
+          "quota": 0,
+          "courseHour": [
+            31,
+            32
+          ]
+        }
+      },
+      {
+        "course": {
+          "courseName": "Introduction to Modern Biology",
+          "courseCredit": 5,
+          "semester": 1,
+          "quota": 0,
+          "courseHour": [
+            35,
+            36,
+            68
+          ]
+        }
+      },
+      {
+        "course": {
+          "courseName": "Introduction to Computer Engineering",
+          "courseCredit": 4,
+          "semester": 1,
+          "quota": 0,
+          "courseHour": [
+            65,
+            66,
+            67
+          ]
+        }
+      },
+      {
+        "course": {
+          "courseName": "Computer Programming I",
+          "courseCredit": 6,
+          "semester": 1,
+          "quota": 0,
+          "courseHour": [
+            3,
+            4,
+            39
+          ]
+        }
+      },
+      {
+        "course": {
+          "courseName": "Calculus I",
+          "courseCredit": 6,
+          "semester": 1,
+          "quota": 0,
+          "courseHour": [
+            17,
+            18,
+            49
+          ]
+        }
+      },
+      {
+        "course": {
+          "courseName": "Physics I",
+          "courseCredit": 4,
+          "semester": 1,
+          "quota": 0,
+          "courseHour": [
+            24,
+            55,
+            56
+          ]
+        }
+      },
+      {
+        "course": {
+          "courseName": "Physics Lab I",
+          "courseCredit": 2,
+          "semester": 1,
+          "quota": 0,
+          "courseHour": [
+            1,
+            2
+          ]
+        }
+      },
+      {
+        "course": {
+          "courseName": "Türk Dili I",
+          "courseCredit": 2,
+          "semester": 1,
+          "quota": 0,
+          "courseHour": [
+            104,
+            105
+          ]
+        }
+      }
+    ],
+    "givenCredit": 31.0,
     "completedCredit": 0.0,
     "point": 0.0,
     "gano": 0.0
   },
-  "error": [
-    "There is a collision Introduction to Computer Engineering 1.hour between Computer Programming I 1.hour"
-  ]
+  "error": []
 }
