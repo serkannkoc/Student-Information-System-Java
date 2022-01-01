@@ -1,9 +1,9 @@
 {
   "studentNumber": 150121060,
-  "studentName": "Muhammed Karakurt",
+  "studentName": "Asena Öztürk",
   "year": 1,
   "advisor": {
-    "lecturerName": "Ali Fuat Alkaya",
+    "lecturerName": "Borahan Tümer",
     "department": "CSE",
     "rank": "Doç.Dr"
   },
@@ -20,7 +20,7 @@
             32
           ]
         },
-        "letterGrade": "BB"
+        "letterGrade": "CC"
       },
       {
         "course": {
@@ -34,7 +34,7 @@
             68
           ]
         },
-        "letterGrade": "CC"
+        "letterGrade": "CB"
       },
       {
         "course": {
@@ -62,7 +62,7 @@
             39
           ]
         },
-        "letterGrade": "DD"
+        "letterGrade": "FF"
       },
       {
         "course": {
@@ -76,7 +76,7 @@
             49
           ]
         },
-        "letterGrade": "DD"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -90,7 +90,7 @@
             56
           ]
         },
-        "letterGrade": "DC"
+        "letterGrade": "DD"
       },
       {
         "course": {
@@ -103,7 +103,7 @@
             2
           ]
         },
-        "letterGrade": "CC"
+        "letterGrade": "BB"
       },
       {
         "course": {
@@ -116,13 +116,13 @@
             105
           ]
         },
-        "letterGrade": "FD"
+        "letterGrade": "CB"
       }
     ],
     "givenCredit": 31.0,
-    "completedCredit": 29.0,
-    "point": 49.0,
-    "gano": 1.58
+    "completedCredit": 25.0,
+    "point": 65.5,
+    "gano": 2.11
   },
   "courseOffered": [
     {
@@ -198,6 +198,17 @@
         82,
         83
       ]
+    },
+    {
+      "courseName": "International Business",
+      "courseCredit": 3,
+      "semester": 0,
+      "quota": 10,
+      "electiveType": "NTE",
+      "courseHour": [
+        57,
+        33
+      ]
     }
   ],
   "transcriptAfter": {
@@ -213,7 +224,7 @@
             32
           ]
         },
-        "letterGrade": "BB"
+        "letterGrade": "CC"
       },
       {
         "course": {
@@ -227,7 +238,7 @@
             68
           ]
         },
-        "letterGrade": "CC"
+        "letterGrade": "CB"
       },
       {
         "course": {
@@ -255,7 +266,7 @@
             39
           ]
         },
-        "letterGrade": "DD"
+        "letterGrade": "FF"
       },
       {
         "course": {
@@ -269,7 +280,7 @@
             49
           ]
         },
-        "letterGrade": "DD"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -283,7 +294,7 @@
             56
           ]
         },
-        "letterGrade": "DC"
+        "letterGrade": "DD"
       },
       {
         "course": {
@@ -296,7 +307,7 @@
             2
           ]
         },
-        "letterGrade": "CC"
+        "letterGrade": "BB"
       },
       {
         "course": {
@@ -309,7 +320,7 @@
             105
           ]
         },
-        "letterGrade": "FD"
+        "letterGrade": "CB"
       },
       {
         "course": {
@@ -398,14 +409,27 @@
             83
           ]
         }
+      },
+      {
+        "course": {
+          "courseName": "International Business",
+          "courseCredit": 3,
+          "semester": 0,
+          "quota": 10,
+          "electiveType": "NTE",
+          "courseHour": [
+            57,
+            33
+          ]
+        }
       }
     ],
-    "givenCredit": 58.0,
-    "completedCredit": 29.0,
-    "point": 49.0,
-    "gano": 1.58
+    "givenCredit": 61.0,
+    "completedCredit": 25.0,
+    "point": 65.5,
+    "gano": 2.11
   },
   "error": [
-    "The system did not allow Our Biosphere because quota is full!"
+    "There is a collision Physics II 3.hour between International Business 1.hour"
   ]
 }

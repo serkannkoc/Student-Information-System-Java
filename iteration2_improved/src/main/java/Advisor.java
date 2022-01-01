@@ -63,7 +63,7 @@ public class Advisor extends Lecturer {
                     teErrorArrayList.add(Integer.toString(student.getStudentNumber()));
                 }
 
-                else if(student.getTranscriptBefore().getCompletedCredit() < 165 && (course.getCourseName().equals("Engineering Project I")
+                if(student.getTranscriptBefore().getCompletedCredit() < 165 && (course.getCourseName().equals("Engineering Project I")
                         || course.getCourseName().equals("Engineering Project II"))) {
                     student.addError("The advisor didnt approve " + course.getCourseName() + " because student completed credits less than 165");
                     projectErrorArrayList.add(Integer.toString(student.getStudentNumber()));

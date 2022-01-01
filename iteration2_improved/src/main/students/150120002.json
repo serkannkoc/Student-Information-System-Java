@@ -1,9 +1,9 @@
 {
   "studentNumber": 150120002,
-  "studentName": "Kerem Ballıca",
+  "studentName": "Hesna Öztürk",
   "year": 2,
   "advisor": {
-    "lecturerName": "Fatma Corut Ergin",
+    "lecturerName": "Ali Haydar Özer",
     "department": "CSE",
     "rank": "Dr.Öğr.Üyesi"
   },
@@ -34,7 +34,7 @@
             68
           ]
         },
-        "letterGrade": "CC"
+        "letterGrade": "BA"
       },
       {
         "course": {
@@ -48,7 +48,7 @@
             67
           ]
         },
-        "letterGrade": "FD"
+        "letterGrade": "DD"
       },
       {
         "course": {
@@ -62,7 +62,7 @@
             39
           ]
         },
-        "letterGrade": "BA"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -76,7 +76,7 @@
             49
           ]
         },
-        "letterGrade": "FF"
+        "letterGrade": "BA"
       },
       {
         "course": {
@@ -90,7 +90,7 @@
             56
           ]
         },
-        "letterGrade": "DD"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -103,7 +103,7 @@
             2
           ]
         },
-        "letterGrade": "FF"
+        "letterGrade": "DD"
       },
       {
         "course": {
@@ -116,7 +116,7 @@
             105
           ]
         },
-        "letterGrade": "BB"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -129,7 +129,7 @@
             103
           ]
         },
-        "letterGrade": "DC"
+        "letterGrade": "BB"
       },
       {
         "course": {
@@ -143,7 +143,7 @@
             20
           ]
         },
-        "letterGrade": "CB"
+        "letterGrade": "CC"
       },
       {
         "course": {
@@ -157,7 +157,7 @@
             52
           ]
         },
-        "letterGrade": "BB"
+        "letterGrade": "DD"
       },
       {
         "course": {
@@ -185,7 +185,7 @@
             57
           ]
         },
-        "letterGrade": "CC"
+        "letterGrade": "FF"
       },
       {
         "course": {
@@ -211,7 +211,7 @@
             83
           ]
         },
-        "letterGrade": "BA"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -225,7 +225,7 @@
             73
           ]
         },
-        "letterGrade": "DC"
+        "letterGrade": "FD"
       },
       {
         "course": {
@@ -251,7 +251,7 @@
             40
           ]
         },
-        "letterGrade": "FD"
+        "letterGrade": "DD"
       },
       {
         "course": {
@@ -292,7 +292,7 @@
             34
           ]
         },
-        "letterGrade": "DD"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -306,15 +306,50 @@
             56
           ]
         },
-        "letterGrade": "DD"
+        "letterGrade": "BB"
       }
     ],
     "givenCredit": 88.0,
-    "completedCredit": 69.0,
-    "point": 148.5,
-    "gano": 1.69
+    "completedCredit": 78.0,
+    "point": 166.5,
+    "gano": 1.89
   },
   "courseOffered": [
+    {
+      "courseName": "Analysis of Algorithms",
+      "courseCredit": 6,
+      "semester": 4,
+      "quota": 0,
+      "prequisite": {
+        "courseName": "Data Structures",
+        "courseCredit": 7,
+        "semester": 3,
+        "quota": 0,
+        "prequisite": {
+          "courseName": "Computer Programming II",
+          "courseCredit": 6,
+          "semester": 2,
+          "quota": 0,
+          "courseHour": [
+            4,
+            5,
+            20
+          ]
+        },
+        "prequisiteName": "Computer Programming II",
+        "courseHour": [
+          8,
+          39,
+          40
+        ]
+      },
+      "prequisiteName": "Data Structures",
+      "courseHour": [
+        54,
+        71,
+        72
+      ]
+    },
     {
       "courseName": "Systems Programming",
       "courseCredit": 7,
@@ -386,7 +421,7 @@
             68
           ]
         },
-        "letterGrade": "CC"
+        "letterGrade": "BA"
       },
       {
         "course": {
@@ -400,7 +435,7 @@
             67
           ]
         },
-        "letterGrade": "FD"
+        "letterGrade": "DD"
       },
       {
         "course": {
@@ -414,7 +449,7 @@
             39
           ]
         },
-        "letterGrade": "BA"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -428,7 +463,7 @@
             49
           ]
         },
-        "letterGrade": "FF"
+        "letterGrade": "BA"
       },
       {
         "course": {
@@ -442,7 +477,7 @@
             56
           ]
         },
-        "letterGrade": "DD"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -455,7 +490,7 @@
             2
           ]
         },
-        "letterGrade": "FF"
+        "letterGrade": "DD"
       },
       {
         "course": {
@@ -468,7 +503,7 @@
             105
           ]
         },
-        "letterGrade": "BB"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -481,7 +516,7 @@
             103
           ]
         },
-        "letterGrade": "DC"
+        "letterGrade": "BB"
       },
       {
         "course": {
@@ -495,7 +530,7 @@
             20
           ]
         },
-        "letterGrade": "CB"
+        "letterGrade": "CC"
       },
       {
         "course": {
@@ -509,7 +544,7 @@
             52
           ]
         },
-        "letterGrade": "BB"
+        "letterGrade": "DD"
       },
       {
         "course": {
@@ -537,7 +572,7 @@
             57
           ]
         },
-        "letterGrade": "CC"
+        "letterGrade": "FF"
       },
       {
         "course": {
@@ -563,7 +598,7 @@
             83
           ]
         },
-        "letterGrade": "BA"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -577,7 +612,7 @@
             73
           ]
         },
-        "letterGrade": "DC"
+        "letterGrade": "FD"
       },
       {
         "course": {
@@ -603,7 +638,7 @@
             40
           ]
         },
-        "letterGrade": "FD"
+        "letterGrade": "DD"
       },
       {
         "course": {
@@ -644,7 +679,7 @@
             34
           ]
         },
-        "letterGrade": "DD"
+        "letterGrade": "DC"
       },
       {
         "course": {
@@ -658,7 +693,44 @@
             56
           ]
         },
-        "letterGrade": "DD"
+        "letterGrade": "BB"
+      },
+      {
+        "course": {
+          "courseName": "Analysis of Algorithms",
+          "courseCredit": 6,
+          "semester": 4,
+          "quota": 0,
+          "prequisite": {
+            "courseName": "Data Structures",
+            "courseCredit": 7,
+            "semester": 3,
+            "quota": 0,
+            "prequisite": {
+              "courseName": "Computer Programming II",
+              "courseCredit": 6,
+              "semester": 2,
+              "quota": 0,
+              "courseHour": [
+                4,
+                5,
+                20
+              ]
+            },
+            "prequisiteName": "Computer Programming II",
+            "courseHour": [
+              8,
+              39,
+              40
+            ]
+          },
+          "prequisiteName": "Data Structures",
+          "courseHour": [
+            54,
+            71,
+            72
+          ]
+        }
       },
       {
         "course": {
@@ -712,12 +784,10 @@
         }
       }
     ],
-    "givenCredit": 109.0,
-    "completedCredit": 69.0,
-    "point": 148.5,
-    "gano": 1.69
+    "givenCredit": 115.0,
+    "completedCredit": 78.0,
+    "point": 166.5,
+    "gano": 1.89
   },
-  "error": [
-    "The system did not allow Analysis of Algorithms because student failed prerequisite Data Structures"
-  ]
+  "error": []
 }

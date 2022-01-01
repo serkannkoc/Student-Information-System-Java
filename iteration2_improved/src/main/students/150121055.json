@@ -1,9 +1,9 @@
 {
   "studentNumber": 150121055,
-  "studentName": "Asena Deniz",
+  "studentName": "Recep Duraner",
   "year": 1,
   "advisor": {
-    "lecturerName": "Ali Fuat Alkaya",
+    "lecturerName": "Borahan Tümer",
     "department": "CSE",
     "rank": "Doç.Dr"
   },
@@ -20,7 +20,7 @@
             32
           ]
         },
-        "letterGrade": "CC"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -48,7 +48,7 @@
             67
           ]
         },
-        "letterGrade": "CC"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -62,7 +62,7 @@
             39
           ]
         },
-        "letterGrade": "BB"
+        "letterGrade": "CC"
       },
       {
         "course": {
@@ -76,7 +76,7 @@
             49
           ]
         },
-        "letterGrade": "FF"
+        "letterGrade": "FD"
       },
       {
         "course": {
@@ -90,7 +90,7 @@
             56
           ]
         },
-        "letterGrade": "CC"
+        "letterGrade": "DD"
       },
       {
         "course": {
@@ -103,7 +103,7 @@
             2
           ]
         },
-        "letterGrade": "BA"
+        "letterGrade": "CC"
       },
       {
         "course": {
@@ -116,13 +116,13 @@
             105
           ]
         },
-        "letterGrade": "DD"
+        "letterGrade": "FD"
       }
     ],
     "givenCredit": 31.0,
-    "completedCredit": 25.0,
-    "point": 54.5,
-    "gano": 1.76
+    "completedCredit": 23.0,
+    "point": 55.5,
+    "gano": 1.79
   },
   "courseOffered": [
     {
@@ -198,6 +198,17 @@
         82,
         83
       ]
+    },
+    {
+      "courseName": "Energy for Physical Activity",
+      "courseCredit": 3,
+      "semester": 0,
+      "quota": 10,
+      "electiveType": "NTE",
+      "courseHour": [
+        9,
+        151
+      ]
     }
   ],
   "transcriptAfter": {
@@ -213,7 +224,7 @@
             32
           ]
         },
-        "letterGrade": "CC"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -241,7 +252,7 @@
             67
           ]
         },
-        "letterGrade": "CC"
+        "letterGrade": "AA"
       },
       {
         "course": {
@@ -255,7 +266,7 @@
             39
           ]
         },
-        "letterGrade": "BB"
+        "letterGrade": "CC"
       },
       {
         "course": {
@@ -269,7 +280,7 @@
             49
           ]
         },
-        "letterGrade": "FF"
+        "letterGrade": "FD"
       },
       {
         "course": {
@@ -283,7 +294,7 @@
             56
           ]
         },
-        "letterGrade": "CC"
+        "letterGrade": "DD"
       },
       {
         "course": {
@@ -296,7 +307,7 @@
             2
           ]
         },
-        "letterGrade": "BA"
+        "letterGrade": "CC"
       },
       {
         "course": {
@@ -309,7 +320,7 @@
             105
           ]
         },
-        "letterGrade": "DD"
+        "letterGrade": "FD"
       },
       {
         "course": {
@@ -398,14 +409,25 @@
             83
           ]
         }
+      },
+      {
+        "course": {
+          "courseName": "Energy for Physical Activity",
+          "courseCredit": 3,
+          "semester": 0,
+          "quota": 10,
+          "electiveType": "NTE",
+          "courseHour": [
+            9,
+            151
+          ]
+        }
       }
     ],
-    "givenCredit": 58.0,
-    "completedCredit": 25.0,
-    "point": 54.5,
-    "gano": 1.76
+    "givenCredit": 61.0,
+    "completedCredit": 23.0,
+    "point": 55.5,
+    "gano": 1.79
   },
-  "error": [
-    "The system did not allow Our Biosphere because quota is full!"
-  ]
+  "error": []
 }
