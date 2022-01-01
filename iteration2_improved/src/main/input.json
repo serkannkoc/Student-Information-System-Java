@@ -1,6 +1,6 @@
 {
     "createNewStudents": true,
-    "semester": "FALL",
+    "semester": "SPRING",
     "advisors": [
         {
             "advisorName":"Fatma Corut Ergin",
@@ -184,7 +184,7 @@
                 {
                     "courseName": "Systems Programming",
                     "courseCredit": 7,
-                    "courseHourCode": [54,8,22]
+                    "courseHourCode": [7,8,22]
 
                 },
                 {
@@ -254,7 +254,7 @@
                 {
                     "courseName": "Introduction to Signals and Systems",
                     "courseCredit": 5,
-                    "courseHourCode": [20,21,35]
+                    "courseHourCode": [20,21,22]
                 },
                 {
                     "courseName": "Formal Languages and Automata Theory",
@@ -348,7 +348,7 @@
                 {
                     "courseName": "Self Management",
                     "courseCredit": 3,
-                    "courseHourCode": [7,52],
+                    "courseHourCode": [176,172],
                     "quota": 10
                 },
                 {
