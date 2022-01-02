@@ -192,7 +192,7 @@ public class Process {
                     student.setAdvisor(advisor);
                     studentArrayListForAdvisor.add(student);
 
-                    student.setCourseOffered(createCourseOffered(year,student));
+                    student.setCourseOffered(createCourseOffered(student));
 
                     studentArrayList.add(student);
                 }
@@ -253,12 +253,16 @@ public class Process {
             }
 
             if(semesterCount==2){
-                Random r = new Random();
-                int random = r.nextInt(getElectiveCourses("NTE").size() - 0) + 0;
-                Course nteCourse = getElectiveCourses("NTE").get(random);
-                if (!courseArrayList.contains(nteCourse)) {
-                    transcriptRow = new TranscriptRow(nteCourse, generateRandomLetterGrade());
-                    transcriptRowArrayList.add(transcriptRow);
+                while(true) {
+                    Random r = new Random();
+                    int random = r.nextInt(getElectiveCourses("NTE").size() - 0) + 0;
+                    Course nteCourse = getElectiveCourses("NTE").get(random);
+                    if (!courseArrayList.contains(nteCourse)) {
+                        transcriptRow = new TranscriptRow(nteCourse, generateRandomLetterGrade());
+                        transcriptRowArrayList.add(transcriptRow);
+                        point += nteCourse.getCourseCredit() * getNumericGradeFromLetterGrade(transcriptRow.getLetterGrade());
+                        break;
+                    }
                 }
             }
 
@@ -272,6 +276,7 @@ public class Process {
                     if (!courseArrayList.contains(teCourse)) {
                         transcriptRow = new TranscriptRow(teCourse, generateRandomLetterGrade());
                         transcriptRowArrayList.add(transcriptRow);
+                        point += teCourse.getCourseCredit() * getNumericGradeFromLetterGrade(transcriptRow.getLetterGrade());
                         break;
                     }
                 }
@@ -283,6 +288,7 @@ public class Process {
                     if (!courseArrayList.contains(engUeCourse)) {
                         transcriptRow = new TranscriptRow(engUeCourse, generateRandomLetterGrade());
                         transcriptRowArrayList.add(transcriptRow);
+                        point += engUeCourse.getCourseCredit() * getNumericGradeFromLetterGrade(transcriptRow.getLetterGrade());
                         break;
                     }
                 }
@@ -340,10 +346,10 @@ public class Process {
     }
 
     // This method selects the courses that the student can take according to the current semester.
-    private ArrayList<Course> createCourseOffered(int year, Student student) throws FileNotFoundException {
+    private ArrayList<Course> createCourseOffered(Student student) throws FileNotFoundException {
         ArrayList<String> errorArrayList = new ArrayList<String>();
         ArrayList<Course> myCourseArrayList = new ArrayList<Course>();
-        int semester_int = semesterToInt(year);
+        int semester_int = semesterToInt(student.getYear());
 
         ArrayList<Course> semesterCourses = getSemesterCourses(semester_int);
 
@@ -366,13 +372,12 @@ public class Process {
                     if (checkForQuota(resCourse)) {
                         resCourse.enrollStudent(student);
                         myCourseArrayList.add(resCourse);
+                        break;
                     } else {
                         String error = "The system did not allow " + resCourse.getCourseName() + " because quota is full!";
                         errorArrayList.add(error);
                         student.getAdvisor().getQuotaErrorArrayList().add(Integer.toString(student.getStudentNumber()));
                     }
-
-                    break;
                 }
             }
 
@@ -384,13 +389,12 @@ public class Process {
                     if (checkForQuota(resCourse)) {
                         resCourse.enrollStudent(student);
                         myCourseArrayList.add(resCourse);
+                        break;
                     } else {
                         String error = "The system did not allow TE - " + resCourse.getCourseName() + " because quota is full!";
                         errorArrayList.add(error);
                         student.getAdvisor().getQuotaErrorArrayList().add(Integer.toString(student.getStudentNumber()));
                     }
-
-                    break;
                 }
             }
 
@@ -402,13 +406,12 @@ public class Process {
                     if (checkForQuota(resCourse)) {
                         resCourse.enrollStudent(student);
                         myCourseArrayList.add(resCourse);
+                        break;
                     } else {
                         String error = "The system did not allow ENG-UE - " + resCourse.getCourseName() + " because quota is full!";
                         errorArrayList.add(error);
                         student.getAdvisor().getQuotaErrorArrayList().add(Integer.toString(student.getStudentNumber()));
                     }
-
-                    break;
                 }
             }
 
@@ -422,16 +425,14 @@ public class Process {
                         if (checkForQuota(resCourse)) {
                             resCourse.enrollStudent(student);
                             myCourseArrayList.add(resCourse);
+                            break;
                         } else {
                             String error = "The system did not allow TE - " + resCourse.getCourseName() + " because quota is full!";
                             errorArrayList.add(error);
                             student.getAdvisor().getQuotaErrorArrayList().add(Integer.toString(student.getStudentNumber()));
                         }
                     }
-
-                    break;
                 }
-
             }
 
             while (true) {
@@ -442,13 +443,12 @@ public class Process {
                     if (checkForQuota(resCourse)) {
                         resCourse.enrollStudent(student);
                         myCourseArrayList.add(resCourse);
+                        break;
                     } else {
                         String error = "The system did not allow FTE - " + resCourse.getCourseName() + " because quota is full!";
                         errorArrayList.add(error);
                         student.getAdvisor().getQuotaErrorArrayList().add(Integer.toString(student.getStudentNumber()));
                     }
-
-                    break;
                 }
             }
 
@@ -460,13 +460,12 @@ public class Process {
                     if (checkForQuota(resCourse)) {
                         resCourse.enrollStudent(student);
                         myCourseArrayList.add(resCourse);
+                        break;
                     } else {
                         String error = "The system did not allow NTE - " + resCourse.getCourseName() + " because quota is full!";
                         errorArrayList.add(error);
                         student.getAdvisor().getQuotaErrorArrayList().add(Integer.toString(student.getStudentNumber()));
                     }
-
-                    break;
                 }
             }
 
@@ -493,9 +492,6 @@ public class Process {
             }
         }
 
-        if (errorArrayList.size() >= 0)
-            student.setError(errorArrayList);
-
         for (int firstCourseCount = 0; firstCourseCount < myCourseArrayList.size() - 1; firstCourseCount++) {
             for (int secondCourseCount = firstCourseCount + 1; secondCourseCount < myCourseArrayList.size(); secondCourseCount++) {
                 for (int firstCourseHours = 0; firstCourseHours < myCourseArrayList.get(firstCourseCount).getCourseHour().size(); firstCourseHours++) {
@@ -510,6 +506,9 @@ public class Process {
                 }
             }
         }
+
+        if (errorArrayList.size() >= 0)
+            student.setError(errorArrayList);
 
         return myCourseArrayList;
     }
