@@ -1,0 +1,173 @@
+{
+      "studentNumber": "150119001",
+      "studentName": "Asya Duraner",
+      "year": 3,
+      "advisor": "Erdi",
+      "transcriptBefore": [
+            {
+                  "courseName": "Atat\u00c3\u00bcrk \u00c4\u00b0lkeleri ve \u00c4\u00b0nk\u00c4\u00b1lap Tarihi I",
+                  "letterGrade": "FF",
+                  "semester": 1
+            },
+            {
+                  "courseName": "Introduction to Modern Biology",
+                  "letterGrade": "BB",
+                  "semester": 1
+            },
+            {
+                  "courseName": "Introduction to Computer Engineering",
+                  "letterGrade": "CB",
+                  "semester": 1
+            },
+            {
+                  "courseName": "Computer Programming I",
+                  "letterGrade": "AA",
+                  "semester": 1
+            },
+            {
+                  "courseName": "Calculus I",
+                  "letterGrade": "DD",
+                  "semester": 1
+            },
+            {
+                  "courseName": "Physics I",
+                  "letterGrade": "AA",
+                  "semester": 1
+            },
+            {
+                  "courseName": "Physics Lab I",
+                  "letterGrade": "FF",
+                  "semester": 1
+            },
+            {
+                  "courseName": "T\u00c3\u00bcrk Dili I",
+                  "letterGrade": "FF",
+                  "semester": 1
+            },
+            {
+                  "courseName": "Atat\u00c3\u00bcrk \u00c4\u00b0lkeleri ve \u00c4\u00b0nk\u00c4\u00b1lap Tarihi II",
+                  "letterGrade": "BB",
+                  "semester": 2
+            },
+            {
+                  "courseName": "Computer Programming II",
+                  "letterGrade": "AA",
+                  "semester": 2
+            },
+            {
+                  "courseName": "Calculus II",
+                  "letterGrade": "BB",
+                  "semester": 2
+            },
+            {
+                  "courseName": "Linear Algebra for Computer Engineering",
+                  "letterGrade": "CB",
+                  "semester": 2
+            },
+            {
+                  "courseName": "Physics II",
+                  "letterGrade": "CB",
+                  "semester": 2
+            },
+            {
+                  "courseName": "Physics Lab II",
+                  "letterGrade": "BA",
+                  "semester": 2
+            },
+            {
+                  "courseName": "T\u00c3\u00bcrk Dili II",
+                  "letterGrade": "AA",
+                  "semester": 2
+            },
+            {
+                  "courseName": "Our Biosphere",
+                  "letterGrade": "BB",
+                  "semester": 2
+            },
+            {
+                  "courseName": "Discrete Computational Structures",
+                  "letterGrade": "FF",
+                  "semester": 3
+            },
+            {
+                  "courseName": "Data Structures",
+                  "letterGrade": "BB",
+                  "semester": 3
+            },
+            {
+                  "courseName": "Engineering Economy",
+                  "letterGrade": "AA",
+                  "semester": 3
+            },
+            {
+                  "courseName": "Electric Circuits",
+                  "letterGrade": "DD",
+                  "semester": 3
+            },
+            {
+                  "courseName": "Differential Equations",
+                  "letterGrade": "DC",
+                  "semester": 3
+            },
+            {
+                  "courseName": "Numerical Methods",
+                  "letterGrade": "CC",
+                  "semester": 3
+            },
+            {
+                  "courseName": "Analysis of Algorithms",
+                  "letterGrade": "BB",
+                  "semester": 4
+            },
+            {
+                  "courseName": "Systems Programming",
+                  "letterGrade": "BA",
+                  "semester": 4
+            },
+            {
+                  "courseName": "Principles of Programming Languages",
+                  "letterGrade": "AA",
+                  "semester": 4
+            },
+            {
+                  "courseName": "Electronics",
+                  "letterGrade": "CC",
+                  "semester": 4
+            },
+            {
+                  "courseName": "Introduction to Probability and Statistics",
+                  "letterGrade": "CC",
+                  "semester": 4
+            },
+            {
+                  "courseName": "Summer Practice I",
+                  "letterGrade": "CC",
+                  "semester": 5
+            },
+            {
+                  "courseName": "Digital Logic Design",
+                  "letterGrade": "BB",
+                  "semester": 5
+            },
+            {
+                  "courseName": "Operating Systems",
+                  "letterGrade": "BB",
+                  "semester": 5
+            },
+            {
+                  "courseName": "Database Systems",
+                  "letterGrade": "BA",
+                  "semester": 5
+            },
+            {
+                  "courseName": "Object-Oriented Software Design",
+                  "letterGrade": "FD",
+                  "semester": 5
+            },
+            {
+                  "courseName": "Modeling and Discrete Simulation",
+                  "letterGrade": "CC",
+                  "semester": 5
+            }
+      ]
+}
